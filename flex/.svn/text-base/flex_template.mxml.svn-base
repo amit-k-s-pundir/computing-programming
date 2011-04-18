@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- mxml\HellowWorld.mxml -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
+  <mx:Script>
+        <![CDATA[
+           <!--
+			  import com.example.programmingas3.geometricshapes.IGeometricShape;
+            import com.example.programmingas3.geometricshapes.GeometricShapeFactory;
+            import com.example.programmingas3.geometricshapes.RegularPolygon;
+            
+            public var currentShape:IGeometricShape;
+            
+            public function describeShape():void
+            {
+                var shapeName:String = shapeNameCbo.selectedLabel;
+                
+                this.currentShape = GeometricShapeFactory.createShape(shapeName, shapeWidthNs.value);
+                
+                this.outputTxt.text = this.currentShape.describe();
+            }
+			 -->
+        ]]>
+    </mx:Script>
+    <mx:Panel title="My Application" 
+        paddingTop="10" 
+        paddingBottom="10"
+        paddingLeft="10" 
+        paddingRight="10"
+    >
+        <mx:Label text="Hello World!" fontWeight="bold" fontSize="24"/>
+    </mx:Panel>
+</mx:Application>

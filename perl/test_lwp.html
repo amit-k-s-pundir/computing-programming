@@ -1,0 +1,1264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" ><head><title>programming</title><meta name="keywords" content=" reddit, reddit.com, vote, comment, submit " /><meta name="title" content=" programming " /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">var reddit = { /* is the user logged in */ logged: false, /* the subreddit's name (for posts) */ post_site: "programming", /* are we in an iframe */ cnameframe: false, /* this page's referer */ referer: "", /* the user's voting hash */ modhash: '', /* the current rendering style */ renderstyle: "html", /* current domain */ cur_domain: "reddit.com", /* where do ajax request go? */ ajax_domain: "www.reddit.com", /* debugging? */ debug: false, vl: {}, sr: {}, status_msg: { fetching: "fetching title...", submitting: "submitting...", loading: "loading..." }, tofetch: [], trackers: {} };</script><script src="/static/jquery.js?v=510f43215b8d19e7b18f5bd8f6e5a59a" type="text/javascript"></script><script src="/static/jquery.json.js?v=35aafdb04f488d01d5918d2e6f04204a" type="text/javascript"></script><script src="/static/jquery.reddit.js?v=c756f81715135564230ca0adb9e76556" type="text/javascript"></script><script src="/static/reddit.js?v=b803e87dea3355f7c9d065435bd99183" type="text/javascript"></script><link rel="stylesheet" href="/static/reddit.css?v=b9f3909c8aa639731928602bf5735ed8" type="text/css" /><link rel='shortcut icon' href="/static/favicon.ico" type="image/x-icon" /><link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.reddit.com/r/programming/.rss" /><!--[if lt IE 7]><link rel="stylesheet" href="/static/reddit-ie6-hax.css?v=e3926b77f22fe19a2da20cbd6c2f0b31"" type="text/css" /><![endif]--><!--[if lt IE 8]><link rel="stylesheet" href="/static/reddit-ie7-hax.css?v=b03476679dcb1a60d7a45e4b78fa8486"" type="text/css" /><![endif]--><script type="text/javascript">reddit.cur_site = "t5_2fwo";</script><style type="text/css">/* Custom css: use this block to insert special translation-dependent css in the page header */</style></head><body onclick="close_menus()"><div id="header"><a tabindex="1" href="#content" id="jumpToContent">jump to content</a><div id="sr-header-area"><ul class="flat-list sr-bar hover" ><li ><a href="http://www.reddit.com/r/all/" >all</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/random/" >random</a></li></ul><span class="separator">&nbsp;|&nbsp;</span><ul class="flat-list sr-bar hover" id='sr-bar'><li ><a href="http://www.reddit.com/r/pics/" >pics</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/reddit.com/" >reddit.com</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/funny/" >funny</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/politics/" >politics</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/AskReddit/" >AskReddit</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/WTF/" >WTF</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/gaming/" >gaming</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/science/" >science</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/worldnews/" >worldnews</a></li><li class='selected'><span class="separator">-</span><a href="http://www.reddit.com/r/programming/" >programming</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/atheism/" >atheism</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/technology/" >technology</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/IAmA/" >IAmA</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/comics/" >comics</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/videos/" >videos</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/todayilearned/" >todayilearned</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/Music/" >Music</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/offbeat/" >offbeat</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/canada/" >canada</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/geek/" >geek</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/trees/" >trees</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/bestof/" >bestof</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/entertainment/" >entertainment</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/Economics/" >Economics</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/Libertarian/" >Libertarian</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/linux/" >linux</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/circlejerk/" >circlejerk</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/environment/" >environment</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/business/" >business</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/news/" >news</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/movies/" >movies</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/scifi/" >scifi</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/apple/" >apple</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/aww/" >aww</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/wikipedia/" >wikipedia</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/self/" >self</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/sports/" >sports</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/food/" >food</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/Marijuana/" >Marijuana</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/tf2/" >tf2</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/conspiracy/" >conspiracy</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/lost/" >lost</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/sex/" >sex</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/gadgets/" >gadgets</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/lgbt/" >lgbt</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/humor/" >humor</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/guns/" >guns</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/listentothis/" >listentothis</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/MensRights/" >MensRights</a></li><li ><span class="separator">-</span><a href="http://www.reddit.com/r/math/" >math</a></li></ul><a href="http://www.reddit.com/reddits/" id="sr-more-link" >more &raquo;</a></div><div id="header-bottom-left"><a href="http://www.reddit.com/" id="header-img-a" ><img id='header-img' src="http://static.reddit.com/reddit_programming.png" alt="programming"/></a>&nbsp;<span class="hover pagename redditname"><a href="http://www.reddit.com/r/programming/" >programming</a></span><ul class="tabmenu " ><li class='selected'><a href="http://www.reddit.com/r/programming/" >what's hot</a></li><li ><a href="http://www.reddit.com/r/programming/new/" >new</a></li><li ><a href="http://www.reddit.com/r/programming/controversial/" >controversial</a></li><li ><a href="http://www.reddit.com/r/programming/top/" >top</a></li><li ><a href="http://www.reddit.com/saved/" >saved</a></li></ul></div><div id="header-bottom-right"><span class="user">want to join?&#32;<a href="#" onclick="return showcover(false);" >register</a>&#32;in seconds</span><span class="separator">|</span><ul class="flat-list hover" ><li ><a href="javascript:void(0)" class="pref-lang" onclick="return showlang();" >English</a></li></ul></div></div><div class="preload"><div class="arrow up"></div><div class="arrow upmod"></div><div class="arrow down"></div><div class="arrow downmod"></div><div class="eb-sch"></div><div class="eb-se"></div><div class="eb-seh"></div><div class="eb-vch"></div><div class="eb-ve"></div><div class="eb-veh"></div><div class="morelink nub"></div><div class="mlh"></div><div class="mlhn"></div><div class="sidebox gold"><div class="morelink"></div></div><a class="pretty-button negative"></a><a class="pretty-button negative pressed"></a><a class="pretty-button positive"></a><a class="pretty-button positive pressed"></a></div><div class="side"><div class='spacer'><form action="http://www.reddit.com/r/programming/search" id="search"><input type="text" value="search reddit" class="gray" name="q"/></form></div><div class='spacer'><form method="post" id="login_login-main" action="http://www.reddit.com/r/programming/post/login" onsubmit="return post_user(this, 'login');" class="login-form-side"><input type="hidden" name="op" value="login-main" /><input name="user" type="text" maxlength="20" tabindex="1"/><input name="passwd" type="password" maxlength="20" tabindex="2"/><div class="error WRONG_PASSWORD field-passwd" style="display:none"></div><div class="status error"></div><div id="remember-me"><button class="btn" type="submit" tabindex="4">login</button><input type="checkbox" name="rem" tabindex="3" id="rem-login-main" /><label for="rem-login-main">remember me</label><a href="/password">recover password</a><div class="clear"></div></div></form></div><div class='spacer'><div class="thing sponsorshipbox id-t5_2fwo"><span>This reddit is sponsored by Opera. Try the new Opera -- no restart required.</span><div><a class="title" href="http://www.opera.com/r/reddit?utm_source=Reddit&amp;utm_medium=SponseredHeadline&amp;utm_content=Bought300x100&amp;utm_campaign=Desktop18"><img alt="sponsor" src="http://thumbs.reddit.com/t5_2fwo_sponsor.png?v=ba2db2218edb48cd953cdcbd56195d0c" /></a></div><img class="promote-pixel" id="promote_img_t5_2fwo" src="/static/pixel.png" alt=" " /><script type="text/javascript">reddit.tofetch.push("t5_2fwo");</script></div></div><div class='spacer'><div class="titlebox"><h1 class="hover redditname"><a href="http://www.reddit.com/r/programming/" class="hover" >programming</a></h1><span class="fancy-toggle-button toggle" style=""><a class="option active remove" href="#" tabindex="100" onclick="return toggle(this, unsubscribe('t5_2fwo'), subscribe('t5_2fwo'))" >- frontpage</a><a class="option add" href="#">+ frontpage</a></span><span class='number'>253,253</span>&#32;<span class='word'>readers</span><form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t5_2fwo4t8"><input type="hidden" name="thing_id" value="t5_2fwo"/><div class="usertext-body"><div class="md"><p>A reddit for discussion and news about computer programming</p>
+
+<ul>
+<li>Just because it has a computer in it doesn't make it programming</li>
+<li>Before making a self-post in <code>/r/programming</code>, please check the <a href="http://www.reddit.com/help/faqs/programming" >programming.reddit FAQ</a> to see if it's there first. In fact, if you're going to make a self-post, stop and think <em>really</em> hard if that's really what you want to do.</li>
+<li><code>/r/programming</code> is <em>not</em> a place to ask for help, run polls, rant, or otherwise use as a captive audience. For that try <a href="/r/learnprogramming" >/r/learnprogramming</a> or <a href="http://stackoverflow.com/" >StackOverflow</a>.</li>
+</ul>
+
+
+<p>And if you're an all-star hacker (or even just beginning) why not join the discussion <a href="http://www.reddit.com/r/redditdev/" >/r/redditdev</a> and <a href="http://code.reddit.com" >steal our reddit code</a>!</p></div>
+</div></form><div class="bottom">created by&#32;<a href="http://www.reddit.com/user/spez" class="author id-t2_1w72" >spez</a><span class="userattrs"></span><span class="age">a community for 4 years</span></div><div class="clear"></div></div></div><div class='spacer'><iframe id="ad-frame" frameborder="0" scrolling="no" name="ad-frame" src="http://www.redditmedia.com/ads/r/programming/"></iframe><script type="text/javascript">$(function() { var ad = $("#ad-frame"); if(ad.height() == 0 || ad.width() == 0) { $(".footer").append("<img alt='' src='http://pixel.reddit.com/pixel/of_defenestration.png?hash=0e31bc319d5b5882b0cddf147f4ce1da5ac9c731&id=adblock&random=" + Math.random()*10000000000000000 + "'/>"); } });</script></div><div class='spacer'><div class="sidebox submit"><div class="morelink"><a href="http://www.reddit.com/r/programming/submit" onclick="return(showcover(true, 'redirect_/submit'));" >Submit a link</a><div class="nub"></div></div><div class="spacer"><div class="subtitle">to anything interesting: news article, blog entry, video, picture...</div></div></div></div><div class='spacer'><div class="sidecontentbox "><a class="helplink" href="/message/compose?to=%23programming">message the moderators</a><h1>MODERATORS</h1><div class="content"><a href="http://www.reddit.com/user/ketralnis" class="author id-t2_nn0q" >ketralnis</a><span class="userattrs"></span><a href="http://www.reddit.com/user/spez" class="author id-t2_1w72" >spez</a><span class="userattrs"></span><a href="http://www.reddit.com/user/Poromenos" class="author id-t2_1pd6" >Poromenos</a><span class="userattrs"></span><a href="http://www.reddit.com/user/tryx" class="author id-t2_313lh" >tryx</a><span class="userattrs"></span><a href="http://www.reddit.com/user/uriel" class="author id-t2_1w33" >uriel</a><span class="userattrs"></span><a href="http://www.reddit.com/user/dons" class="author id-t2_jzjf" >dons</a><span class="userattrs"></span><a href="http://www.reddit.com/user/masta" class="author id-t2_2on1" >masta</a><span class="userattrs"></span><a href="http://www.reddit.com/user/kylev" class="author id-t2_bki6" >kylev</a><span class="userattrs"></span><a href="http://www.reddit.com/user/chromakode" class="author id-t2_7onf" >chromakode</a><span class="userattrs"></span></div></div></div></div><a name="content"></a><div class="content"><div class="infobar "><div class="md"><p>reddit is a source for what's new and popular online. vote on links that you like or dislike and help decide what's popular, or submit your own!</p></div>
+</div><div class='spacer'><div id="siteTable" class="sitetable linklisting"><div class=" thing id-t3_dka1m link promoted promotedlink" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:0px;display:none;">1</span><div class="midcol unvoted" style="width:3ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">27</div><div class="score unvoted">28</div><div class="score likes">29</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><a class="thumbnail " href="http://deviantart.theresumator.com/apply/eR4wR2/Web-Application-Developer.html?source=reddit" rel="nofollow" >&#8203;<img src="http://thumbs.reddit.com/t3_dka1m.png?v=6ef531816b0d13b020639b36719fd458f89fe4f5" alt=""/></a><div class="entry unvoted"><p class="title"><a class="title " href="http://deviantart.theresumator.com/apply/eR4wR2/Web-Application-Developer.html?source=reddit" rel="nofollow" >deviantART is looking for talented Web Application Developers</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/deviantart.theresumator.com/" >deviantart.theresumator.com</a>)</span></p><p class="tagline">promoted&#32;by&#32;<a href="http://www.reddit.com/user/mhalpert" class="author id-t2_4dr7t" >mhalpert</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/comments/dka1m/deviantart_is_looking_for_talented_web/" target="_parent" >54 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div><p class="sponsored-tagline">sponsored link</p><img class="promote-pixel" id="promote_oimg_t3_dka1m" src="/static/pixel.png" alt=" " /><script type="text/javascript">reddit.tofetch.push("t3_dka1m");</script></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div></div></div><div class='spacer'><div id="siteTable" class="sitetable linklisting"><div class=" thing id-t3_e2hyz even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">1</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">772</div><div class="score unvoted">773</div><div class="score likes">774</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://orestis.gr/blog/2010/11/06/why-i-bill-hourly/" >Why I bill hourly</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/orestis.gr/" >orestis.gr</a>)</span></p><p class="tagline">submitted&#32;18 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/luntain" class="author id-t2_31n1r" >luntain</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2hyz/why_i_bill_hourly/" target="_parent" >235 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2tx9 even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">2</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score likes">&bull;</div><div class="score unvoted">&bull;</div><div class="score dislikes">&bull;</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.retroleum.co.uk/electronics-articles/previous/the-v4z80p-a-z80-based-laptop/" >A Z80 Based Laptop, Anyone for Basic , Pascal skills ?</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/retroleum.co.uk/" >retroleum.co.uk</a>)</span></p><p class="tagline">submitted&#32;1 hour&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/mariuz" class="author id-t2_fgtu" >mariuz</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2tx9/a_z80_based_laptop_anyone_for_basic_pascal_skills/" target="_parent" >3 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2tsf even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">3</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score likes">&bull;</div><div class="score unvoted">&bull;</div><div class="score dislikes">&bull;</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.reddit.com/r/coding/comments/e2tj0/hey_progreddit_do_you_have_the_want_to_give_back/" >x/p from /r/coding: Hey Progreddit! Do you have the want to give back to open source projects but are too lazy/busy/don’t have the skills? Read on!</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/reddit.com/" >reddit.com</a>)</span></p><p class="tagline">submitted&#32;1 hour&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/thezanman" class="author id-t2_3fc2c" >thezanman</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2tsf/xp_from_rcoding_hey_progreddit_do_you_have_the/" target="_parent" >1 comment</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2hwt even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">4</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">164</div><div class="score unvoted">165</div><div class="score likes">166</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://gcc.gnu.org/wiki/summit2010?action=AttachFile&amp;do=get&amp;target=regehr_gcc_summit_2010.pdf" >Exposing Difficult Compiler Bugs With Random Testing [pdf slides]</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/gcc.gnu.org/" >gcc.gnu.org</a>)</span></p><p class="tagline">submitted&#32;18 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/damg" class="author id-t2_1ozu" >damg</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2hwt/exposing_difficult_compiler_bugs_with_random/" target="_parent" >27 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2lee even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">5</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">33</div><div class="score unvoted">34</div><div class="score likes">35</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://petervandernoord.nl/blog/2010/11/the-strange-beauty-of-the-gumowski-mira-attractor/" >I made a small editor to create images using the Gumowski-Mira attractor. Hope you like it.</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/petervandernoord.nl/" >petervandernoord.nl</a>)</span></p><p class="tagline">submitted&#32;13 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/eindbaas" class="author id-t2_f59h" >eindbaas</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2lee/i_made_a_small_editor_to_create_images_using_the/" target="_parent" >9 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2okt even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">6</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">15</div><div class="score unvoted">16</div><div class="score likes">17</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://gcc.gnu.org/wiki/summit2010?action=AttachFile&amp;do=get&amp;target=taylor.pdf" >The Go frontend for GCC [pdf]</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/gcc.gnu.org/" >gcc.gnu.org</a>)</span></p><p class="tagline">submitted&#32;8 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/uriel" class="author id-t2_1w33" >uriel</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2okt/the_go_frontend_for_gcc_pdf/" target="_parent" >5 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2ld1 even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">7</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">34</div><div class="score unvoted">35</div><div class="score likes">36</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.designofapproxalgs.com/download.php" >The Design of Approximation Algorithms [book]</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/designofapproxalgs.com/" >designofapproxalgs.com</a>)</span></p><p class="tagline">submitted&#32;13 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/damg" class="author id-t2_1ozu" >damg</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2ld1/the_design_of_approximation_algorithms_book/" target="_parent" >2 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2k2x even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">8</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">31</div><div class="score unvoted">32</div><div class="score likes">33</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://4c110.ucc.ie/aiai/boole-petition" >George Boole's house has been badly damaged. Please help restore the home of Boolean Algebra.</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/4c110.ucc.ie/" >4c110.ucc.ie</a>)</span></p><p class="tagline">submitted&#32;15 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/jgrahamc" class="author id-t2_1o9m" >jgrahamc</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2k2x/george_booles_house_has_been_badly_damaged_please/" target="_parent" >29 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2oou even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">9</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">5</div><div class="score unvoted">6</div><div class="score likes">7</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.anyserialport.com/" >Any Serial Port - Serial Port Programming Language</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/anyserialport.com/" >anyserialport.com</a>)</span></p><p class="tagline">submitted&#32;8 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/jeanlucpikachu" class="author id-t2_kdae" >jeanlucpikachu</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2oou/any_serial_port_serial_port_programming_language/" target="_parent" >1 comment</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2952 even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">10</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">802</div><div class="score unvoted">803</div><div class="score likes">804</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.geee.net/contact.htm" >The best CAPTCHA ever</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/geee.net/" >geee.net</a>)</span></p><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/ninzfilter" class="author id-t2_3nqqg" >ninzfilter</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2952/the_best_captcha_ever/" target="_parent" >197 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2jsh even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">11</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">11</div><div class="score unvoted">12</div><div class="score likes">13</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.kickstarter.com/projects/zarf/hadean-lands-interactive-fiction-for-the-iphone" >Lets help Zarf (Andrew Plotkin) quit his job and write interactive fiction full time!</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/kickstarter.com/" >kickstarter.com</a>)</span></p><p class="tagline">submitted&#32;15 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/edwardkmett" class="author id-t2_26009" >edwardkmett</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2jsh/lets_help_zarf_andrew_plotkin_quit_his_job_and/" target="_parent" >6 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2jnf even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">12</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">9</div><div class="score unvoted">10</div><div class="score likes">11</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://stephencarmody.wikispaces.com/Simplex+Noise" >simplex noise alternatives? does anyone know a quick alternative to this?</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/stephencarmody.wikispaces.com/" >stephencarmody.wikispaces.com</a>)</span></p><p class="tagline">submitted&#32;15 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/strategosInfinitum" class="author id-t2_46jh0" >strategosInfinitum</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2jnf/simplex_noise_alternatives_does_anyone_know_a/" target="_parent" >24 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2qu6 even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">13</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">0</div><div class="score unvoted">0</div><div class="score likes">1</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://pauloflaherty.com/2010/11/06/what-about-the-other-side-of-the-noirin-shirley-accusation/" rel="nofollow" >What About The Other Side Of The Noirin Shirley Accusation?</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/pauloflaherty.com/" >pauloflaherty.com</a>)</span></p><div class="expando-button collapsed video" onclick="expando_child(this)"></div><p class="tagline">submitted&#32;6 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/rwinston" class="author id-t2_33tuu" >rwinston</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2qu6/what_about_the_other_side_of_the_noirin_shirley/" target="_parent" >4 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div><script type="text/javascript">var cache = expando_cache(); cache["t3_e2qu6_cache"] = " &lt;iframe src=&quot;http://www.redditmedia.com/mediaembed/e2qu6&quot; id=&quot;media-embed-e2qu6-w04&quot; class=&quot;media-embed&quot; width=&quot;610&quot; height=&quot;373&quot; border=&quot;0&quot; frameBorder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt; ";</script></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2hg6 even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">14</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">6</div><div class="score unvoted">7</div><div class="score likes">8</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://pivotfinland.com/frozendefence/" >FrozenDEFENCE.js : Amazing Tower Defense Game on Canvas</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/pivotfinland.com/" >pivotfinland.com</a>)</span></p><p class="tagline">submitted&#32;19 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/rexxar" class="author id-t2_1i2hx" >rexxar</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments empty" href="http://www.reddit.com/r/programming/comments/e2hg6/frozendefencejs_amazing_tower_defense_game_on/" target="_parent" >comment</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2fm1 even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">15</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">17</div><div class="score unvoted">18</div><div class="score likes">19</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.youtube.com/watch?v=hE7k0_9k0VA#t=5m18s" >Have LISP programmers developed richer web protocol libraries after reddit interviewed Peter Norvig?</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/youtube.com/" >youtube.com</a>)</span></p><div class="expando-button collapsed video" onclick="expando_child(this)"></div><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/cdbeer" class="author id-t2_4hzov" >cdbeer</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2fm1/have_lisp_programmers_developed_richer_web/" target="_parent" >58 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div><script type="text/javascript">var cache = expando_cache(); cache["t3_e2fm1_cache"] = " &lt;iframe src=&quot;http://www.redditmedia.com/mediaembed/e2fm1&quot; id=&quot;media-embed-e2fm1-s7n&quot; class=&quot;media-embed&quot; width=&quot;610&quot; height=&quot;373&quot; border=&quot;0&quot; frameBorder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt; ";</script></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2fyd even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">16</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">14</div><div class="score unvoted">15</div><div class="score likes">16</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://louisstow.blogspot.com/2010/11/game-framework-not-engine.html" >JavaScript Game Framework, not Engine!</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/louisstow.blogspot.com/" >louisstow.blogspot.com</a>)</span></p><p class="tagline">submitted&#32;23 hours&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/louisstow" class="author id-t2_43fhm" >louisstow</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2fyd/javascript_game_framework_not_engine/" target="_parent" >1 comment</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e27nx even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">17</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">232</div><div class="score unvoted">233</div><div class="score likes">234</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.tiobe.com/content/paperinfo/tpci/index.html" >Java and C still ruling the world</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/tiobe.com/" >tiobe.com</a>)</span></p><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/moozaad" class="author id-t2_4djdt" >moozaad</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e27nx/java_and_c_still_ruling_the_world/" target="_parent" >407 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2eou even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">18</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">12</div><div class="score unvoted">13</div><div class="score likes">14</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.youtube.com/watch?v=ZjXSWo-CVUM" >Customer service representative lays down the law after her web site crashes... the database belongs to the customer!</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/youtube.com/" >youtube.com</a>)</span></p><div class="expando-button collapsed video" onclick="expando_child(this)"></div><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/failboatcaptain" class="author id-t2_4hznb" >failboatcaptain</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2eou/customer_service_representative_lays_down_the_law/" target="_parent" >32 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div><script type="text/javascript">var cache = expando_cache(); cache["t3_e2eou_cache"] = " &lt;iframe src=&quot;http://www.redditmedia.com/mediaembed/e2eou&quot; id=&quot;media-embed-e2eou-shj&quot; class=&quot;media-embed&quot; width=&quot;610&quot; height=&quot;373&quot; border=&quot;0&quot; frameBorder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt; ";</script></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2a7i even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">19</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">46</div><div class="score unvoted">47</div><div class="score likes">48</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://coding.derkeiler.com/Archive/Lisp/comp.lang.lisp/2006-09/msg00660.html" >Re: Is Programming Boring?</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/coding.derkeiler.com/" >coding.derkeiler.com</a>)</span></p><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/UnknownTales1" class="author id-t2_4d8ah" >UnknownTales1</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2a7i/re_is_programming_boring/" target="_parent" >104 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2bnm even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">20</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">19</div><div class="score unvoted">20</div><div class="score likes">21</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://stackoverflow.com/questions/209170/how-much-does-it-cost-to-develop-an-iphone-application" >How much does it cost to develop an iPhone application?</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/stackoverflow.com/" >stackoverflow.com</a>)</span></p><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/CloseToYou" class="author id-t2_4bskm" >CloseToYou</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2bnm/how_much_does_it_cost_to_develop_an_iphone/" target="_parent" >20 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2aas even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">21</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">23</div><div class="score unvoted">24</div><div class="score likes">25</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.scale18.com/canvas7.html" >Just for fun I wrote this HTML5 (uses canvas) interactive world map. It allows you to select countries you have visited and then it shows them in a different color. Any feedback would be appreciated, thanks!</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/scale18.com/" >scale18.com</a>)</span></p><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/KPexEA" class="author id-t2_45jhp" >KPexEA</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2aas/just_for_fun_i_wrote_this_html5_uses_canvas/" target="_parent" >47 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e22oy even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">22</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">304</div><div class="score unvoted">305</div><div class="score likes">306</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.theregister.co.uk/2010/11/06/oracle_dueling_jvms/" >Oracle cooks up free and premium JVMs</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/theregister.co.uk/" >theregister.co.uk</a>)</span></p><p class="tagline">submitted&#32;2 days&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/wfpoulet" class="author id-t2_360rf" >wfpoulet</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e22oy/oracle_cooks_up_free_and_premium_jvms/" target="_parent" >387 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e22xy even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">23</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">241</div><div class="score unvoted">242</div><div class="score likes">243</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://portal.acm.org/citation.cfm?id=550856" >&quot;If you keep proving stuff that others have done, getting confidence, increasing the complexities of your solutions - for the fun of it - then one day you'll turn around and discover that nobody actually did that one! And that's the way to become a computer scientist.&quot; - Feynman</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/portal.acm.org/" >portal.acm.org</a>)</span></p><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/animesh1977" class="author id-t2_3796s" >animesh1977</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e22xy/if_you_keep_proving_stuff_that_others_have_done/" target="_parent" >51 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e2a41 even even link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">24</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">18</div><div class="score unvoted">19</div><div class="score likes">20</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://opensource.com/life/10/11/introducing-students-world-open-source-day-1" >OpenHatch successfully brings students into the world of open source</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/opensource.com/" >opensource.com</a>)</span></p><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/TheSilentNumber" class="author id-t2_31mbs" >TheSilentNumber</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2a41/openhatch_successfully_brings_students_into_the/" target="_parent" >3 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div><div class=" thing id-t3_e28wg even odd link" onclick="click_thing(this)"><p class="parent"></p><span class="rank" style="width:2.20ex;">25</span><div class="midcol unvoted" style="width:4ex;" ><div class="arrow up" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div><div class="score dislikes">26</div><div class="score unvoted">27</div><div class="score likes">28</div><div class="arrow down" onclick="$(this).vote('<$>votehash</$>', null, event)" ></div></div><div class="entry unvoted"><p class="title"><a class="title " href="http://www.gabrielweinberg.com/blog/2010/11/code-icebergs.html" >Code icebergs</a>&#32;<span class="domain">(<a href="http://www.reddit.com/domain/gabrielweinberg.com/" >gabrielweinberg.com</a>)</span></p><p class="tagline">submitted&#32;1 day&#32;ago&#32;by&#32;<a href="http://www.reddit.com/user/rberenguel" class="author id-t2_38g9z" >rberenguel</a><span class="userattrs"></span></p><ul class="flat-list buttons"><li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e28wg/code_icebergs/" target="_parent" >17 comments</a></li><li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());" >share</a><a class="option " href="#">cancel</a></span></li></ul><div class="expando" style='display: none'><span class="error">loading...</span></div></div><div class="child" ></div><div class="clearleft"><!--IE6sux--></div></div><div class="clearleft"><!--IE6sux--></div></div><p class="nextprev">view more:&#32;<a href="http://www.reddit.com/r/programming/?count=25&amp;after=t3_e28wg" rel="nofollow next" >next</a></p></div></div><div class="footer-parent"><div class="footer rounded"><div class="col"><ul class="flat-vert hover" ><li class="flat-vert title">site links</li><li ><a href="http://www.reddit.com/static/reddit_mobile/index.htm" >mobile</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/.rss" >rss</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/store/" >store</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/awards/" >awards</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/random/" >random</a></li></ul></div><div class="col"><ul class="flat-vert hover" ><li class="flat-vert title">help</li><li ><a href="http://www.reddit.com/help/" >help</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/help/faq" >FAQ</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/help/reddiquette" >reddiquette</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/feedback/" >feedback</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/i18n/" >help translate</a></li></ul></div><div class="col"><ul class="flat-vert hover" ><li class="flat-vert title">reddit tools</li><li ><a href="http://www.reddit.com/bookmarklets/" >bookmarklets</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/r/programming/buttons/" >buttons</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/code/" >source code</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/socialite/" >socialite firefox extension</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/r/programming/widget/" >widget</a></li></ul></div><div class="col"><ul class="flat-vert hover" ><li class="flat-vert title">about us</li><li ><a href="http://www.reddit.com/blog/" >the reddit blog</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/help/gold/" class="buygold" >reddit gold</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/promoted/" class="red" >self-serve advertising</a></li><li ><span class="separator"></span><a href="http://www.reddit.com/ad_inq/" >inquire about advertising</a></li></ul></div><div class="col"><ul class="flat-vert hover" ><li class="flat-vert title">brothers</li><li ><a href="http://www.baconbuzz.com" >BaconBuzz</a></li><li ><span class="separator"></span><a href="http://reddit.destructoid.com" >Destructoid reddit</a></li><li ><span class="separator"></span><a href="http://www.thecutelist.com" >TheCuteList</a></li><li ><span class="separator"></span><a href="http://reddit.independent.co.uk" >The Independent reddit</a></li><li ><span class="separator"></span><a href="http://www.redditgadgetguide.com" >redditGadgetGuide</a></li><li ><span class="separator"></span><a href="http://www.weheartgossip.com" >WeHeartGossip</a></li><li ><span class="separator"></span><a href="http://www.idealistnews.com" >idealistNews</a></li></ul></div><div class="col"><ul class="flat-vert hover" ><li class="flat-vert title">sisters</li><li ><a href="http://www.wired.com" >Wired.com</a></li><li ><span class="separator"></span><a href="http://www.arstechnica.com" >Ars Technica</a></li><li ><span class="separator"></span><a href="http://www.style.com" >Style.com</a></li><li ><span class="separator"></span><a href="http://www.epicurious.com" >Epicurious.com</a></li><li ><span class="separator"></span><a href="http://www.concierge.com" >Concierge.com</a></li></ul></div><p class="bottommenu">Use of this site constitutes acceptance of our&#32;<a href="http://reddit.com/help/useragreement" >User Agreement</a>&#32;and&#32;<a href="http://reddit.com/help/privacypolicy" >Privacy Policy</a>. (c) 2010 Conde Nast Digital. All rights reserved.</p><p class="bottommenu">REDDIT and the ALIEN Logo are registered trademarks of Advance Magazine Publishers Inc.</p></div></div><div class="login-popup cover-overlay" style="display: none"><div class="cover" onclick="return hidecover(this)"></div><div class="popup"><h1 class="cover-msg">you'll need to login or register to do that</h1><div class="loginform divide"><h3>create a new account</h3><p class="tagline">all it takes is a username and password</p><form id="login_reg" method="post" action="http://www.reddit.com/r/programming/post/reg" onsubmit="return post_user(this, 'register');" target="_top"><input type="hidden" name="reason" value="" /><input type="hidden" name="op" value="reg" /><div><ul><li><label for="user_reg">username:</label><input value="" name="user" id="user_reg" type="text" maxlength="20"/><span class="error BAD_USERNAME field-user" style="display:none"></span><span class="error USERNAME_TAKEN field-user" style="display:none"></span></li><li><label for="email_reg">email: &nbsp;<i>(optional)</i></label><input value="" name="email" id="email_reg" type="text" maxlength="50"/><span class="error BAD_EMAILS field-email" style="display:none"></span></li><li><label for="passwd_reg">password:</label><input id="passwd_reg" name="passwd" type="password" maxlength="20"/><span class="error BAD_PASSWORD field-passwd" style="display:none"></span></li><li><label for="passwd2_reg">verify password:</label><input name="passwd2" id="passwd2_reg" type="password" maxlength="20" /><span class="error BAD_PASSWORD_MATCH field-passwd2" style="display:none"></span></li><li><table><tr><td></td><td><input name="iden" value="" type="hidden"/><img class="capimage" alt="i wonder if these things even work" src="/static/kill.png" /></td></tr><tr><td align="right"></td><td><input class="captcha cap-text" id="captcha_" name="captcha" type="text" size="30" /><script type="text/javascript">emptyInput($('input.captcha'), "type the letters from the image above");</script></td><td><span class="error BAD_CAPTCHA field-captcha" style="display:none"></span></td></tr></table><span class="error RATELIMIT field-ratelimit" style="display:none"></span></li><li><input type="checkbox" name="rem" id="rem_reg" /><label for="rem_reg" class="remember">remember me</label></li></ul><p><button type="submit" class="button">create account</button><span class="status"></span></p></div></form><p><span class="orangered">is it really that easy? only one way to find out...</span></p></div><div class="loginform"><h3>login</h3><p class="tagline">already have an account and just want to login?</p><form id="login_login" method="post" action="http://www.reddit.com/r/programming/post/login" onsubmit="return post_user(this, 'login');" target="_top"><input type="hidden" name="reason" value="" /><input type="hidden" name="op" value="login" /><div><ul><li><label for="user_login">username:</label><input value="" name="user" id="user_login" type="text" maxlength="20"/></li><li><label for="passwd_login">password:</label><input id="passwd_login" name="passwd" type="password" maxlength="20"/><span class="error WRONG_PASSWORD field-passwd" style="display:none"></span></li><li><input type="checkbox" name="rem" id="rem_login" /><label for="rem_login" class="remember">remember me</label></li></ul><p><button type="submit" class="button">login</button><span class="status"></span></p></div></form></div><div class="clear"></div><div style="text-align:center; clear: both"><a href="#" onclick="return hidecover(this)">close this window</a></div></div></div><div class="lang-popup cover-overlay" style="display: none"><div class="cover" onclick="return hidecover(this)"></div><div class="popup"><form action="http://www.reddit.com/post/unlogged_options" method="post" class="pretty-form short-text"><input type="hidden" name="uh" value="" /><table class="content preftable"><tr><th>interface language</th><td class="prefright"><select id="lang" name="lang"><option selected='selected'>English [en]</option><option >العربية [ar]</option><option >български език [bg]</option><option >català [ca]</option><option >česky [cs]</option><option >dansk [da]</option><option >Deutsch [de]</option><option >Ελληνικά [el]</option><option >English (Australia) [en-au]</option><option >English (Canadian) [en-ca]</option><option >English (Great Britain) [en-gb]</option><option >English (United States) [en-us]</option><option >Esperanto [eo]</option><option >español [es]</option><option >español [es-ar]</option><option >eesti keel [et]</option><option >فارسی [fa]</option><option >suomi [fi]</option><option >français [fr]</option><option >עברית [he]</option><option >hrvatski jezik [hr]</option><option >Magyar [hu]</option><option >Bahasa Indonesia [id]</option><option >íslenska [is]</option><option >italiano [it]</option><option >日本語 [ja]</option><option >한국어 [ko]</option><option >1337 [leet]</option><option >LOL [lol]</option><option >lietuvių kalba [lt]</option><option >Nederlands [nl]</option><option >Norsk [no]</option><option >Arrrrrrrr! [pir]</option><option >polski [pl]</option><option >português [pt]</option><option >português [pt-pt]</option><option >română [ro]</option><option >русский [ru]</option><option >slovenčina [sk]</option><option >српски језик [sr]</option><option >Srpski [sr-la]</option><option >Svenska [sv]</option><option >தமிழ் [ta]</option><option >Türkçe [tr]</option><option >українська мова [uk]</option><option >中文 [zh]</option></select>&#32;<span class="little gray hover">(*) incomplete &#32;<a href="http://www.reddit.com/r/programming/i18n" >volunteer to translate</a></span></td></tr><tr><th>content language</th><td class="prefright"><input type="radio" name="all-langs" id="all-langs" value="all" onclick="clear_all_langs(this)" checked='checked'/><label for="all-langs">all languages</label><br/><input type="radio" name="all-langs" id="some-langs" value="some" /><label for="some-langs">some languages</label><hr/><table><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-ar" id="lang-ar" onclick="check_some_langs(this)" /><label for="lang-ar">العربية</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-he" id="lang-he" onclick="check_some_langs(this)" /><label for="lang-he">עברית</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-pt" id="lang-pt" onclick="check_some_langs(this)" /><label for="lang-pt">português</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-be" id="lang-be" onclick="check_some_langs(this)" /><label for="lang-be">Беларуская мова</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-hr" id="lang-hr" onclick="check_some_langs(this)" /><label for="lang-hr">hrvatski jezik</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-ro" id="lang-ro" onclick="check_some_langs(this)" /><label for="lang-ro">română</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-bg" id="lang-bg" onclick="check_some_langs(this)" /><label for="lang-bg">български език</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-hu" id="lang-hu" onclick="check_some_langs(this)" /><label for="lang-hu">Magyar</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-ru" id="lang-ru" onclick="check_some_langs(this)" /><label for="lang-ru">русский</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-ca" id="lang-ca" onclick="check_some_langs(this)" /><label for="lang-ca">català</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-hy" id="lang-hy" onclick="check_some_langs(this)" /><label for="lang-hy">Հայերեն լեզու</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-sk" id="lang-sk" onclick="check_some_langs(this)" /><label for="lang-sk">slovenčina</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-cs" id="lang-cs" onclick="check_some_langs(this)" /><label for="lang-cs">česky</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-id" id="lang-id" onclick="check_some_langs(this)" /><label for="lang-id">Bahasa Indonesia</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-sl" id="lang-sl" onclick="check_some_langs(this)" /><label for="lang-sl">slovenščina</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-da" id="lang-da" onclick="check_some_langs(this)" /><label for="lang-da">dansk</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-is" id="lang-is" onclick="check_some_langs(this)" /><label for="lang-is">íslenska</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-sr" id="lang-sr" onclick="check_some_langs(this)" /><label for="lang-sr">српски језик</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-de" id="lang-de" onclick="check_some_langs(this)" /><label for="lang-de">Deutsch</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-it" id="lang-it" onclick="check_some_langs(this)" /><label for="lang-it">italiano</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-sv" id="lang-sv" onclick="check_some_langs(this)" /><label for="lang-sv">Svenska</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-el" id="lang-el" onclick="check_some_langs(this)" /><label for="lang-el">Ελληνικά</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-ja" id="lang-ja" onclick="check_some_langs(this)" /><label for="lang-ja">日本語</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-ta" id="lang-ta" onclick="check_some_langs(this)" /><label for="lang-ta">தமிழ்</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-en" id="lang-en" onclick="check_some_langs(this)" /><label for="lang-en">English</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-ko" id="lang-ko" onclick="check_some_langs(this)" /><label for="lang-ko">한국어</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-th" id="lang-th" onclick="check_some_langs(this)" /><label for="lang-th">ภาษาไทย</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-eo" id="lang-eo" onclick="check_some_langs(this)" /><label for="lang-eo">Esperanto</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-la" id="lang-la" onclick="check_some_langs(this)" /><label for="lang-la">Latin</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-tr" id="lang-tr" onclick="check_some_langs(this)" /><label for="lang-tr">Türkçe</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-es" id="lang-es" onclick="check_some_langs(this)" /><label for="lang-es">español</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-lt" id="lang-lt" onclick="check_some_langs(this)" /><label for="lang-lt">lietuvių kalba</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-uk" id="lang-uk" onclick="check_some_langs(this)" /><label for="lang-uk">українська мова</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-et" id="lang-et" onclick="check_some_langs(this)" /><label for="lang-et">eesti keel</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-lv" id="lang-lv" onclick="check_some_langs(this)" /><label for="lang-lv">latviešu valoda</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-vi" id="lang-vi" onclick="check_some_langs(this)" /><label for="lang-vi">Tiếng Việt</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-fa" id="lang-fa" onclick="check_some_langs(this)" /><label for="lang-fa">فارسی</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-nl" id="lang-nl" onclick="check_some_langs(this)" /><label for="lang-nl">Nederlands</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-zh" id="lang-zh" onclick="check_some_langs(this)" /><label for="lang-zh">中文</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-fi" id="lang-fi" onclick="check_some_langs(this)" /><label for="lang-fi">suomi</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-no" id="lang-no" onclick="check_some_langs(this)" /><label for="lang-no">Norsk</label></td></tr><tr><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-fr" id="lang-fr" onclick="check_some_langs(this)" /><label for="lang-fr">français</label></td><td style="padding-right: 15px; white-space: nowrap;"><input type="checkbox" name="lang-pl" id="lang-pl" onclick="check_some_langs(this)" /><label for="lang-pl">polski</label></td></tr></table></td></tr><tr><td><input type="submit" class="btn" value="save options"/></td></tr></table></form><div style="text-align:center; clear:both;"><a href="#" onclick="return hidecover(this)">close this window</a></div></div></div><img alt="" src="http://pixel.reddit.com/pixel/of_destiny.png?v=SzG6ZNIUspHc3RUl36YiINeb05WJPRhR6xdOhIdd3KGzpd5LXxvpDWkMo2Hq3wZh%2BCKN3bKA8P8%3D"/><script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try { var pageTracker = _gat._getTracker("UA-12131688-1"); pageTracker._trackPageview(); } catch(err) {}</script></body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>programming</title>
+<meta name="keywords" content=" reddit, reddit.com, vote, comment, submit ">
+<meta name="title" content=" programming ">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">var reddit = { /* is the user logged in */ logged: false, /* the subreddit's name (for posts) */ post_site: "programming", /* are we in an iframe */ cnameframe: false, /* this page's referer */ referer: "", /* the user's voting hash */ modhash: '', /* the current rendering style */ renderstyle: "html", /* current domain */ cur_domain: "reddit.com", /* where do ajax request go? */ ajax_domain: "www.reddit.com", /* debugging? */ debug: false, vl: {}, sr: {}, status_msg: { fetching: "fetching title...", submitting: "submitting...", loading: "loading..." }, tofetch: [], trackers: {} };</script><script src="/static/jquery.js?v=510f43215b8d19e7b18f5bd8f6e5a59a" type="text/javascript"></script><script src="/static/jquery.json.js?v=35aafdb04f488d01d5918d2e6f04204a" type="text/javascript"></script><script src="/static/jquery.reddit.js?v=c756f81715135564230ca0adb9e76556" type="text/javascript"></script><script src="/static/reddit.js?v=b803e87dea3355f7c9d065435bd99183" type="text/javascript"></script><link rel="stylesheet" href="/static/reddit.css?v=b9f3909c8aa639731928602bf5735ed8" type="text/css">
+<link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.reddit.com/r/programming/.rss">
+<!--[if lt IE 7]><link rel="stylesheet" href="/static/reddit-ie6-hax.css?v=e3926b77f22fe19a2da20cbd6c2f0b31"" type="text/css" /><![endif]--><!--[if lt IE 8]><link rel="stylesheet" href="/static/reddit-ie7-hax.css?v=b03476679dcb1a60d7a45e4b78fa8486"" type="text/css" /><![endif]--><script type="text/javascript">reddit.cur_site = "t5_2fwo";</script><style type="text/css">/* Custom css: use this block to insert special translation-dependent css in the page header */</style>
+</head>
+<body onclick="close_menus()">
+<div id="header">
+<a tabindex="1" href="#content" id="jumpToContent">jump to content</a><div id="sr-header-area">
+<ul class="flat-list sr-bar hover">
+<li><a href="http://www.reddit.com/r/all/">all</a></li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/random/">random</a>
+</li>
+</ul>
+<span class="separator"> | </span><ul class="flat-list sr-bar hover" id="sr-bar">
+<li><a href="http://www.reddit.com/r/pics/">pics</a></li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/reddit.com/">reddit.com</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/funny/">funny</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/politics/">politics</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/AskReddit/">AskReddit</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/WTF/">WTF</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/gaming/">gaming</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/science/">science</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/worldnews/">worldnews</a>
+</li>
+<li class="selected">
+<span class="separator">-</span><a href="http://www.reddit.com/r/programming/">programming</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/atheism/">atheism</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/technology/">technology</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/IAmA/">IAmA</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/comics/">comics</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/videos/">videos</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/todayilearned/">todayilearned</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/Music/">Music</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/offbeat/">offbeat</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/canada/">canada</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/geek/">geek</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/trees/">trees</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/bestof/">bestof</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/entertainment/">entertainment</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/Economics/">Economics</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/Libertarian/">Libertarian</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/linux/">linux</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/circlejerk/">circlejerk</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/environment/">environment</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/business/">business</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/news/">news</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/movies/">movies</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/scifi/">scifi</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/apple/">apple</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/aww/">aww</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/wikipedia/">wikipedia</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/self/">self</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/sports/">sports</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/food/">food</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/Marijuana/">Marijuana</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/tf2/">tf2</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/conspiracy/">conspiracy</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/lost/">lost</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/sex/">sex</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/gadgets/">gadgets</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/lgbt/">lgbt</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/humor/">humor</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/guns/">guns</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/listentothis/">listentothis</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/MensRights/">MensRights</a>
+</li>
+<li>
+<span class="separator">-</span><a href="http://www.reddit.com/r/math/">math</a>
+</li>
+</ul>
+<a href="http://www.reddit.com/reddits/" id="sr-more-link">more »</a>
+</div>
+<div id="header-bottom-left">
+<a href="http://www.reddit.com/" id="header-img-a"><img id="header-img" src="http://static.reddit.com/reddit_programming.png" alt="programming"></a> <span class="hover pagename redditname"><a href="http://www.reddit.com/r/programming/">programming</a></span><ul class="tabmenu ">
+<li class="selected"><a href="http://www.reddit.com/r/programming/">what's hot</a></li>
+<li><a href="http://www.reddit.com/r/programming/new/">new</a></li>
+<li><a href="http://www.reddit.com/r/programming/controversial/">controversial</a></li>
+<li><a href="http://www.reddit.com/r/programming/top/">top</a></li>
+<li><a href="http://www.reddit.com/saved/">saved</a></li>
+</ul>
+</div>
+<div id="header-bottom-right">
+<span class="user">want to join? <a href="#" onclick="return showcover(false);">register</a> in seconds</span><span class="separator">|</span><ul class="flat-list hover"><li><a href="javascript:void(0)" class="pref-lang" onclick="return showlang();">English</a></li></ul>
+</div>
+</div>
+<div class="preload">
+<div class="arrow up"></div>
+<div class="arrow upmod"></div>
+<div class="arrow down"></div>
+<div class="arrow downmod"></div>
+<div class="eb-sch"></div>
+<div class="eb-se"></div>
+<div class="eb-seh"></div>
+<div class="eb-vch"></div>
+<div class="eb-ve"></div>
+<div class="eb-veh"></div>
+<div class="morelink nub"></div>
+<div class="mlh"></div>
+<div class="mlhn"></div>
+<div class="sidebox gold"><div class="morelink"></div></div>
+<a class="pretty-button negative"></a><a class="pretty-button negative pressed"></a><a class="pretty-button positive"></a><a class="pretty-button positive pressed"></a>
+</div>
+<div class="side">
+<div class="spacer"><form action="http://www.reddit.com/r/programming/search" id="search"><input type="text" value="search reddit" class="gray" name="q"></form></div>
+<div class="spacer"><form method="post" id="login_login-main" action="http://www.reddit.com/r/programming/post/login" onsubmit="return post_user(this, 'login');" class="login-form-side">
+<input type="hidden" name="op" value="login-main"><input name="user" type="text" maxlength="20" tabindex="1"><input name="passwd" type="password" maxlength="20" tabindex="2"><div class="error WRONG_PASSWORD field-passwd" style="display:none"></div>
+<div class="status error"></div>
+<div id="remember-me">
+<button class="btn" type="submit" tabindex="4">login</button><input type="checkbox" name="rem" tabindex="3" id="rem-login-main"><label for="rem-login-main">remember me</label><a href="/password">recover password</a><div class="clear"></div>
+</div>
+</form></div>
+<div class="spacer"><div class="thing sponsorshipbox id-t5_2fwo">
+<span>This reddit is sponsored by Opera. Try the new Opera -- no restart required.</span><div><a class="title" href="http://www.opera.com/r/reddit?utm_source=Reddit&amp;utm_medium=SponseredHeadline&amp;utm_content=Bought300x100&amp;utm_campaign=Desktop18"><img alt="sponsor" src="http://thumbs.reddit.com/t5_2fwo_sponsor.png?v=ba2db2218edb48cd953cdcbd56195d0c"></a></div>
+<img class="promote-pixel" id="promote_img_t5_2fwo" src="/static/pixel.png" alt=" "><script type="text/javascript">reddit.tofetch.push("t5_2fwo");</script>
+</div></div>
+<div class="spacer"><div class="titlebox">
+<h1 class="hover redditname"><a href="http://www.reddit.com/r/programming/" class="hover">programming</a></h1>
+<span class="fancy-toggle-button toggle" style=""><a class="option active remove" href="#" tabindex="100" onclick="return toggle(this, unsubscribe('t5_2fwo'), subscribe('t5_2fwo'))">- frontpage</a><a class="option add" href="#">+ frontpage</a></span><span class="number">253,253</span> <span class="word">readers</span><form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t5_2fwo4t8">
+<input type="hidden" name="thing_id" value="t5_2fwo"><div class="usertext-body">
+<div class="md">
+<p>A reddit for discussion and news about computer programming</p>
+
+<ul>
+<li>Just because it has a computer in it doesn't make it programming</li>
+<li>Before making a self-post in <code>/r/programming</code>, please check the <a href="http://www.reddit.com/help/faqs/programming">programming.reddit FAQ</a> to see if it's there first. In fact, if you're going to make a self-post, stop and think <em>really</em> hard if that's really what you want to do.</li>
+<li>
+<code>/r/programming</code> is <em>not</em> a place to ask for help, run polls, rant, or otherwise use as a captive audience. For that try <a href="/r/learnprogramming">/r/learnprogramming</a> or <a href="http://stackoverflow.com/">StackOverflow</a>.</li>
+</ul>
+<p>And if you're an all-star hacker (or even just beginning) why not join the discussion <a href="http://www.reddit.com/r/redditdev/">/r/redditdev</a> and <a href="http://code.reddit.com">steal our reddit code</a>!</p>
+</div>
+</div>
+</form>
+<div class="bottom">created by <a href="http://www.reddit.com/user/spez" class="author id-t2_1w72">spez</a><span class="userattrs"></span><span class="age">a community for 4 years</span>
+</div>
+<div class="clear"></div>
+</div></div>
+<div class="spacer">
+<iframe id="ad-frame" frameborder="0" scrolling="no" name="ad-frame" src="http://www.redditmedia.com/ads/r/programming/"></iframe><script type="text/javascript">$(function() { var ad = $("#ad-frame"); if(ad.height() == 0 || ad.width() == 0) { $(".footer").append("<img alt='' src='http://pixel.reddit.com/pixel/of_defenestration.png?hash=0e31bc319d5b5882b0cddf147f4ce1da5ac9c731&id=adblock&random=" + Math.random()*10000000000000000 + "'/>"); } });</script>
+</div>
+<div class="spacer"><div class="sidebox submit">
+<div class="morelink">
+<a href="http://www.reddit.com/r/programming/submit" onclick="return(showcover(true, 'redirect_/submit'));">Submit a link</a><div class="nub"></div>
+</div>
+<div class="spacer"><div class="subtitle">to anything interesting: news article, blog entry, video, picture...</div></div>
+</div></div>
+<div class="spacer"><div class="sidecontentbox ">
+<a class="helplink" href="/message/compose?to=%23programming">message the moderators</a><h1>MODERATORS</h1>
+<div class="content">
+<a href="http://www.reddit.com/user/ketralnis" class="author id-t2_nn0q">ketralnis</a><span class="userattrs"></span><a href="http://www.reddit.com/user/spez" class="author id-t2_1w72">spez</a><span class="userattrs"></span><a href="http://www.reddit.com/user/Poromenos" class="author id-t2_1pd6">Poromenos</a><span class="userattrs"></span><a href="http://www.reddit.com/user/tryx" class="author id-t2_313lh">tryx</a><span class="userattrs"></span><a href="http://www.reddit.com/user/uriel" class="author id-t2_1w33">uriel</a><span class="userattrs"></span><a href="http://www.reddit.com/user/dons" class="author id-t2_jzjf">dons</a><span class="userattrs"></span><a href="http://www.reddit.com/user/masta" class="author id-t2_2on1">masta</a><span class="userattrs"></span><a href="http://www.reddit.com/user/kylev" class="author id-t2_bki6">kylev</a><span class="userattrs"></span><a href="http://www.reddit.com/user/chromakode" class="author id-t2_7onf">chromakode</a><span class="userattrs"></span>
+</div>
+</div></div>
+</div>
+<a name="content"></a><div class="content">
+<div class="infobar ">
+<div class="md"><p>reddit is a source for what's new and popular online. vote on links that you like or dislike and help decide what's popular, or submit your own!</p></div>
+</div>
+<div class="spacer"><div id="siteTable" class="sitetable linklisting">
+<div class=" thing id-t3_dka1m link promoted promotedlink" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:0px;display:none;">1</span><div class="midcol unvoted" style="width:3ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">27</div>
+<div class="score unvoted">28</div>
+<div class="score likes">29</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<a class="thumbnail " href="http://deviantart.theresumator.com/apply/eR4wR2/Web-Application-Developer.html?source=reddit" rel="nofollow">​<img src="http://thumbs.reddit.com/t3_dka1m.png?v=6ef531816b0d13b020639b36719fd458f89fe4f5" alt=""></a><div class="entry unvoted">
+<p class="title"><a class="title " href="http://deviantart.theresumator.com/apply/eR4wR2/Web-Application-Developer.html?source=reddit" rel="nofollow">deviantART is looking for talented Web Application Developers</a> <span class="domain">(<a href="http://www.reddit.com/domain/deviantart.theresumator.com/">deviantart.theresumator.com</a>)</span></p>
+<p class="tagline">promoted by <a href="http://www.reddit.com/user/mhalpert" class="author id-t2_4dr7t">mhalpert</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/comments/dka1m/deviantart_is_looking_for_talented_web/" target="_parent">54 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+<p class="sponsored-tagline">sponsored link</p>
+<img class="promote-pixel" id="promote_oimg_t3_dka1m" src="/static/pixel.png" alt=" "><script type="text/javascript">reddit.tofetch.push("t3_dka1m");</script>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+</div></div>
+<div class="spacer">
+<div id="siteTable" class="sitetable linklisting">
+<div class=" thing id-t3_e2hyz even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">1</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">772</div>
+<div class="score unvoted">773</div>
+<div class="score likes">774</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://orestis.gr/blog/2010/11/06/why-i-bill-hourly/">Why I bill hourly</a> <span class="domain">(<a href="http://www.reddit.com/domain/orestis.gr/">orestis.gr</a>)</span></p>
+<p class="tagline">submitted 18 hours ago by <a href="http://www.reddit.com/user/luntain" class="author id-t2_31n1r">luntain</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2hyz/why_i_bill_hourly/" target="_parent">235 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2tx9 even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">2</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score likes">•</div>
+<div class="score unvoted">•</div>
+<div class="score dislikes">•</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.retroleum.co.uk/electronics-articles/previous/the-v4z80p-a-z80-based-laptop/">A Z80 Based Laptop, Anyone for Basic , Pascal skills ?</a> <span class="domain">(<a href="http://www.reddit.com/domain/retroleum.co.uk/">retroleum.co.uk</a>)</span></p>
+<p class="tagline">submitted 1 hour ago by <a href="http://www.reddit.com/user/mariuz" class="author id-t2_fgtu">mariuz</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2tx9/a_z80_based_laptop_anyone_for_basic_pascal_skills/" target="_parent">3 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2tsf even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">3</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score likes">•</div>
+<div class="score unvoted">•</div>
+<div class="score dislikes">•</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.reddit.com/r/coding/comments/e2tj0/hey_progreddit_do_you_have_the_want_to_give_back/">x/p from /r/coding: Hey Progreddit! Do you have the want to give back to open source projects but are too lazy/busy/don’t have the skills? Read on!</a> <span class="domain">(<a href="http://www.reddit.com/domain/reddit.com/">reddit.com</a>)</span></p>
+<p class="tagline">submitted 1 hour ago by <a href="http://www.reddit.com/user/thezanman" class="author id-t2_3fc2c">thezanman</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2tsf/xp_from_rcoding_hey_progreddit_do_you_have_the/" target="_parent">1 comment</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2hwt even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">4</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">164</div>
+<div class="score unvoted">165</div>
+<div class="score likes">166</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://gcc.gnu.org/wiki/summit2010?action=AttachFile&amp;do=get&amp;target=regehr_gcc_summit_2010.pdf">Exposing Difficult Compiler Bugs With Random Testing [pdf slides]</a> <span class="domain">(<a href="http://www.reddit.com/domain/gcc.gnu.org/">gcc.gnu.org</a>)</span></p>
+<p class="tagline">submitted 18 hours ago by <a href="http://www.reddit.com/user/damg" class="author id-t2_1ozu">damg</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2hwt/exposing_difficult_compiler_bugs_with_random/" target="_parent">27 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2lee even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">5</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">33</div>
+<div class="score unvoted">34</div>
+<div class="score likes">35</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://petervandernoord.nl/blog/2010/11/the-strange-beauty-of-the-gumowski-mira-attractor/">I made a small editor to create images using the Gumowski-Mira attractor. Hope you like it.</a> <span class="domain">(<a href="http://www.reddit.com/domain/petervandernoord.nl/">petervandernoord.nl</a>)</span></p>
+<p class="tagline">submitted 13 hours ago by <a href="http://www.reddit.com/user/eindbaas" class="author id-t2_f59h">eindbaas</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2lee/i_made_a_small_editor_to_create_images_using_the/" target="_parent">9 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2okt even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">6</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">15</div>
+<div class="score unvoted">16</div>
+<div class="score likes">17</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://gcc.gnu.org/wiki/summit2010?action=AttachFile&amp;do=get&amp;target=taylor.pdf">The Go frontend for GCC [pdf]</a> <span class="domain">(<a href="http://www.reddit.com/domain/gcc.gnu.org/">gcc.gnu.org</a>)</span></p>
+<p class="tagline">submitted 8 hours ago by <a href="http://www.reddit.com/user/uriel" class="author id-t2_1w33">uriel</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2okt/the_go_frontend_for_gcc_pdf/" target="_parent">5 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2ld1 even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">7</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">34</div>
+<div class="score unvoted">35</div>
+<div class="score likes">36</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.designofapproxalgs.com/download.php">The Design of Approximation Algorithms [book]</a> <span class="domain">(<a href="http://www.reddit.com/domain/designofapproxalgs.com/">designofapproxalgs.com</a>)</span></p>
+<p class="tagline">submitted 13 hours ago by <a href="http://www.reddit.com/user/damg" class="author id-t2_1ozu">damg</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2ld1/the_design_of_approximation_algorithms_book/" target="_parent">2 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2k2x even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">8</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">31</div>
+<div class="score unvoted">32</div>
+<div class="score likes">33</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://4c110.ucc.ie/aiai/boole-petition">George Boole's house has been badly damaged. Please help restore the home of Boolean Algebra.</a> <span class="domain">(<a href="http://www.reddit.com/domain/4c110.ucc.ie/">4c110.ucc.ie</a>)</span></p>
+<p class="tagline">submitted 15 hours ago by <a href="http://www.reddit.com/user/jgrahamc" class="author id-t2_1o9m">jgrahamc</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2k2x/george_booles_house_has_been_badly_damaged_please/" target="_parent">29 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2oou even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">9</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">5</div>
+<div class="score unvoted">6</div>
+<div class="score likes">7</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.anyserialport.com/">Any Serial Port - Serial Port Programming Language</a> <span class="domain">(<a href="http://www.reddit.com/domain/anyserialport.com/">anyserialport.com</a>)</span></p>
+<p class="tagline">submitted 8 hours ago by <a href="http://www.reddit.com/user/jeanlucpikachu" class="author id-t2_kdae">jeanlucpikachu</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2oou/any_serial_port_serial_port_programming_language/" target="_parent">1 comment</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2952 even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">10</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">802</div>
+<div class="score unvoted">803</div>
+<div class="score likes">804</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.geee.net/contact.htm">The best CAPTCHA ever</a> <span class="domain">(<a href="http://www.reddit.com/domain/geee.net/">geee.net</a>)</span></p>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/ninzfilter" class="author id-t2_3nqqg">ninzfilter</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2952/the_best_captcha_ever/" target="_parent">197 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2jsh even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">11</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">11</div>
+<div class="score unvoted">12</div>
+<div class="score likes">13</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.kickstarter.com/projects/zarf/hadean-lands-interactive-fiction-for-the-iphone">Lets help Zarf (Andrew Plotkin) quit his job and write interactive fiction full time!</a> <span class="domain">(<a href="http://www.reddit.com/domain/kickstarter.com/">kickstarter.com</a>)</span></p>
+<p class="tagline">submitted 15 hours ago by <a href="http://www.reddit.com/user/edwardkmett" class="author id-t2_26009">edwardkmett</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2jsh/lets_help_zarf_andrew_plotkin_quit_his_job_and/" target="_parent">6 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2jnf even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">12</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">9</div>
+<div class="score unvoted">10</div>
+<div class="score likes">11</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://stephencarmody.wikispaces.com/Simplex+Noise">simplex noise alternatives? does anyone know a quick alternative to this?</a> <span class="domain">(<a href="http://www.reddit.com/domain/stephencarmody.wikispaces.com/">stephencarmody.wikispaces.com</a>)</span></p>
+<p class="tagline">submitted 15 hours ago by <a href="http://www.reddit.com/user/strategosInfinitum" class="author id-t2_46jh0">strategosInfinitum</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2jnf/simplex_noise_alternatives_does_anyone_know_a/" target="_parent">24 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2qu6 even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">13</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">0</div>
+<div class="score unvoted">0</div>
+<div class="score likes">1</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://pauloflaherty.com/2010/11/06/what-about-the-other-side-of-the-noirin-shirley-accusation/" rel="nofollow">What About The Other Side Of The Noirin Shirley Accusation?</a> <span class="domain">(<a href="http://www.reddit.com/domain/pauloflaherty.com/">pauloflaherty.com</a>)</span></p>
+<div class="expando-button collapsed video" onclick="expando_child(this)"></div>
+<p class="tagline">submitted 6 hours ago by <a href="http://www.reddit.com/user/rwinston" class="author id-t2_33tuu">rwinston</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2qu6/what_about_the_other_side_of_the_noirin_shirley/" target="_parent">4 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+<script type="text/javascript">var cache = expando_cache(); cache["t3_e2qu6_cache"] = " &lt;iframe src=&quot;http://www.redditmedia.com/mediaembed/e2qu6&quot; id=&quot;media-embed-e2qu6-w04&quot; class=&quot;media-embed&quot; width=&quot;610&quot; height=&quot;373&quot; border=&quot;0&quot; frameBorder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt; ";</script>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2hg6 even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">14</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">6</div>
+<div class="score unvoted">7</div>
+<div class="score likes">8</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://pivotfinland.com/frozendefence/">FrozenDEFENCE.js : Amazing Tower Defense Game on Canvas</a> <span class="domain">(<a href="http://www.reddit.com/domain/pivotfinland.com/">pivotfinland.com</a>)</span></p>
+<p class="tagline">submitted 19 hours ago by <a href="http://www.reddit.com/user/rexxar" class="author id-t2_1i2hx">rexxar</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments empty" href="http://www.reddit.com/r/programming/comments/e2hg6/frozendefencejs_amazing_tower_defense_game_on/" target="_parent">comment</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2fm1 even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">15</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">17</div>
+<div class="score unvoted">18</div>
+<div class="score likes">19</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.youtube.com/watch?v=hE7k0_9k0VA#t=5m18s">Have LISP programmers developed richer web protocol libraries after reddit interviewed Peter Norvig?</a> <span class="domain">(<a href="http://www.reddit.com/domain/youtube.com/">youtube.com</a>)</span></p>
+<div class="expando-button collapsed video" onclick="expando_child(this)"></div>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/cdbeer" class="author id-t2_4hzov">cdbeer</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2fm1/have_lisp_programmers_developed_richer_web/" target="_parent">58 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+<script type="text/javascript">var cache = expando_cache(); cache["t3_e2fm1_cache"] = " &lt;iframe src=&quot;http://www.redditmedia.com/mediaembed/e2fm1&quot; id=&quot;media-embed-e2fm1-s7n&quot; class=&quot;media-embed&quot; width=&quot;610&quot; height=&quot;373&quot; border=&quot;0&quot; frameBorder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt; ";</script>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2fyd even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">16</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">14</div>
+<div class="score unvoted">15</div>
+<div class="score likes">16</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://louisstow.blogspot.com/2010/11/game-framework-not-engine.html">JavaScript Game Framework, not Engine!</a> <span class="domain">(<a href="http://www.reddit.com/domain/louisstow.blogspot.com/">louisstow.blogspot.com</a>)</span></p>
+<p class="tagline">submitted 23 hours ago by <a href="http://www.reddit.com/user/louisstow" class="author id-t2_43fhm">louisstow</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2fyd/javascript_game_framework_not_engine/" target="_parent">1 comment</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e27nx even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">17</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">232</div>
+<div class="score unvoted">233</div>
+<div class="score likes">234</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.tiobe.com/content/paperinfo/tpci/index.html">Java and C still ruling the world</a> <span class="domain">(<a href="http://www.reddit.com/domain/tiobe.com/">tiobe.com</a>)</span></p>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/moozaad" class="author id-t2_4djdt">moozaad</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e27nx/java_and_c_still_ruling_the_world/" target="_parent">407 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2eou even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">18</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">12</div>
+<div class="score unvoted">13</div>
+<div class="score likes">14</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.youtube.com/watch?v=ZjXSWo-CVUM">Customer service representative lays down the law after her web site crashes... the database belongs to the customer!</a> <span class="domain">(<a href="http://www.reddit.com/domain/youtube.com/">youtube.com</a>)</span></p>
+<div class="expando-button collapsed video" onclick="expando_child(this)"></div>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/failboatcaptain" class="author id-t2_4hznb">failboatcaptain</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2eou/customer_service_representative_lays_down_the_law/" target="_parent">32 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+<script type="text/javascript">var cache = expando_cache(); cache["t3_e2eou_cache"] = " &lt;iframe src=&quot;http://www.redditmedia.com/mediaembed/e2eou&quot; id=&quot;media-embed-e2eou-shj&quot; class=&quot;media-embed&quot; width=&quot;610&quot; height=&quot;373&quot; border=&quot;0&quot; frameBorder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt; ";</script>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2a7i even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">19</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">46</div>
+<div class="score unvoted">47</div>
+<div class="score likes">48</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://coding.derkeiler.com/Archive/Lisp/comp.lang.lisp/2006-09/msg00660.html">Re: Is Programming Boring?</a> <span class="domain">(<a href="http://www.reddit.com/domain/coding.derkeiler.com/">coding.derkeiler.com</a>)</span></p>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/UnknownTales1" class="author id-t2_4d8ah">UnknownTales1</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2a7i/re_is_programming_boring/" target="_parent">104 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2bnm even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">20</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">19</div>
+<div class="score unvoted">20</div>
+<div class="score likes">21</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://stackoverflow.com/questions/209170/how-much-does-it-cost-to-develop-an-iphone-application">How much does it cost to develop an iPhone application?</a> <span class="domain">(<a href="http://www.reddit.com/domain/stackoverflow.com/">stackoverflow.com</a>)</span></p>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/CloseToYou" class="author id-t2_4bskm">CloseToYou</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2bnm/how_much_does_it_cost_to_develop_an_iphone/" target="_parent">20 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2aas even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">21</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">23</div>
+<div class="score unvoted">24</div>
+<div class="score likes">25</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.scale18.com/canvas7.html">Just for fun I wrote this HTML5 (uses canvas) interactive world map. It allows you to select countries you have visited and then it shows them in a different color. Any feedback would be appreciated, thanks!</a> <span class="domain">(<a href="http://www.reddit.com/domain/scale18.com/">scale18.com</a>)</span></p>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/KPexEA" class="author id-t2_45jhp">KPexEA</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2aas/just_for_fun_i_wrote_this_html5_uses_canvas/" target="_parent">47 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e22oy even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">22</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">304</div>
+<div class="score unvoted">305</div>
+<div class="score likes">306</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.theregister.co.uk/2010/11/06/oracle_dueling_jvms/">Oracle cooks up free and premium JVMs</a> <span class="domain">(<a href="http://www.reddit.com/domain/theregister.co.uk/">theregister.co.uk</a>)</span></p>
+<p class="tagline">submitted 2 days ago by <a href="http://www.reddit.com/user/wfpoulet" class="author id-t2_360rf">wfpoulet</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e22oy/oracle_cooks_up_free_and_premium_jvms/" target="_parent">387 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e22xy even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">23</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">241</div>
+<div class="score unvoted">242</div>
+<div class="score likes">243</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://portal.acm.org/citation.cfm?id=550856">"If you keep proving stuff that others have done, getting confidence, increasing the complexities of your solutions - for the fun of it - then one day you'll turn around and discover that nobody actually did that one! And that's the way to become a computer scientist." - Feynman</a> <span class="domain">(<a href="http://www.reddit.com/domain/portal.acm.org/">portal.acm.org</a>)</span></p>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/animesh1977" class="author id-t2_3796s">animesh1977</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e22xy/if_you_keep_proving_stuff_that_others_have_done/" target="_parent">51 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e2a41 even even link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">24</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">18</div>
+<div class="score unvoted">19</div>
+<div class="score likes">20</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://opensource.com/life/10/11/introducing-students-world-open-source-day-1">OpenHatch successfully brings students into the world of open source</a> <span class="domain">(<a href="http://www.reddit.com/domain/opensource.com/">opensource.com</a>)</span></p>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/TheSilentNumber" class="author id-t2_31mbs">TheSilentNumber</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e2a41/openhatch_successfully_brings_students_into_the/" target="_parent">3 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+<div class=" thing id-t3_e28wg even odd link" onclick="click_thing(this)">
+<p class="parent"></p>
+<span class="rank" style="width:2.20ex;">25</span><div class="midcol unvoted" style="width:4ex;">
+<div class="arrow up" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+<div class="score dislikes">26</div>
+<div class="score unvoted">27</div>
+<div class="score likes">28</div>
+<div class="arrow down" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)"></div>
+</div>
+<div class="entry unvoted">
+<p class="title"><a class="title " href="http://www.gabrielweinberg.com/blog/2010/11/code-icebergs.html">Code icebergs</a> <span class="domain">(<a href="http://www.reddit.com/domain/gabrielweinberg.com/">gabrielweinberg.com</a>)</span></p>
+<p class="tagline">submitted 1 day ago by <a href="http://www.reddit.com/user/rberenguel" class="author id-t2_38g9z">rberenguel</a><span class="userattrs"></span></p>
+<ul class="flat-list buttons">
+<li class="first"><a class="comments" href="http://www.reddit.com/r/programming/comments/e28wg/code_icebergs/" target="_parent">17 comments</a></li>
+<li class="share"><span class="share-button toggle" style=""><a class="option active " href="#" tabindex="100" onclick="return showcover('', 'share_' + $(this).thing_id());">share</a><a class="option " href="#">cancel</a></span></li>
+</ul>
+<div class="expando" style="display: none"><span class="error">loading...</span></div>
+</div>
+<div class="child"></div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<div class="clearleft"><!--IE6sux--></div>
+</div>
+<p class="nextprev">view more: <a href="http://www.reddit.com/r/programming/?count=25&amp;after=t3_e28wg" rel="nofollow next">next</a></p>
+</div>
+</div>
+<div class="footer-parent"><div class="footer rounded">
+<div class="col"><ul class="flat-vert hover">
+<li class="flat-vert title">site links</li>
+<li><a href="http://www.reddit.com/static/reddit_mobile/index.htm">mobile</a></li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/.rss">rss</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/store/">store</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/awards/">awards</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/random/">random</a>
+</li>
+</ul></div>
+<div class="col"><ul class="flat-vert hover">
+<li class="flat-vert title">help</li>
+<li><a href="http://www.reddit.com/help/">help</a></li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/help/faq">FAQ</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/help/reddiquette">reddiquette</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/feedback/">feedback</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/i18n/">help translate</a>
+</li>
+</ul></div>
+<div class="col"><ul class="flat-vert hover">
+<li class="flat-vert title">reddit tools</li>
+<li><a href="http://www.reddit.com/bookmarklets/">bookmarklets</a></li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/r/programming/buttons/">buttons</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/code/">source code</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/socialite/">socialite firefox extension</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/r/programming/widget/">widget</a>
+</li>
+</ul></div>
+<div class="col"><ul class="flat-vert hover">
+<li class="flat-vert title">about us</li>
+<li><a href="http://www.reddit.com/blog/">the reddit blog</a></li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/help/gold/" class="buygold">reddit gold</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/promoted/" class="red">self-serve advertising</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.reddit.com/ad_inq/">inquire about advertising</a>
+</li>
+</ul></div>
+<div class="col"><ul class="flat-vert hover">
+<li class="flat-vert title">brothers</li>
+<li><a href="http://www.baconbuzz.com">BaconBuzz</a></li>
+<li>
+<span class="separator"></span><a href="http://reddit.destructoid.com">Destructoid reddit</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.thecutelist.com">TheCuteList</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://reddit.independent.co.uk">The Independent reddit</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.redditgadgetguide.com">redditGadgetGuide</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.weheartgossip.com">WeHeartGossip</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.idealistnews.com">idealistNews</a>
+</li>
+</ul></div>
+<div class="col"><ul class="flat-vert hover">
+<li class="flat-vert title">sisters</li>
+<li><a href="http://www.wired.com">Wired.com</a></li>
+<li>
+<span class="separator"></span><a href="http://www.arstechnica.com">Ars Technica</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.style.com">Style.com</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.epicurious.com">Epicurious.com</a>
+</li>
+<li>
+<span class="separator"></span><a href="http://www.concierge.com">Concierge.com</a>
+</li>
+</ul></div>
+<p class="bottommenu">Use of this site constitutes acceptance of our <a href="http://reddit.com/help/useragreement">User Agreement</a> and <a href="http://reddit.com/help/privacypolicy">Privacy Policy</a>. (c) 2010 Conde Nast Digital. All rights reserved.</p>
+<p class="bottommenu">REDDIT and the ALIEN Logo are registered trademarks of Advance Magazine Publishers Inc.</p>
+</div></div>
+<div class="login-popup cover-overlay" style="display: none">
+<div class="cover" onclick="return hidecover(this)"></div>
+<div class="popup">
+<h1 class="cover-msg">you'll need to login or register to do that</h1>
+<div class="loginform divide">
+<h3>create a new account</h3>
+<p class="tagline">all it takes is a username and password</p>
+<form id="login_reg" method="post" action="http://www.reddit.com/r/programming/post/reg" onsubmit="return post_user(this, 'register');" target="_top">
+<input type="hidden" name="reason" value=""><input type="hidden" name="op" value="reg"><div>
+<ul>
+<li>
+<label for="user_reg">username:</label><input value="" name="user" id="user_reg" type="text" maxlength="20"><span class="error BAD_USERNAME field-user" style="display:none"></span><span class="error USERNAME_TAKEN field-user" style="display:none"></span>
+</li>
+<li>
+<label for="email_reg">email:  <i>(optional)</i></label><input value="" name="email" id="email_reg" type="text" maxlength="50"><span class="error BAD_EMAILS field-email" style="display:none"></span>
+</li>
+<li>
+<label for="passwd_reg">password:</label><input id="passwd_reg" name="passwd" type="password" maxlength="20"><span class="error BAD_PASSWORD field-passwd" style="display:none"></span>
+</li>
+<li>
+<label for="passwd2_reg">verify password:</label><input name="passwd2" id="passwd2_reg" type="password" maxlength="20"><span class="error BAD_PASSWORD_MATCH field-passwd2" style="display:none"></span>
+</li>
+<li>
+<table>
+<tr>
+<td></td>
+<td>
+<input name="iden" value="" type="hidden"><img class="capimage" alt="i wonder if these things even work" src="/static/kill.png">
+</td>
+</tr>
+<tr>
+<td align="right"></td>
+<td>
+<input class="captcha cap-text" id="captcha_" name="captcha" type="text" size="30"><script type="text/javascript">emptyInput($('input.captcha'), "type the letters from the image above");</script>
+</td>
+<td><span class="error BAD_CAPTCHA field-captcha" style="display:none"></span></td>
+</tr>
+</table>
+<span class="error RATELIMIT field-ratelimit" style="display:none"></span>
+</li>
+<li>
+<input type="checkbox" name="rem" id="rem_reg"><label for="rem_reg" class="remember">remember me</label>
+</li>
+</ul>
+<p><button type="submit" class="button">create account</button><span class="status"></span></p>
+</div>
+</form>
+<p><span class="orangered">is it really that easy? only one way to find out...</span></p>
+</div>
+<div class="loginform">
+<h3>login</h3>
+<p class="tagline">already have an account and just want to login?</p>
+<form id="login_login" method="post" action="http://www.reddit.com/r/programming/post/login" onsubmit="return post_user(this, 'login');" target="_top">
+<input type="hidden" name="reason" value=""><input type="hidden" name="op" value="login"><div>
+<ul>
+<li>
+<label for="user_login">username:</label><input value="" name="user" id="user_login" type="text" maxlength="20">
+</li>
+<li>
+<label for="passwd_login">password:</label><input id="passwd_login" name="passwd" type="password" maxlength="20"><span class="error WRONG_PASSWORD field-passwd" style="display:none"></span>
+</li>
+<li>
+<input type="checkbox" name="rem" id="rem_login"><label for="rem_login" class="remember">remember me</label>
+</li>
+</ul>
+<p><button type="submit" class="button">login</button><span class="status"></span></p>
+</div>
+</form>
+</div>
+<div class="clear"></div>
+<div style="text-align:center; clear: both"><a href="#" onclick="return hidecover(this)">close this window</a></div>
+</div>
+</div>
+<div class="lang-popup cover-overlay" style="display: none">
+<div class="cover" onclick="return hidecover(this)"></div>
+<div class="popup">
+<form action="http://www.reddit.com/post/unlogged_options" method="post" class="pretty-form short-text">
+<input type="hidden" name="uh" value=""><table class="content preftable">
+<tr>
+<th>interface language</th>
+<td class="prefright">
+<select id="lang" name="lang"><option selected>English [en]</option>
+<option>العربية [ar]</option>
+<option>български език [bg]</option>
+<option>català [ca]</option>
+<option>česky [cs]</option>
+<option>dansk [da]</option>
+<option>Deutsch [de]</option>
+<option>Ελληνικά [el]</option>
+<option>English (Australia) [en-au]</option>
+<option>English (Canadian) [en-ca]</option>
+<option>English (Great Britain) [en-gb]</option>
+<option>English (United States) [en-us]</option>
+<option>Esperanto [eo]</option>
+<option>español [es]</option>
+<option>español [es-ar]</option>
+<option>eesti keel [et]</option>
+<option>فارسی [fa]</option>
+<option>suomi [fi]</option>
+<option>français [fr]</option>
+<option>עברית [he]</option>
+<option>hrvatski jezik [hr]</option>
+<option>Magyar [hu]</option>
+<option>Bahasa Indonesia [id]</option>
+<option>íslenska [is]</option>
+<option>italiano [it]</option>
+<option>日本語 [ja]</option>
+<option>한국어 [ko]</option>
+<option>1337 [leet]</option>
+<option>LOL [lol]</option>
+<option>lietuvių kalba [lt]</option>
+<option>Nederlands [nl]</option>
+<option>Norsk [no]</option>
+<option>Arrrrrrrr! [pir]</option>
+<option>polski [pl]</option>
+<option>português [pt]</option>
+<option>português [pt-pt]</option>
+<option>română [ro]</option>
+<option>русский [ru]</option>
+<option>slovenčina [sk]</option>
+<option>српски језик [sr]</option>
+<option>Srpski [sr-la]</option>
+<option>Svenska [sv]</option>
+<option>தமிழ் [ta]</option>
+<option>Türkçe [tr]</option>
+<option>українська мова [uk]</option>
+<option>中文 [zh]</option></select> <span class="little gray hover">(*) incomplete  <a href="http://www.reddit.com/r/programming/i18n">volunteer to translate</a></span>
+</td>
+</tr>
+<tr>
+<th>content language</th>
+<td class="prefright">
+<input type="radio" name="all-langs" id="all-langs" value="all" onclick="clear_all_langs(this)" checked><label for="all-langs">all languages</label><br><input type="radio" name="all-langs" id="some-langs" value="some"><label for="some-langs">some languages</label><hr>
+<table>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-ar" id="lang-ar" onclick="check_some_langs(this)"><label for="lang-ar">العربية</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-he" id="lang-he" onclick="check_some_langs(this)"><label for="lang-he">עברית</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-pt" id="lang-pt" onclick="check_some_langs(this)"><label for="lang-pt">português</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-be" id="lang-be" onclick="check_some_langs(this)"><label for="lang-be">Беларуская мова</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-hr" id="lang-hr" onclick="check_some_langs(this)"><label for="lang-hr">hrvatski jezik</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-ro" id="lang-ro" onclick="check_some_langs(this)"><label for="lang-ro">română</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-bg" id="lang-bg" onclick="check_some_langs(this)"><label for="lang-bg">български език</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-hu" id="lang-hu" onclick="check_some_langs(this)"><label for="lang-hu">Magyar</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-ru" id="lang-ru" onclick="check_some_langs(this)"><label for="lang-ru">русский</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-ca" id="lang-ca" onclick="check_some_langs(this)"><label for="lang-ca">català</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-hy" id="lang-hy" onclick="check_some_langs(this)"><label for="lang-hy">Հայերեն լեզու</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-sk" id="lang-sk" onclick="check_some_langs(this)"><label for="lang-sk">slovenčina</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-cs" id="lang-cs" onclick="check_some_langs(this)"><label for="lang-cs">česky</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-id" id="lang-id" onclick="check_some_langs(this)"><label for="lang-id">Bahasa Indonesia</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-sl" id="lang-sl" onclick="check_some_langs(this)"><label for="lang-sl">slovenščina</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-da" id="lang-da" onclick="check_some_langs(this)"><label for="lang-da">dansk</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-is" id="lang-is" onclick="check_some_langs(this)"><label for="lang-is">íslenska</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-sr" id="lang-sr" onclick="check_some_langs(this)"><label for="lang-sr">српски језик</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-de" id="lang-de" onclick="check_some_langs(this)"><label for="lang-de">Deutsch</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-it" id="lang-it" onclick="check_some_langs(this)"><label for="lang-it">italiano</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-sv" id="lang-sv" onclick="check_some_langs(this)"><label for="lang-sv">Svenska</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-el" id="lang-el" onclick="check_some_langs(this)"><label for="lang-el">Ελληνικά</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-ja" id="lang-ja" onclick="check_some_langs(this)"><label for="lang-ja">日本語</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-ta" id="lang-ta" onclick="check_some_langs(this)"><label for="lang-ta">தமிழ்</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-en" id="lang-en" onclick="check_some_langs(this)"><label for="lang-en">English</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-ko" id="lang-ko" onclick="check_some_langs(this)"><label for="lang-ko">한국어</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-th" id="lang-th" onclick="check_some_langs(this)"><label for="lang-th">ภาษาไทย</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-eo" id="lang-eo" onclick="check_some_langs(this)"><label for="lang-eo">Esperanto</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-la" id="lang-la" onclick="check_some_langs(this)"><label for="lang-la">Latin</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-tr" id="lang-tr" onclick="check_some_langs(this)"><label for="lang-tr">Türkçe</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-es" id="lang-es" onclick="check_some_langs(this)"><label for="lang-es">español</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-lt" id="lang-lt" onclick="check_some_langs(this)"><label for="lang-lt">lietuvių kalba</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-uk" id="lang-uk" onclick="check_some_langs(this)"><label for="lang-uk">українська мова</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-et" id="lang-et" onclick="check_some_langs(this)"><label for="lang-et">eesti keel</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-lv" id="lang-lv" onclick="check_some_langs(this)"><label for="lang-lv">latviešu valoda</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-vi" id="lang-vi" onclick="check_some_langs(this)"><label for="lang-vi">Tiếng Việt</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-fa" id="lang-fa" onclick="check_some_langs(this)"><label for="lang-fa">فارسی</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-nl" id="lang-nl" onclick="check_some_langs(this)"><label for="lang-nl">Nederlands</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-zh" id="lang-zh" onclick="check_some_langs(this)"><label for="lang-zh">中文</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-fi" id="lang-fi" onclick="check_some_langs(this)"><label for="lang-fi">suomi</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-no" id="lang-no" onclick="check_some_langs(this)"><label for="lang-no">Norsk</label>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-fr" id="lang-fr" onclick="check_some_langs(this)"><label for="lang-fr">français</label>
+</td>
+<td style="padding-right: 15px; white-space: nowrap;">
+<input type="checkbox" name="lang-pl" id="lang-pl" onclick="check_some_langs(this)"><label for="lang-pl">polski</label>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td><input type="submit" class="btn" value="save options"></td></tr>
+</table>
+</form>
+<div style="text-align:center; clear:both;"><a href="#" onclick="return hidecover(this)">close this window</a></div>
+</div>
+</div>
+<img alt="" src="http://pixel.reddit.com/pixel/of_destiny.png?v=SzG6ZNIUspHc3RUl36YiINeb05WJPRhR6xdOhIdd3KGzpd5LXxvpDWkMo2Hq3wZh%2BCKN3bKA8P8%3D"><script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try { var pageTracker = _gat._getTracker("UA-12131688-1"); pageTracker._trackPageview(); } catch(err) {}</script>
+</body>
+</html>

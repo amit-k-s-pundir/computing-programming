@@ -1,0 +1,47 @@
+;;; @configure_input@
+
+(load "src:lsp;export.lsp" :verbose nil)
+(load "src:lsp;defmacro.lsp" :verbose nil)
+(load "src:lsp;helpfile.lsp" :verbose nil)
+(load "src:lsp;evalmacros.lsp" :verbose nil)
+(load "src:lsp;cmuutil.lsp" :verbose nil)
+
+(sys:*make-constant '+lisp-module-files+
+'("src:lsp;export.lsp"
+  "src:lsp;defmacro.lsp"
+  "src:lsp;helpfile.lsp"
+  "src:lsp;evalmacros.lsp"
+  "src:lsp;autoload.lsp"
+  "src:lsp;setf.lsp"
+  "src:lsp;predlib.lsp"
+  "src:lsp;seq.lsp"
+  "src:lsp;arraylib.lsp"
+  "src:lsp;assert.lsp"
+  "src:lsp;defstruct.lsp"
+  "src:lsp;iolib.lsp"
+  "src:lsp;listlib.lsp"
+  "src:lsp;mislib.lsp"
+  "src:lsp;numlib.lsp"
+  "src:lsp;packlib.lsp"
+  "src:lsp;seqlib.lsp"
+  "src:lsp;trace.lsp"
+#+old-loop
+  "src:lsp;loop.lsp"
+#-old-loop
+  "src:lsp;loop2.lsp"
+#+cmu-format
+  "src:lsp;format.lsp"
+  "src:lsp;defpackage.lsp"
+  "src:lsp;ffi.lsp"
+#+tk
+  "src:lsp;tk-init.lsp"
+  "build:lsp;config.lsp"
+  "src:lsp;describe.lsp"
+  "src:lsp;module.lsp"
+  "src:lsp;cmdline.lsp"
+  "src:lsp;top.lsp"
+#+threads
+  "src:lsp;mp.lsp"
+))
+
+(mapc #'(lambda (x) (load x :verbose nil)) (cddddr +lisp-module-files+))

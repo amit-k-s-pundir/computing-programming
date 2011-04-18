@@ -1,0 +1,14 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x16\x00t\x00c\x00_\x00a\x00u\x00t\x00o\x00m\x00a\x00t\x00a)
+
+[CMake]
+BuildDirs=/home/sonu/workspace/programming/candcpp/tc_automata/build
+CMakeDir=/usr/share/cmake-2.8/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/sonu/workspace/programming/candcpp/tc_automata/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+ProjectRootRelative=./
+
+[MakeBuilder]
+Number Of Jobs=1

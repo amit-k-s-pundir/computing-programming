@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1116/jetty/trunk/jetty-websocket/src/main/java/org/eclipse/jetty/websocket
+END
+WebSocketBuffers.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1116/jetty/trunk/jetty-websocket/src/main/java/org/eclipse/jetty/websocket/WebSocketBuffers.java
+END
+WebSocketParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1087/jetty/trunk/jetty-websocket/src/main/java/org/eclipse/jetty/websocket/WebSocketParser.java
+END
+WebSocketHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1115/jetty/trunk/jetty-websocket/src/main/java/org/eclipse/jetty/websocket/WebSocketHandler.java
+END
+WebSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1087/jetty/trunk/jetty-websocket/src/main/java/org/eclipse/jetty/websocket/WebSocket.java
+END
+WebSocketConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1116/jetty/trunk/jetty-websocket/src/main/java/org/eclipse/jetty/websocket/WebSocketConnection.java
+END
+WebSocketServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1116/jetty/trunk/jetty-websocket/src/main/java/org/eclipse/jetty/websocket/WebSocketServlet.java
+END
+WebSocketGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1043/jetty/trunk/jetty-websocket/src/main/java/org/eclipse/jetty/websocket/WebSocketGenerator.java
+END
+WebSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1116/jetty/trunk/jetty-websocket/src/main/java/org/eclipse/jetty/websocket/WebSocketFactory.java
+END

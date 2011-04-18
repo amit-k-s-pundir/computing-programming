@@ -1,0 +1,19 @@
+let jee_home="/opt/jee"
+let jdk_docs_home="/home/sonu/programming/java/jdk-6-doc/docs"
+let g:vjde_taglib_uri=""
+let g:vjde_show_paras=1
+let g:vjde_lib_path="jee_home/lib/javaee.jar"
+let g:vjde_out_path="classes"
+let g:vjde_src_path='src'
+let g:vjde_web_app=''
+let g:vjde_autoload_taglib=1
+let g:vjde_autoload_stl=1
+let g:vjde_auto_mark=1
+let g:vjde_xml_advance=1
+let g:vjde_show_preview=1
+let g:vjde_cfu_java_dot=1
+let g:vjde_cfu_java_para=1
+let g:vjde_javadoc_path="jdk_docs_home/jdk/api/javadoc/"
+let g:vjde_preview_gui=1
+let g:vjde_use_project=1
+

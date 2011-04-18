@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/root/src/books
+END
+create_done.tt2
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/root/src/books/create_done.tt2
+END
+list.tt2
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/root/src/books/list.tt2
+END
+form_create.tt2
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/root/src/books/form_create.tt2
+END

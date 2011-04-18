@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/550/jetty/trunk/tests/test-integration/src/test/resources/docroots/virtualhost
+END
+R1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/550/jetty/trunk/tests/test-integration/src/test/resources/docroots/virtualhost/R1.txt
+END
+R2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/550/jetty/trunk/tests/test-integration/src/test/resources/docroots/virtualhost/R2.txt
+END
+R3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/550/jetty/trunk/tests/test-integration/src/test/resources/docroots/virtualhost/R3.txt
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/550/jetty/trunk/tests/test-integration/src/test/resources/docroots/virtualhost/index.html
+END

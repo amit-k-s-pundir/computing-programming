@@ -1,0 +1,23 @@
+#include "boost/filesystem.hpp"
+#include "boost/program_options.hpp"
+
+#include <iostream>
+
+namespace po = boost::program_options;
+using boost::filesystem;
+
+int main(int argc, char* argv[]){
+  po::options_description desc("Allowed options");
+  desc.add_options()
+	("help", "produce help message")
+	("backup-type", po::value<string>(), "What type of backup do you want?")
+	;
+
+  po::variables_map vm;
+  po::store(po::parse_command_line(argc, argv, desc), vm);
+  po::notify(vm);
+
+  
+  
+  return 0;
+}

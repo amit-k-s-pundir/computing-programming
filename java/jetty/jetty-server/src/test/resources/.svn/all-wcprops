@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/test/resources
+END
+fakeRequests.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/test/resources/fakeRequests.txt
+END
+keystore
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/test/resources/keystore
+END

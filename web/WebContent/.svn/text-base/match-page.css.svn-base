@@ -1,0 +1,4 @@
+@CHARSET "US-ASCII";
+body {background-image: url("assets/icons/TrustedTies_Home.jpg");
+background-repeat: no-repeat;
+}

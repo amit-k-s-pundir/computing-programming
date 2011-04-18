@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/rt/org.eclipse.jetty/!svn/ver/175/jetty/trunk/jetty-jmx/src/main/resources/org/eclipse/jetty/servlet/jmx
+END
+ServletContextHandler-mbean.properties
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/rt/org.eclipse.jetty/!svn/ver/175/jetty/trunk/jetty-jmx/src/main/resources/org/eclipse/jetty/servlet/jmx/ServletContextHandler-mbean.properties
+END
+Holder-mbean.properties
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/rt/org.eclipse.jetty/!svn/ver/175/jetty/trunk/jetty-jmx/src/main/resources/org/eclipse/jetty/servlet/jmx/Holder-mbean.properties
+END
+ServletMapping-mbean.properties
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/rt/org.eclipse.jetty/!svn/ver/175/jetty/trunk/jetty-jmx/src/main/resources/org/eclipse/jetty/servlet/jmx/ServletMapping-mbean.properties
+END
+FilterMapping-mbean.properties
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/rt/org.eclipse.jetty/!svn/ver/175/jetty/trunk/jetty-jmx/src/main/resources/org/eclipse/jetty/servlet/jmx/FilterMapping-mbean.properties
+END
+ServletHandler-mbean.properties
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/rt/org.eclipse.jetty/!svn/ver/175/jetty/trunk/jetty-jmx/src/main/resources/org/eclipse/jetty/servlet/jmx/ServletHandler-mbean.properties
+END
+ServletHolder-mbean.properties
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/rt/org.eclipse.jetty/!svn/ver/175/jetty/trunk/jetty-jmx/src/main/resources/org/eclipse/jetty/servlet/jmx/ServletHolder-mbean.properties
+END

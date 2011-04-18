@@ -1,0 +1,41 @@
+#g++ -I /usr/include/libxml2 tc_tool.cpp -o tc_tool -lcurses -lcurl -lxml2
+
+#INCLUDE = -I/usr/X11R6/include/ 
+INCLUDEDIRS = -I/usr/include/libxml2
+#include = -I/usr/include/
+#LIBDIR  = -L/usr/X11R6/lib
+LIBDIRS = 
+LIBS = -lcurl -l curses -lxml2
+
+COMPILERFLAGS = -Wall
+CC = g++
+CPPFLAGS= $(COMPILERFLAGS) $(INCLUDEDIRS)
+#LIBRARIES = -lX11 -lXi -lXmu -lglut -lGL -lGLU -lm
+
+OBJS = tc_tool.o
+#All: lines
+#All: test
+all : tc_tool
+
+#cube: lines.o
+#	$(CC) $(CFLAGS) -o $@ $(LIBDIR) $< $(LIBRARIES)
+tc_tool : $(OBJS)
+	$(CC) $(CPPFLAGS) -o $@ $(LIBDIRS) $< $(LIBS)
+
+tc_tool.o : tc_tool.cpp
+
+#objects: test.o
+
+#test: $(objects)
+#	$(CC) $(CFLAGS)	-o $@ $(LIBDIR) $< $(LIBRARIES)
+#	gcc -o test test.o
+
+#test.o: test.c
+
+#main.o: main.cpp
+#	cc -c main.cpp
+
+.PHONY : clean
+
+clean: 
+	rm -f test $(objects)

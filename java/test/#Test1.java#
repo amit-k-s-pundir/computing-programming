@@ -1,0 +1,27 @@
+
+
+/*
+ * Test1.java 1.00 Tue Jun 09 06:32:46 +0530 2009
+ *
+ */
+
+package test;
+
+public class Test1 {
+	public Test1(){};
+	public interface IAddn{
+		public int addn(int x);
+	}
+	public IAddn getAddn(final int p){
+	return	new IAddn(){
+			public int addn(int x){
+				return (p + x);
+			};
+		};
+	}
+        public static void main(String[] args) {
+		System.out.println((new Test1()).getAddn(5).addn(2));
+        Syste
+        }
+}
+// vim: ft=java

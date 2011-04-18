@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/114065/cfe/trunk/include/clang/Checker/BugReporter
+END
+BugType.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/99731/cfe/trunk/include/clang/Checker/BugReporter/BugType.h
+END
+BugReporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/114065/cfe/trunk/include/clang/Checker/BugReporter/BugReporter.h
+END
+PathDiagnostic.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/llvm-project/!svn/ver/100022/cfe/trunk/include/clang/Checker/BugReporter/PathDiagnostic.h
+END

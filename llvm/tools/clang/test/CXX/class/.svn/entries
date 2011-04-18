@@ -1,0 +1,58 @@
+10
+
+dir
+117907
+http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/class
+http://llvm.org/svn/llvm-project
+
+
+
+2010-10-15T13:21:21.502805Z
+116573
+dgregor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+class.bit
+dir
+
+class.mem
+dir
+
+class.name
+dir
+
+class.nested.type
+dir
+
+class.friend
+dir
+
+class.static
+dir
+
+class.union
+dir
+
+class.mfct
+dir
+
+class.nest
+dir
+
+class.local
+dir
+

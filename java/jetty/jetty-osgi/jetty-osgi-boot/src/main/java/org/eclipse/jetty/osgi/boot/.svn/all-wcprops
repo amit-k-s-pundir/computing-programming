@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1039/jetty/trunk/jetty-osgi/jetty-osgi-boot/src/main/java/org/eclipse/jetty/osgi/boot
+END
+JettyBootstrapActivator.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1033/jetty/trunk/jetty-osgi/jetty-osgi-boot/src/main/java/org/eclipse/jetty/osgi/boot/JettyBootstrapActivator.java
+END
+OSGiWebappConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1039/jetty/trunk/jetty-osgi/jetty-osgi-boot/src/main/java/org/eclipse/jetty/osgi/boot/OSGiWebappConstants.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter9_FormHandler/MyApp/root/src
+END
+login.tt2
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter9_FormHandler/MyApp/root/src/login.tt2
+END
+error_noperms.tt2
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter9_FormHandler/MyApp/root/src/error_noperms.tt2
+END
+wrapper.tt2
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter9_FormHandler/MyApp/root/src/wrapper.tt2
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/resources
+END
+TestResourceAnnotations.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/resources/TestResourceAnnotations.java
+END
+ResourceA.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/resources/ResourceA.java
+END
+ResourceB.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/rt/org.eclipse.jetty/!svn/ver/859/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/resources/ResourceB.java
+END

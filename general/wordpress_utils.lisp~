@@ -1,0 +1,2 @@
+(defun set-up-wordpress-project (base-dir name)
+  )

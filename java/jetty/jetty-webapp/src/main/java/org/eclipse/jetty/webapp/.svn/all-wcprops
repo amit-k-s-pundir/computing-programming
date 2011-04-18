@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1051/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp
+END
+WebInfConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/759/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/WebInfConfiguration.java
+END
+WebAppContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1043/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/WebAppContext.java
+END
+JarScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/JarScanner.java
+END
+JettyWebXmlConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/rt/org.eclipse.jetty/!svn/ver/230/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/JettyWebXmlConfiguration.java
+END
+WebXmlConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/WebXmlConfiguration.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/230/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/Configuration.java
+END
+TagLibConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/TagLibConfiguration.java
+END
+FragmentConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/FragmentConfiguration.java
+END
+MetaInfConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/649/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/MetaInfConfiguration.java
+END
+WebAppClassLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/WebAppClassLoader.java
+END
+WebXmlProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/639/jetty/trunk/jetty-webapp/src/main/java/org/eclipse/jetty/webapp/WebXmlProcessor.java
+END

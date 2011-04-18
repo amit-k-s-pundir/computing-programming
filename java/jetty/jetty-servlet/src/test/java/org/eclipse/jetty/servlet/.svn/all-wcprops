@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-servlet/src/test/java/org/eclipse/jetty/servlet
+END
+StatisticsServletTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-servlet/src/test/java/org/eclipse/jetty/servlet/StatisticsServletTest.java
+END
+SessionTestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-servlet/src/test/java/org/eclipse/jetty/servlet/SessionTestClient.java
+END
+DispatcherTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/56/jetty/trunk/jetty-servlet/src/test/java/org/eclipse/jetty/servlet/DispatcherTest.java
+END
+AbstractSessionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-servlet/src/test/java/org/eclipse/jetty/servlet/AbstractSessionTest.java
+END
+DefaultServletTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-servlet/src/test/java/org/eclipse/jetty/servlet/DefaultServletTest.java
+END
+SessionTestServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/269/jetty/trunk/jetty-servlet/src/test/java/org/eclipse/jetty/servlet/SessionTestServer.java
+END
+InvokerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-servlet/src/test/java/org/eclipse/jetty/servlet/InvokerTest.java
+END

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+                    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  
+  <script>
+  $(document).ready(function(){
+    $("#prev ~ div").css("border", "3px groove blue");
+  });
+  </script>
+  <style>
+  div,span {
+    display:block;
+    width:80px;
+    height:80px;
+    margin:5px;
+    background:#bbffaa;
+    float:left;
+    font-size:14px;
+  }
+  div#small {
+    width:60px;
+    height:25px;
+    font-size:12px;
+    background:#fab;
+  }
+  </style>
+</head>
+<body>
+  <div>div (doesn't match since before #prev)</div>
+  <span id="prev">span#prev</span>
+  <div>div sibling</div>
+  <div>div sibling <div id="small">div niece</div></div>
+  <span>span sibling (not div)</span>
+  <div>div sibling</div>
+</body>
+</html>
+

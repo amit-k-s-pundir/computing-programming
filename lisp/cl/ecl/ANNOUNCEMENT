@@ -1,0 +1,45 @@
+Announcement of ECL v0.9l
+=========================
+
+ECL stands for Embeddable Common-Lisp. The ECL project aims to produce
+an implementation of the Common-Lisp language which complies to the ANSI
+X3J13 definition of the language.
+
+The term embeddable refers to the fact that ECL includes a lisp to C
+compiler, which produces libraries (static or dynamic) that can be
+called from C programs. Furthermore, ECL can produce standalone
+executables from your lisp code and can itself be linked to your
+programs as a shared library.
+
+ECL supports the operating systems Linux, FreeBSD, NetBSD, OpenBSD,
+Solaris (at least v. 9), Microsoft Windows and OSX, running on top of
+the Intel, Sparc, Alpha and PowerPC processors. Porting to other
+architectures should be rather easy.
+
+ECL is currently hosted at Common-Lisp.net and SourceForge. The home
+page of the project is http://ecls.sourceforge.net, and in it you will
+find source code releases, a CVS tree and some useful documentation.
+
+
+Notes for this release
+======================
+
+This release is relevant for various reasons. First of all, several
+important bugs have been fixed which now allow Maxima to be built
+using ECL. Second, there have been serious improvements in performance
+coming mainly from a better garbage collector scheme (incremental
+with generations) and a threaded interpreter. In some cases this results
+in a factor 2 reduction in execution time.
+
+
+Changes since 0.9j
+==================
+
+See file src/CHANGELOG or browse it online
+
+http://common-lisp.net/cgi-bin/viewcvs.cgi/ecl/src/CHANGELOG?root=ecl&view=markup
+
+;;; Local Variables: ***
+;;; mode:text ***
+;;; fill-column:79 ***
+;;; End: ***

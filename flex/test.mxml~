@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- mxml/LayoutExample.mxml -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
+<mx:Panel title="My Application"
+paddingTop="10"
+paddingBottom="10"
+paddingLeft="10"
+paddingRight="10">
+<mx:HBox>
+<!-- List with three items -->
+<mx:List>
+<mx:dataProvider>
+<mx:Array>
+<mx:String>Item 1</mx:String>
+<mx:String>Item 2</mx:String>
+<mx:String>Item 3</mx:String>
+</mx:Array>
+</mx:dataProvider>
+</mx:List>
+<!-- First pane of TabNavigator -->
+<mx:TabNavigator borderStyle="solid">
+<mx:VBox label="Pane1" width="300" height="150">
+<mx:TextArea text="Hello World"/>
+<mx:Button label="Submit"/>
+</mx:VBox>
+<!-- Second pane of TabNavigator -->
+<mx:VBox label="Pane2" width="300" height="150">
+<!-- Stock view goes here -->
+</mx:VBox>
+</mx:TabNavigator>
+</mx:HBox>
+</mx:Panel>
+</mx:Application>

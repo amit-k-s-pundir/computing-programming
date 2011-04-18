@@ -1,0 +1,20 @@
+<html>
+
+<body>
+  <title>Test Page</title>
+</body>
+
+<script>
+function testWinDoc() {
+ 
+  doc= window.document;
+ 
+  alert(doc.title);
+ 
+}
+</script>
+
+<button onclick="testWinDoc();">test document property</button>
+
+</html>
+

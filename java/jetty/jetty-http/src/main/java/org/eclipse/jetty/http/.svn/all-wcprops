@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1094/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http
+END
+HttpURI.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpURI.java
+END
+HttpTokens.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpTokens.java
+END
+HttpMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpMethods.java
+END
+HttpFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpFields.java
+END
+HttpHeaderValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1087/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpHeaderValues.java
+END
+HttpVersions.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpVersions.java
+END
+HttpCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpCookie.java
+END
+HttpContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpContent.java
+END
+AbstractGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1094/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/AbstractGenerator.java
+END
+HttpHeaders.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpHeaders.java
+END
+MimeTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/MimeTypes.java
+END
+EncodedHttpURI.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/EncodedHttpURI.java
+END
+HttpStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/rt/org.eclipse.jetty/!svn/ver/411/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpStatus.java
+END
+HttpGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1094/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpGenerator.java
+END
+Generator.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1094/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/Generator.java
+END
+HttpSchemes.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpSchemes.java
+END
+PathMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/PathMap.java
+END
+HttpParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpParser.java
+END
+HttpBuffers.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpBuffers.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/Parser.java
+END
+HttpException.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/HttpException.java
+END

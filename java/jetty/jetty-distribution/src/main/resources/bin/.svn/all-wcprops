@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/rt/org.eclipse.jetty/!svn/ver/910/jetty/trunk/jetty-distribution/src/main/resources/bin
+END
+jetty-xinetd.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/rt/org.eclipse.jetty/!svn/ver/669/jetty/trunk/jetty-distribution/src/main/resources/bin/jetty-xinetd.sh
+END
+README.jetty-cygwin.txt.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/669/jetty/trunk/jetty-distribution/src/main/resources/bin/README.jetty-cygwin.txt.txt
+END
+jetty-cygwin.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/rt/org.eclipse.jetty/!svn/ver/669/jetty/trunk/jetty-distribution/src/main/resources/bin/jetty-cygwin.sh
+END
+jetty.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/rt/org.eclipse.jetty/!svn/ver/669/jetty/trunk/jetty-distribution/src/main/resources/bin/jetty.sh
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/rt/org.eclipse.jetty/!svn/ver/310/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jndi
+END
+Transaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jndi/Transaction.java
+END
+Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jndi/Resource.java
+END
+NamingEntryUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/230/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jndi/NamingEntryUtil.java
+END
+EnvEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jndi/EnvEntry.java
+END
+NamingEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/310/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jndi/NamingEntry.java
+END
+Link.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jndi/Link.java
+END

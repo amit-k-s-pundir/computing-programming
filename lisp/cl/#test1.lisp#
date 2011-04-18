@@ -1,0 +1,10 @@
+(defclass test-class ()
+  ((x :initform 1 :accessor test-class-x)))
+
+(defclass test-class1 (test-class)
+  ((x :initform 5 :accessor test-class-x)))
+
+(defmethod test-method ((ob test-class))
+  (format t "x is ~A" (test-class-x ob)))
+
+(test-method (make-instance 'test-class1))

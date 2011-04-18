@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1103/jetty/trunk/test-continuation-jetty6/src/test/java/org/eclipse/jetty/continuation
+END
+Jetty6ContinuationNioTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1103/jetty/trunk/test-continuation-jetty6/src/test/java/org/eclipse/jetty/continuation/Jetty6ContinuationNioTest.java
+END
+Jetty6ContinuationBioTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svnroot/rt/org.eclipse.jetty/!svn/ver/990/jetty/trunk/test-continuation-jetty6/src/test/java/org/eclipse/jetty/continuation/Jetty6ContinuationBioTest.java
+END
+Jetty6ContinuationNioFauxTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svnroot/rt/org.eclipse.jetty/!svn/ver/990/jetty/trunk/test-continuation-jetty6/src/test/java/org/eclipse/jetty/continuation/Jetty6ContinuationNioFauxTest.java
+END
+Jetty6ContinuationBioFauxTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svnroot/rt/org.eclipse.jetty/!svn/ver/990/jetty/trunk/test-continuation-jetty6/src/test/java/org/eclipse/jetty/continuation/Jetty6ContinuationBioFauxTest.java
+END

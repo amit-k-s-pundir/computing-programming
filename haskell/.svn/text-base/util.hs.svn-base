@@ -1,0 +1,33 @@
+import System.IO
+import Text.Regex.Posix
+import System.FilePath
+
+--main :: IO ()
+
+--setupFirefoxExnProject :: 
+
+main = setupProject (FirefoxExtP) "~/workspace/programming/mozilla/firefox/extensions/tests/" ("hello", [],[("components", [],[]), 
+	("content",[],[]),("defaluts",[],[]),("docs",[],[]),("icons",[],[]),("lite",[],[]),("locale",[],[]),("platform",[],[]),("skin",[],[])])
+
+class Project a where
+	setup x y :: FilePath -> DirTree -> IO ()
+	setup x y = createDirTree x y
+
+
+createDirTree x y :: FilePath -> DirTree -> IO ()
+createDirTree p t =  do
+	let (baseDir,childrenfiles,childrendir) = t
+	if (isValid x && (lenght
+	let currentDir = p </> baseDir
+	if (basedir == " * | \\.") then error "	
+	createDirectory p
+	map 
+
+createDirectoryTree :: DirectoryTree -> IO ()
+createDirectoryTree x = case x of {DirectoryTree (y:z) -> do {putStrLn y}}
+
+data DirectoryTree = DirectoryTree1 String | DirectoryTree2 [String] | DirectoryTree [DirectoryTree]
+
+--directoryTree :: DirectoryTree
+
+

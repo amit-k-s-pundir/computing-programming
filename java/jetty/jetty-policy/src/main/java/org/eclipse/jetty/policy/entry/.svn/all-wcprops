@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/rt/org.eclipse.jetty/!svn/ver/695/jetty/trunk/jetty-policy/src/main/java/org/eclipse/jetty/policy/entry
+END
+PrincipalEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/451/jetty/trunk/jetty-policy/src/main/java/org/eclipse/jetty/policy/entry/PrincipalEntry.java
+END
+AbstractEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/451/jetty/trunk/jetty-policy/src/main/java/org/eclipse/jetty/policy/entry/AbstractEntry.java
+END
+KeystoreEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/695/jetty/trunk/jetty-policy/src/main/java/org/eclipse/jetty/policy/entry/KeystoreEntry.java
+END
+PermissionEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/rt/org.eclipse.jetty/!svn/ver/693/jetty/trunk/jetty-policy/src/main/java/org/eclipse/jetty/policy/entry/PermissionEntry.java
+END
+GrantEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/451/jetty/trunk/jetty-policy/src/main/java/org/eclipse/jetty/policy/entry/GrantEntry.java
+END

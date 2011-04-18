@@ -1,0 +1,14 @@
+#include <java_utils.cpp>
+
+int main(int argc, char* argv[]){
+  ClassDescriptor classDescriptor({{"name","TestClass"},{"access","public"},
+														  {"storage",""},
+															{"javadoc","/**\n*
+This is a test class"},{"annot",""}});
+
+  //  map<string,string> fi
+  FieldDescriptor fieldDescriptors[] = {FieldDescriptor(map<string,string>({{"type","private"},{"val","5"},
+																								 
+  write_java_class(classDescriptor, fieldDescriptors, funDescriptors);
+  return 0;
+}

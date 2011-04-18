@@ -1,0 +1,11 @@
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
+    <mx:VBox id="myVBox1" borderStyle="solid">
+        <mx:Button label="Submit"/>
+    </mx:VBox>
+    <mx:VBox id="myVBox2"
+        borderStyle="solid"
+        paddingTop="12"
+        paddingBottom="12" >
+        <mx:Button label="Submit"/>
+    </mx:VBox>
+</mx:Application>

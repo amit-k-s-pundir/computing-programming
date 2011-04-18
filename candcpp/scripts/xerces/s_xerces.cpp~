@@ -1,0 +1,9 @@
+#include <xerces/util/PlatformUtils.hpp>
+
+#include <iostream>
+
+XERCES_CPP_NAMESPACE_USE
+
+int main(int argc, char* argv[]){
+
+}

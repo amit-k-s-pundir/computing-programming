@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1116/jetty/trunk/jetty-websocket/src/test/java/org/eclipse/jetty/websocket
+END
+WebSocketParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1089/jetty/trunk/jetty-websocket/src/test/java/org/eclipse/jetty/websocket/WebSocketParserTest.java
+END
+WebSocketTestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1116/jetty/trunk/jetty-websocket/src/test/java/org/eclipse/jetty/websocket/WebSocketTestClient.java
+END
+WebSocketTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1043/jetty/trunk/jetty-websocket/src/test/java/org/eclipse/jetty/websocket/WebSocketTest.java
+END
+WebSocketGeneratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1043/jetty/trunk/jetty-websocket/src/test/java/org/eclipse/jetty/websocket/WebSocketGeneratorTest.java
+END
+WebSocketTestServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1114/jetty/trunk/jetty-websocket/src/test/java/org/eclipse/jetty/websocket/WebSocketTestServer.java
+END

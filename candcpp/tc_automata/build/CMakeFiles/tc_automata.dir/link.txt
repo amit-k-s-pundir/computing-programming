@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/tc_automata.dir/main.cpp.o  -o tc_automata -rdynamic 

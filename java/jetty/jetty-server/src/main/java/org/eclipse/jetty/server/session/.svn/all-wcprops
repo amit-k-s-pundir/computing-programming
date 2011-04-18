@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/session
+END
+AbstractSessionIdManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/session/AbstractSessionIdManager.java
+END
+HashSessionIdManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/session/HashSessionIdManager.java
+END
+JDBCSessionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/session/JDBCSessionManager.java
+END
+SessionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/session/SessionHandler.java
+END
+AbstractSessionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/session/AbstractSessionManager.java
+END
+HashSessionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/session/HashSessionManager.java
+END
+JDBCSessionIdManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/session/JDBCSessionIdManager.java
+END

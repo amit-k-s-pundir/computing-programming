@@ -1,0 +1,40 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Feb 25 16:50:08 2011
+;; Desktop file format version 206
+;; Emacs version 23.1.50.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list '("./TAGS" "../TAGS" "../../TAGS"))
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/workspace/programming/java/" "~/.emacs" "~/workspace/programming/java/Test1.java" "~/.emacs"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/sonu/workspace/programming/java/Test1.java"
+  "Test1.java"
+  'java-mode
+  '(abbrev-mode eldoc-mode ede-minor-mode)
+  225
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/sonu/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(eldoc-mode semantic-stickyfunc-mode semantic-highlight-func-mode ede-minor-mode senator-minor-mode semantic-idle-scheduler-mode semantic-idle-summary-mode semantic-idle-local-symbol-highlight-mode semantic-idle-completions-mode semantic-mru-bookmark-mode semantic-decoration-mode srecode-minor-mode)
+  10401
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
+

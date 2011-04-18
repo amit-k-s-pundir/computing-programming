@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter6/MyApp
+END
+myapp01.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/myapp01.sql
+END
+myapp02.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/myapp02.sql
+END
+set_hashed_passwords.pl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/set_hashed_passwords.pl
+END
+Makefile.PL
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/Makefile.PL
+END
+Changes
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/Changes
+END
+myapp.conf
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/myapp.conf
+END
+myapp.db
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/myapp.db
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/README
+END

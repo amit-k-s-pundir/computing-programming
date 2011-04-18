@@ -1,0 +1,15 @@
+;; Object cl/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cl/"
+  :tables (list 
+   (semanticdb-table "init-sbcl.lisp"
+    :major-mode 'lisp-mode
+    :tags '(("in-package" code nil nil [1 22]) ("ql-load-packages" function (:arguments ("packages")) nil [561 658]) ("ql-load-packages" code nil nil [660 739]))
+    :file "init-sbcl.lisp"
+    :pointmax 1263
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

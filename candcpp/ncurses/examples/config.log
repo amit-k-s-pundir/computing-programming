@@ -1,0 +1,20 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:541: checking for X
+configure:609:   conftest.c >/dev/null 2>conftest.out
+eval: 1: conftest.c: not found
+configure: failed program was:
+#line 604 "configure"
+#include "confdefs.h"
+#include <X11/Intrinsic.h>
+configure:685: cc -o conftest    conftest.c -lXt  1>&5
+/usr/bin/ld: cannot find -lXt
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 678 "configure"
+#include "confdefs.h"
+
+int main() {
+XtMalloc()
+; return 0; }

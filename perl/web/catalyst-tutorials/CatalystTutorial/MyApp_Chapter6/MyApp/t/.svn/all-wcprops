@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/t
+END
+controller_Books.t
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/t/controller_Books.t
+END
+01app.t
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/t/01app.t
+END
+03podcoverage.t
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/t/03podcoverage.t
+END
+view_TT.t
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/t/view_TT.t
+END
+02pod.t
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/t/02pod.t
+END
+model_DB.t
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/t/model_DB.t
+END
+controller_Login.t
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/t/controller_Login.t
+END
+controller_Logout.t
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter6/MyApp/t/controller_Logout.t
+END

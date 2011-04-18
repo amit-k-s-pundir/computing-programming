@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1015/jetty/trunk/jetty-http/src/main/resources/org/eclipse/jetty/http
+END
+useragents
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/resources/org/eclipse/jetty/http/useragents
+END
+encoding.properties
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-http/src/main/resources/org/eclipse/jetty/http/encoding.properties
+END
+mime.properties
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1015/jetty/trunk/jetty-http/src/main/resources/org/eclipse/jetty/http/mime.properties
+END

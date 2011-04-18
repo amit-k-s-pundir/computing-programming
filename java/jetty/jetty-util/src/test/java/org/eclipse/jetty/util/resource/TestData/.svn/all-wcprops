@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/rt/org.eclipse.jetty/!svn/ver/722/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/resource/TestData
+END
+test.zip
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/resource/TestData/test.zip
+END
+alt.zip
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/resource/TestData/alt.zip
+END
+extract.zip
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/722/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/resource/TestData/extract.zip
+END
+alphabet.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/resource/TestData/alphabet.txt
+END

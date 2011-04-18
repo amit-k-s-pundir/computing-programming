@@ -1,0 +1,24 @@
+# g++ -I /usr/include/libxml2 tc_tool.cpp -o tc_tool -lcurl -lcurses -lxml2
+
+INCLUDEDIRS = -I/usr/include/libxml2
+
+LIBDIRS =
+
+LIBS = -lcurl -lcurses -lxml2
+
+COMPILERFLAGS = -std=c++0x -Wall -g
+CC = g++
+CPPFLAGS = $(COMPILERFLAGS) $(INCLUDEDIRS)
+
+OBJS = tc_tool.o
+
+all : tc_tool
+tc_tool : $(OBJS)
+	$(CC) $(CPPFLAGS) -o $@ $(LIBDIRS) $< $(LIBS)
+
+tc_tool.o : tc_tool.cpp
+
+.PHONY : clean
+
+clean :
+	rm -f test $(OBJS)

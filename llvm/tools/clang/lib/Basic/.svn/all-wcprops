@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/llvm-project/!svn/ver/117775/cfe/trunk/lib/Basic
+END
+ConvertUTF.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/81346/cfe/trunk/lib/Basic/ConvertUTF.c
+END
+TargetInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/116699/cfe/trunk/lib/Basic/TargetInfo.cpp
+END
+Diagnostic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/116468/cfe/trunk/lib/Basic/Diagnostic.cpp
+END
+Version.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/116269/cfe/trunk/lib/Basic/Version.cpp
+END
+Builtins.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/108499/cfe/trunk/lib/Basic/Builtins.cpp
+END
+SourceLocation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/98674/cfe/trunk/lib/Basic/SourceLocation.cpp
+END
+Targets.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/117743/cfe/trunk/lib/Basic/Targets.cpp
+END
+TokenKinds.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/90042/cfe/trunk/lib/Basic/TokenKinds.cpp
+END
+FileManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/111866/cfe/trunk/lib/Basic/FileManager.cpp
+END
+IdentifierTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/117775/cfe/trunk/lib/Basic/IdentifierTable.cpp
+END
+SourceManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/117393/cfe/trunk/lib/Basic/SourceManager.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/117110/cfe/trunk/lib/Basic/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/115071/cfe/trunk/lib/Basic/Makefile
+END

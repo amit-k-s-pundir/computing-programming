@@ -1,0 +1,3 @@
+
+(user-homedir-pathname)
+(format t "~<~A~:>" '(sonu))

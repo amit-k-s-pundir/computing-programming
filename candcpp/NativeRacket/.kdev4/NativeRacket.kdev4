@@ -1,0 +1,11 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x18\x00N\x00a\x00t\x00i\x00v\x00e\x00R\x00a\x00c\x00k\x00e\x00t)
+
+[CMake]
+BuildDirs=/home/sonu/workspace/programming/candcpp/NativeRacket/build
+CMakeDir=/usr/share/cmake-2.8/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/sonu/workspace/programming/candcpp/NativeRacket/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+ProjectRootRelative=./

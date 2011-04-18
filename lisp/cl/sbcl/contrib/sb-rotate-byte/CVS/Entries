@@ -1,0 +1,13 @@
+/.cvsignore/1.1/Wed May 28 14:28:07 2003//
+/Makefile/1.4/Wed Mar 19 13:15:46 2003//
+/README/1.1/Tue Feb 11 15:42:44 2003//
+/package.lisp/1.1/Tue Feb 11 15:42:44 2003//
+/ppc-vm.lisp/1.2/Thu Jul 14 16:30:09 2005//
+/rotate-byte.lisp/1.3/Thu Jul 14 16:30:09 2005//
+/sb-rotate-byte.texinfo/1.3/Fri Apr 16 14:17:39 2004//
+/x86-vm.lisp/1.3/Fri Aug 26 17:52:25 2005//
+/compiler.lisp/1.6/Sat Oct 30 05:14:03 2010//
+/rotate-byte-tests.lisp/1.4/Sat Oct 30 05:14:03 2010//
+/sb-rotate-byte.asd/1.9/Sat Oct 30 05:14:03 2010//
+/x86-64-vm.lisp/1.1/Fri Jan  8 16:29:32 2010//
+D

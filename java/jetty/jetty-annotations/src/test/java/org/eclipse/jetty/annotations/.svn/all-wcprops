@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations
+END
+Sample.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/Sample.java
+END
+TestServletAnnotations.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/rt/org.eclipse.jetty/!svn/ver/859/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/TestServletAnnotations.java
+END
+InterfaceD.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/575/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/InterfaceD.java
+END
+TestAnnotationInheritance.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/TestAnnotationInheritance.java
+END
+ClassA.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/ClassA.java
+END
+ClassB.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/575/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/ClassB.java
+END
+ServletC.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/859/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/ServletC.java
+END
+TestAnnotationParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/rt/org.eclipse.jetty/!svn/ver/859/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/TestAnnotationParser.java
+END
+FilterC.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/575/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/FilterC.java
+END
+ListenerC.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/575/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/ListenerC.java
+END
+Multi.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/575/jetty/trunk/jetty-annotations/src/test/java/org/eclipse/jetty/annotations/Multi.java
+END

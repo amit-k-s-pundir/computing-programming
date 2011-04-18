@@ -1,0 +1,7 @@
+#!/usr/bin/perl -w
+
+&main;
+
+sub main{
+  my($linux_kernel_img_ver, $grub_conf_file) = @_;
+  

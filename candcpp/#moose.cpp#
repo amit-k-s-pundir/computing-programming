@@ -1,0 +1,6 @@
+#include "moose.h"
+
+int main() {
+  struct Moose M;
+
+  int q = M->

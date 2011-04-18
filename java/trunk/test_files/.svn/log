@@ -1,0 +1,630 @@
+<modify-entry
+   name="LifelineWithStereoTypeAndDocument.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/LifelineWithStereoTypeAndDocument.zuml.svn-base"
+   name=".svn/prop-base/tempfile.tmp"/>
+<readonly
+   name=".svn/prop-base/LifelineWithStereoTypeAndDocument.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="LifelineWithStereoTypeAndDocument.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="LifelineWithStereoTypeAndDocument.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/LifelineWithStereoTypeAndDocument.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="LifelineWithStereoTypeAndDocument.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="LifelineWithStereoTypeAndDocument.zuml"
+   name=".svn/tmp/text-base/LifelineWithStereoTypeAndDocument.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/LifelineWithStereoTypeAndDocument.zuml.svn-base"
+   name=".svn/tmp/text-base/LifelineWithStereoTypeAndDocument.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/LifelineWithStereoTypeAndDocument.zuml.svn-base"/>
+<modify-entry
+   name="LifelineWithStereoTypeAndDocument.zuml"
+   checksum="9369114be671ff5a620efb4d893c805b"/>
+<modify-entry
+   name="LifelineWithStereoTypeAndDocument.zuml"
+   text-time="working"/>
+<modify-entry
+   name="LifelineWithStereoTypeAndDocument.zuml"
+   working-size="working"/>
+<modify-entry
+   name="wrong.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/wrong.zuml.svn-base"
+   name=".svn/prop-base/tempfile.2.tmp"/>
+<readonly
+   name=".svn/prop-base/wrong.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="wrong.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="wrong.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/wrong.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="wrong.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="wrong.zuml"
+   name=".svn/tmp/text-base/wrong.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/wrong.zuml.svn-base"
+   name=".svn/tmp/text-base/wrong.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/wrong.zuml.svn-base"/>
+<modify-entry
+   name="wrong.zuml"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"/>
+<modify-entry
+   name="wrong.zuml"
+   text-time="working"/>
+<modify-entry
+   name="wrong.zuml"
+   working-size="working"/>
+<modify-entry
+   name="OverlappingComments.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/OverlappingComments.zuml.svn-base"
+   name=".svn/prop-base/tempfile.3.tmp"/>
+<readonly
+   name=".svn/prop-base/OverlappingComments.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="OverlappingComments.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="OverlappingComments.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/OverlappingComments.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="OverlappingComments.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="OverlappingComments.zuml"
+   name=".svn/tmp/text-base/OverlappingComments.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/OverlappingComments.zuml.svn-base"
+   name=".svn/tmp/text-base/OverlappingComments.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/OverlappingComments.zuml.svn-base"/>
+<modify-entry
+   name="OverlappingComments.zuml"
+   checksum="b1fe035c2c9a1d9ba41a93f0c04da901"/>
+<modify-entry
+   name="OverlappingComments.zuml"
+   text-time="working"/>
+<modify-entry
+   name="OverlappingComments.zuml"
+   working-size="working"/>
+<modify-entry
+   name="AsynchronousMessageWithAccessedProperty.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/AsynchronousMessageWithAccessedProperty.zuml.svn-base"
+   name=".svn/prop-base/tempfile.4.tmp"/>
+<readonly
+   name=".svn/prop-base/AsynchronousMessageWithAccessedProperty.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="AsynchronousMessageWithAccessedProperty.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="AsynchronousMessageWithAccessedProperty.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/AsynchronousMessageWithAccessedProperty.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="AsynchronousMessageWithAccessedProperty.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="AsynchronousMessageWithAccessedProperty.zuml"
+   name=".svn/tmp/text-base/AsynchronousMessageWithAccessedProperty.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/AsynchronousMessageWithAccessedProperty.zuml.svn-base"
+   name=".svn/tmp/text-base/AsynchronousMessageWithAccessedProperty.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/AsynchronousMessageWithAccessedProperty.zuml.svn-base"/>
+<modify-entry
+   name="AsynchronousMessageWithAccessedProperty.zuml"
+   checksum="283d94d0beb42355f64acd26d2fa971c"/>
+<modify-entry
+   name="AsynchronousMessageWithAccessedProperty.zuml"
+   text-time="working"/>
+<modify-entry
+   name="AsynchronousMessageWithAccessedProperty.zuml"
+   working-size="working"/>
+<modify-entry
+   name="OverlappingRectangles.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/OverlappingRectangles.zuml.svn-base"
+   name=".svn/prop-base/tempfile.5.tmp"/>
+<readonly
+   name=".svn/prop-base/OverlappingRectangles.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="OverlappingRectangles.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="OverlappingRectangles.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/OverlappingRectangles.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="OverlappingRectangles.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="OverlappingRectangles.zuml"
+   name=".svn/tmp/text-base/OverlappingRectangles.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/OverlappingRectangles.zuml.svn-base"
+   name=".svn/tmp/text-base/OverlappingRectangles.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/OverlappingRectangles.zuml.svn-base"/>
+<modify-entry
+   name="OverlappingRectangles.zuml"
+   checksum="707432fae3d9078bdd47bb55224b1971"/>
+<modify-entry
+   name="OverlappingRectangles.zuml"
+   text-time="working"/>
+<modify-entry
+   name="OverlappingRectangles.zuml"
+   working-size="working"/>
+<modify-entry
+   name="OverlappingLifeline.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/OverlappingLifeline.zuml.svn-base"
+   name=".svn/prop-base/tempfile.6.tmp"/>
+<readonly
+   name=".svn/prop-base/OverlappingLifeline.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="OverlappingLifeline.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="OverlappingLifeline.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/OverlappingLifeline.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="OverlappingLifeline.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="OverlappingLifeline.zuml"
+   name=".svn/tmp/text-base/OverlappingLifeline.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/OverlappingLifeline.zuml.svn-base"
+   name=".svn/tmp/text-base/OverlappingLifeline.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/OverlappingLifeline.zuml.svn-base"/>
+<modify-entry
+   name="OverlappingLifeline.zuml"
+   checksum="ab6f0ed7ef8055766fa5d3f0b47af99d"/>
+<modify-entry
+   name="OverlappingLifeline.zuml"
+   text-time="working"/>
+<modify-entry
+   name="OverlappingLifeline.zuml"
+   working-size="working"/>
+<modify-entry
+   name="DestroyMessage.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/DestroyMessage.zuml.svn-base"
+   name=".svn/prop-base/tempfile.7.tmp"/>
+<readonly
+   name=".svn/prop-base/DestroyMessage.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="DestroyMessage.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="DestroyMessage.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/DestroyMessage.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="DestroyMessage.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="DestroyMessage.zuml"
+   name=".svn/tmp/text-base/DestroyMessage.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/DestroyMessage.zuml.svn-base"
+   name=".svn/tmp/text-base/DestroyMessage.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/DestroyMessage.zuml.svn-base"/>
+<modify-entry
+   name="DestroyMessage.zuml"
+   checksum="28605e924973b689ca8c256aa3a1ce2f"/>
+<modify-entry
+   name="DestroyMessage.zuml"
+   text-time="working"/>
+<modify-entry
+   name="DestroyMessage.zuml"
+   working-size="working"/>
+<modify-entry
+   name="TestsConfig.xml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/TestsConfig.xml.svn-base"
+   name=".svn/prop-base/tempfile.8.tmp"/>
+<readonly
+   name=".svn/prop-base/TestsConfig.xml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="TestsConfig.xml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="TestsConfig.xml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/TestsConfig.xml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="TestsConfig.xml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="TestsConfig.xml"
+   name=".svn/tmp/text-base/TestsConfig.xml.svn-base"/>
+<mv
+   dest=".svn/text-base/TestsConfig.xml.svn-base"
+   name=".svn/tmp/text-base/TestsConfig.xml.svn-base"/>
+<readonly
+   name=".svn/text-base/TestsConfig.xml.svn-base"/>
+<modify-entry
+   name="TestsConfig.xml"
+   checksum="0ccc9b48255697b15d086a51034cd81f"/>
+<modify-entry
+   name="TestsConfig.xml"
+   text-time="working"/>
+<modify-entry
+   name="TestsConfig.xml"
+   working-size="working"/>
+<modify-entry
+   name="CreateMessageWithStereotypeAndDoc.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/CreateMessageWithStereotypeAndDoc.zuml.svn-base"
+   name=".svn/prop-base/tempfile.9.tmp"/>
+<readonly
+   name=".svn/prop-base/CreateMessageWithStereotypeAndDoc.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="CreateMessageWithStereotypeAndDoc.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="CreateMessageWithStereotypeAndDoc.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/CreateMessageWithStereotypeAndDoc.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="CreateMessageWithStereotypeAndDoc.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="CreateMessageWithStereotypeAndDoc.zuml"
+   name=".svn/tmp/text-base/CreateMessageWithStereotypeAndDoc.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/CreateMessageWithStereotypeAndDoc.zuml.svn-base"
+   name=".svn/tmp/text-base/CreateMessageWithStereotypeAndDoc.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/CreateMessageWithStereotypeAndDoc.zuml.svn-base"/>
+<modify-entry
+   name="CreateMessageWithStereotypeAndDoc.zuml"
+   checksum="7603ff932782f9981b8150d23eabf254"/>
+<modify-entry
+   name="CreateMessageWithStereotypeAndDoc.zuml"
+   text-time="working"/>
+<modify-entry
+   name="CreateMessageWithStereotypeAndDoc.zuml"
+   working-size="working"/>
+<modify-entry
+   name="OverlappingCreateMessages.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/OverlappingCreateMessages.zuml.svn-base"
+   name=".svn/prop-base/tempfile.10.tmp"/>
+<readonly
+   name=".svn/prop-base/OverlappingCreateMessages.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="OverlappingCreateMessages.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="OverlappingCreateMessages.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/OverlappingCreateMessages.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="OverlappingCreateMessages.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="OverlappingCreateMessages.zuml"
+   name=".svn/tmp/text-base/OverlappingCreateMessages.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/OverlappingCreateMessages.zuml.svn-base"
+   name=".svn/tmp/text-base/OverlappingCreateMessages.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/OverlappingCreateMessages.zuml.svn-base"/>
+<modify-entry
+   name="OverlappingCreateMessages.zuml"
+   checksum="5a488dfeb62913036d7b5001d1e5e2c0"/>
+<modify-entry
+   name="OverlappingCreateMessages.zuml"
+   text-time="working"/>
+<modify-entry
+   name="OverlappingCreateMessages.zuml"
+   working-size="working"/>
+<modify-entry
+   name="OverlappingSynchronousMessage.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/OverlappingSynchronousMessage.zuml.svn-base"
+   name=".svn/prop-base/tempfile.11.tmp"/>
+<readonly
+   name=".svn/prop-base/OverlappingSynchronousMessage.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="OverlappingSynchronousMessage.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="OverlappingSynchronousMessage.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/OverlappingSynchronousMessage.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="OverlappingSynchronousMessage.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="OverlappingSynchronousMessage.zuml"
+   name=".svn/tmp/text-base/OverlappingSynchronousMessage.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/OverlappingSynchronousMessage.zuml.svn-base"
+   name=".svn/tmp/text-base/OverlappingSynchronousMessage.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/OverlappingSynchronousMessage.zuml.svn-base"/>
+<modify-entry
+   name="OverlappingSynchronousMessage.zuml"
+   checksum="6ab95a5bc1817da9c872d96d78254792"/>
+<modify-entry
+   name="OverlappingSynchronousMessage.zuml"
+   text-time="working"/>
+<modify-entry
+   name="OverlappingSynchronousMessage.zuml"
+   working-size="working"/>
+<modify-entry
+   name="OverlappingCommentBlocks.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/OverlappingCommentBlocks.zuml.svn-base"
+   name=".svn/prop-base/tempfile.12.tmp"/>
+<readonly
+   name=".svn/prop-base/OverlappingCommentBlocks.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="OverlappingCommentBlocks.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="OverlappingCommentBlocks.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/OverlappingCommentBlocks.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="OverlappingCommentBlocks.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="OverlappingCommentBlocks.zuml"
+   name=".svn/tmp/text-base/OverlappingCommentBlocks.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/OverlappingCommentBlocks.zuml.svn-base"
+   name=".svn/tmp/text-base/OverlappingCommentBlocks.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/OverlappingCommentBlocks.zuml.svn-base"/>
+<modify-entry
+   name="OverlappingCommentBlocks.zuml"
+   checksum="275ed3fa05d23d15f1310f576530c10d"/>
+<modify-entry
+   name="OverlappingCommentBlocks.zuml"
+   text-time="working"/>
+<modify-entry
+   name="OverlappingCommentBlocks.zuml"
+   working-size="working"/>
+<modify-entry
+   name="SequenceInNamespace.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/SequenceInNamespace.zuml.svn-base"
+   name=".svn/prop-base/tempfile.13.tmp"/>
+<readonly
+   name=".svn/prop-base/SequenceInNamespace.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="SequenceInNamespace.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="SequenceInNamespace.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/SequenceInNamespace.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="SequenceInNamespace.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="SequenceInNamespace.zuml"
+   name=".svn/tmp/text-base/SequenceInNamespace.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/SequenceInNamespace.zuml.svn-base"
+   name=".svn/tmp/text-base/SequenceInNamespace.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/SequenceInNamespace.zuml.svn-base"/>
+<modify-entry
+   name="SequenceInNamespace.zuml"
+   checksum="bc0b8a45e30e9e9c248a2d3331dd958d"/>
+<modify-entry
+   name="SequenceInNamespace.zuml"
+   text-time="working"/>
+<modify-entry
+   name="SequenceInNamespace.zuml"
+   working-size="working"/>
+<modify-entry
+   name="OverlappingCommentByLifeline.zuml"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/OverlappingCommentByLifeline.zuml.svn-base"
+   name=".svn/prop-base/tempfile.14.tmp"/>
+<readonly
+   name=".svn/prop-base/OverlappingCommentByLifeline.zuml.svn-base"/>
+<modify-entry
+   committed-rev="137625"
+   committed-date="2008-10-05T00:34:12.867503Z"
+   name="OverlappingCommentByLifeline.zuml"
+   last-author="Ghostar"
+   uuid="fb370eea-3af6-4597-97f7-f7400a59c12a"/>
+<modify-wcprop
+   name="OverlappingCommentByLifeline.zuml"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/anonymous/!svn/ver/137625/external/uml_distro/trunk/test_files/OverlappingCommentByLifeline.zuml"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="OverlappingCommentByLifeline.zuml"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="185106"/>
+<cp-and-translate
+   dest="OverlappingCommentByLifeline.zuml"
+   name=".svn/tmp/text-base/OverlappingCommentByLifeline.zuml.svn-base"/>
+<mv
+   dest=".svn/text-base/OverlappingCommentByLifeline.zuml.svn-base"
+   name=".svn/tmp/text-base/OverlappingCommentByLifeline.zuml.svn-base"/>
+<readonly
+   name=".svn/text-base/OverlappingCommentByLifeline.zuml.svn-base"/>
+<modify-entry
+   name="OverlappingCommentByLifeline.zuml"
+   checksum="b1641908887ae5a5993ddae9d8afc6f0"/>
+<modify-entry
+   name="OverlappingCommentByLifeline.zuml"
+   text-time="working"/>
+<modify-entry
+   name="OverlappingCommentByLifeline.zuml"
+   working-size="working"/>

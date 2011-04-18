@@ -1,0 +1,7 @@
+#lang scheme/load
+
+(module test1 scheme
+(define amount 150)
+(provide/contract [amount (and/c number? positive?)]))
+
+

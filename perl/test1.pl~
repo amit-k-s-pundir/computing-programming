@@ -1,0 +1,17 @@
+#!/usr/bin/perl --
+   
+   	use strict;
+   	use Frontier::Client;
+   	use Data::Dumper;
+   
+   	my $rps = Frontier::Client->new(
+   		 url => "http://durgan.daisypark.net/jjohn/rpc_addresses.asp",
+   					);
+   
+   	print "\nCalling dump_address_book()\n";
+   
+   	eval { my $aref = $rps->call("dump_address_book");
+   	       print Dumper($aref);
+   	     };
+   
+   	print "\ndone\n";

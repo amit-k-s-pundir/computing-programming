@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-jmx/src/test/resources/com/acme/management
+END
+Derived-mbean.properties
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-jmx/src/test/resources/com/acme/management/Derived-mbean.properties
+END

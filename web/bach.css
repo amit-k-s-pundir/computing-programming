@@ -1,0 +1,6 @@
+INSTRUMENT { display: inline }
+ARTICLE, HEADLINE, AUTHOR, PARA { display: block }
+HEADLINE {font-style: 1.4em}
+AUTHOR {font-style: italic}
+ARTICLE, HEADLINE, AUTHOR, PARA {margin: 0.5em}
+

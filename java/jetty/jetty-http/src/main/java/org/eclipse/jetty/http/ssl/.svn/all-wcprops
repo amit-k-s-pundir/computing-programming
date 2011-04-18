@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1047/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/ssl
+END
+SslSelectChannelEndPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1047/jetty/trunk/jetty-http/src/main/java/org/eclipse/jetty/http/ssl/SslSelectChannelEndPoint.java
+END

@@ -1,0 +1,172 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Mar 18 07:44:17 2011
+;; Desktop file format version 206
+;; Emacs version 23.1.50.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list '("./TAGS" "../TAGS" "../../TAGS"))
+(setq search-ring '("jde" "quack" "w3"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/workspace/programming/candcpp/tc_automata/" "~/.emacs_latest" "~/.bash_profile" "~/.emacs" "/etc/emacs/site-start.el" "~/workspace/programming/candcpp/tc_automata/" "~/workspace/programming/candcpp/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/sonu/workspace/programming/candcpp/tc_automata/tc_tool.cpp"
+  "tc_tool.cpp"
+  'c++-mode
+  '(abbrev-mode eldoc-mode)
+  4906
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  '(eldoc-mode)
+  1002
+  '(236 nil)
+  t
+  nil
+  '((tab-width . 8) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/home/sonu/.emacs_latest"
+  ".emacs_latest"
+  'emacs-lisp-mode
+  '(eldoc-mode semantic-stickyfunc-mode senator-minor-mode semantic-idle-scheduler-mode semantic-idle-summary-mode semantic-idle-completions-mode semantic-mru-bookmark-mode semantic-decoration-mode srecode-minor-mode)
+  9233
+  '(11968 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/sonu/.bash_profile"
+  ".bash_profile"
+  'sh-mode
+  '(eldoc-mode)
+  2288
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/etc/emacs/site-start.el"
+  "site-start.el"
+  'emacs-lisp-mode
+  '(eldoc-mode semantic-stickyfunc-mode senator-minor-mode semantic-idle-scheduler-mode semantic-idle-summary-mode semantic-idle-completions-mode semantic-mru-bookmark-mode semantic-decoration-mode srecode-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "tc_automata"
+  'dired-mode
+  '(eldoc-mode)
+  969
+  '(nil nil)
+  t
+  '("/home/sonu/workspace/programming/candcpp/tc_automata/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "candcpp"
+  'dired-mode
+  '(eldoc-mode)
+  5870
+  '(4388 nil)
+  t
+  '("/home/sonu/workspace/programming/candcpp/")
+  nil)
+
+(desktop-create-buffer 206
+  "/usr/share/emacs/23.1.50/lisp/shell.el.gz"
+  "shell.el.gz"
+  'emacs-lisp-mode
+  '(eldoc-mode)
+  61
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/share/emacs/23.1.50/lisp/isearch.el.gz"
+  "isearch.el.gz"
+  'emacs-lisp-mode
+  '(eldoc-mode)
+  49
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/sonu/programming/cedet/eieio/tree.el"
+  "tree.el"
+  'emacs-lisp-mode
+  '(eldoc-mode)
+  67
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/share/emacs/23.1.50/lisp/nxml/xmltok.el.gz"
+  "xmltok.el.gz"
+  'emacs-lisp-mode
+  '(eldoc-mode)
+  35
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/share/emacs/23.1.50/lisp/env.el.gz"
+  "env.el.gz"
+  'emacs-lisp-mode
+  '(eldoc-mode)
+  61
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/share/emacs/23.1.50/lisp/progmodes/cc-styles.el.gz"
+  "cc-styles.el.gz"
+  'emacs-lisp-mode
+  '(eldoc-mode)
+  51
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/share/emacs/23.1.50/lisp/progmodes/cc-cmds.el.gz"
+  "cc-cmds.el.gz"
+  'emacs-lisp-mode
+  '(eldoc-mode)
+  51
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

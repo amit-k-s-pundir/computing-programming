@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/111983/cfe/trunk/test/Frontend/Inputs
+END
+lit.local.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/111983/cfe/trunk/test/Frontend/Inputs/lit.local.cfg
+END
+test.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/111983/cfe/trunk/test/Frontend/Inputs/test.h
+END
+test2.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/111983/cfe/trunk/test/Frontend/Inputs/test2.h
+END
+test3.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/111983/cfe/trunk/test/Frontend/Inputs/test3.h
+END

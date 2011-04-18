@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1094/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server
+END
+HttpInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/HttpInput.java
+END
+HttpConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1094/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/HttpConnection.java
+END
+NCSARequestLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/NCSARequestLog.java
+END
+HttpOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/HttpOutput.java
+END
+CookieCutter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/CookieCutter.java
+END
+InclusiveByteRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/513/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/InclusiveByteRange.java
+END
+LocalConnector.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1043/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/LocalConnector.java
+END
+Server.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1087/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/Server.java
+END
+AsyncContinuation.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1022/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/AsyncContinuation.java
+END
+ResourceCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/ResourceCache.java
+END
+HttpWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1030/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/HttpWriter.java
+END
+Handler.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/593/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/Handler.java
+END
+AbstractConnector.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1089/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/AbstractConnector.java
+END
+SessionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/SessionManager.java
+END
+Authentication.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/Authentication.java
+END
+HandlerContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/209/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/HandlerContainer.java
+END
+AsyncContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/990/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/AsyncContext.java
+END
+Dispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/Dispatcher.java
+END
+DispatcherType.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/27/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/DispatcherType.java
+END
+Request.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1049/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/Request.java
+END
+UserIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/UserIdentity.java
+END
+Connector.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/rt/org.eclipse.jetty/!svn/ver/396/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/Connector.java
+END
+RequestLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/RequestLog.java
+END
+SessionIdManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/SessionIdManager.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1094/jetty/trunk/jetty-server/src/main/java/org/eclipse/jetty/server/Response.java
+END

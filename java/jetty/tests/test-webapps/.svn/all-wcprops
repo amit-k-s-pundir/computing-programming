@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1098/jetty/trunk/tests/test-webapps
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/rt/org.eclipse.jetty/!svn/ver/496/jetty/trunk/tests/test-webapps/.gitignore
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1098/jetty/trunk/tests/test-webapps/pom.xml
+END

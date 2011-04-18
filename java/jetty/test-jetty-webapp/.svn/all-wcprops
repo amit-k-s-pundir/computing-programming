@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1098/jetty/trunk/test-jetty-webapp
+END
+jetty-chat.jmx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/rt/org.eclipse.jetty/!svn/ver/283/jetty/trunk/test-jetty-webapp/jetty-chat.jmx
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1098/jetty/trunk/test-jetty-webapp/pom.xml
+END

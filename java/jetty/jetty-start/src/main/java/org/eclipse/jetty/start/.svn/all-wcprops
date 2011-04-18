@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/rt/org.eclipse.jetty/!svn/ver/989/jetty/trunk/jetty-start/src/main/java/org/eclipse/jetty/start
+END
+Classpath.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/587/jetty/trunk/jetty-start/src/main/java/org/eclipse/jetty/start/Classpath.java
+END
+JarVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/rt/org.eclipse.jetty/!svn/ver/587/jetty/trunk/jetty-start/src/main/java/org/eclipse/jetty/start/JarVersion.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/rt/org.eclipse.jetty/!svn/ver/989/jetty/trunk/jetty-start/src/main/java/org/eclipse/jetty/start/Main.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/rt/org.eclipse.jetty/!svn/ver/860/jetty/trunk/jetty-start/src/main/java/org/eclipse/jetty/start/Config.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/293/jetty/trunk/jetty-start/src/main/java/org/eclipse/jetty/start/Version.java
+END
+Monitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/587/jetty/trunk/jetty-start/src/main/java/org/eclipse/jetty/start/Monitor.java
+END
+FilenameComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/587/jetty/trunk/jetty-start/src/main/java/org/eclipse/jetty/start/FilenameComparator.java
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/293/jetty/trunk/jetty-start/src/main/java/org/eclipse/jetty/start/README.txt
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/llvm-project/!svn/ver/114318/cfe/trunk/test/Misc
+END
+caret-diags-scratch-buffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Misc/caret-diags-scratch-buffer.c
+END
+diag-mapping2.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Misc/diag-mapping2.c
+END
+diag-aka-types.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/113092/cfe/trunk/test/Misc/diag-aka-types.cpp
+END
+emit-html.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Misc/emit-html.c
+END
+remap-file.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Misc/remap-file.c
+END
+emit-html-insert.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Misc/emit-html-insert.c
+END
+message-length.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/101426/cfe/trunk/test/Misc/message-length.c
+END
+predefines.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/113301/cfe/trunk/test/Misc/predefines.c
+END
+verify.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/102516/cfe/trunk/test/Misc/verify.c
+END
+caret-diags-macros.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/114318/cfe/trunk/test/Misc/caret-diags-macros.c
+END
+macro-backtrace-limit.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/107153/cfe/trunk/test/Misc/macro-backtrace-limit.c
+END
+tabstop.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/101249/cfe/trunk/test/Misc/tabstop.c
+END
+diag-mapping.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Misc/diag-mapping.c
+END

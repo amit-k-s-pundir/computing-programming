@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/test/resources/org/eclipse/jetty/util/resource/two/dir
+END
+2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/test/resources/org/eclipse/jetty/util/resource/two/dir/2.txt
+END

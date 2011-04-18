@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/llvm-project/!svn/ver/111983/cfe/trunk/test/Frontend
+END
+preprocessed-output-macro-first-token.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/llvm-project/!svn/ver/106026/cfe/trunk/test/Frontend/preprocessed-output-macro-first-token.c
+END
+lit.local.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/106144/cfe/trunk/test/Frontend/lit.local.cfg
+END
+rewrite-macros.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Frontend/rewrite-macros.c
+END
+darwin-version.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/108426/cfe/trunk/test/Frontend/darwin-version.c
+END
+output-failures.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Frontend/output-failures.c
+END
+ast-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/91460/cfe/trunk/test/Frontend/ast-main.c
+END
+ir-support-codegen.ll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/105583/cfe/trunk/test/Frontend/ir-support-codegen.ll
+END
+cpp-output.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/91460/cfe/trunk/test/Frontend/cpp-output.c
+END
+stdin.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Frontend/stdin.c
+END
+ir-support-errors.ll
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/105583/cfe/trunk/test/Frontend/ir-support-errors.ll
+END
+macros.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/93088/cfe/trunk/test/Frontend/macros.c
+END
+dependency-gen.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/91460/cfe/trunk/test/Frontend/dependency-gen.c
+END
+print-header-includes.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/111983/cfe/trunk/test/Frontend/print-header-includes.c
+END
+unknown-pragmas.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/105830/cfe/trunk/test/Frontend/unknown-pragmas.c
+END
+ast-codegen.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/91460/cfe/trunk/test/Frontend/ast-codegen.c
+END

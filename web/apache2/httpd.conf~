@@ -1,0 +1,4 @@
+<IfModule mod_perl.c>
+include /home/sonu/workspace/programming/web/www/conf/perl.conf
+</IfModule>
+

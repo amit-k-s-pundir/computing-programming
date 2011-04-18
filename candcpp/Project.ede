@@ -1,0 +1,7 @@
+;; Object Test6
+;; EDE project file.
+(ede-proj-project "Test6"
+  :name "Test6"
+  :file "Project.ede"
+  :targets 'nil
+  )

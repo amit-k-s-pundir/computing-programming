@@ -1,0 +1,141 @@
+10
+
+dir
+117907
+http://llvm.org/svn/llvm-project/cfe/trunk/lib
+http://llvm.org/svn/llvm-project
+
+
+
+2010-11-01T06:46:05.619923Z
+117907
+zhongxingxu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+Frontend
+dir
+
+Rewrite
+dir
+
+Basic
+dir
+
+Analysis
+dir
+
+Sema
+dir
+
+AST
+dir
+
+Lex
+dir
+
+Driver
+dir
+
+CodeGen
+dir
+
+Checker
+dir
+
+Index
+dir
+
+Parse
+dir
+
+Headers
+dir
+
+Serialization
+dir
+
+FrontendTool
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2010-11-01T06:53:02.225340Z
+d10e27bd04c5d9f5aeeb241415b27822
+2010-08-24T00:31:22.387776Z
+111873
+pcc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+385
+
+Makefile
+file
+
+
+
+
+2010-11-01T06:53:02.229362Z
+02fc2aa220bfdd29e953a165205975f2
+2010-08-24T00:31:22.387776Z
+111873
+pcc
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+539
+

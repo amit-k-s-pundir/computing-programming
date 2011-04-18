@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1089/jetty/trunk/jetty-http/src/test/java/org/eclipse/jetty/http
+END
+HttpGeneratorClientTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-http/src/test/java/org/eclipse/jetty/http/HttpGeneratorClientTest.java
+END
+HttpFieldsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/746/jetty/trunk/jetty-http/src/test/java/org/eclipse/jetty/http/HttpFieldsTest.java
+END
+HttpGeneratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-http/src/test/java/org/eclipse/jetty/http/HttpGeneratorTest.java
+END
+PathMapTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/433/jetty/trunk/jetty-http/src/test/java/org/eclipse/jetty/http/PathMapTest.java
+END
+HttpParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/396/jetty/trunk/jetty-http/src/test/java/org/eclipse/jetty/http/HttpParserTest.java
+END
+HttpStatusCodeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1089/jetty/trunk/jetty-http/src/test/java/org/eclipse/jetty/http/HttpStatusCodeTest.java
+END

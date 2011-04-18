@@ -1,0 +1,26 @@
+#include <java_utils.cpp>
+
+int main(int argc, char* argv[]){ 
+
+        ClassDescriptor classDescriptor({{"name","TestClass"},{"access","public"},
+                                {"storage",""}, {"javadoc","/**\n* This is a
+                                test class"},{"annot",""}});
+
+                                //  map<string,string> fi
+                                vector<map<string,string> > fieldDescriptors = {
+                                        FieldDescriptor(map<string,string>({{"access",
+                                                                "public"},{"storage",
+                                                                "static"},{"type","int"},
+                                                                {"name","x"},{"val","5"}})),
+                                        FieldDescriptor(map<string,string>({{"access","private"},{"storage",""},{"type","string"},
+                                                                {"name","first_name"},{"val","sonu"}}))};
+
+                                vector<map<string,string> > funDescriptors = {FunDescriptor(map<string,string>({{"access","public"},{"storage",""},
+                                                        {"ret_type","int"},{"type","fun"},{"annotation",""},{"javadoc","\/**\n*\/"}})),
+                                               FunDescriptor(map<string,string>({{"access","public"},{"storage","static"},
+                                                                       {"ret_type","string"},{"type","fun"},{"annotation",""},{"javadoc","\/**\n*\/"}}))};
+
+                                write_java_class(classDescriptor, fieldDescriptors,
+                                                        funDescriptors); 
+                                return 0;
+}

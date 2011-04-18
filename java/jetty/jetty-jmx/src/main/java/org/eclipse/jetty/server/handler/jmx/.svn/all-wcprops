@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/178/jetty/trunk/jetty-jmx/src/main/java/org/eclipse/jetty/server/handler/jmx
+END
+ContextHandlerMBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/rt/org.eclipse.jetty/!svn/ver/178/jetty/trunk/jetty-jmx/src/main/java/org/eclipse/jetty/server/handler/jmx/ContextHandlerMBean.java
+END

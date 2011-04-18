@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/callback
+END
+DefaultCallbackHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/callback/DefaultCallbackHandler.java
+END
+ObjectCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/callback/ObjectCallback.java
+END
+RequestParameterCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/callback/RequestParameterCallback.java
+END
+AbstractCallbackHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/callback/AbstractCallbackHandler.java
+END

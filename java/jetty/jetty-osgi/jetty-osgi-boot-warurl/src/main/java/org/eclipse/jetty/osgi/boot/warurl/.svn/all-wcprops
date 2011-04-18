@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1039/jetty/trunk/jetty-osgi/jetty-osgi-boot-warurl/src/main/java/org/eclipse/jetty/osgi/boot/warurl
+END
+WarUrlStreamHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1039/jetty/trunk/jetty-osgi/jetty-osgi-boot-warurl/src/main/java/org/eclipse/jetty/osgi/boot/warurl/WarUrlStreamHandler.java
+END
+WarUrlActivator.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1039/jetty/trunk/jetty-osgi/jetty-osgi-boot-warurl/src/main/java/org/eclipse/jetty/osgi/boot/warurl/WarUrlActivator.java
+END

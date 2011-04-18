@@ -1,0 +1,27 @@
+(display "sonu\n")
+(define-syntax name
+  (syntax-rules ()
+    [(name (first1 first2 ...) (second1 second2 ...))
+     (display first2) ...]))
+(name ("sonu1" "sonu2" "sonu3" "sonu4" "sonu5") ("pundir1" "pundir2" "pundir3" "pundir4" "pundir5"))
+(define-syntax rotate
+
+    (syntax-rules ()
+
+      [(rotate a c ...)
+
+       (shift-to (c ... a) (a c ...))]))
+
+  
+
+  (define-syntax shift-to
+
+    (syntax-rules ()
+
+      [(shift-to (from0 from ...) (to0 to ...))
+
+       (let ([tmp from0])
+
+         (set! to from) ...
+
+         (set! to0 tmp))]))

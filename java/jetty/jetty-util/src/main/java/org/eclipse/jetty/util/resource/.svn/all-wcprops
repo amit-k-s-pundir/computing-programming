@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/resource
+END
+ResourceFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/resource/ResourceFactory.java
+END
+ResourceCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/resource/ResourceCollection.java
+END
+JarFileResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/resource/JarFileResource.java
+END
+JarResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/resource/JarResource.java
+END
+FileResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/resource/FileResource.java
+END
+Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/resource/Resource.java
+END
+URLResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/resource/URLResource.java
+END
+BadResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/resource/BadResource.java
+END

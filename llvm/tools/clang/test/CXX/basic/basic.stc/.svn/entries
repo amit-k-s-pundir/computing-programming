@@ -1,0 +1,43 @@
+10
+
+dir
+117907
+http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/basic/basic.stc
+http://llvm.org/svn/llvm-project
+
+
+
+2010-03-24T07:14:45.615823Z
+99388
+dgregor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+basic.stc.static
+dir
+
+basic.stc.thread
+dir
+
+basic.stc.auto
+dir
+
+basic.stc.inherit
+dir
+
+basic.stc.dynamic
+dir
+

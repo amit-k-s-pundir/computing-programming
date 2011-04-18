@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+        initialize="onLoad()"
+        width="300" height="300"
+        horizontalAlign="left"
+        paddingLeft="5" paddingRight="5" paddingBottom="5" paddingTop="5"
+        layout="vertical" backgroundAlpha="0">
+        
+    <mx:Script>
+        <![CDATA[
+ 
+	public var widget:Object; //Widget
+	    
+        [Bindable]
+        private var rssdata:XML;
+
+	public function onLoad():void
+	{
+	    //initialize widget container instance
+	    widget = this["parent"]["parent"]["parent"]["parent"];
+	    widget.initWidget(310,310,0xffffff);
+    	    widget.addEventListener(widget.WIDGET_RESIZED,onResize);
+	    widget.addEventListener(widget.DROPDOWN_LOADED,onDropDownLoaded);
+
+	    loadFeed(widget.getSetting("feedurl","http://feeds.feedburner.com/yourminis"));
+
+	    widget.onLoadComplete();
+	}
+        
+        private function loadFeed(feed:String):void {
+	
+	    widget.setSetting("feedurl",feed);
+
+            var rss:Object=widget.newRSS();
+	    rss.addEventListener(Event.COMPLETE,onRSSLoaded);
+	    rss.load(new URLRequest(feed));
+	}
+            
+        private function onRSSLoaded(event:Event):void {     
+            var loader:URLLoader = URLLoader(event.target);
+       
+            rssdata = XML( loader.data );
+	}
+
+	private function onResize(evt:Event):void
+	{
+	    this.width=widget.width-10;
+	    this.height=widget.height-10;
+	}
+
+    private function onClick(url:String):void  
+    { 	
+        //create an activity in opensocial or 
+        //  a mini-feed & newfeed item in facebook
+        widget.social.createActivity(
+                "clicked a <a href='" + url + "'>link</a>",
+                "The full URL is: <a href='" + url + "'>" 
+                                          + url + "</a>");
+        	
+        widget.navigateToURL(new URLRequest(url));
+    }
+
+	private function onDropDownLoaded( evt:Event):void
+	{
+    	    widget.chrome.addDropDownItem("yourminis","http://feeds.feedburner.com/yourminis",loadFeed);
+            widget.chrome.addDropDownItem("digg","http://digg.com/rss/index.xml",loadFeed);
+            widget.chrome.addDropDownItem("flickr","http://api.flickr.com/services/" +
+                                        "feeds/photos_public.gne?format=rss2",loadFeed);
+	}
+        ]]>
+    </mx:Script>
+    <mx:Panel layout="vertical" 
+	    title="Flex RSS Widget"
+	    width="{this.width-10}" height="{this.height-10}">
+
+    <mx:Repeater width="100%" height="100%"
+        id="items"
+        dataProvider="{rssdata.channel.item}">
+        <mx:VBox width="100%" horizontalAlign="left" creationCompleteEffect="Fade">
+            <mx:LinkButton 
+                textAlign="left"
+                label="{ items.currentItem.title}"
+		click="onClick( event.currentTarget.getRepeaterItem().link);"></mx:LinkButton> 
+            <mx:TextArea paddingLeft="10" paddingRight="10" editable="false"
+                width="98%" cornerRadius="6" height="60"
+                backgroundColor="0xf9f9f9"
+                htmlText="{ items.currentItem.description}" ></mx:TextArea>
+            <mx:Text paddingRight="10" 
+                width="98%" 
+                textAlign="right"
+                text="{ (items.currentItem.creator==null?'':items.currentItem.creator)+ 
+                    ' ' + (items.currentItem.date==null?'':items.currentItem.date)}" />                    
+        </mx:VBox>
+    </mx:Repeater>
+</mx:Panel>
+</mx:Application>

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-rewrite/src/test/resources/org.mortbay.jetty.rewrite.handler
+END
+jetty-rewrite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-rewrite/src/test/resources/org.mortbay.jetty.rewrite.handler/jetty-rewrite.xml
+END

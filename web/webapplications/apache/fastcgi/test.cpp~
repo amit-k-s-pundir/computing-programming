@@ -1,0 +1,6 @@
+int main(int argc, char** argv){
+  String[] arr = {"sonu", "pundir"};
+  for(int i = 0; i <= arr.size(); i++){
+	cout << arr[i] << endl;
+  }
+}

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/llvm-project/!svn/ver/117420/llvm/trunk/cmake/modules
+END
+LLVMConfig.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/114998/llvm/trunk/cmake/modules/LLVMConfig.cmake
+END
+TableGen.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/117113/llvm/trunk/cmake/modules/TableGen.cmake
+END
+ChooseMSVCCRT.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/110296/llvm/trunk/cmake/modules/ChooseMSVCCRT.cmake
+END
+AddLLVM.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/117130/llvm/trunk/cmake/modules/AddLLVM.cmake
+END
+VersionFromVCS.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/117109/llvm/trunk/cmake/modules/VersionFromVCS.cmake
+END
+GetTargetTriple.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/116424/llvm/trunk/cmake/modules/GetTargetTriple.cmake
+END
+CheckAtomic.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/90685/llvm/trunk/cmake/modules/CheckAtomic.cmake
+END
+LLVM.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/115039/llvm/trunk/cmake/modules/LLVM.cmake
+END
+FindBison.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/70892/llvm/trunk/cmake/modules/FindBison.cmake
+END
+CrossCompileLLVM.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/73180/llvm/trunk/cmake/modules/CrossCompileLLVM.cmake
+END
+LLVMLibDeps.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/117420/llvm/trunk/cmake/modules/LLVMLibDeps.cmake
+END
+LLVMProcessSources.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/116682/llvm/trunk/cmake/modules/LLVMProcessSources.cmake
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/113819/llvm/trunk/cmake/modules/CMakeLists.txt
+END
+AddLLVMDefinitions.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/70892/llvm/trunk/cmake/modules/AddLLVMDefinitions.cmake
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1134/jetty/trunk/jetty-deploy/src/main/java/org/eclipse/jetty/deploy
+END
+App.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1133/jetty/trunk/jetty-deploy/src/main/java/org/eclipse/jetty/deploy/App.java
+END
+AppLifeCycle.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1134/jetty/trunk/jetty-deploy/src/main/java/org/eclipse/jetty/deploy/AppLifeCycle.java
+END
+ConfigurationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1133/jetty/trunk/jetty-deploy/src/main/java/org/eclipse/jetty/deploy/ConfigurationManager.java
+END
+FileConfigurationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1133/jetty/trunk/jetty-deploy/src/main/java/org/eclipse/jetty/deploy/FileConfigurationManager.java
+END
+WebAppDeployer.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-deploy/src/main/java/org/eclipse/jetty/deploy/WebAppDeployer.java
+END
+ContextDeployer.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-deploy/src/main/java/org/eclipse/jetty/deploy/ContextDeployer.java
+END
+AppProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1124/jetty/trunk/jetty-deploy/src/main/java/org/eclipse/jetty/deploy/AppProvider.java
+END
+DeploymentManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1133/jetty/trunk/jetty-deploy/src/main/java/org/eclipse/jetty/deploy/DeploymentManager.java
+END

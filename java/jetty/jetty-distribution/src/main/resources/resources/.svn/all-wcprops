@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/rt/org.eclipse.jetty/!svn/ver/669/jetty/trunk/jetty-distribution/src/main/resources/resources
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/669/jetty/trunk/jetty-distribution/src/main/resources/resources/log4j.properties
+END

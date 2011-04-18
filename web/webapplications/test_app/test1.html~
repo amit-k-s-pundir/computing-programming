@@ -1,0 +1,33 @@
+<html>
+        <head>
+                <meta content="text/html; charset=utf-8" http-quiv="Content-Type" />
+                <title>Test Page</title>
+                <link media="screen, projection" type="text/css"
+                href="resources/css/blueprint-css/blueprint/screen.css" rel="stylesheet" />
+        </head>
+
+        <body>
+                <div>
+                        <div id="table">
+                                <div id="row1" style="background: green;">
+                                        <span>
+                                                <div>
+                                                        <p>row11</p>
+                                                </div>
+                                                <div>
+                                                        <p>row12</p>
+                                                </div>
+                                        </span>
+                                </div>
+                                <div id="row2" style="background: yellow;">
+                                                <span style="width: 50px">
+                                                        <p style="width: 50px">row21 </p>
+                                                </span>
+                                                <span>
+                                                        <p>row22</p>
+                                                </span>
+                                </div>
+                        </div>
+                </div>
+        </body>
+</html>

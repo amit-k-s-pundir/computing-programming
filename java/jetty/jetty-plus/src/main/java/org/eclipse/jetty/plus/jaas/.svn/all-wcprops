@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/rt/org.eclipse.jetty/!svn/ver/762/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas
+END
+JAASUserPrincipal.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/JAASUserPrincipal.java
+END
+RoleCheckPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/RoleCheckPolicy.java
+END
+JAASPrincipal.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/JAASPrincipal.java
+END
+JAASRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/JAASRole.java
+END
+JAASLoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/623/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/JAASLoginService.java
+END
+StrictRoleCheckPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/StrictRoleCheckPolicy.java
+END
+JAASGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/main/java/org/eclipse/jetty/plus/jaas/JAASGroup.java
+END

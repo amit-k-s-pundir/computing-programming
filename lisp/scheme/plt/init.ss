@@ -1,0 +1,8 @@
+(require scheme/system)
+(system "ifconfig eth1 down")
+(system "ifconfig wlan0 down")
+(system "pkill -KILL wpa")
+(system "rm -Rf /var/run/wpa_supplicant")
+(system "ifconfig wlan0 up 192.168.1.2")
+(system "wpa_supplicant -Dwext -iwlan0 -c/etc/wpa_supplicant.conf -Bw")
+(system "route add default gw 192.168.1.1 wlan0")

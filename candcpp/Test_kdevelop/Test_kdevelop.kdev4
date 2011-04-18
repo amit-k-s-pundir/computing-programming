@@ -1,0 +1,4 @@
+[Project]
+Name=Test_kdevelop
+Manager=KDevCMakeManager
+VersionControl=

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1124/jetty/trunk/jetty-deploy/src/main/resources/org/eclipse/jetty/deploy
+END
+lifecycle-bindings.txt
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1124/jetty/trunk/jetty-deploy/src/main/resources/org/eclipse/jetty/deploy/lifecycle-bindings.txt
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/rt/org.eclipse.jetty/!svn/ver/978/jetty/trunk/test-jetty-webapp/src/main/webapp/rewrite
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/rt/org.eclipse.jetty/!svn/ver/978/jetty/trunk/test-jetty-webapp/src/main/webapp/rewrite/index.html
+END
+info.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/rt/org.eclipse.jetty/!svn/ver/978/jetty/trunk/test-jetty-webapp/src/main/webapp/rewrite/info.html
+END

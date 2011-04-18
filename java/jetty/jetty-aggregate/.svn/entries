@@ -1,0 +1,83 @@
+10
+
+dir
+1134
+http://dev.eclipse.org/svnroot/rt/org.eclipse.jetty/jetty/trunk/jetty-aggregate
+http://dev.eclipse.org/svnroot/rt/org.eclipse.jetty
+
+
+
+2009-11-25T02:10:28.886878Z
+1098
+gwilkins
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+7e9141cc-0065-0410-87d8-b60c137991c4
+
+jetty-plus
+dir
+
+jetty-servlet
+dir
+
+jetty-server
+dir
+
+jetty-all
+dir
+
+jetty-all-server
+dir
+
+pom.xml
+file
+
+
+
+
+2009-12-09T10:02:19.000000Z
+bc0ff3dacf1799f3b58273657f42c6da
+2009-11-25T02:10:28.886878Z
+1098
+gwilkins
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+889
+
+jetty-client
+dir
+
+jetty-webapp
+dir
+

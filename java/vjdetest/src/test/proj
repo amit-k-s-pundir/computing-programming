@@ -1,0 +1,9 @@
+let g:vjde_out_path='classes'
+let g:vjde_src_path='src'
+let g:vjde_lib_path='jee_home/lib/javaee.jar'
+let g:vjde_web_app=''
+let g:vjde_test_path=''
+let g:vjde_java_command='java'
+let g:vjde_show_paras=1
+let g:vjde_xml_advance=1
+" vim :ft=vim:

@@ -1,0 +1,12 @@
+var timoutID;
+
+//alert("hello");
+
+function startTimer(fn, delay){
+        timoutID = setTimeout(fn, delay, arguments);
+}
+
+function stopTimer(event){
+    clearTimeout(timeoutID);
+}
+

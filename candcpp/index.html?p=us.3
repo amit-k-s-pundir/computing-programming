@@ -1,0 +1,981 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en-IN" dir="ltr" class="y-fp-bg  bkt704">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Yahoo! India</title>
+    <meta name="description" content="Yahoo! India - the Indian edition of this major portal offers local & global search, free Yahoo! Mail & Instant messenger, news, finance, movies, sports and entertainment">
+    <meta name="keywords" content="yahoo India, yahoo india home page, yahoo mail india, yahoo search, yahoo, yahoo messenger, news, finance, sports, entertainment">
+
+    <script type="text/javascript">
+
+        //Roundtrip
+        rtTop = Number(new Date());
+
+        document.documentElement.className += ' jsenabled';
+
+            (function () {
+        //refresh check
+        var d=document,c=";\ "+d.cookie + ";",msc=c.indexOf("; MSC="),re=false,s,r,l="",m,n='0',b,lck='',fps=c.indexOf("FPS="),fpsVal,sw=screen.availWidth,loc=location,qs=loc.search;              
+
+        //check cookie for login info
+        if ((b=c.indexOf(' Y=v'))>=0) {
+            c=c.substring(b,c.indexOf(';',b))+'&';
+            if ((b=c.indexOf('l='))>=0) {
+                l=c.substring(b+2,c.indexOf('&',b));
+                if((b=c.indexOf('n='))>=0)n=c.substring(b+2,c.indexOf('&',b));
+            }
+            
+            //if login info isn't the same...
+            if (lck!=l) {
+                re=true;
+            }
+        }       
+
+        //reload for lite page if screen resolution < 1024
+        fpsVal = fps === -1 ? 'dl' : d.cookie.substring(fps+2, fps+4);
+        if (fpsVal === 'dl' && sw < 1024) {
+            fpsVal = 'ds';
+            re=true;
+        } else if (fpsVal === 'ds' && sw >=1024) {
+            fpsVal = 'dl';
+            re=true;
+        }
+        d.cookie = "FPS=" + fpsVal + "; expires=Sun, 01 Jan 2012 00:00:00 GMT; domain=in.yahoo.com";
+
+        //state change
+        if (msc > -1){
+            re = true;
+            d.cookie="MSC=0; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=in.yahoo.com";
+        }
+        
+        //should reload?
+        if (re){
+            s=Math.round(+new Date()/1000);
+            m=/r\d+=(\d+)/.exec(qs);
+
+            //not reloaded recently?
+            if (!m || s-parseInt(m[1],10) >= 20) {
+                r=Math.round(parseInt(n,32)%1021);
+                document.write('<meta http-equiv="Expires" content="-1">');
+                if (qs.indexOf('r'+r+'=' + s)!=1) {
+                    loc.replace('http://'+loc.hostname+loc.pathname+(qs.length ? loc.search.replace(/&?r\d+=[^&]+/,'') + '&' : '?') + 'r'+r+'='+s);
+                }
+            }
+        }
+    })();
+
+        (function(){var k=13,d=4,j=0,a=document.documentElement,b=[a.className],f,c=navigator.plugins,g=k;if(c&&c.length){f=c["Shockwave Flash"];if(f&&f.description){j=parseInt(f.description.match(/\b(\d+)\.\d+\b/)[1],10)||0}}else{while(g--){try{new ActiveXObject("ShockwaveFlash.ShockwaveFlash."+g);j=g;break}catch(h){}}}b.push("flash-"+j);while(j-->d){b.push("flash-gt"+j)}a.className=b.join(" ")})();
+
+        (function(){var j=this,n=/^(on)?load/,b=/^on/,i="addEventListener",f="attachEvent",e="_oc",h="detachEvent",g="removeEventListener",l=j[i],m=j[g],p=j[f],a=j[h],k={},d=0;function c(r,s,q){if(!r||!s){return;}if(n.test(r)){if(!s[e]){var t=++d;s[e]=t;k[t]=s;}}else{if(p&&b.test(r)){p(r,s);}else{if(l){l(r,s,q);}}}}function o(r,s,q){if(!r||!s){return;}if(n.test(r)){var t=s[e];if(t){delete k[t];}}else{if(a&&b.test(r)){a(r,s);}else{if(m){m(r,s,q);}}}}j.OnloadCache={enable:function(){if(l){j[i]=c;j[g]=o;}if(p){j[f]=c;j[h]=o;}},disable:function(){if(l){j[i]=l;j[g]=m;}if(p){j[f]=p;j[h]=a;}},dispatch:function(){var r={type:"load"},q;for(q in k){if(k.hasOwnProperty(q)){k[q](r);}}},reset:function(){k={};}};})();
+
+        OnloadCache.enable();
+    </script>
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/a/lib/arc/core_1.0.2.css">
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/a/combo?metro/pa/pa_0.1.133.css&metro/pa/pa_detached_0.1.51.css&metro/uiplugins/iframeshim_service_0.0.1.css&metro/uiplugins/tooltip_default_0.1.11.css&metro/pa/pa_edit_service_0.1.23.css&metro/contentcarousel/contentcarousel_0.1.70.css&metro/contentcarousel/contentcarousel_topten_0.1.55.css&metro/contentcarousel/pulse_0.1.53.css&metro/uiplugins/carousel_default_0.1.6.css&metro/contentcarousel/contentcarousel_3_0.1.5.css&metro/contentcarousel/contentcarousel_4_0.1.4.css&metro/uiplugins/generic_0.1.6.css&metro/error/error_0.1.9.css&metro/fp/fp_zindex_0.0.15.css&metro/fp/fp_0.1.63.css&metro/navbar/navbar_0.1.68.css&metro/navbar/navbar_pageoptions_0.0.12.css&metro/tuc/tuc_common_0.0.12.css&metro/tuc/tuc_embedded_0.0.12.css&metro/uiplugins/tablist_service_0.1.3.css&metro/masthead/masthead_0.2.45.css&metro/sda/sda_0.1.15.css&metro/breakingnews/breakingnews_0.0.8.css&metro/uiplugins/carousel_service_0.1.3.css&metro/fptoday/fptoday_0.1.102.css&metro/uiplugins/ulm_service_0.1.5.css&metro/uiplugins/ulm_default_0.1.12.css&metro/uiplugins/tablist_news_0.0.10.css&metro/news/news_0.1.59.css&metro/marketindices/marketindices_0.1.25.css&metro/miniad/miniad_0.1.16.css&metro/footer/footer_0.1.37.css&metro/subfooter/subfooter_0.0.2.css&metro/uiplugins/windowshade_service_0.0.10.css&metro/ipredirect/ipredirect_0.0.3.css">
+
+    <style type="text/css">
+
+.x-small { font-size: 77%; letter-spacing:normal; }
+.small { font-size: 85%; letter-spacing:normal; }
+.med-small { font-size: 93%; letter-spacing:normal; }
+.medium { font-size: 100%; letter-spacing:normal; }
+.med-large { font-size: 108%; letter-spacing:normal; } 
+.large { font-size: 116%; letter-spacing:normal; } 
+.x-large { font-size: 123.1%; letter-spacing:normal; } 
+.x2-large { font-size: 131%; letter-spacing:normal; } 
+.x3-large { font-size: 138.5%; letter-spacing:normal; } 
+.strong { font-weight:bold; }
+
+.hide-offscreen {
+    position: absolute;
+    left: -999em;
+}
+
+.hide-textindent {
+    text-indent: -999em; 
+    display: block; 
+    overflow: hidden; 
+}
+
+.y-glbl-mod-grad, .mod-bg-elements-img { background: url(http://d.yimg.com/a/i/ww/met/th/default/gsprite_mod_default_103008.gif) repeat-x; } 
+.y-glbl-universal-grad, .framework-img { background: url(http://d.yimg.com/a/i/ww/met/gsprite_071309.gif) repeat-x; } 
+.y-glbl-mod-controls, .elements-img { background: url(http://d.yimg.com/a/i/ww/met/th/default/sprite_default_082409.png) no-repeat; } 
+.y-glbl-ltdrk, .mod-action-icons { background: url(http://d.yimg.com/a/i/ww/met/sprite_ltdrk_080409.gif) no-repeat; } 
+.y-glbl-universal, .util-img { background: url(http://d.yimg.com/a/i/ww/met/sprite_pg_081209.png) no-repeat; } 
+.y-glbl-properties { background: url(http://l.yimg.com/t/img/metro_icons_logo_sprite_5.gif) no-repeat; } 
+
+.mod .mod-bdr { border:1px solid #93B9D9; }
+.mod .mod-alt-bdr { border:1px solid #E6EFF7; }
+.mod .mod-bgcolor { background:#ffffff; }
+.mod .link-color { color:#16387c; }
+.mod .sub-hd {background:#B1CCE3 url(http://d.yimg.com/a/i/ww/met/th/default/gsprite_mod_default_103008.gif) 0px 0px repeat-x;color:#333;}
+.mod .sub-hd a:link,
+    .mod .sub-hd a:visited,
+    .mod .sub-hd a {color:#333;}
+.mod .alt-bg-color{background:#E6EFF7;}
+.mod a.alt-text-color,
+    .mod .alt-text-color{color:#999999;}
+.mod .reverse-bg-color{background:#16387c;}
+.mod a.text-color,
+    .mod .text-color { color: #333; }
+.mod a.reverse-text-color,
+    .mod .reverse-text-color {color:#ffffff;}
+.mod .divider   {border:1px solid #93B9D9;}
+.mod .divider-l {border-left:1px solid #93B9D9;}
+.mod .divider-r {border-right:1px solid #93B9D9;}
+.mod .divider-t {border-top:1px solid #93B9D9;}
+.mod .divider-b {border-bottom:1px solid #93B9D9;}
+.mod .line-h    {border:1px solid #ADC9E8;}
+.mod .line-h-t  {border-top:1px solid #ADC9E8;}
+.mod .line-h-r  {border-right:1px solid #ADC9E8;}
+.mod .line-h-b  {border-bottom:1px solid #ADC9E8;}
+.mod .line-h-l  {border-left:1px solid #ADC9E8;}
+.mod .line-l    {border:1px solid #93B9D9;}
+.mod .line-l-t  {border-top:1px solid #93B9D9;}
+.mod .line-l-r  {border-right:1px solid #93B9D9;}
+.mod .line-l-b  {border-bottom:1px solid #93B9D9;}
+.mod .line-l-l  {border-left:1px solid #93B9D9;}
+
+.y-bg-1 { background-color: #fff; }
+.y-bg-2 { background-color: #f9fafa; }
+.y-bg-3 { background-color: #eff3f5; }
+.y-bg-4 { background-color: #dbe1e6; }
+.y-bg-5 { background-color: #a1adb9; }
+.y-bg-6 { background-color: #c5ced7; }
+.y-bg-hilite { background-color: #56758e; }
+
+.y-ln-1 { border-color: #dbe1e6; }
+.y-ln-2 { border-color: #c5ced7; }
+.y-ln-3 { border-color: #a1adb9; }
+.y-ln-4 { border-color: #2d4458; }
+.y-ln-5 { border-color: #eff3f5; }
+.y-ln-6 { border-color: #fff; }
+.y-ln-accent { border-color: #731a8b; }
+
+.y-txt-1 { color: #333; }
+.y-txt-2 { color: #68727f; }
+.y-txt-3 { color: #a1adb9; }
+.y-txt-4 { color: #000; }
+.y-txt-5 { color: #fff; }
+.y-txt-modhdr { color: #333; }
+.y-txt-accent { color: #7d3883; }
+.y-txt-input { color: #999; }
+
+.y-link-1 { color: #16387c; }
+.y-link-2 { color: #333; }
+.y-link-1-visited { color: #5b73a3; }
+.y-link-2-visited { color: #666; }
+
+a { color: #16387c; }
+a:visited { color: #5b73a3; }
+a:visited.y-link-2 { color: #666; }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.ua-ie .clearfix {
+    zoom: 1;
+}
+
+.loading-spinner {
+    background: url(http://d.yimg.com/a/i/ww/met/anim_loading_sm_082208.gif) 0 0 no-repeat;
+}
+
+a:hover.goto-link {
+    text-decoration: none;
+}
+
+a:hover.goto-link span.goto {
+    text-decoration: underline;
+}
+
+.goto-link span.property {
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.goto-link span.property img {
+    vertical-align: middle;
+}
+
+.y-fp-pg-grad { background: url(http://d.yimg.com/a/i/ww/met/th/slate/gsprite_pg_slate_062209.gif) repeat-x; }
+.y-fp-pg-controls { background: url(http://d.yimg.com/a/i/ww/met/th/slate/sprite_pg_slate_082709.gif) no-repeat; }
+.y-fp-pg-controls-nt { background: url(http://d.yimg.com/a/i/ww/met/sprite_pg_nontheme_081709.gif) no-repeat; }
+
+.mod .cta-btn,
+.mod .cta-btn:visited {
+    background: #0868a7 url(http://d.yimg.com/a/i/ww/met/gsprite_071309.gif) repeat-x 0 -1204px !important;
+    color: #FFF !important;
+    font-weight: bold;
+    padding:0.2em 1em;
+    border: solid 1px #336699 !important;
+    text-align: center;
+}
+
+.mod .cta-btn-disabled {
+    border:1px Solid #bbbbbb !important;
+    background:#ccc none !important;
+    color:#666 !important;
+    font-weight: bold;
+    padding: 0 .3em;
+    text-align: center;
+}
+
+.mod .cta-btn-ext,
+.mod .cta-btn-ext:visited {
+    background: #fba707 url(http://d.yimg.com/a/i/ww/met/gsprite_071309.gif) repeat-x scroll 0 0;
+    border: 1px solid #dd9714;
+    color: #000;
+    font-weight: bold;
+    margin-top: 0.3em;
+    padding: 0.08em 0.3em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.mod .cancel-btn {
+    color: #346697 !important;
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+    font-weight: none !important;
+}
+
+.ua-ie6 .mod .cta-btn,
+.ua-ie7 .mod .cta-btn,
+.ua-ie6 .mod .cta-btn-disabled,
+.ua-ie7 .mod .cta-btn-disabled,
+.ua-ie6 .mod .cta-btn-ext,
+.ua-ie7 .mod .cta-btn-ext,
+.ua-ie6 .mod .cancel-btn,
+.ua-ie7 .mod .cancel-btn {
+    overflow: visible;
+    zoom:1;
+}
+
+.y-pa-bg-open { background-color: #5c758e; }
+.y-pa-link-open { color: #fff; }
+.y-pa-ln-open-lt { border-color: #7b93ad; }
+.y-pa-ln-open-dk { border-color: #475e78; }
+.y-pa-txt-open-1 { color: #fff; }
+.y-pa-txt-open-2 { color: #d6dfe5; }
+.y-pa-txt-button { color: #333; }
+.y-pa-txt-tab-sel { color: #fff; }
+
+.y-hdr-ln { border-color: #dbe1e6; }
+.y-hdr-txt { color: #6c717a; }
+.y-hdr-link { color: #16387c; }
+
+.y-ftr-bg { background-color: #fff; }
+.y-ftr-ln { border-color: #dbe1e6; }
+.y-ftr-txt { color: #333; }
+.y-ftr-link { color: #16387c; }
+
+.y-ftr-txt-hdr { color: #333; }
+.y-ftr-link-hdr { color: #16387c; }
+
+.y-subftr-txt { color: #6c717a; }
+.y-subftr-link { color: #16387c; }
+
+.y-mast-txt { color: #3e4454; }
+.y-mast-link { color: #16387c; }
+.y-mast-ln-lt { border-color: #fff; }
+.y-mast-ln-dk { border-color: #c1cad2; }
+.y-mast-bg { border-bottom:2px solid #e8edf0; border-left:1px solid #fff; }
+.y-mast-sprite { background: url(http://d.yimg.com/a/i/ww/met/th/slate/sprite_masthead_slate_srchbt2_07242009.png) no-repeat; }
+
+.y-opennews-sprite { background-image: none; }
+
+.y-fp-ln-pg { border-color: #dbe1e6; }
+
+.y-fp-bg { background: #e8edf0 url(http://d.yimg.com/a/i/ww/met/th/slate/page_bg_slate_070609.gif) repeat-x scroll 0 0; }
+
+
+.type_pa .pa-app-view .pa-app-col1 .hd h2 a,
+.type_pa .pa-app-view .pa-app-col1 .hd .pa-app-header {
+    color: #fff;
+}
+
+.type_pa .pa-app-view .pa-app-col1 .hd h2 {
+    color: #fff;
+}
+
+.type_pa .pa-app-view .pa-app-col1 .mod .bd,
+.type_pa .pa-module-loading-msg {
+    background-color:  #fff; 
+}
+.type_pa .pa-app-view .pa-app-col2 .mod .bd {
+    background-color:  #5c758e; 
+}
+
+.type_pa .pa-apps-list a:hover {
+    background-color: #eff3f5;
+}
+
+/* sets the PA buttons border color to the same as the bg color, needed for the
+2-D bg gradient to look right */
+.type_pa .pa-apps-list li {
+    border-color: #fff;
+}
+
+/*IN Local App - selected tab name color - Should inherit from y-txt-4 but currently no proper way to do this */
+.type_local_default ul.lmaintablist li.selected a{
+    color:#000;
+}
+
+.type_pa .pa-apps-list .pa-button-current .pa-button-title {
+    color: #fff;
+}
+.type_pa .pa-apps-list .pa-button-current .pa-button-vital {
+    color: #d6dfe5;
+}
+
+
+.type_pa .pa-edit-stage .y-sortable-active,
+.type_pa .y-sortable-proxy {
+    background: #eff3f5 none;
+}
+
+.type_pa .y-sortable-proxy {
+    border-color: #a1adb9;
+}
+
+.type_pa .pa-sort-removed a,
+.type_pa .pa-sort-removed a:hover {
+    color: #a1adb9;
+    background-color: #eff3f5;
+}
+
+    </style>
+    <style id="tmp-css"></style>
+</head>
+<body class="yui-skin-sam">
+<div id="y-shade"><div id="default-p_21445690" class="mod view_default">  <div id="default-p_21445690-bd" class="bd type_ipredirect type_ipredirect_default">                <div id="p_21445690-wshade" class="y-wshade">
+                    <div class="y-wshade-content clearfix">
+                        <div class="welcome">
+                            <h3 class="x3-large">Welcome to Yahoo! India</h3>
+                            <p>An experience that's made locally. <a href="http://help.yahoo.com/l/in/yahoo/homepage/homepage/whatsnew/homepage-90.html">Need help?</a></p>
+                        </div>
+                        <ul class="choices">
+                            <li class="local"><a data-b="http://www.yahoo.com" href="http://m.in.yahoo.com" class="med-large y-glbl-universal-grad">Stay on Yahoo! India</a></li>
+                            <li class="dotcom"><a href="http://m.in.yahoo.com/?p=dnr">Go to yahoo.com</a></li>
+                        </ul>
+                        <div class="y-wshade-space"></div>
+                    </div>
+                    <a data-b="http://www.yahoo.com" class="y-wshade-close-btn" href="http://m.in.yahoo.com">Close<span class="y-wshade-close-chrome"></span></a>
+                    <span class="y-wshade-chrome"></span> 
+                </div>    </div>
+        <div id="default-p_21445690-ft" class="ft"></div>
+</div></div><div id="y-masthead"><div id="default-p_13838465" class="mod view_default">  <div id="default-p_13838465-bd" class="bd type_masthead type_masthead_default"><div class="mh-wrap in clearfix y-fp-pg-grad">
+    <div class="logo-container">
+                     <h1 style="_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://l.yimg.com/a/i/ww/met/yahoo_logo_in_061509.png');">
+                 <span class="logo" style="background:transparent url(http://l.yimg.com/a/i/ww/met/yahoo_logo_in_061509.png);
+                                           _filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);">
+                    Yahoo!
+                </span>
+            </h1>    </div>
+<form name="sf1" method="get" id="p_13838465-searchform" class="search-form" action="http://in.search.yahoo.com/search">
+    <fieldset>
+        <legend id="aria-legend" class="hide-offscreen">Yahoo! Search</legend>
+        <ul class="stabs large" id="p_13838465-masthead-stabs" aria-labelledby="aria-legend"><li class="small tab first selected y-mast-sprite"><a class="y-mast-sprite y-mast-txt web" href="http://in.search.yahoo.com/"  data-b="http://www.yahoo.com"><span class="tab-cover y-mast-bg" style="padding-left:0em;padding-right:0em;">Web</span></a></li>
+<li class="small tab "><a class="y-mast-link images" href="http://in.images.search.yahoo.com/images"  data-b="http://www.yahoo.com"><span class="tab-cover y-mast-bg-hide" style="padding-left:0em;padding-right:0em;">Images</span></a></li>
+<li class="small tab "><a class="y-mast-link news" href="http://in.news.search.yahoo.com/news"  data-b="http://www.yahoo.com"><span class="tab-cover y-mast-bg-hide" style="padding-left:0em;padding-right:0em;">News</span></a></li>
+<li class="small tab "><a class="y-mast-link local" href="http://in.local.yahoo.com/"  data-b="http://www.yahoo.com"><span class="tab-cover y-mast-bg-hide" style="padding-left:0em;padding-right:0em;">Local</span></a></li>
+            </ul>        <div class="intlswitch x-small" style="left:24.5em;">
+            <input id="p_13838465-r-web" type="radio" data-b="http://www.yahoo.com" name="rd" value="r1" checked="yes"/>
+            <label for="p_13838465-r-web" data-b="http://www.yahoo.com" class="web y-hdr-txt">the web</label>
+            <input type="radio" data-b="http://www.yahoo.com" name="rd" value="r2" id="p_13838465-r-intl"/>
+            <label for="p_13838465-r-intl" data-b="http://www.yahoo.com" class="y-hdr-txt">India only</label>
+        </div>            <label for="p_13838465-p" class="search-label hide-offscreen"><span id="p_13838465-aria-label"></span> Search:</label>            
+            <div class="searchwrapper tabpanel selected" id="p_13838465-searchwrapper">
+                <div class="searchwrapper-border y-mast-ln-dk">            
+                    <div class="searchwrapper-inner y-mast-sprite y-mast-ln-lt"><input id="p_13838465-p" class="input-query med-large" name="p" type="text" title="Web Search"/>        <span class="button-wrapper">        <input class="searchsubmit med-large y-glbl-universal-grad"  value="Web Search" type="submit" id="search-submit">
+        </span><input type="hidden" value="1"  name="toggle"><input type="hidden" value="mss"  name="cop"><input type="hidden" value="UTF-8"  name="ei"><input type="hidden" value="yfp-t-704" id="p_13838465-frcode" name="fr"><span class="rc-tl y-mast-sprite"></span>        <span class="rc-tr y-mast-sprite"></span>
+        <span class="rc-bl y-mast-sprite"></span>
+        <span class="rc-br y-mast-sprite"></span>
+        </div>  <!-- end searchwrapper-inner -->
+        
+        </div>  <!-- end searchwrapper-border -->
+        <span class="ds-r y-mast-sprite"></span>        <div id="p_13838465-hood" class="hood ds-b">
+            <div id="p_13838465-sa-window" class="sa-window y-fp-pg-grad"></div>
+            <div class="sa-drawer-container y-mast-sprite y-mast-ln-dk">
+                <div class="drawer-innerborder y-mast-ln-lt"></div>            
+                <a id="p_13838465-sa-drawer" class="sa-drawer y-mast-sprite hide-completely" href="#suggestions">Open Search Assist</a>
+                <span class="rc-bl y-mast-sprite y-mast-ln-dk"></span><span class="rc-br y-mast-sprite y-mast-ln-dk"></span>
+            </div>
+        </div>            </div>  <!--  end searchwrapper  -->
+        </fieldset>
+    </form> <!-- end masthead form --></div> <!-- end mh-wrap  -->
+<div class="aria-announce hide-offscreen" role="status" aria-live="polite"></div>    </div>
+        <div id="default-p_13838465-ft" class="ft"></div>
+</div></div><div id="y-header"><div id="default-p_13838466" class="mod view_default">  <div id="default-p_13838466-bd" class="bd type_navbar type_navbar_default">            <div class="promotions">
+                <ul><li class="y-hdr-ln iptarget small noybang first"><a class="y-hdr-link link" href="http://m.in.yahoo.com/?p=dnr">Yahoo.com</a></li><li class="y-hdr-ln my small "><a class="y-hdr-link" href="http://in.my.yahoo.com/">My Yahoo!</a></li><li id="p_13838466-promotion" class="y-hdr-ln homepage promotion small hp-hidden "><a class="y-hdr-link icon link" id="p_13838466-homepage" href="http://in.yahoo.com/newshp.php">Make Y! your homepage</a></li>                </ul>
+            </div>
+            <div class="help">
+                <ul><li class="y-hdr-ln tuc first"><div id="default-p_29445946_ff4" class="mod view_default">  <div id="default-p_29445946_ff4-bd" class="bd type_tuc type_tuc_default"><ul>        <li class="y-hdr-ln account-sign-in strong small first">
+            <a class="y-hdr-link" href="https://login.yahoo.com/config/login?.src=fpctx&.intl=in&.done=http%3A%2F%2Fm.in.yahoo.com%2F&.pd=c%3D6T7evjap2e6CwWSb86QVdqk-">Sign In</a>
+        </li>        <li class="y-hdr-ln account-sign-up strong small">
+            <a class="y-hdr-link" href="https://edit.yahoo.com/registration?.src=fp&.intl=in&.done=http://m.in.yahoo.com/">
+                <span class="y-hdr-txt">New here?</span>
+                Sign Up
+            </a>
+        </li>                <li class="y-hdr-ln status small su-loggedout">        <span class="ptrl"></span><!--
+     --><a class="y-hdr-txt y-ln-1 short-status" data-b="http://www.yahoo.com" href="http://profiles.yahoo.com" id="p_29445946_ff4-su-short-status">What are you doing?</a>
+        <div class="su-dropdown su-loggedout hidden" id="p_29445946_ff4-su-dropdown">
+    <div class="su-dropdown-outer">
+        <div class="su-dropdown-inner y-pa-bg-open y-pa-ln-open-dk">
+            <div class="su-dropdown-hd y-pa-ln-open-dk"></div>
+            <div class="su-dropdown-bd">
+                        <div class="oops-msg">
+            <span class="icon y-glbl-universal"></span>
+            <h3 class="oops">Please sign in to update your status.</h3>
+        </div>
+        <p class="oops">
+            <a class="cta-btn" href="https://login.yahoo.com/config/login?.src=fpctx&.intl=in&.done=http%3A%2F%2Fm.in.yahoo.com%2F&.pd=c%3D6T7evjap2e6CwWSb86QVdqk-">Sign In</a>
+            <button class="cancel-btn" id="p_29445946_ff4-su-cancel" data-b="http://www.yahoo.com">Cancel</button>
+        </p>
+            </div>
+            <span class="y-fp-pg-controls su-tl"></span>
+            <span class="y-fp-pg-controls su-tr"></span>
+            <span class="y-fp-pg-controls su-bl"></span>
+            <span class="y-fp-pg-controls su-br"></span>
+        </div>
+        <div class="y-fp-pg-grad su-bottom y-pa-ln-open-dk"></div>
+    </div>
+    <div class="y-fp-pg-controls su-arrow"></div>
+</div></li></ul>    </div>
+        <div id="default-p_29445946_ff4-ft" class="ft"></div>
+</div></li>                            <li class="y-hdr-ln pageoptions small " data-h="http://www.yahoo.com" id="p_13838466-pageoptions">
+                                <a href="#" id="p_13838466-pageoptions-link" class="y-ln-3 y-hdr-link pageoptions-link">Page options<span class="y-fp-pg-controls arrow" id="p_13838466-pageoptions-arrow"></span></a>
+                            </li>                </ul>
+            </div>    </div>
+        <div id="default-p_13838466-ft" class="ft"></div>
+</div></div>
+            <div id="y-content" class="clearfix y-ln-accent">
+
+                <div id="y-cols" class="clearfix y-fp-ln-pg">
+
+                    <div id="y-pa">
+<div id="default-u_2588582" class="mod view_default">  <div id="default-u_2588582-bd" class="bd type_pa type_pa_default">        <div class="y-pa-cont" id="u_2588582-pa-cont">
+            <!-- NEW DETACHED PA PREVIEW CONTAINER -->
+            <div class="pa-app-view" id="u_2588582-app-view">
+                <div class="pa-app-chrome-topshadow pa-app-chrome-border-color y-pa-ln-open-dk">
+                    <div class="pa-app-chrome-leftcorner y-fp-pg-controls"></div>
+                    <div class="pa-app-chrome-rightcorner y-fp-pg-controls"></div>
+                </div>
+                <div class="pa-app-chrome-rightshadow">
+                    <div class="pa-app-chrome-content pa-app-chrome-border-color y-pa-bg-open y-pa-ln-open-dk">
+
+                        <div class="pa-app-chrome-hd">
+                            <!--Header-->
+                            <ul class="pa-nav">
+                                <li>
+                                    <a class="pa-back y-glbl-universal-grad small" href="#close" data-b="http://www.yahoo.com"><span class="y-fp-pg-controls">Back to Yahoo! Home</span></a>
+                                </li>
+                                <li>
+                                    <a class="pa-close y-fp-pg-controls-nt hide-textindent" href="#close" data-b="http://www.yahoo.com">Close</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="pa-app-chrome-bd">
+
+                            <!-- PA MODULE STARTS -->
+                            <div class="pa-mod-ctr" id="u_2588582-mod-ctr" style="visibility: visible;"></div>
+                            <!-- PA MODULE ENDS -->
+                            <div id="u_2588582-module-loading-msg" class="y-pa-ln-open-dk pa-module-loading-msg"></div>
+                            <a class="pa-close hide-offscreen" href="#close" data-b="http://www.yahoo.com">Close</a>
+                        </div>
+                        <div class="pa-app-chrome-ft">
+                            <div class="pa-app-view-ft-control med-small">
+                                <ul>
+                                    <li><button class="cta-btn-ext pa-btn-done">I'm Done</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pa-app-chrome-bottomshadow y-fp-pg-grad pa-app-chrome-border-color y-pa-ln-open-dk">
+                    <div class="pa-app-chrome-leftcorner y-fp-pg-controls"></div>
+                    <div class="pa-app-chrome-rightcorner y-fp-pg-controls"></div>
+                </div>
+
+        </div>
+        <!-- END NEW DETACHED PA PREVIEW CONTAINER -->        <span class="pa-chrome-top y-ln-1"><span class="pa-chrome-top-cor y-fp-pg-controls"></span></span>
+        <div class="pa-right-shadow">
+        <div class="pa-wrapper y-ln-1 y-bg-1">
+            <div class="pa-main">
+                <div class="pa-top y-fp-pg-grad y-ln-1">
+                    <div class="pa-heading">
+                        <h2 class="y-txt-modhdr">My Favourites</h2>
+                    </div>
+
+                    <div class="pa-options strong small">
+                        <ul>
+                            <li><a  id="u_2588582-addApps" href="#AddApps" data-b="http://www.yahoo.com" class="y-fp-pg-grad pa-add-apps"><span class="y-link-1 y-fp-pg-controls-nt ">Add</span> <span class="hide-offscreen">Favorites</span></a></li>
+                            <li class="pa-toggle"><a href="#EditApps" data-b="http://www.yahoo.com" class="y-fp-pg-grad toggle pa-edit-apps"><span class="y-link-1 y-fp-pg-controls-nt">Edit</span> <span class="hide-offscreen">Favorites</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="pa-toggle pa-control-close med-small">
+                        <ul>
+                            <li><button class="y-fp-pg-controls-nt pa-cta-button pa-btn-done" data-b="http://www.yahoo.com">I'm Done</button></li>
+                        </ul>
+                    </div>
+                </div> <!-- pa-top -->
+                <div class="pa-middle clearfix y-bg-4 y-ln-2">
+                    <div id="u_2588582-panel-loading-msg" class="pa-panel-loading-msg y-txt-1"></div>
+                    <div class="pa-panel-add clearfix"></div>
+                    <div class="pa-panel-edit clearfix"></div>
+                    <div id="u_2588582-collapsed" class="pa-panel-myapps">
+                        
+                        <div id="u_2588582-apps-list" class="pa-apps-list">            <div class="pa-apps-ysvc"><ul class="med-small pa-apps-list">            <li id="pa-p_24793754_fd5-bd" modid="p_24793754_fd5" class="y-fp-pg-controls first pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://everything.yahoo.com/in/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 0px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="View Yahoo! Sites">View Yahoo! Sites</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview View Yahoo! Sites</a>
+            </li></ul>            </div>        <div id="u_2588582-apps-userlist" class="pa-apps-userlist"><ul class="med-small pa-apps-list">            <li id="pa-u_14782488-bd" modid="u_14782488" class="y-fp-pg-controls no-edit first pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="https://login.yahoo.com/config/mail?.src=ym&.intl=in">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -74px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Yahoo! Mail">Yahoo! Mail</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Yahoo! Mail</a>
+            </li>            <li id="pa-u_25021325-bd" modid="u_25021325" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.answers.yahoo.com/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -1036px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Answers">Answers</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Answers</a>
+            </li>            <li id="pa-u_21338334-bd" modid="u_21338334" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.buzz.yahoo.com/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -1184px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Buzz">Buzz</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Buzz</a>
+            </li>            <li id="pa-u_21935702-bd" modid="u_21935702" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://cricket.yahoo.com/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -296px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Cricket">Cricket</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Cricket</a>
+            </li>            <li id="pa-u_21381336-bd" modid="u_21381336" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.jagran.yahoo.com">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -518px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Dainik Jagran">Dainik Jagran</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Dainik Jagran</a>
+            </li>            <li id="pa-u_22927225-bd" modid="u_22927225" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://www.facebook.com">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -1258px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Facebook">Facebook</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Facebook</a>
+            </li>            <li id="pa-u_93109-bd" modid="u_93109" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.finance.yahoo.com">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -148px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Finance">Finance</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small">(BSE Sensex<img src="http://l.yimg.com/a/i/ww/met/pa_icons/vitality_down_040209.gif" alt="Down" style="vertical-align:middle;padding-left:3px">)</span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Finance</a>
+            </li>            <li id="pa-u_63802-bd" modid="u_63802" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.news.yahoo.com/astrology/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -444px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Horoscope">Horoscope</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Horoscope</a>
+            </li>            <li id="pa-u_25021316-bd" modid="u_25021316" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.local.yahoo.com/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -740px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Local">Local</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Local</a>
+            </li>            <li id="pa-u_8298348-bd" modid="u_8298348" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.messenger.yahoo.com/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -370px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Messenger">Messenger</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Messenger</a>
+            </li>            <li id="pa-u_25021304-bd" modid="u_25021304" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.mobile.yahoo.com/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -1406px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Mobile">Mobile</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Mobile</a>
+            </li>            <li id="pa-u_63826-bd" modid="u_63826" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.movies.yahoo.com">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -222px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Movies">Movies</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Movies</a>
+            </li>            <li id="pa-u_63794-bd" modid="u_63794" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.weather.yahoo.com">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -592px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Weather">Weather</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small">(13&deg;<abbr title="Celsius">C</abbr>)</span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Weather</a>
+            </li></ul>        </div>            <div id="u_2588582-apps-promolist" class="pa-apps-promolist">                    <h3 class="x-small y-txt-3 y-bg-2 y-ln-1">RECOMMENDED</h3><ul class="med-small pa-apps-list">                    <li id="pa-u_16726958-bd" modid="u_16726958" class="y-fp-pg-controls first" defer="1"></li>            <li id="pa-u_24036281-bd" modid="u_24036281" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://www.epicurious.com/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/epic_22_041609.gif) no-repeat ;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Epicurious">Epicurious</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Epicurious</a>
+            </li>            <li id="pa-u_25021280-bd" modid="u_25021280" class="y-fp-pg-controls " data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.groups.yahoo.com/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/in_pa_sprite_072409.png) no-repeat 0 -1332px;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Groups">Groups</span>
+                
+                
+            </a>
+            
+            
+            </li>            <li id="pa-u_25484360-bd" modid="u_25484360" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://in.kannada.yahoo.com">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/kannada_22_091409.gif) no-repeat ;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Kannada">Kannada</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Kannada</a>
+            </li>            <li id="pa-u_21445696-bd" modid="u_21445696" class="y-fp-pg-controls pa-btn-app" data-b-pah="http://www.yahoo.com" >            <a class="y-fp-pg-controls" href="http://profiles.yahoo.com/updates/">
+                <span class="pa-button-icon" style="background: url(http://d.yimg.com/a/i/ww/met/pa_icons/yupdates_22_041609.gif) no-repeat ;"></span>
+                <span class="y-pa-txt-button pa-button-title" title="Updates">Updates</span>
+                
+                                       <span class="y-txt-2 pa-button-vital small"></span>
+                       
+            </a>
+            
+            <a href="#" http://www.yahoo.com class="pa-btn-open hide-textindent">Preview Updates</a>
+            </li></ul>                    </div>        </div>            <div id="u_2588582-apps-pages" class="pa-apps-pages clearfix"  style="display:none;"></div>
+            <div class="pa-panel-footer y-fp-pg-grad y-ln-1">
+                <div class="pa-options pa-options-footer small strong">
+                    <ul class="clearfix strong">
+                        <li class="first y-ln-1"><a href="#EditApps" data-b="http://www.yahoo.com" class="pa-edit-apps"><span class="y-fp-pg-controls-nt y-link-1">Edit</span> <span class="hide-offscreen">Favorites</span></a></li>
+                        <li><a href="#AddApps" data-b="http://www.yahoo.com" class="pa-add-apps"><span class="y-link-1 y-fp-pg-controls">Add</span> <span class="hide-offscreen">Favorites</span></a></li>
+                    </ul>
+                </div>
+            </div>        </div>
+        </div> <!-- pa-middle -->
+        <div class="pa-footer">
+        </div> <!-- pa-footer -->
+        </div> <!-- pa-main -->
+        </div> <!-- pa-wrapper -->
+        </div> <!-- pa-right-shadow -->
+        <span class="pa-chrome-bottom y-ln-1 y-fp-pg-grad"><span class="pa-chrome-bottom-cor y-fp-pg-controls"></span></span>
+
+        <!-- ACCESSIBILITY & ERROR CONTAINERS-->
+
+        <div id="u_2588582-error-popup" class="hide">
+            <div id="u_2588582-mod-ovrly" class="pa-mod-ovrly"></div>
+            <div id="u_2588582-mod-err-ctr" class="y-glbl-universal-grad pa-mod-err-ctr" role="alertdialog"></div>
+        </div>
+
+        <div class="pa-accessibility hide-offscreen">
+            <div id="u_2588582-accessibility-status" class="pa-accessibility-status" role="status" aria-live="assertive"></div>
+        </div>
+
+        <!-- END ACCESSIBILITY -->
+
+        </div> <!-- y-pa-cont-->    </div>
+        <div id="default-u_2588582-ft" class="ft"></div>
+</div>
+                    </div>
+
+                    <div id="y-col1">
+<div id="default-p_26391799" class="mod view_default">  <div id="default-p_26391799-bd" class="bd type_breakingnews type_breakingnews_default">    </div>
+        <div id="default-p_26391799-ft" class="ft"></div>
+</div><div id="default-p_13872472" class="mod view_default">  <div id="default-p_13872472-bd" class="bd type_fptoday type_fptoday_default"><script>document.cookie="FPCK2=AgBLHJgQADg7EAB3MhAAcPAQAGxS;domain=in.yahoo.com;expires=Wed, 06 Jan 2010 05:55:27 GMT";</script>            <div class="fptoday-container y-ln-1 compact compact-container ">
+                <div id="p_13872472-main_story" class="main-story has-date">                    <h2 class="title-date"><span class="title y-txt-modhdr">TODAY</span><span class="date y-txt-2"> - 07 December, 2009</span></h2>
+                        <h2 class="package-header compact">
+                            <a class="pack-title" href="http://in.news.yahoo.com/139/20091206/1536/tls-hand-wash-most-effective-way-to-avoi.html"><img id="p_13872472-header-image" class="compact" src="http://l.yimg.com/a/i/in/today/02/swineflu3o1.jpg" alt="Simple ways to avoid Swine Flu"></a>
+    </h2>
+    <h3 class="compact">
+                        <a class="x-large" href="http://in.news.yahoo.com/139/20091206/1536/tls-hand-wash-most-effective-way-to-avoi.html">Winning trick against H1N1</a>
+    </h3>
+    <div class="left-body compact">
+        <p class="y-txt-1 y-ln-1">
+            Washing your hands is one of the simplest and most effective ways to avoid infections such as H1N1 and seasonal influenza.
+                        <a  href="http://in.news.yahoo.com/139/20091206/1536/tls-hand-wash-most-effective-way-to-avoi.html" class="small y-fp-pg-controls right-angle-quote">
+                More
+            </a>
+            
+        </p>
+    </div>
+    <ul class="related-links compact">
+                                <li class="related-story y-fp-pg-controls bullet">
+                        <a class="small" href="http://in.news.yahoo.com/48/20091203/804/tnl-swine-flu-here-to-stay-to-get-worse.html">&#39;Swine flu here to stay, to get worse&#39;</a></li>                        <li class="related-story y-fp-pg-controls bullet">
+                        <a class="small" href="http://in.news.yahoo.com/43/20091204/1537/tls-india-s-swine-flu-toll-reaches-606-o.html">Swine Flu toll crosses 600 in India</a></li>
+    </ul>
+                </div>                <div class="footer-section small">
+    <div class="footer-overlay hide"></div>
+    <div id=p_13872472_carousel_container class="carousel-container">
+        <div class="y-carousel">
+            <ol class="y-carousel-list y-fp-pg-grad">
+                            <li id="p_13872472-panel0" class="y-panel clearfix ">                    <a id="p_13872472_id-3513" data-b-tdh="http://www.yahoo.com" class="compact y-fp-pg-grad y-ln-4 item selected" href="http://in.news.yahoo.com/139/20091206/1536/tls-hand-wash-most-effective-way-to-avoi.html">
+                        <span class="y-fp-pg-controls indicator"></span>
+                        <img class="compact image y-ln-4 y-bg-1" src="http://l.yimg.com/a/i/in/today/02/swineflu3o1a.jpg" alt="Simple ways to avoid Swine Flu">
+                        <span class="item-label">Simple ways to avoid Swine Flu</span>
+                    </a>                    <a id="p_13872472_id-3515" data-b-tdh="http://www.yahoo.com" class="compact y-fp-pg-grad trans-border item" href="http://in.news.yahoo.com/48/20091206/804/tnl-the-copenhagen-guide.html">
+                        <span class="y-fp-pg-controls indicator"></span>
+                        <img class="compact image y-ln-2 y-bg-1" src="http://l.yimg.com/a/i/in/today/02/climatechange30a.jpg" alt="Your guide to climate summit">
+                        <span class="item-label">Your guide to climate summit</span>
+                    </a>                    <a id="p_13872472_id-3517" data-b-tdh="http://www.yahoo.com" class="compact y-fp-pg-grad trans-border item" href="http://in.news.yahoo.com/photos/slideshow/first-look-nook-e-reader.html">
+                        <span class="y-fp-pg-controls indicator"></span>
+                        <img class="compact image y-ln-2 y-bg-1" src="http://l.yimg.com/t/news/dec06/nook_30a.jpg" alt="Photos: ‘Nook’ takes on ‘Kindle’">
+                        <span class="item-label">Photos: ‘Nook’ takes on ‘Kindle’</span>
+                    </a>                    <a id="p_13872472_id-3516" data-b-tdh="http://www.yahoo.com" class="compact y-fp-pg-grad trans-border item" href="http://in.news.yahoo.com/photos/slideshow/the-week-that-was-nov-29-dec6.html">
+                        <span class="y-fp-pg-controls indicator"></span>
+                        <img class="compact image y-ln-2 y-bg-1" src="http://l.yimg.com/t/news/dec06/week1206_30a.jpg" alt="Photos: The week that was">
+                        <span class="item-label">Photos: The week that was</span>
+                    </a>            </li>            <li id="p_13872472-panel1" class="y-panel clearfix empty hide ">                <span class="y-fp-pg-grad empty trans-border item"></span>                <span class="y-fp-pg-grad empty trans-border item"></span>                <span class="y-fp-pg-grad empty trans-border item"></span>                <span class="y-fp-pg-grad empty trans-border item"></span>            </li>            <li id="p_13872472-panel2" class="y-panel clearfix empty hide ">                <span class="y-fp-pg-grad empty trans-border item"></span>                <span class="y-fp-pg-grad empty trans-border item"></span>                <span class="y-fp-pg-grad empty trans-border item"></span>                <span class="y-fp-pg-grad empty trans-border item"></span>            </li>            <li id="p_13872472-panel3" class="y-panel clearfix empty hide ">                <span class="y-fp-pg-grad empty trans-border item"></span>                <span class="y-fp-pg-grad empty trans-border item"></span>                <span class="y-fp-pg-grad empty trans-border item"></span>                <span class="y-fp-pg-grad empty trans-border item"></span>            </li>
+            </ol>
+        </div>
+    </div>
+    <div class="navigation no-visibility">
+                <div class="y-nav y-bg-2 y-ln-1 clearfix">            <div class="y-nav-count y-txt-2">1 of 16</div>            <div class="y-nav-buttons">
+                <a class="prev" href="#" data-b="http://www.yahoo.com">
+                    <span class="y-fp-pg-grad y-ln-1 btn">
+                        <span class="y-fp-pg-controls hide-textindent">Previous set of stories</span>
+                    </span>
+                </a>
+                <a class="next" href="#" data-b="http://www.yahoo.com">
+                    <span class="y-fp-pg-grad y-ln-1 btn">
+                        <span class="y-fp-pg-controls hide-textindent">Next set of stories</span>
+                    </span>
+                </a>
+            </div>        </div>
+    </div>
+</div>
+
+
+            </div>    </div>
+        <div id="default-p_13872472-ft" class="ft"></div>
+</div><div id="ad-west"></div><div id="default-p_13923988" class="mod view_default">  <div id="default-p_13923988-bd" class="bd type_news type_news_default"> <h2 class="hide-offscreen">News</h2>
+ <div class="tabwrapper y-ln-1">
+    <div class="y-bg-2 y-ln-1 tab-container ">
+   <div class="tab-holder">
+    <ul id="p_13923988-tablist-id" class="y-tablist y-tl-news small clearfix intl-in">
+       <li class="selected"> <a data-b="http://www.yahoo.com" href="http://in.news.yahoo.com/national.html" class=" y-ln-1 y-bg-2  first">TOP STORIES</a></li>  <li> <a data-b="http://www.yahoo.com" href="http://in.finance.yahoo.com" class=" y-ln-1 y-bg-2 ">FINANCE</a></li>  <li> <a data-b="http://www.yahoo.com" href="http://in.sports.yahoo.com" class=" y-ln-1 y-bg-2 ">SPORTS</a></li>
+    </ul>
+   </div>
+   <div class="y-fp-pg-grad y-ln-1 move-icon-container"><a href="http://m.in.yahoo.com/newsswap?_crumb=O2XdDT&pos=1&_done=http://m.in.yahoo.com/" class="y-fp-pg-controls move-icon icon-up" title="Move News on Top">Move News on Top</a></div>
+  </div>
+  <div class="y-tabpanels">
+    <div class="tabpanel clearfix selected">
+    <ul class="stories medium clearfix">    <li>
+     <a href="http://in.news.yahoo.com/43/20091207/818/tnl-life-remains-paralysed-for-second-da.html" class="y-fp-pg-controls bullet y-link-1">Life remains paralysed for second day in Telangana</a>    </li>    <li>
+     <a href="http://in.news.yahoo.com/137/20091207/760/twl-indian-pm-arrives-in-russia-for-arms.html" class="y-fp-pg-controls bullet y-link-1">Manmohan Singh arrives in Russia for arms, n-deals</a>    </li>    <li>
+     <a href="http://in.news.yahoo.com/20/20091207/1416/tnl-copenhagen-summit-india-keen-to-be-d.html" class="y-fp-pg-controls bullet y-link-1">Copenhagen summit: India keen to be deal-maker</a>    </li>    <li>
+     <a href="http://in.news.yahoo.com/48/20091207/814/tnl-rajkhowa-in-custody-but-peace-not-in.html" class="y-fp-pg-controls bullet y-link-1">Rajkhowa in custody, but peace not in sight yet</a>    </li>    <li>
+     <a href="http://in.news.yahoo.com/137/20091207/738/tnl-u-s-believes-pakistan-nuclear-arms-a.html" class="y-fp-pg-controls bullet y-link-1">&#39;U.S. believes Pakistan nuclear arms are secure&#39;</a>    </li>    <li>
+     <a href="http://in.news.yahoo.com/48/20091207/814/tnl-mission-2012-in-mind-rahul-set-for-u.html" class="y-fp-pg-controls bullet y-link-1">Mission 2012 in mind, Rahul set for UP sojourn</a>    </li>    <li>
+     <a href="http://in.news.yahoo.com/48/20091207/934/tsp-miracle-man-viru-keeps-working-his-m.html" class="y-fp-pg-controls bullet y-link-1">Miracle man Viru keeps working his magic</a>    </li>    <li>
+     <a href="http://in.news.yahoo.com/20/20091206/388/ten-clint-eastwood-compares-nelson-mande.html" class="y-fp-pg-controls bullet y-link-1">Clint Eastwood compares Nelson Mandela to Jesus</a>    </li>    <li>
+     <a href="http://in.news.yahoo.com/43/20091206/908/ten-the-lord-of-the-rings-voted-best-fil_1.html" class="y-fp-pg-controls bullet y-link-1">&#39;The Lord of the Rings&#39; voted best film of decade</a>    </li>   </ul>  <div class="local-link small clearfix">
+   <h3 class="y-txt-2">News in:</h3>
+   <ul class="local_lang more">    <li><a href="http://in.jagran.yahoo.com"  style="background-position: 0 0; width: 23px;">Hindi</a></li>    <li class="bdr-l y-ln-1"><a href="http://in.tamil.yahoo.com"  style="background-position: -32px 0; width: 29px;">Tamil</a></li>    <li class="bdr-l y-ln-1"><a href="http://in.gujarati.yahoo.com"  style="background-position: -70px 0; width: 37px;">Gujarati</a></li>    <li class="bdr-l y-ln-1"><a href="http://in.kannada.yahoo.com"  style="background-position: -116px 0; width: 29px;">Kannada</a></li>    <li class="bdr-l y-ln-1"><a href="http://in.malayalam.yahoo.com"  style="background-position: -154px 0; width: 48px;">Malayalam</a></li>    <li class="bdr-l y-ln-1"><a href="http://in.telugu.yahoo.com"  style="background-position: -211px 0; width: 38px;">Telugu</a></li>    <li class="bdr-l y-ln-1"><a href="http://in.punjabi.yahoo.com"  style="background-position: -258px 0; width: 30px;">Punjabi</a></li>   </ul>
+  </div>  <div class="more-link">
+   <h3 class="small">
+   <a class="link-color y-fp-pg-controls right-angle-quote" href="http://in.news.yahoo.com/national.html">More Top Stories</a>
+   </h3>
+  </div>
+  <p class="small y-txt-3 time-stamp">updated 11:25 AM IST</p>
+ </div> <div class="tabpanel clearfix"></div> <div class="tabpanel clearfix"></div>
+  </div>
+ </div>    </div>
+        <div id="default-p_13923988-ft" class="ft"></div>
+</div><div id="default-p_21445691" class="mod view_default">  <div id="default-p_21445691-bd" class="bd type_marketindices type_marketindices_default">        <div class="">
+	        <form action="http://in.finance.yahoo.com/q" method="get" accept-charset="utf-8" class="quotes-form y-bg-2 y-ln-1  clearfix">
+	        <dl class="markets clearfix strong small">
+	        
+	                            <dt class='market'>
+                    <a href="http://in.finance.yahoo.com/q?s=^BSESN">BSE Sensex:</a>
+                    </dt>
+                    <dd class="y-txt-2">17,078.47 <em class="negative">-0.13%</em></dd>
+                                    <dt class='market'>
+                    <a href="http://in.finance.yahoo.com/q?s=^NSEI">Nifty:</a>
+                    </dt>
+                    <dd class="y-txt-2">5,087.60 <em class="negative">-0.41%</em></dd>
+                
+	        </dl>
+	        <div class="getQuote">
+				<label for="id-21445691-quote" class="hide-offscreen">Enter stock symbol</label><input id="id-21445691-quote" type="text" value="" class="y-ln-2 small quotes-input"  name="s">
+				
+				<input type="submit" class="quotes-btn small y-ln-1 y-fp-pg-grad y-link-1" value="Get Quotes">
+			</div>
+				
+		    </form><div id="default-p_24813756_b5c" class="mod view_default">  <div id="default-p_24813756_b5c-bd" class="bd type_ads type_ads_default"><div class="stck stck-reserve"><noscript><div class="empty-fallback" ></div>
+</noscript></div>
+
+    </div>
+        <div id="default-p_24813756_b5c-ft" class="ft"></div>
+</div></div>    </div>
+        <div id="default-p_21445691-ft" class="ft"></div>
+</div>
+                    </div>
+
+                    <div id="y-col2">
+<div id="default-p_22934726" class="mod view_default">  <div id="default-p_22934726-bd" class="bd type_contentcarousel type_contentcarousel_default"><div class="carousel-pos3 y-ln-1">
+<div id="p_22934726-carousel" class="y-carousel-wrapper">
+<div class="y-carousel">
+<ul class="y-carousel-list">
+    <li class="y-panel"><div id="default-p_17416020_ca4" class="mod view_default">  <div id="default-p_17416020_ca4-bd" class="bd type_contentcarouselTopten type_contentcarouselTopten_default"><div class="default">            <div class="title-clip">
+            <div class="title-wrapper">
+            <h2 class="y-txt-modhdr bdr-b y-ln-1">Southeast Asian Getaways</h2>
+            </div>
+            </div><div class="clearfix wrapper">
+	<ol class="first">
+	    <li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=kuala+lumpur">Kuala Lumpur</a></li><li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=bangkok">Bangkok</a></li><li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=langkawi">Langkawi</a></li><li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=singapore">Singapore</a></li><li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=halong+bay">Halong Bay</a></li>
+    </ol>    <ol start="6">
+    	<li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=chiang+mai">Chiang Mai</a></li><li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=angkor+vat">Angkor Vat</a></li><li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=phuket">Phuket</a></li><li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=bali">Bali</a></li><li class="y-txt-accent"><a href="http://in.search.yahoo.com/search?&fr=fpa_onnetwork_pulse_travel&ei=UTF-8&rd=r1&p=manila">Manila</a></li>
+    </ol></div>
+</div>    </div>
+        <div id="default-p_17416020_ca4-ft" class="ft"></div>
+</div>    </li>
+</ul>
+</div>
+</div>
+</div>    </div>
+        <div id="default-p_22934726-ft" class="ft"></div>
+</div><div id="default-p_13923486" class="mod view_default">  <div id="default-p_13923486-bd" class="bd type_ads type_ads_default"><div class="lrec lrec-reserve"><noscript><a href="http://in.yahoo.com/newshp.php"> <img src="http://l.yimg.com/t/img/cereal_banner.jpg"></a></noscript></div>
+
+    </div>
+        <div id="default-p_13923486-ft" class="ft"></div>
+</div><div id="default-p_17335519" class="mod view_default">  <div id="default-p_17335519-bd" class="bd type_contentcarousel type_contentcarousel_default"><div class="carousel-pos4 y-ln-1">
+<div id="p_17335519-carousel" class="y-carousel-wrapper">
+<div class="y-carousel">
+<ul class="y-carousel-list">
+    <li class="y-panel"><div id="default-p_17556535_d40" class="mod view_default">  <div id="default-p_17556535_d40-bd" class="bd type_contentcarouselpulse type_contentcarouselpulse_default">    <div class="title-clip">
+    <div class="title-wrapper">
+    <h2 class="y-txt-modhdr">All about &#39;Paa&#39;</h2>
+    </div>
+    </div><div class="pulse-wrapper clearfix">
+    <a href="http://in.movies.yahoo.com/video-play.html?video_id=4108"><img class="pulse-img" width="75" height="75" alt="Big B as &#39;Auro&#39;" src="http://l.yimg.com/t/pulse/dec04/paa75x75.jpg"></a>
+    <ul class="pulse-list">
+	<li><a href="http://in.movies.yahoo.com/video-play.html?video_id=4108" class="y-fp-pg-controls">Big B as &#39;Auro&#39;</a></li><li><a href="http://in.movies.yahoo.com/movies/Paa/moviestills/slideshow-10640.html" class="y-fp-pg-controls">Movie stills</a></li><li><a href="http://in.movies.yahoo.com/movies/Paa/reviews-10640.html" class="y-fp-pg-controls">Write your review</a></li><li><a href="http://in.movies.yahoo.com/movies/Paa/parties/slideshow-10640.html" class="y-fp-pg-controls">Behind the scenes</a></li>
+    </ul>
+</div>
+<p class="more small strong"><a class="y-fp-pg-controls" href="http://in.movies.yahoo.com/">More Movies</a></p>    </div>
+        <div id="default-p_17556535_d40-ft" class="ft"></div>
+</div>    </li>
+</ul>
+</div>
+</div>
+</div>    </div>
+        <div id="default-p_17335519-ft" class="ft"></div>
+</div><div id="default-p_24457750" class="mod view_default">  <div id="default-p_24457750-bd" class="bd type_miniad type_miniad_default"><div class='top_padding'><div class='y-ln-1 y-bg-2 content'><div id="default-p_26391790_b47" class="mod view_default">  <div id="default-p_26391790_b47-bd" class="bd type_ads type_ads_default"><div class="promo promo-reserve"><noscript><style>
+.hdlnm a .hdlnm-img {float:left;margin-right:.5em;}
+.hdlnm .hdlnm-txt {float:left;line-height:1.36em;}
+</style>
+<div class="hdlnm small clearfix">
+<a href="%rd%/%space%/*http://messenger.yahoo.com/invite"><img src="http://l.yimg.com/t/i/in/adv/housead/ccs/fp_messenger_04012009.gif" width="70" height="50" border="0" class="hdlnm-img" alt="Yahoo! Messenger"></a>
+<p class="hdlnm-txt">
+<a href="%rd%/%space%/*http://messenger.yahoo.com/invite">More friends. More fun.</a>
+<br/>Add friends from Orkut, Gmail, Facebook
+<br/>and other social networks on&nbsp;<a href="%rd%/%space%/*http://messenger.yahoo.com/invite">Yahoo! Messenger</a>.
+</p>
+</div></noscript></div>
+
+    </div>
+        <div id="default-p_26391790_b47-ft" class="ft"></div>
+</div></div></div>    </div>
+        <div id="default-p_24457750-ft" class="ft"></div>
+</div>
+                    </div>
+
+                </div>
+
+                <span class="y-chrome-bottom y-fp-ln-pg"><span class="left y-fp-pg-controls"></span><span class="right y-fp-pg-controls"></span></span>
+
+            </div>
+
+            <div id="y-footer">
+<div id="default-p_13848969" class="mod view_default">  <div id="default-p_13848969-bd" class="bd type_footer type_footer_default"><div class="ad small y-ftr-link"></div>            <div class="sections clearfix y-ftr-bg y-ftr-ln y-fp-pg-grad cols4">
+                <span class="chrome"><span class="tl y-fp-pg-controls"></span><span class="tr y-fp-pg-controls"></span></span>
+                <ul class="y-ftr-ln"><li><h2 class="y-ftr-txt-hdr">DOWNLOADS</h2><ul class="small"><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.messenger.yahoo.com/download/">Messenger</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.toolbar.yahoo.com/">Toolbar</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://downloads.yahoo.com/in/internetexplorer/">Y! Internet Explorer 8</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://downloads.yahoo.com/in/firefox/">Y! Firefox 3.x</a></li></ul></li><li><h2 class="y-ftr-txt-hdr">DO BUSINESS WITH YAHOO!</h2><ul class="small"><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.advertising.yahoo.com/">Advertise with Us</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://searchmarketing.yahoo.com/en_IN/">Search Marketing</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.business.yahoo.com/">Domain Registration</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.business.yahoo.com/index.php?type=R">Web Hosting</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.search.yahoo.com/info/submit.html">Submit your Site</a></li></ul></li><li><h2 class="y-ftr-txt-hdr">POLICY INFORMATION</h2><ul class="small"><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://info.yahoo.com/privacy/in/yahoo/">Privacy Policy</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.docs.yahoo.com/info/terms/">Terms of Service</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.docs.yahoo.com/info/copyright/copyright.html">Copyright/IP Policy</a></li></ul></li><li><h2 class="y-ftr-txt-hdr">ABOUT YAHOO!</h2><ul class="small"><li class="double first" ><a class="y-fp-pg-controls y-ftr-link" href="http://help.yahoo.com/l/in/yahoo/homepage/homepage/">Help</a></li><li class="double second" ><a class="y-ftr-ln y-ftr-link" href="http://feedback.help.yahoo.com/feedback.php?.src=FP-IN&.from=704_footer&.done=http://m.in.yahoo.com">Send Feedback</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.you.yahoo.com">Explore the New Yahoo!</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://m.in.yahoo.com/whatsnew">Page Tour</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://in.docs.yahoo.com/info/">Company Info</a></li><li  ><a class="y-fp-pg-controls y-ftr-link" href="http://bangalore.yahoo.com/careers.html">Jobs</a></li></ul></li>                </ul>
+                <span class="chrome"><span class="bl y-fp-pg-controls"></span><span class="br y-fp-pg-controls"></span></span>
+            </div>    </div>
+        <div id="default-p_13848969-ft" class="ft"></div>
+</div>
+            </div>
+
+            <div id="y-subfooter">
+<div id="default-p_24803755" class="mod view_default">  <div id="default-p_24803755-bd" class="bd type_subfooter type_subfooter_default"><!-- cms content --><div class="info small"><p class="y-subftr-txt">Copyright © 2009 Yahoo! India Pvt. Ltd. All rights reserved.</p></div><script>OnloadCache.disable();</script><div id="default-p_15191401_e67" class="mod view_default">  <div id="default-p_15191401_e67-bd" class="bd type_ads type_ads_default"><div class="foot9 foot9-reserve"><!-- metro normal ad --><!-- metro fallback ad static --><!--FOOT9--></div>    </div>
+        <div id="default-p_15191401_e67-ft" class="ft"></div>
+</div>    </div>
+        <div id="default-p_24803755-ft" class="ft"></div>
+</div>
+            </div>
+<script type="text/javascript" src="http://l.yimg.com/a/lib/arc/yui/yui_0.2.1.js"></script>
+<script type="text/javascript">js=["http:\/\/l.yimg.com\/a\/lib\/arc\/core_1.0.16.js","http:\/\/l.yimg.com\/a\/combo?metro\/uiplugins\/autohide_service_0.1.6.js&metro\/uiplugins\/iframeshim_service_0.0.6.js&arc\/util\/ylc_1.8.14.js&metro\/uiplugins\/instrumentation_service_0.1.8.js&metro\/uiplugins\/statemgr_service_0.1.8.js&metro\/uiplugins\/toolbar_bridge_service_0.1.8.js&metro\/uiplugins\/tooltip_service_0.1.29.js&arc\/framework\/transport_0.1.61.js&metro\/pa\/pa_0.1.163.js&metro\/uiplugins\/metro_ext_arcade_0.1.5.js&metro\/uiplugins\/userinfo_service_0.1.4.js&metro\/uiplugins\/metro_viewtype_0.1.10.js&metro\/uiplugins\/default_viewtype_0.1.42.js&metro\/uiplugins\/edit_viewtype_0.1.28.js&metro\/uiplugins\/pa_viewtype_0.1.2.js&metro\/uiplugins\/metrologger_service_0.1.5.js&metro\/sda\/sda_bridge_service_0.0.1.js&metro\/fp\/fp_0.1.49.js&metro\/uiplugins\/metrics_service_0.1.0.js&metro\/uiplugins\/metro_performance_0.1.3.js&metro\/navbar\/navbar_0.1.66.js&metro\/tuc\/tuc_0.0.15.js&metro\/uiplugins\/aria_service_0.1.9.js&metro\/uiplugins\/tablist_service_0.1.24.js&metro\/masthead\/masthead_0.2.66.js&metro\/sda\/sda_deferred_service_0.0.7.js&metro\/sda\/sda_transport_0.0.5.js&metro\/sda\/sda_0.1.32.js&metro\/uiplugins\/carousel_service_0.1.33.js&metro\/fptoday\/fptoday_hover_0.1.35.js&metro\/uiplugins\/ulm_service_0.1.27.js&metro\/news\/news_0.1.22.js&metro\/marketindices\/marketindices_0.1.14.js&metro\/contentcarousel\/contentcarousel_0.1.34.js&metro\/uiplugins\/windowshade_service_0.0.8.js&metro\/ipredirect\/ipredirect_0.0.5.js"];</script><script type='text/javascript'>
+rtJSLoad = Number(new Date());
+(function(){            var Y = YUI({ bootstrap: false, useBrowserConsole: false }).use("*"),
+                config = {"props":{"crumb":"O2XdDT","libRoot":"http:\/\/l.yimg.com\/a\/lib\/","proxyUrl":"\/proxy","ultSpaceId":"97684142","ultBeaconHost":"\/p.gif","requestUrl":"\/js","comboRoot":"http:\/\/l.yimg.com\/a\/combo?","sdaRequestUrl":"\/sda2","passthru":"","proxyTimeout":15000,"modChromeHtml":"<div id=\"{view_name}-{type_name}\" class=\"mod view_{view_name}\">  <div id=\"{view_name}-{type_name}-bd\" class=\"bd  _{view_name}\">{html}    <\/div>\n    \n<\/div>","modErrorHtml":"<div class=\"oops-msg\" role=\"alertdialog\">\n                <span class='icon' style='background-image:url({img});_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop src=\"{img}\"); _background-image:none;'><\/span><span class='shadow'><\/span>\n                <h3 class=\"oops\">\"{name}\" encountered a problem while trying to load<\/h3>\n                <p class=\"oops\">{message}<\/p>\n                                <p class=\"oops oops-link\">Or visit <a href=\"{url}\">{url}<\/a><\/p>\n            <\/div>","crumbErrorHtml":"<div class=\"oops-msg\" role=\"alertdialog\">\n                <span class=\"icon y-glbl-universal\" style=\"background-position: 0 -2368px;\"><\/span>\n                <h3 class=\"oops\">The module encountered a problem while trying to load<\/h3>\n                <p class=\"oops\">We noticed you may have signed in or signed out in another window.  Click OK to reload your page.<\/p>\n                \n            <\/div>","cookieErrorHtml":"<div class=\"oops-msg\" role=\"alertdialog\">\n                <span class=\"icon y-glbl-universal\" style=\"background-position: 0 -2368px;\"><\/span>\n                <h3 class=\"oops\">The module encountered a problem while trying to load<\/h3>\n                <p class=\"oops\">This application requires that your cookies are enabled. For help on cookies, visit <a href=\"http:\/\/help.yahoo.com\/l\/in\/yahoo\/helpcentral\/\">the help page<\/a> and search for 'enable cookies'.<\/p>\n                \n            <\/div>","cookieDomain":"in.yahoo.com"},"mods":[{"props":{"trusted":true,"id":"fp","type":"fp","ns":"type_fp"},"strs":{"STR.MODULE.ERROR_FALLBACK_TEXT":"Content is currently unavailable. We're working on it, so please check back soon."},"state":{"view":"default"},"mods":[{"state":{"view":"default","defer":false,"collapsed":0},"props":{"id":"p_21445690","type":"ipredirect","ns":"type_ipredirect","contentId":"21445690","tags":[],"title":"Redirect Window Shade","icon":"","shortTitle":"Redirect Window Shade","detailUrl":""},"prefs":{"isc":0,"_mc":0}},{"props":{"trusted":true,"id":"p_13838465","type":"masthead","ns":"type_masthead","contentId":"13838465","tags":[],"title":"Masthead","icon":"","shortTitle":"Masthead","detailUrl":""},"data":{"searchpadMouseoutDelay":"850","isIntlSearchEnabled":false,"isSaytEnabled":true,"showSaytImg":false,"searchIntl":"in","formData":{"web":{"button":"Web Search","action":"http:\/\/in.search.yahoo.com\/search","bcnDrawerOpen":"http:\/\/www.yahoo.com","bcnDrawerClose":"http:\/\/www.yahoo.com","bcnAutoOpen":"http:\/\/www.yahoo.com","bcnScroll":"http:\/\/www.yahoo.com","bcnOnOff":"http:\/\/www.yahoo.com","yltClickSuggestion":"h","yltInfoPage":"http:\/\/tools.search.yahoo.com\/newsearch\/searchassist.html"},"images":{"button":"Image Search","action":"http:\/\/in.search.yahoo.com\/search\/images","bcnDrawerOpen":"http:\/\/www.yahoo.com","bcnDrawerClose":"http:\/\/www.yahoo.com","bcnAutoOpen":"http:\/\/www.yahoo.com","bcnScroll":"http:\/\/www.yahoo.com","bcnOnOff":"http:\/\/www.yahoo.com","yltClickSuggestion":"h","yltInfoPage":"http:\/\/tools.search.yahoo.com\/newsearch\/searchassist.html"},"local":{"button":"Local Search","action":"http:\/\/in.local.yahoo.com\/srp.php","paramQuery":"busi","paramLocation":"addr","locationGhostText":"City or Locality"},"news":{"button":"News Search","action":"http:\/\/in.news.search.yahoo.com\/search\/news"}},"saData":{"normalizationRules":[["A","A|\u00c0|\u00c1|\u00c2|\u00c3"],["AE","AE|\u00c6|\u00c4"],["C","C|\u00c7"],["E","E|\u00c8|\u00c9|\u00ca|\u00cb"],["I","I|\u00cc|\u00cd|\u00ce|\u00cf"],["D","D|\u00d0"],["N","N|\u00d1"],["O","O|\u00d2|\u00d3|\u00d4|\u00d5"],["OE","OE|\u00d6|\u00d8"],["U","U|\u00d9|\u00da|\u00db"],["UE","UE|\u00dc"],["Y","Y|\u00dd"],["TH","TH|\u00de"],["SS","SS|\u00df"],[" "," |'|\\-"]],"minQueryLength":2,"queryDelay":200,"webGossipUrl":"http:\/\/sugg.in.search.yahoo.com\/gossip-in\/?output=yjsonp&command=","imgGossipUrl":"http:\/\/sugg.search.yahoo.com\/gossip-us-fp\/?output=yjsonp&command=","openAnimDuration":"0.2","closeAnimDuration":"0.15"},"HTML_SECONDINPUT":"    <input id=\"p_13838465-location\" class=\"input-location med-large\" type=\"text\">","HTML_SECONDLABEL":"    <label for=\"p_13838465-in\" class=\"in-searchlabel y-mast-txt medium\">in<\/label>","HTML_HOODCONTENT_ENABLED":"<h3 class=\"hide-offscreen\">Search Suggestions<\/h3>        \n<div class=\"sa-options small\">\n    <a id=\"p_13838465-sa-info\" class=\"sa-info\" href=\"http:\/\/tools.search.yahoo.com\/newsearch\/searchassist.html\">Search Assist:<\/a>\n    <span class=\"on\">\n        On\n    <\/span>\n    <a id=\"p_13838465-offswitch\" class=\"off active\" href=\"#turnoff\">\n        Off\n    <\/a>\n<\/div>\n<div id=\"p_13838465-sayt\" class=\"sa-holder\">\n    <ul class=\"hints\">\n        <li>No suggestions.<\/li>\n        <li>Please begin typing your search query.<\/li>\n    <\/ul>\n<\/div>","HTML_HOODCONTENT_DISABLED":"<h3 class=\"hide-offscreen\">Search Suggestions<\/h3>        \n<div class=\"sa-options small\">\n    <a id=\"p_13838465-sa-info\" class=\"sa-info\" href=\"http:\/\/tools.search.yahoo.com\/newsearch\/searchassist.html\">Search Assist:<\/a> \n    <a id=\"p_13838465-onswitch\" class=\"on active\" href=\"#turnon\">\n        On\n    <\/a>\n    <span class=\"off inactive\">\n        Off\n    <\/span>\n<\/div>\n<div id=\"p_13838465-sayt\" class=\"sa-holder\">\n    <ul class=\"hints\">\n        <li>Suggestions are turned off.<\/li>\n        <li>\n            <a href=\"#turnon\" id=\"p_13838465-sa-hintswitch\" class=\"hswitch\">\n               Click here to activate.\n            <\/a>\n        <\/li>\n    <\/ul>    \n<\/div>","HTML_RESULTSLIST":"<ul id=\"p_13838465-results\" class=\"sa-results\"><\/ul>","HTML_RESULTSITEM":"        <li><a href=\"\" tabindex=\"-1\"><\/a><\/li>","HTML_RESULTSITEM_WITH_ADDTO":"        <li><a class=\"app-available y-fp-pg-controls-nt\" href=\"\" tabindex=\"-1\"><\/a><em class=\"small added-notice\"><em>Added<\/em><\/em><a class=\"y-fp-pg-controls-nt add-to-y\" href=\"javascript:void(0);\" tabindex=\"-1\">Add to Yahoo!<\/a><\/li>","HTML_RESULTS_SCROLLARROWS":"<div class=\"sa-arrows\">\n    <a id=\"p_13838465-arr-up\" class=\"up y-mast-sprite\" href=\"http:\/\/in.search.yahoo.com\/\" tabindex=\"-1\">Move selection up<\/a>\n    <a id=\"p_13838465-arr-down\" class=\"down denabled y-mast-sprite\" href=\"http:\/\/in.search.yahoo.com\/\" tabindex=\"-1\">Move selection down<\/a>\n<\/div>        ","HTML_ERROR_STRUCTURE":"        <div id=\"p_13838465-err-msg\" class=\"error-ctr\"><span class=\"error-icon y-glbl-universal\"><\/span><div class=\"error-msg\">{_error_msg_}<\/div><a id=\"p_13838465-close-btn\" class=\"y-glbl-universal close-btn\" href=\"javascript:void(0);\">Close<\/a><\/div>","defLoc":"New Delhi, Delhi","dummyYLT":"","frCode":"yfp-t-704"},"strs":{"STR.MASTHEAD.LABEL.SEARCHTERMS":"Searchterm(s)","STR.MASTHEAD.HAS_SUGGESTION":"One or more search suggestions are available. Use up or down arrow keys to navigate between them.","STR.MASTHEAD.NO_SUGGESTION":"No search suggestions are available.","STR.SA.DROPDOWN.DESCRIPTION":"Use up and down arrow\nkeys to select suggestions","STR.SA.TOGGLE.ON":"Open Search Assist","STR.SA.TOGGLE.OFF":"Close Search Assist"},"state":{"view":"default","defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0}},{"props":{"trusted":true,"id":"p_13838466","type":"navbar","ns":"type_navbar","contentId":"13838466","tags":[],"title":"Navigation bar","icon":"","shortTitle":"Navigation bar","detailUrl":""},"state":{"view":"default","defer":false,"collapsed":0},"mods":[{"data":{"isLoggedIn":false,"statusErrorHTML":"<div class=\"su-dropdown su-error\" id=\"p_29445946_ff4-su-dropdown\">\n    <div class=\"su-dropdown-outer\">\n        <div class=\"su-dropdown-inner y-pa-bg-open y-pa-ln-open-dk\">\n            <div class=\"su-dropdown-hd y-pa-ln-open-dk\"><\/div>\n            <div class=\"su-dropdown-bd\">\n                        <div class=\"oops-msg\">\n            <span class=\"icon y-glbl-universal\"><\/span>\n            <h3 class=\"oops\">We're unable to update your status now. Please try again later.<\/h3>\n            <div class=\"btn-container\">\n                <button class=\"cta-btn su-btn\" id=\"p_29445946_ff4-su-cancel\">Close<\/button>\n            <\/div>\n        <\/div>\n            <\/div>\n            <span class=\"y-fp-pg-controls su-tl\"><\/span>\n            <span class=\"y-fp-pg-controls su-tr\"><\/span>\n            <span class=\"y-fp-pg-controls su-bl\"><\/span>\n            <span class=\"y-fp-pg-controls su-br\"><\/span>\n        <\/div>\n        <div class=\"y-fp-pg-grad su-bottom y-pa-ln-open-dk\"><\/div>\n    <\/div>\n    <div class=\"y-fp-pg-controls su-arrow\"><\/div>\n<\/div>"},"state":{"view":"default","defer":false,"collapsed":0},"props":{"id":"p_29445946_ff4","type":"tuc","ns":"type_tuc","contentId":"29445946","tags":[],"title":"Tiny User Card","icon":"","shortTitle":"Tiny User Card","detailUrl":""},"prefs":{"isc":0,"_mc":0}}],"strs":{"PAGEOPTIONS.HTML":"                                <div id=\"p_13838466-pageoptions-dropdown\" class=\"y-bg-3 y-ln-3 hide-offscreen hidden med-large\">\n                                    \n                                    <ul class=\"clearfix\">\n                                                                        <li class=\"border-b y-ln-3\"><h3 class=\"y-txt-2\">Select Color<\/h3>\n                                    <ul id=\"p_13838466-color\" class=\"colors clearfix\">\n                                                                        <li class=\"selected\"><a id=\"th-10000\" class=\"theme\" style=\"background:transparent url(http:\/\/d.yimg.com\/a\/i\/ww\/met\/sprite_themeicns_070809.gif) no-repeat 0px -15px;\" href=\"#\" title=\"Slate\" data-b=\"http:\/\/www.yahoo.com\">Slate<\/a><\/li>                                    <li class=\"\"><a id=\"th-10001\" class=\"theme\" style=\"background:transparent url(http:\/\/d.yimg.com\/a\/i\/ww\/met\/sprite_themeicns_070809.gif) no-repeat -57px 0px;\" href=\"#\" title=\"Grass\" data-b=\"http:\/\/www.yahoo.com\">Grass<\/a><\/li>                                    <li class=\"\"><a id=\"th-10002\" class=\"theme\" style=\"background:transparent url(http:\/\/d.yimg.com\/a\/i\/ww\/met\/sprite_themeicns_070809.gif) no-repeat -76px 0px;\" href=\"#\" title=\"Bubblegum\" data-b=\"http:\/\/www.yahoo.com\">Bubblegum<\/a><\/li>                                    <li class=\"\"><a id=\"th-10003\" class=\"theme\" style=\"background:transparent url(http:\/\/d.yimg.com\/a\/i\/ww\/met\/sprite_themeicns_070809.gif) no-repeat -19px 0px;\" href=\"#\" title=\"Violet\" data-b=\"http:\/\/www.yahoo.com\">Violet<\/a><\/li>                                    <li class=\"\"><a id=\"th-10004\" class=\"theme\" style=\"background:transparent url(http:\/\/d.yimg.com\/a\/i\/ww\/met\/sprite_themeicns_070809.gif) no-repeat -38px 0px;\" href=\"#\" title=\"Tangerine\" data-b=\"http:\/\/www.yahoo.com\">Tangerine<\/a><\/li>                                    <li class=\"\"><a id=\"th-10005\" class=\"theme\" style=\"background:transparent url(http:\/\/d.yimg.com\/a\/i\/ww\/met\/sprite_themeicns_070809.gif) no-repeat -95px 0px;\" href=\"#\" title=\"Ocean\" data-b=\"http:\/\/www.yahoo.com\">Ocean<\/a><\/li>\n                                    <\/ul>\n                                <\/li>\n                                                                        <li class=\"border-t y-ln-3\"><a href=\"http:\/\/m.in.yahoo.com\/switchlayout?_crumb=O2XdDT\">Switch to compact view<\/a><\/li>\n                                        <li><a href=\"http:\/\/m.in.yahoo.com\/newsswap?_crumb=O2XdDT&pos=1&_done=http:\/\/m.in.yahoo.com\" class=\"last\">Move News on Top<\/a><\/li>\n                                    <\/ul>\n                                    \n                                <\/div>"},"prefs":{"isc":0,"_mc":0}},{"props":{"trusted":true,"id":"u_2588582","type":"pa","ns":"type_pa","contentId":"2588582","tags":[],"title":"","icon":"","shortTitle":"","detailUrl":""},"data":{"loggedIn":false,"numOfPaColumns":"3","numOfModsPerCol":"13","buttonTitleMaxLen":"19","paOpenHoverEnabled":"1","paOpenPauseEnabled":"0","paOpenPauseIE":"1","delay_pause_length":"400","delay_pause_after":"60","delay_pause_max":"1250","delay_added_fade":"1150","duration_added_fade":"500","yservices":[{"props":{"trusted":true,"cpos":1,"id":"p_24793754_fd5","type":"yservices","ns":"type_yservices","contentId":"24793754","tags":[],"title":"View Yahoo! Sites","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/yservice_22_063009.gif","shortTitle":"View Yahoo! Sites","detailUrl":"http:\/\/everything.yahoo.com\/in\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"24793754"}],"pacontainer":{"props":{"trusted":true,"id":"p_26583360","type":"pacontainer","ns":"type_pacontainer","contentId":"26583360","tags":[],"title":"PA Container","icon":"","shortTitle":"PA Container","detailUrl":""},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"26583360"},"userlist":[{"props":{"cpos":1,"id":"u_14782488","type":"ymail","ns":"type_mail","contentId":"14782488","tags":[],"title":"Yahoo! Mail","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/mail_22_081309.gif","shortTitle":"Yahoo! Mail","detailUrl":"https:\/\/login.yahoo.com\/config\/mail?.src=ym&.intl=in"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"14782488"},{"props":{"cpos":2,"id":"u_25021325","type":"autoapp","ns":"type_autoapp","contentId":"25021325","tags":[],"title":"Answers","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/ans_22_041609.gif","shortTitle":"Answers","detailUrl":"http:\/\/in.answers.yahoo.com\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"25021325"},{"props":{"cpos":3,"id":"u_21338334","type":"feed","ns":"type_feed","contentId":"21338334","tags":[],"title":"Buzz","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/buzz_22_063009.gif","shortTitle":"Buzz","detailUrl":"http:\/\/in.buzz.yahoo.com\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"21338334"},{"props":{"cpos":4,"id":"u_21935702","type":"cricket","ns":"type_cricket","contentId":"21935702","tags":[],"title":"Cricket","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/crick_22_041609.gif","shortTitle":"Cricket","detailUrl":"http:\/\/cricket.yahoo.com\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"21935702"},{"props":{"cpos":5,"id":"u_21381336","type":"feed","ns":"type_feed","contentId":"21381336","tags":[],"title":"Dainik Jagran","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/jagran_22_041609.gif","shortTitle":"Dainik Jagran","detailUrl":"http:\/\/in.jagran.yahoo.com"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"21381336"},{"props":{"cpos":6,"id":"u_22927225","type":"facebook","ns":"type_facebook","contentId":"22927225","tags":[],"title":"Facebook","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/facebook_22_063009.gif","shortTitle":"Facebook","detailUrl":"http:\/\/www.facebook.com"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"22927225"},{"props":{"cpos":7,"id":"u_93109","type":"finance","ns":"type_finance","contentId":"93109","tags":[],"title":"Finance","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/finance_22_041609.gif","shortTitle":"Finance","detailUrl":"http:\/\/in.finance.yahoo.com"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"93109"},{"props":{"cpos":8,"id":"u_63802","type":"horoscope","ns":"type_horoscope","contentId":"63802","tags":[],"title":"Horoscope","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/horoscopes_22_041609.gif","shortTitle":"Horoscope","detailUrl":"http:\/\/in.news.yahoo.com\/astrology\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"63802"},{"props":{"cpos":9,"id":"u_25021316","type":"local","ns":"type_local","contentId":"25021316","tags":[],"title":"Local","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/local_22_072109.gif","shortTitle":"Local","detailUrl":"http:\/\/in.local.yahoo.com\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"25021316"},{"props":{"cpos":10,"id":"u_8298348","type":"messenger","ns":"type_messenger","contentId":"8298348","tags":[],"title":"Messenger","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/mess_22_041609.gif","shortTitle":"Messenger","detailUrl":"http:\/\/in.messenger.yahoo.com\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"8298348"},{"props":{"cpos":11,"id":"u_25021304","type":"autoapp","ns":"type_autoapp","contentId":"25021304","tags":[],"title":"Mobile","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/mobile_22_042809.gif","shortTitle":"Mobile","detailUrl":"http:\/\/in.mobile.yahoo.com\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"25021304"},{"props":{"locationBased":true,"cpos":12,"id":"u_63826","type":"movies","ns":"type_movies","contentId":"63826","tags":[],"title":"Movies","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/movie_22_041609.gif","shortTitle":"Movies","detailUrl":"http:\/\/in.movies.yahoo.com"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"63826"},{"props":{"locationBased":true,"cpos":13,"id":"u_63794","type":"weather","ns":"type_weather","contentId":"63794","tags":[],"title":"Weather","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/weather_22_041609.gif","shortTitle":"Weather","detailUrl":"http:\/\/in.weather.yahoo.com"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"63794"}],"currentPaColumn":1,"numberOfUserColumns":1,"promolist":[{"props":{"trusted":true,"cpos":1,"id":"u_16726958","type":"adspabutton","ns":"type_adspabutton","contentId":"16726958","tags":[],"title":"Adserved Quicklinks - QL1","icon":"","shortTitle":"Adserved Quicklinks - QL1","detailUrl":""},"data":{"adlocs":"ql1"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"16726958"},{"data":{"_coke":true},"props":{"cpos":2,"id":"u_24036281","type":"feed","ns":"type_feed","contentId":"24036281","tags":[],"title":"Epicurious","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/epic_22_041609.gif","shortTitle":"Epicurious","detailUrl":"http:\/\/www.epicurious.com\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"24036281"},{"data":{"_coke":true},"props":{"cpos":3,"id":"u_25021280","type":"autoapp","ns":"type_autoapp","contentId":"25021280","tags":[],"title":"Groups","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/groups_22_041609.gif","shortTitle":"Groups","detailUrl":"http:\/\/in.groups.yahoo.com\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"25021280"},{"data":{"_coke":true},"props":{"cpos":4,"id":"u_25484360","type":"autoapp","ns":"type_autoapp","contentId":"25484360","tags":[],"title":"Kannada","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/kannada_22_091409.gif","shortTitle":"Kannada","detailUrl":"http:\/\/in.kannada.yahoo.com"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"25484360"},{"data":{"_coke":true},"props":{"cpos":5,"id":"u_21445696","type":"updates","ns":"type_updates","contentId":"21445696","tags":[],"title":"Updates","icon":"http:\/\/d.yimg.com\/a\/i\/ww\/met\/pa_icons\/yupdates_22_041609.gif","shortTitle":"Updates","detailUrl":"http:\/\/profiles.yahoo.com\/updates\/"},"state":{"defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0},"suid":"21445696"}],"f-generic-msg":"Unable to add favorites now - please try later.","oopsBtnDefault":"<p class=\"oops\"><button class=\"cta-btn pa-mod-err-ok\">OK<\/button><\/p>","loadingMsgDefault":"<span class=\"pa-loading loading-spinner\">Loading...<\/span>","loadingSpinner":"<span class=\"loading-spinner\"><\/span>","errorMsgDefault":"        <a href=\"#\" id=\"u_2588582-mod-err-close\" class=\"y-glbl-universal hide-textindent pa-mod-err-close\">Close<\/a>\n        <div id=\"u_2588582-mod-err-msg\" class=\"pa-mod-err-msg\">\n                        <div class=\"oops-msg\" role=\"alertdialog\">\n                <span class=\"icon iconpos y-glbl-universal\"><\/span>\n                <h3 class=\"oops\">The application settings are currently unavailable.<\/h3>\n                <p class=\"oops\">Please try again later.<\/p>\n            <\/div>\n            <p class=\"oops\"><button id=\"u_2588582-mod-err-ok\" class=\"cta-btn pa-mod-err-ok\">OK<\/button><\/p>\n        <\/div>","detachedPointerHtml":"        <span id=\"u_2588582-pointer\" class=\"pa-pointer y-pa-ln-open-dk y-fp-pg-controls\">\n            <span class=\"pa-pointer-bd y-fp-pg-controls\"><\/span>\n            <span class=\"pa-pointer-bottom y-pa-ln-open-dk y-fp-pg-grad\"><\/span>\n        <\/span>","flashHtml":"            <div id=\"u_2588582-flash\" class=\"pa-flash {cssClass}\" role=\"alertdialog\">\n                <span class=\"pa-flash-icon y-glbl-universal\"><\/span>\n                <p class=\"pa-flash-msg small\">{html}<\/p>\n                <button class=\"pa-flash-close hide-textindent y-glbl-universal\">Close<\/button>\n            <\/div>"},"strs":{"pacontainerHtml":"<div class=\" pa-app-col1 y-pa-ln-open-dk \"><div class=\"hd\"><h2 class=\"x-large\">{title}<\/h2><\/div>{html}<\/div>","STR.OK":"OK","STR.TRY_AGAIN":"Try Again","STR.PA.ACCESSIBILITY.LOADING":"{title} is loading","STR.PA.ACCESSIBILITY.LOADED":"{title} is loaded","STR.PA.TIMEOUT":"<div role=\"alert\" class=\"y-txt-1 pa-unavailable med-small y-glbl-universal\"><strong>Unable to connect to the Yahoo! Homepage. Please try again.<\/strong><\/div>","STR.PA.PAGINATION.PAGE_TITLE":"","STR.PA.TIMEOUT.POPUP":"            <div class=\"oops-msg\" role=\"alertdialog\">\n                <span class=\"icon iconpos y-glbl-universal\"><\/span>\n                <h3 class=\"oops\">Sorry, we were unable to save your changes<\/h3>\n                <p class=\"oops\">Please try again later.<\/p>\n            <\/div>\n            <p class=\"oops\"><button class=\"cta-btn pa-mod-err-ok\">OK<\/button><\/p>","STR.PA.DISCLAIMER":"<div class=\"pa-mod-disc small\"><h6><a role=\"button\" href=\"#disclaimer\" oncontextmenu=\"return false\" class=\"pa-mod-show-disc\">Disclaimer<\/a><\/h6><p tabindex=\"0\">This content may come from external websites and may not conform to your laws. You are fully responsible for your access to and use of this application and content.<\/p><\/div>"},"state":{"view":"default","defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0}},{"state":{"view":"default","defer":false,"collapsed":0},"props":{"id":"p_26391799","type":"breakingnews","ns":"type_breakingnews","contentId":"26391799","tags":[],"title":"Breaking News","icon":"","shortTitle":"Breaking News","detailUrl":""},"prefs":{"isc":0,"_mc":0}},{"data":{"today_delay_mouseover":"100","cokeTestId":"","dummyYLT":"","headerImageSrc":"http:\/\/l.yimg.com\/a\/i\/in\/today\/02\/swineflu3o1.jpg","headerImageAlt":"Simple ways to avoid Swine Flu","todaytop":"1","textCount":"{0} of {1}","pkgIds":["id-3513","id-3515","id-3517","id-3516","id-3504","id-3505","id-3510","id-3512","id-3518","id-3506","id-3514","id-3519","id-3503","id-3508","id-3507","id-3511"],"clipId":"","channelNodeId":"","storyId":"id-3513","centerStory":0,"paginationtype":"package"},"props":{"trusted":true,"id":"p_13872472","type":"fptoday","ns":"type_fptoday","contentId":"13872472","tags":[],"title":"Today","icon":"","shortTitle":"Today","detailUrl":""},"state":{"view":"default","defer":false,"collapsed":0},"strs":{"VIDEO_PLAYER":"                <h2 class=\"title-date\"><span class=\"title y-txt-modhdr\">TODAY<\/span><span class=\"date y-txt-2\"> - 07 December, 2009<\/span><\/h2>\n                <div class=\"video-header clearfix\">\n    <h2 class=\"video-title medium\">{_title_}<\/h2> \n    <a href=\"#\" class=\"close\">\n        <span class=\"close-label small\">Close Video<\/span>\n        <span class=\"y-fp-pg-controls-nt close-img\"><\/span>\n    <\/a>\n<\/div>\n<div class=\"video-package\">\n    <object id=\"swftodayvideo\" class=\"inline-video\" classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" type=\"application\/x-shockwave-flash\" width=\"100%\" height=\"221\" codebase=\"http:\/\/www.macromedia.com\/shockwave\/download\/index.cgi?P1_Prod_Version=ShockwaveFlash\">\n        <param name=\"movie\" value=\"http:\/\/l.yimg.com\/a\/lib\/metro\/vplayer\/yep-2.4\/yep-flcf-player.swf\">\n        <param name=\"quality\" value=\"autohigh\">\n        <param name=\"loop\" value=\"false\">\n        <param name=\"menu\" value=\"false\">\n        <param name=\"wmode\" value=\"opaque\">\n        <param name=\"allowscriptaccess\" value=\"always\">\n        <param name=\"allowFullScreen\" value=\"true\">\n        <param name=\"bgcolor\" value=\"#000000\">\n        <param id=\"swftodayvideo_flashvar\" name=\"flashvars\" value=\"vid={_clipId_}&amp;autoPlay=1&amp;eventHandler=yepHandler&amp;lang=en-GB&amp;intl=in&amp;shareUrl=cosmos.bcst.yahoo.com\/scp_v3\/viewer\/share_upv2.php&amp;playlistId={_channelNodeId_}&amp;browseCarouselUI=hide&amp;pageSpaceId=97684142&amp;playerSpaceId=97684142&amp;yltParam=&amp;rd=in.yahoo.com\">\n        <embed width=\"100%\" height=\"221\" flashvars=\"vid={_clipId_}&amp;autoPlay=1&amp;eventHandler=yepHandler&amp;lang=en-GB&amp;intl=in&amp;shareUrl=cosmos.bcst.yahoo.com\/scp_v3\/viewer\/share_upv2.php&amp;playlistId={_channelNodeId_}&amp;browseCarouselUI=hide&amp;pageSpaceId=97684142&amp;playerSpaceId=97684142&amp;yltParam=&amp;rd=in.yahoo.com\" allowscriptaccess=\"always\" allowFullScreen=\"true\" bgcolor=\"#000000\" wmode=\"opaque\" pluginspage=\"http:\/\/www.macromedia.com\/shockwave\/download\/index.cgi?P1_Prod_Version=ShockwaveFlash\" type=\"application\/x-shockwave-flash\" quality=\"autohigh\" menu=\"false\" loop=\"false\" src=\"http:\/\/l.yimg.com\/a\/lib\/metro\/vplayer\/yep-2.4\/yep-flcf-player.swf\" name=\"swftodayvideo\" class=\"inline-video\"><\/embed>\n    <\/object>\n<\/div>\n\n"},"prefs":{"isc":0,"_mc":0}},{"props":{"trusted":true,"id":"p_13923988","type":"news","ns":"type_news","contentId":"13923988","tags":[],"title":"News","icon":"","shortTitle":"News","detailUrl":""},"strs":{"LOADING":" <div class=\"loading-spinner y-txt-2\">Loading...<\/div>"},"state":{"view":"default","defer":false,"collapsed":0},"data":{"list":"  <ul class=\"stories medium clearfix\">    <li>\n     <a href=\"http:\/\/in.news.yahoo.com\/43\/20091207\/818\/tnl-life-remains-paralysed-for-second-da.html\" class=\"y-fp-pg-controls bullet y-link-1\">Life remains paralysed for second day in Telangana<\/a>    <\/li>    <li>\n     <a href=\"http:\/\/in.news.yahoo.com\/137\/20091207\/760\/twl-indian-pm-arrives-in-russia-for-arms.html\" class=\"y-fp-pg-controls bullet y-link-1\">Manmohan Singh arrives in Russia for arms, n-deals<\/a>    <\/li>    <li>\n     <a href=\"http:\/\/in.news.yahoo.com\/20\/20091207\/1416\/tnl-copenhagen-summit-india-keen-to-be-d.html\" class=\"y-fp-pg-controls bullet y-link-1\">Copenhagen summit: India keen to be deal-maker<\/a>    <\/li>    <li>\n     <a href=\"http:\/\/in.news.yahoo.com\/48\/20091207\/814\/tnl-rajkhowa-in-custody-but-peace-not-in.html\" class=\"y-fp-pg-controls bullet y-link-1\">Rajkhowa in custody, but peace not in sight yet<\/a>    <\/li>    <li>\n     <a href=\"http:\/\/in.news.yahoo.com\/137\/20091207\/738\/tnl-u-s-believes-pakistan-nuclear-arms-a.html\" class=\"y-fp-pg-controls bullet y-link-1\">&#39;U.S. believes Pakistan nuclear arms are secure&#39;<\/a>    <\/li>    <li>\n     <a href=\"http:\/\/in.news.yahoo.com\/48\/20091207\/814\/tnl-mission-2012-in-mind-rahul-set-for-u.html\" class=\"y-fp-pg-controls bullet y-link-1\">Mission 2012 in mind, Rahul set for UP sojourn<\/a>    <\/li>    <li>\n     <a href=\"http:\/\/in.news.yahoo.com\/48\/20091207\/934\/tsp-miracle-man-viru-keeps-working-his-m.html\" class=\"y-fp-pg-controls bullet y-link-1\">Miracle man Viru keeps working his magic<\/a>    <\/li>    <li>\n     <a href=\"http:\/\/in.news.yahoo.com\/20\/20091206\/388\/ten-clint-eastwood-compares-nelson-mande.html\" class=\"y-fp-pg-controls bullet y-link-1\">Clint Eastwood compares Nelson Mandela to Jesus<\/a>    <\/li>    <li>\n     <a href=\"http:\/\/in.news.yahoo.com\/43\/20091206\/908\/ten-the-lord-of-the-rings-voted-best-fil_1.html\" class=\"y-fp-pg-controls bullet y-link-1\">&#39;The Lord of the Rings&#39; voted best film of decade<\/a>    <\/li>   <\/ul>  <div class=\"local-link small clearfix\">\n   <h3 class=\"y-txt-2\">News in:<\/h3>\n   <ul class=\"local_lang more\">    <li><a href=\"http:\/\/in.jagran.yahoo.com\"  style=\"background-position: 0 0; width: 23px;\">Hindi<\/a><\/li>    <li class=\"bdr-l y-ln-1\"><a href=\"http:\/\/in.tamil.yahoo.com\"  style=\"background-position: -32px 0; width: 29px;\">Tamil<\/a><\/li>    <li class=\"bdr-l y-ln-1\"><a href=\"http:\/\/in.gujarati.yahoo.com\"  style=\"background-position: -70px 0; width: 37px;\">Gujarati<\/a><\/li>    <li class=\"bdr-l y-ln-1\"><a href=\"http:\/\/in.kannada.yahoo.com\"  style=\"background-position: -116px 0; width: 29px;\">Kannada<\/a><\/li>    <li class=\"bdr-l y-ln-1\"><a href=\"http:\/\/in.malayalam.yahoo.com\"  style=\"background-position: -154px 0; width: 48px;\">Malayalam<\/a><\/li>    <li class=\"bdr-l y-ln-1\"><a href=\"http:\/\/in.telugu.yahoo.com\"  style=\"background-position: -211px 0; width: 38px;\">Telugu<\/a><\/li>    <li class=\"bdr-l y-ln-1\"><a href=\"http:\/\/in.punjabi.yahoo.com\"  style=\"background-position: -258px 0; width: 30px;\">Punjabi<\/a><\/li>   <\/ul>\n  <\/div>  <div class=\"more-link\">\n   <h3 class=\"small\">\n   <a class=\"link-color y-fp-pg-controls right-angle-quote\" href=\"http:\/\/in.news.yahoo.com\/national.html\">More Top Stories<\/a>\n   <\/h3>\n  <\/div>\n  <p class=\"small y-txt-3 time-stamp\">updated 11:25 AM IST<\/p>"},"prefs":{"isc":0,"_mc":0}},{"state":{"view":"default","defer":false,"collapsed":0},"data":{"mods":[{"props":{"trusted":true,"id":"p_24813756_b5c","type":"ads","ns":"type_ads","contentId":"24813756","tags":[],"title":"stck ad","icon":"","shortTitle":"stck ad","detailUrl":""},"data":{"adlocs":"stck","def":1,"data":{"intl":"in","f":"97684142","p":"in_fp","l":"STCK","mid":"p_24813756_b5c"},"fallback":"<div class=\"stck stck-reserve\"><!-- metro normal ad --><!-- metro fallback ad static --><div class=\"empty-fallback\" ><\/div>\n<\/div><!-- split -->"},"state":{"view":"default","defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0}}]},"props":{"id":"p_21445691","type":"marketindices","ns":"type_marketindices","contentId":"21445691","tags":[],"title":"Market Indices & Scottrade Ad","icon":"","shortTitle":"Market Indices & Scottrade Ad","detailUrl":""},"prefs":{"isc":0,"_mc":0}},{"props":{"trusted":true,"id":"p_22934726","type":"contentcarousel","ns":"type_contentcarousel","contentId":"22934726","tags":[],"title":"Content Carousel - Top Searches","icon":"","shortTitle":"Content Carousel - Top Searches","detailUrl":""},"state":{"view":"default","defer":false,"collapsed":0},"strs":{"STR.CONTENTCAROUSEL.NEXT":"Next","STR.CONTENTCAROUSEL.PREV":"Previous"},"data":{"beacon":["http:\/\/www.yahoo.com","http:\/\/www.yahoo.com"],"mods":[{"props":{"trusted":true,"id":"p_17416020_ca4","type":"contentcarouselTopten","ns":"type_contentcarouselTopten","contentId":"17416020","tags":[],"title":"Content Carousel Module: Top Ten Searches Module","icon":"","shortTitle":"Content Carousel Module: Top Ten Searches Module","detailUrl":""},"state":{"view":"default","defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0}}],"scids":["0093-37d96d7181cfe60af3143328273bdda4-0015"],"metadata":[{"carouselPackageTitleText":"","carouselPackageTitleLinkURL":"http:\/\/in.search.yahoo.com","carouselPackageHeadline":"Southeast Asian Getaways","scid":"0093-37d96d7181cfe60af3143328273bdda4-0015","carouselPackageTemplateTypeName":"Topten","carouselPackagePageCount":"1 of 1"}],"pos":"3","loading":"<p class=\"loading\">Loading...<\/p>","emptyitem":"<li class=\"y-panel\">&nbsp;<\/li>","nav":"        <div class=\"y-nav y-bg-2 y-ln-1 clearfix\">            <div class=\"y-nav-count y-txt-2\">1 of 1<\/div>            <div class=\"y-nav-buttons\">\n                <a class=\"prev\" href=\"#\">\n                    <span class=\"y-fp-pg-grad y-ln-1 btn\">\n                        <span class=\"y-fp-pg-controls hide-textindent\">Previous<\/span>\n                    <\/span>\n                <\/a>\n                <a class=\"next\" href=\"#\">\n                    <span class=\"y-fp-pg-grad y-ln-1 btn\">\n                        <span class=\"y-fp-pg-controls hide-textindent\">Next<\/span>\n                    <\/span>\n                <\/a>\n            <\/div>        <\/div>"},"prefs":{"isc":0,"_mc":0}},{"props":{"trusted":true,"id":"p_13923486","type":"ads","ns":"type_ads","contentId":"13923486","tags":[],"title":"FP ADs","icon":"","shortTitle":"FP ADs","detailUrl":""},"data":{"adlocs":"lrec","def":1,"data":{"intl":"in","f":"97684142","p":"in_fp","l":"LREC","mid":"p_13923486"},"fallback":"<div class=\"lrec lrec-reserve\"><!-- metro normal ad --><!-- metro fallback ad cms --><a href=\"http:\/\/in.yahoo.com\/newshp.php\"> <img src=\"http:\/\/l.yimg.com\/t\/img\/cereal_banner.jpg\"><\/a><\/div><!-- split -->"},"state":{"view":"default","defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0}},{"props":{"trusted":true,"id":"p_17335519","type":"contentcarousel","ns":"type_contentcarousel","contentId":"17335519","tags":[],"title":"Content Carousel - main instance","icon":"","shortTitle":"Content Carousel - main instance","detailUrl":""},"state":{"view":"default","defer":false,"collapsed":0},"strs":{"STR.CONTENTCAROUSEL.NEXT":"Next","STR.CONTENTCAROUSEL.PREV":"Previous"},"data":{"beacon":["http:\/\/www.yahoo.com","http:\/\/www.yahoo.com"],"mods":[{"props":{"trusted":true,"id":"p_17556535_d40","type":"contentcarouselpulse","ns":"type_contentcarouselpulse","contentId":"17556535","tags":[],"title":"Content Carousel Module: Pulse Module","icon":"","shortTitle":"Content Carousel Module: Pulse Module","detailUrl":""},"state":{"view":"default","defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0}}],"scids":["0093-a8f5de8a6e0aafbd0abb3fb0880c9d9a-01e0","0093-76ec86b125751a93a19cbde1063cad20-0168","0093-5dc7af82be8cacc8d505b2597e100ca4-00fa","0093-04af69057d4b8ec865f222e2778059d0-001e","0093-8c967d0b3e94b5da2fa3fabd71df945a-0028"],"metadata":[{"carouselPackageTitleText":"","carouselPackageTitleLinkURL":"http:\/\/in.movies.yahoo.com\/","carouselPackageHeadline":"All about &#39;Paa&#39;","scid":"0093-a8f5de8a6e0aafbd0abb3fb0880c9d9a-01e0","carouselPackageTemplateTypeName":"Pulse","carouselPackagePageCount":"1 of 5"},{"carouselPackageTitleText":"","carouselPackageTitleLinkURL":"http:\/\/cricket.yahoo.com\/","carouselPackageHeadline":"Cricket","scid":"0093-76ec86b125751a93a19cbde1063cad20-0168","carouselPackageTemplateTypeName":"Pulse","carouselPackagePageCount":"2 of 5"},{"carouselPackageTitleText":"","carouselPackageTitleLinkURL":"http:\/\/in.local.yahoo.com\/","carouselPackageHeadline":"Hotels to suit your budget","scid":"0093-5dc7af82be8cacc8d505b2597e100ca4-00fa","carouselPackageTemplateTypeName":"Pulse","carouselPackagePageCount":"3 of 5"},{"carouselPackageTitleText":"","carouselPackageTitleLinkURL":"http:\/\/in.news.yahoo.com\/photos\/","carouselPackageHeadline":"Most Popular Slideshows","scid":"0093-04af69057d4b8ec865f222e2778059d0-001e","carouselPackageTemplateTypeName":"Slide2","carouselPackagePageCount":"4 of 5"},{"carouselPackageTitleText":"","carouselPackageTitleLinkURL":"http:\/\/in.news.yahoo.com\/photos\/","carouselPackageHeadline":"Tech Bytes","scid":"0093-8c967d0b3e94b5da2fa3fabd71df945a-0028","carouselPackageTemplateTypeName":"Slide2","carouselPackagePageCount":"5 of 5"}],"pos":"4","loading":"<p class=\"loading\">Loading...<\/p>","emptyitem":"<li class=\"y-panel\">&nbsp;<\/li>","nav":"        <div class=\"y-nav y-bg-2 y-ln-1 clearfix\">            <div class=\"y-nav-count y-txt-2\">1 of 5<\/div>            <div class=\"y-nav-buttons\">\n                <a class=\"prev\" href=\"#\">\n                    <span class=\"y-fp-pg-grad y-ln-1 btn\">\n                        <span class=\"y-fp-pg-controls hide-textindent\">Previous<\/span>\n                    <\/span>\n                <\/a>\n                <a class=\"next\" href=\"#\">\n                    <span class=\"y-fp-pg-grad y-ln-1 btn\">\n                        <span class=\"y-fp-pg-controls hide-textindent\">Next<\/span>\n                    <\/span>\n                <\/a>\n            <\/div>        <\/div>"},"prefs":{"isc":0,"_mc":0}},{"state":{"view":"default","defer":false,"collapsed":0},"mods":[{"props":{"trusted":true,"id":"p_26391790_b47","type":"ads","ns":"type_ads","contentId":"26391790","tags":[],"title":"promo ad","icon":"","shortTitle":"promo ad","detailUrl":""},"data":{"adlocs":"promo","def":1,"data":{"intl":"in","f":"97684142","p":"in_fp","l":"PROMO","mid":"p_26391790_b47"},"fallback":"<div class=\"promo promo-reserve\"><!-- metro normal ad --><!-- metro fallback ad cms --><style>\n.hdlnm a .hdlnm-img {float:left;margin-right:.5em;}\n.hdlnm .hdlnm-txt {float:left;line-height:1.36em;}\n<\/style>\n<div class=\"hdlnm small clearfix\">\n<a href=\"%rd%\/%space%\/*http:\/\/messenger.yahoo.com\/invite\"><img src=\"http:\/\/l.yimg.com\/t\/i\/in\/adv\/housead\/ccs\/fp_messenger_04012009.gif\" width=\"70\" height=\"50\" border=\"0\" class=\"hdlnm-img\" alt=\"Yahoo! Messenger\"><\/a>\n<p class=\"hdlnm-txt\">\n<a href=\"%rd%\/%space%\/*http:\/\/messenger.yahoo.com\/invite\">More friends. More fun.<\/a>\n<br\/>Add friends from Orkut, Gmail, Facebook\n<br\/>and other social networks on&nbsp;<a href=\"%rd%\/%space%\/*http:\/\/messenger.yahoo.com\/invite\">Yahoo! Messenger<\/a>.\n<\/p>\n<\/div><\/div><!-- split -->"},"state":{"view":"default","defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0}}],"props":{"id":"p_24457750","type":"miniad","ns":"type_miniad","contentId":"24457750","tags":[],"title":"Mini Ad","icon":"","shortTitle":"Mini Ad","detailUrl":""},"prefs":{"isc":0,"_mc":0}},{"state":{"view":"default","defer":false,"collapsed":0},"mods":[],"props":{"id":"p_13848969","type":"footer","ns":"type_footer","contentId":"13848969","tags":[],"title":"Footer","icon":"","shortTitle":"Footer","detailUrl":""},"prefs":{"isc":0,"_mc":0}},{"state":{"view":"default","defer":false,"collapsed":0},"mods":[{"props":{"trusted":true,"id":"p_15191401_e67","type":"ads","ns":"type_ads","contentId":"15191401","tags":[],"title":"FP Roundtrip","icon":"","shortTitle":"FP Roundtrip","detailUrl":""},"data":{"adlocs":"foot9"},"state":{"view":"default","defer":false,"collapsed":0},"prefs":{"isc":0,"_mc":0}}],"props":{"id":"p_24803755","type":"subfooter","ns":"type_subfooter","contentId":"24803755","tags":[],"title":"Subfooter","icon":"","shortTitle":"Subfooter","detailUrl":""},"prefs":{"isc":0,"_mc":0}}],"res":{"js":{"yui":1,"core":1,"substitute":1,"oop":1,"event-base":1,"event-custom":1,"attribute":1,"base-base":1,"io-base":1,"dom":1,"pluginhost":1,"node":1,"json":1,"anim-base":1,"anim-easing":1,"anim-node-plugin":1,"cookie":1,"yui3def":1,"classnamemanager":1,"module_platform":1,"resourcemgr":1,"module_api":1,"yui_service":1,"requestfactory_service":1,"detect_flash":1,"autohide_service":1,"iframeshim_service":1,"ylc":1,"instrumentation_service":1,"statemgr_service":1,"toolbar_bridge_service":1,"tooltip_service":1,"transport":1,"type_pa":1,"metro_ext":1,"userinfo_service":1,"metro_viewtype":1,"default_viewtype":1,"edit_viewtype":1,"pa_viewtype":1,"metrologger_service":1,"ads_bridge_service":1,"type_fp":1,"metrics_service":1,"metro_performance":1,"type_navbar":1,"type_tuc":1,"aria_service":1,"tablist_service":1,"type_masthead":1,"ads_deferred_service":1,"ads_transport":1,"type_ads":1,"carousel_service":1,"type_fptoday_hover":1,"ulm_service":1,"type_news":1,"type_marketindices":1,"type_contentcarousel":1,"windowshade_service":1,"type_ipredirect":1},"css":{"core_css":1,"reset":1,"fonts":1,"type_pa_css":1,"type_pa_detached_chrome_css":1,"iframeshim_service_css":1,"tooltip_default_css":1,"type_pa_edit_service_css":1,"type_contentcarousel_css":1,"type_contentcarouselTopten_css":1,"type_pulse_css":1,"carousel_default_css":1,"type_contentcarousel_css_3":1,"type_contentcarousel_css_4":1,"generic_css":1,"error_css":1,"type_fp_css_zindex":1,"type_fp_css":1,"type_navbar_css":1,"type_navbar_css_pageoptions":1,"type_tuc_common_css":1,"type_tuc_embedded_css":1,"tablist_service_css":1,"type_masthead_css":1,"type_ads_css":1,"type_breakingnews_css":1,"carousel_service_css":1,"type_fptoday_css":1,"ulm_service_css":1,"ulm_default_css":1,"tablist_news_css":1,"type_news_css":1,"type_marketindices_css":1,"type_miniad_css":1,"type_footer_css":1,"type_subfooter_css":1,"windowshade_service_css":1,"type_ipredirect_css":1}},"data":{"deferredRes":[{"js":{"type_mail":"metro\/mail\/mail_0.0.8.js","type_facebook":"metro\/facebook\/facebook_0.0.51.js","messenger_service":"metro\/uiplugins\/messenger_service_0.0.6.js","type_messenger":"metro\/messenger\/messenger_0.0.37.js","type_yservices":"metro\/yservices\/yservices_0.1.22.js","menu_service":"metro\/uiplugins\/menu_service_0.1.2.js","type_pacontainer":"metro\/pacontainer\/pacontainer_0.0.24.js"},"css":{"type_mail_css":"metro\/mail\/mail_0.0.16.css","type_facebook_css":"metro\/facebook\/facebook_0.0.56.css","tablist_default_css":"metro\/uiplugins\/tablist_default_0.1.2.css","type_messenger_css":"metro\/messenger\/messenger_0.0.27.css","type_yservices_css":"metro\/yservices\/yservices_0.1.92.css","menu_service_css":"metro\/uiplugins\/menu_service_0.1.0.css","menu_default_css":"metro\/uiplugins\/menu_default_0.1.0.css","type_apppromo_css":"metro\/apppromo\/apppromo_0.0.7.css","type_pacontainer_css":"metro\/pacontainer\/pacontainer_0.0.14.css"}},{"js":{"type_autoapp":"metro\/autoapp\/autoapp_0.0.31.js","type_feed":"metro\/feed\/feed_0.0.6.js","type_scoreboard":"metro\/scoreboard\/scoreboard_0.1.48.js","type_cricket":"metro\/cricket\/cricket_0.0.4.js","type_finance":"metro\/finance\/finance_0.1.70.js","type_horoscope":"metro\/horoscope\/horoscope_0.1.26.js","type_local":"metro\/local\/local_0.0.19.js","type_movies":"metro\/movies\/movies_0.1.71.js","type_weather":"metro\/weather\/weather_0.1.74.js"},"css":{"type_autoapp_css":"metro\/autoapp\/autoapp_0.0.29.css","type_feed_css":"metro\/feed\/feed_0.1.1.css","type_scoreboard_css":"metro\/scoreboard\/scoreboard_0.1.48.css","type_cricket_css":"metro\/cricket\/cricket_0.0.3.css","type_finance_css":"metro\/finance\/finance_0.1.52.css","type_horoscope_css":"metro\/horoscope\/horoscope_0.1.38.css","type_local_css":"metro\/local\/local_0.0.17.css","type_movies_css":"metro\/movies\/movies_0.1.56.css","type_weather_css":"metro\/weather\/weather_0.1.65.css"}}]},"prefs":{"isc":0,"_mc":0}}]};                Y.Get.script(js, { onSuccess: function(){
+                    Y.use("*");
+                    Y.ModulePlatform.init(config, true);
+                    
+                }});})();
+</script>
+</body>
+</html>
+<!-- bid=704 -->
+<!-- sid=97684142 -->
+<!-- w82.fp.ac4.yahoo.com uncompressed/chunked Sun Dec  6 21:55:27 PST 2009 -->

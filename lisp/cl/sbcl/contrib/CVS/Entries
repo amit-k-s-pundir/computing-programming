@@ -1,0 +1,26 @@
+/.cvsignore/1.1/Fri May 30 11:26:59 2003//
+/README/1.3/Fri Oct 17 14:27:45 2003//
+/STANDARDS/1.5/Fri Apr  9 20:54:25 2004//
+/asdf-stub.lisp/1.3/Fri Mar 17 15:34:52 2006//
+/code-extras.lisp/1.6/Thu Jul 14 16:30:06 2005//
+/compiler-extras.lisp/1.10/Thu Jul 14 16:30:06 2005//
+/experimental-thread.patch/1.1/Fri Oct 24 10:23:56 2003//
+/stale-symbols.lisp/1.6/Thu Jul 14 16:30:06 2005//
+/vanilla-module.mk/1.6/Thu Sep  7 00:56:59 2006//
+D/asdf////
+D/asdf-install////
+D/sb-aclrepl////
+D/sb-bsd-sockets////
+D/sb-cltl2////
+D/sb-cover////
+D/sb-executable////
+D/sb-grovel////
+D/sb-introspect////
+D/sb-md5////
+D/sb-posix////
+D/sb-queue////
+D/sb-rotate-byte////
+D/sb-rt////
+D/sb-simple-streams////
+D/sb-sprof////
+/asdf-module.mk/1.24/Sat Oct 30 05:13:58 2010//

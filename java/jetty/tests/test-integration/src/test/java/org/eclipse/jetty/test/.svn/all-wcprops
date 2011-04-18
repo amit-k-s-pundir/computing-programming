@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test
+END
+AbstractJettyTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/rt/org.eclipse.jetty/!svn/ver/552/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test/AbstractJettyTestCase.java
+END
+DefaultHandlerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/552/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test/DefaultHandlerTest.java
+END
+StringAssert.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/645/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test/StringAssert.java
+END

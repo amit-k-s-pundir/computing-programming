@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1128/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util
+END
+RolloverFileOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/RolloverFileOutputStream.java
+END
+DateCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/DateCache.java
+END
+StringMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1089/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/StringMap.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1043/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/StringUtil.java
+END
+Loader.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/Loader.java
+END
+IO.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/IO.java
+END
+Utf8StringBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/Utf8StringBuffer.java
+END
+ByteArrayISO8859Writer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/ByteArrayISO8859Writer.java
+END
+MultiException.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/MultiException.java
+END
+LazyList.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/LazyList.java
+END
+MultiPartWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/MultiPartWriter.java
+END
+MultiPartOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/MultiPartOutputStream.java
+END
+TypeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1043/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/TypeUtil.java
+END
+PatternMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/310/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/PatternMatcher.java
+END
+ByteArrayOutputStream2.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/ByteArrayOutputStream2.java
+END
+ArrayQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/ArrayQueue.java
+END
+QuotedStringTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/QuotedStringTokenizer.java
+END
+Utf8StringBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/Utf8StringBuilder.java
+END
+AttributesMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/AttributesMap.java
+END
+UrlEncoded.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/UrlEncoded.java
+END
+Attributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/Attributes.java
+END
+MultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/MultiMap.java
+END
+Scanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/717/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/Scanner.java
+END
+BlockingArrayQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/BlockingArrayQueue.java
+END
+URIUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/219/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/URIUtil.java
+END
+SingletonList.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/SingletonList.java
+END
+IntrospectionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/IntrospectionUtil.java
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/115980/cfe/trunk/test/CodeGenObjCXX
+END
+foreach-statement.mm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/104837/cfe/trunk/test/CodeGenObjCXX/foreach-statement.mm
+END
+property-objects.mm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/113555/cfe/trunk/test/CodeGenObjCXX/property-objects.mm
+END
+method-local-extern-mangle.mm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/llvm-project/!svn/ver/107303/cfe/trunk/test/CodeGenObjCXX/method-local-extern-mangle.mm
+END
+mangle-blocks.mm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/104618/cfe/trunk/test/CodeGenObjCXX/mangle-blocks.mm
+END
+property-dot-copy.mm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/114207/cfe/trunk/test/CodeGenObjCXX/property-dot-copy.mm
+END
+references.mm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/110513/cfe/trunk/test/CodeGenObjCXX/references.mm
+END
+exceptions.mm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/109298/cfe/trunk/test/CodeGenObjCXX/exceptions.mm
+END
+rtti.mm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/110979/cfe/trunk/test/CodeGenObjCXX/rtti.mm
+END
+selector-expr-lvalue.mm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/llvm-project/!svn/ver/106758/cfe/trunk/test/CodeGenObjCXX/selector-expr-lvalue.mm
+END
+property-object-conditional-exp.mm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/llvm-project/!svn/ver/114845/cfe/trunk/test/CodeGenObjCXX/property-object-conditional-exp.mm
+END
+copyable-property-object.mm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/llvm-project/!svn/ver/106067/cfe/trunk/test/CodeGenObjCXX/copyable-property-object.mm
+END
+ivar-objects.mm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/103028/cfe/trunk/test/CodeGenObjCXX/ivar-objects.mm
+END
+implicit-copy-assign-operator.mm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/llvm-project/!svn/ver/106067/cfe/trunk/test/CodeGenObjCXX/implicit-copy-assign-operator.mm
+END
+encode.mm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/115980/cfe/trunk/test/CodeGenObjCXX/encode.mm
+END
+property-derived-to-base-conv.mm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/llvm-project/!svn/ver/106247/cfe/trunk/test/CodeGenObjCXX/property-derived-to-base-conv.mm
+END
+mangle.mm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/101196/cfe/trunk/test/CodeGenObjCXX/mangle.mm
+END
+property-dot-reference.mm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/llvm-project/!svn/ver/114299/cfe/trunk/test/CodeGenObjCXX/property-dot-reference.mm
+END
+implicit-copy-constructor.mm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/llvm-project/!svn/ver/106067/cfe/trunk/test/CodeGenObjCXX/implicit-copy-constructor.mm
+END

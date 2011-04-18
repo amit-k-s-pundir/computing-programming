@@ -1,0 +1,4 @@
+#Mon Jun 01 05:56:02 IST 2009
+classpath.helper/org.eclipse.jdt.launching.JRE_CONTAINER\:\:org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType\:\:sun-jdk-1.6.0.11/owners=jst.java\:6.0
+classpath.helper/org.eclipse.jst.server.core.container\:\:org.eclipse.jst.server.core.runtimeTarget\:\:JAVAEE/owners=jst.web\:2.5
+eclipse.preferences.version=1

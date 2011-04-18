@@ -1,0 +1,21 @@
+#lang scheme
+
+(require (lib "smtp.ss" "net")
+           (lib "head.ss" "net")
+           openssl)
+   
+(let ([from "sonupundir@gmail.com"]
+        [to '("seekmit@hotmail.com")])
+  (smtp-send-message 
+     "smtp.googlemail.com"
+     from
+     to
+     (standard-message-header from to null null "...and another one just for sonu.")
+     (list
+      "Hi Myself," "I tried the example, and it worked!")
+     #:port-no 465 #:auth-user "sonupundir@gmail.com"
+     #:auth-passwd "a19m15i14t21" 
+     #:tcp-connect ssl-connect 
+     ;#:tls-encode ports->ssl-ports
+     (find-doc-di)
+))

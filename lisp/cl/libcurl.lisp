@@ -1,0 +1,320 @@
+(require 'asdf)
+
+(asdf:oos 'asdf:load-op :cffi)
+
+(defpackage :cffi-user
+  (:use :common-lisp :cffi))
+
+(in-package :cffi-user)
+
+(define-foreign-library libcurl
+  (:unix (:or "libcurl.so.3" "libcurl.so"))
+  (t (:default "libcurl")))
+
+(use-foreign-library libcurl)
+
+(defctype curl-code :int)
+
+(defcfun "curl_global_init" curl-code
+  (flags :long))
+
+;(curl-global-init 0)
+
+(defcfun "curl_easy_init" :pointer)
+
+;(defparameter *easy-handle* (curl-easy-init))
+
+;*easy-handle*
+
+(defcfun "curl_easy_cleanup" :void
+  (easy-handle :pointer))
+
+;; (defmacro define-curl-options (name type-offsets &rest enum-args)
+;;   (flet ((enumerated-value (type offset)
+;; 		   (+ (getf type-offsets type) offset)))
+;; 	`(progn
+;; 	   (defcenum ,name
+;; 		 ,@(loop for (name type number) in enum-args
+;; 				collect (list name (enumerated-value type number))))
+;; 	   ',name)))
+
+;; (define-curl-options curl-option
+;; 	(long 0 objectpoint 10000 functionpoint 20000 off-t 30000)
+;;   (:noprogress long 43)
+;;   (:nosignal long 99)
+;;   (:errorbuffer objectpoint 10)
+;;   (:url objectpoint 2))
+
+(defctype easy-handle :pointer)
+
+(defmacro curl-easy-setopt (easy-handle enumerated-name
+							value-type new-value)
+  `(foreign-funcall "curl_easy_setopt" easy-handle ,easy-handle
+					curl-option ,enumerated-name
+					,value-type ,new-value curl-code))
+
+;; (defun curry-curl-option-setter (function-name option-keyword)
+;;   (setf (symbol-function function-name)
+;; 		(let ((c-function (symbol-function function-name)))
+;; 		  (lambda (easy-handle new-value)
+;; 			(funcall c-function easy-handle option-keyword
+;; 					 new-value)))))
+
+;; (defmacro define-curl-option-setter (name option-type
+;; 									 option-value foreign-type)
+;;   `(progn
+;; 	 (defcfun ("curl_easy_setopt" ,name ) curl-code
+;; 	   (easy-handle easy-handle)
+;; 	   (option ,option-type)
+;; 	   (new-value ,foreign-type))
+;; 	 (curry-curl-option-setter ',name ',option-value)))
+
+;; (defmacro define-curl-options (type-name type-offsets &rest enum-args)
+;;   (flet ((enumerated-value (type offset)
+;; 		   (+ (getf type-offsets type) offset))
+;; 		 (map-enum-args (procedure)
+;; 		   (mapcar (lambda (arg) (apply procedure arg)) enum-args))
+;; 		 (make-setter-name (option-name)
+;; 		   (intern (concatenate 'string "SET-" (symbol-name type-name)
+;; 								"-" (symbol-name option-name)))))
+;; 	`(progn
+;; 	   (defcenum ,type-name
+;; 		 ,@(map-enum-args
+;; 			(lambda (name type number)
+;; 			  (list name (enumerated-value type number)))))
+;; 	   ,@(map-enum-args
+;; 		  (lambda (name type number)
+;; 			(declare (ignore number))
+;; 			`(define-curl-option-setter ,(make-setter-name name)
+;; 				 ,type-name ,name ,(ecase type
+;; 										  (long :long)
+;; 										  (objectpoint :pointer)
+;; 										  (functionpoint :pointer)
+;; 										  (off-t :long)))))
+;; 	   ',type-name)))
+
+;; (define-curl-options curl-option
+;; 	(long 0 objectpoint 10000 functionpoint 20000 off-t 30000)
+;;   (:noprogress long 43)
+;;   (:nosignal long 99)
+;;   (:errorbuffer objectpoint 10)
+;;   (:url objectpoint 2))
+
+;; (let (easy-handle)
+;;   (unwind-protect
+;; 	   (with-foreign-string (url "http://www.cliki.net/CFFI")
+;; 		 (setf easy-handle (curl-easy-init))
+;; 		 (set-curl-option-url easy-handle url)
+;; 		 (when easy-handle
+;; 		   (curl-easy-cleanup easy-handle)))))
+
+(defvar *easy-handle-cstrings* (make-hash-table))
+
+;; (defun make-easy-handle ()
+;;   (let ((easy-handle (curl-easy-init)))
+;; 	(setf (gethash easy-handle *easy-handle-cstrings*) '())
+;; 	easy-handle))
+
+(defun free-easy-handle (handle)
+  (curl-easy-cleanup handle)
+  (mapc #'foreign-string-free
+		(gethash handle *easy-handle-cstrings*))
+  (remhash handle *easy-handle-cstrings*))
+
+(defun add-curl-handle-cstring (handle cstring)
+  (car (push cstring (gethash handle *easy-handle-cstrings*))))
+
+(defun curry-curl-option-setter (function-name option-keyword)
+  (setf (symbol-function function-name)
+		(let ((c-function (symbol-function function-name)))
+		  (lambda (easy-handle new-value)
+			(funcall c-function easy-handle option-keyword
+					 (if (stringp new-value)
+						 (add-curl-handle-cstring easy-handle
+												  (foreign-string-alloc new-value))
+						 new-value))))))
+
+;; (defmacro define-curl-option-setter (name option-type
+;; 									 option-value foreign-type)
+;;   `(progn
+;; 	 (defcfun ("curl_easy_setopt" ,name ) curl-code
+;; 	   (easy-handle easy-handle)
+;; 	   (option ,option-type)
+;; 	   (new-value ,foreign-type))
+;; 	 (curry-curl-option-setter ',name ',option-value)))
+
+;; (define-curl-options curl-option
+;; 	(long 0 objectpoint 10000 functionpoint 20000 off-t 30000)
+;;   (:noprogress long 43)
+;;   (:nosignal long 99)
+;;   (:errorbuffer objectpoint 10)
+;;   (:url objectpoint 2))
+
+(defvar *easy-handle-errorbuffers* (make-hash-table)
+    "Hashtable of easy handles to C strings serving as error
+  writeback buffers.")
+   
+  ;;; An extra byte is very little to pay for peace of mind.
+(defparameter *curl-error-size* 257
+    "Minimum char[] size used by cURL to report errors.")
+   
+(defun make-easy-handle ()
+    "Answer a new CURL easy interface handle, to which the lifetime
+  of C strings may be tied.  See `add-curl-handle-cstring'."
+    (let ((easy-handle (curl-easy-init)))
+      (setf (gethash easy-handle *easy-handle-cstrings*) '())
+      (setf (gethash easy-handle *easy-handle-errorbuffers*)
+              (foreign-alloc :char :count *curl-error-size*
+                             :initial-element 0))
+      easy-handle))
+   
+(defun free-easy-handle (handle)
+    "Free CURL easy interface HANDLE and any C strings created to
+  be its options."
+    (curl-easy-cleanup handle)
+    (foreign-free (gethash handle *easy-handle-errorbuffers*))
+    (remhash handle *easy-handle-errorbuffers*)
+    (mapc #'foreign-string-free
+          (gethash handle *easy-handle-cstrings*))
+    (remhash handle *easy-handle-cstrings*))
+   
+(defun get-easy-handle-error (handle)
+    "Answer a string containing HANDLE's current error message."
+    (foreign-string-to-lisp
+     (gethash handle *easy-handle-errorbuffers*)))
+
+;; (define-curl-options curl-option
+;; 	(long 0 objectpoint 10000 functionpoint 20000 off-t 30000)
+;;   (:noprogress long 43)
+;;   (:nosignal long 99)
+;;   (:errorbuffer objectpoint 10)
+;;   (:url objectpoint 2))
+
+;;; Alias in case size_t changes.
+  (defctype size :unsigned-int)
+   
+  ;;; To be set as the CURLOPT_WRITEFUNCTION of every easy handle.
+;; (defcallback easy-write size ((ptr :pointer) (size size)
+;;                                 (nmemb size) (stream :pointer))
+;;     (let ((data-size (* size nmemb)))
+;;       (handler-case
+;;         ;; We use the dynamically-bound *easy-write-procedure* to
+;;         ;; call a closure with useful lexical context.
+;;         (progn (funcall (symbol-value '*easy-write-procedure*)
+;;                         (foreign-string-to-lisp ptr data-size nil))
+;;                data-size)         ;indicates success
+;;         ;; The WRITEFUNCTION should return something other than the
+;;         ;; #bytes available to signal an error.
+;;         (error () (if (zerop data-size) 1 0)))))
+
+(defcallback easy-write size ((ptr :pointer) (size size)
+                                (nmemb size) (stream :pointer))
+    (let ((data-size (* size nmemb)))
+      (handler-case
+        ;; We use the dynamically-bound *easy-write-procedure* to
+        ;; call a closure with useful lexical context.
+        (progn
+;		  (format t "hoty.................~%")
+;		  (format t (foreign-string-to-lisp ptr data-size nil))
+		  (format t "test~%")
+;		  (finish-output)
+		  (format t "test ~A test" (foreign-string-to-lisp ptr))
+;		  (break)
+		  (funcall (symbol-value '*easy-write-procedure*)
+				   (foreign-string-to-lisp ptr data-size nil))
+               data-size)         ;indicates success
+        ;; The WRITEFUNCTION should return something other than the
+        ;; #bytes available to signal an error.
+        (error () (if (zerop data-size) 1 0)))))
+
+(defmacro define-curl-option-setter (name option-type
+									 option-value foreign-type)
+  `(progn
+	 (defcfun ("curl_easy_setopt" ,name ) curl-code
+	   (easy-handle easy-handle)
+	   (option ,option-type)
+	   (new-value ,foreign-type))
+	 (curry-curl-option-setter ',name ',option-value)))
+
+(defmacro define-curl-options (type-name type-offsets &rest enum-args)
+  (flet ((enumerated-value (type offset)
+		   (+ (getf type-offsets type) offset))
+		 (map-enum-args (procedure)
+		   (mapcar (lambda (arg) (apply procedure arg)) enum-args))
+		 (make-setter-name (option-name)
+		   (intern (concatenate 'string "SET-" (symbol-name type-name)
+								"-" (symbol-name option-name)))))
+	`(progn
+	   (defcenum ,type-name
+		 ,@(map-enum-args
+			(lambda (name type number)
+			  (list name (enumerated-value type number)))))
+	   ,@(map-enum-args
+		  (lambda (name type number)
+			(declare (ignore number))
+			`(define-curl-option-setter ,(make-setter-name name)
+				 ,type-name ,name ,(ecase type
+         										  (long :long)
+										  (objectpoint :pointer)
+										  (functionpoint :pointer)
+										  (off-t :long)))))
+	   ',type-name)))
+
+
+(define-curl-options curl-option
+	(long 0 objectpoint 10000 functionpoint 20000 off-t 30000)
+  (:noprogress long 43)
+  (:nosignal long 99)
+  (:errorbuffer objectpoint 10)
+  (:url objectpoint 2)
+  (:writefunction functionpoint 11))
+
+
+;(defparameter *easy-handle* (curl-easy-init))
+
+;(free-easy-handle *easy-handle*)
+;; (if *easy-handle*
+;; 	(free-easy-handle *easy-handle))
+
+(defparameter *easy-handle* (make-easy-handle))
+
+(set-curl-option-nosignal *easy-handle* 1)
+
+(set-curl-option-url *easy-handle* "http://www.cliki.net/CFFI")
+
+(set-curl-option-writefunction
+ *easy-handle* (callback easy-write))
+
+(defcfun "curl_easy_perform" curl-code
+  (handle easy-handle))
+
+;(format t "sonu")
+
+;(curl-easy-perform *easy-handle*)
+
+
+(let ((*easy-write-procedure*
+		 (lambda (string)
+		   (format t "~A" string)
+		   (format t "~A" "he..............")
+		   (write-string string *standard-output*)
+		   (format nil "~A" string))))
+	(declare (special *easy-write-procedure*))
+	(curl-easy-perform *easy-handle*)
+;	(break)
+;	(format t "~A" string)
+	)
+
+(with-output-to-string (contents)
+  (let ((*easy-write-procedure*
+		 (lambda (string)
+;		   (format nil "~A" string)
+		   (write-string string contents)
+		   (format t "~A" string))))
+	(declare (special *easy-write-procedure*))
+	(curl-easy-perform *easy-handle*)
+;	(format t "~A" string)
+	))
+
+
+(free-easy-handle *easy-handle*)

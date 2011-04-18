@@ -1,0 +1,37 @@
+10
+
+dir
+117907
+http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/temp/temp.decls/temp.class
+http://llvm.org/svn/llvm-project
+
+
+
+2010-01-13T00:25:19.790766Z
+93277
+rjmccall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+temp.mem.class
+dir
+
+temp.static
+dir
+
+temp.mem.func
+dir
+

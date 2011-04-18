@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter4/MyApp/script
+END
+myapp_test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter4/MyApp/script/myapp_test.pl
+END
+myapp_fastcgi.pl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter4/MyApp/script/myapp_fastcgi.pl
+END
+myapp_cgi.pl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter4/MyApp/script/myapp_cgi.pl
+END
+myapp_create.pl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter4/MyApp/script/myapp_create.pl
+END
+myapp_server.pl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter4/MyApp/script/myapp_server.pl
+END

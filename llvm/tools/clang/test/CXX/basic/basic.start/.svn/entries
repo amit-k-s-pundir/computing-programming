@@ -1,0 +1,37 @@
+10
+
+dir
+117907
+http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/basic/basic.start
+http://llvm.org/svn/llvm-project
+
+
+
+2010-10-21T16:57:46.548498Z
+117029
+dgregor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+basic.start.init
+dir
+
+basic.start.main
+dir
+
+basic.start.term
+dir
+

@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/llvm-project/!svn/ver/117735/llvm/trunk/test/MC/ELF
+END
+file.s
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/file.s
+END
+align-bss.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/align-bss.s
+END
+pic-diff.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/pic-diff.s
+END
+entsize.s
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/entsize.s
+END
+undef2.s
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/undef2.s
+END
+global-offset.s
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/116932/llvm/trunk/test/MC/ELF/global-offset.s
+END
+dg.exp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/113691/llvm/trunk/test/MC/ELF/dg.exp
+END
+sleb.s
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/sleb.s
+END
+uleb.s
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/uleb.s
+END
+weak.s
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/117585/llvm/trunk/test/MC/ELF/weak.s
+END
+elf_directive_section.s
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/115416/llvm/trunk/test/MC/ELF/elf_directive_section.s
+END
+common.s
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/common.s
+END
+got.s
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/got.s
+END
+alias.s
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/117735/llvm/trunk/test/MC/ELF/alias.s
+END
+basic-elf.ll
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/basic-elf.ll
+END
+diff2.s
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/116675/llvm/trunk/test/MC/ELF/diff2.s
+END
+align.s
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/align.s
+END
+local-reloc.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/local-reloc.s
+END
+relocation.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/117548/llvm/trunk/test/MC/ELF/relocation.s
+END
+undef.s
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/117735/llvm/trunk/test/MC/ELF/undef.s
+END
+section.s
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/117608/llvm/trunk/test/MC/ELF/section.s
+END
+abs.s
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/117451/llvm/trunk/test/MC/ELF/abs.s
+END
+symref.s
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/117570/llvm/trunk/test/MC/ELF/symref.s
+END
+align-nops.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/align-nops.s
+END
+invalid-symver.s
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/117462/llvm/trunk/test/MC/ELF/invalid-symver.s
+END
+common2.s
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/common2.s
+END
+align-text.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/align-text.s
+END
+zero.s
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/zero.s
+END
+relax-arith.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/117364/llvm/trunk/test/MC/ELF/relax-arith.s
+END
+entsize.ll
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/entsize.ll
+END
+alias-reloc.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/117037/llvm/trunk/test/MC/ELF/alias-reloc.s
+END
+norelocation.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/norelocation.s
+END
+bss.ll
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/111376/llvm/trunk/test/MC/ELF/bss.ll
+END
+empty.s
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/empty.s
+END
+plt.s
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/plt.s
+END
+merge.s
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/merge.s
+END
+elf_directive_previous.s
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/115416/llvm/trunk/test/MC/ELF/elf_directive_previous.s
+END
+align-size.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/align-size.s
+END
+ident.s
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/117389/llvm/trunk/test/MC/ELF/ident.s
+END
+rename.s
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/117575/llvm/trunk/test/MC/ELF/rename.s
+END
+diff.s
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/diff.s
+END
+size.s
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/117735/llvm/trunk/test/MC/ELF/size.s
+END
+relax.s
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/llvm-project/!svn/ver/116823/llvm/trunk/test/MC/ELF/relax.s
+END
+relocation-386.s
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/117546/llvm/trunk/test/MC/ELF/relocation-386.s
+END

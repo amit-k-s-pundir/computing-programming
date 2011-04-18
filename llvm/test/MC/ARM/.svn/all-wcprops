@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/llvm-project/!svn/ver/117747/llvm/trunk/test/MC/ARM
+END
+neon-mul-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/117693/llvm/trunk/test/MC/ARM/neon-mul-encoding.s
+END
+neon-absdiff-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/117679/llvm/trunk/test/MC/ARM/neon-absdiff-encoding.s
+END
+neon-sub-encoding.ll
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/117530/llvm/trunk/test/MC/ARM/neon-sub-encoding.ll
+END
+simple-fp-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/117747/llvm/trunk/test/MC/ARM/simple-fp-encoding.s
+END
+neon-mov-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/117689/llvm/trunk/test/MC/ARM/neon-mov-encoding.s
+END
+neon-shuffle-encoding.ll
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/117530/llvm/trunk/test/MC/ARM/neon-shuffle-encoding.ll
+END
+simple-encoding.ll
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/117187/llvm/trunk/test/MC/ARM/simple-encoding.ll
+END
+dg.exp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/117633/llvm/trunk/test/MC/ARM/dg.exp
+END
+neon-abs-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/117676/llvm/trunk/test/MC/ARM/neon-abs-encoding.s
+END
+neon-bitwise-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/117682/llvm/trunk/test/MC/ARM/neon-bitwise-encoding.s
+END
+neon-neg-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/117694/llvm/trunk/test/MC/ARM/neon-neg-encoding.s
+END
+neon-reverse-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/117704/llvm/trunk/test/MC/ARM/neon-reverse-encoding.s
+END
+neon-cmp-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/117683/llvm/trunk/test/MC/ARM/neon-cmp-encoding.s
+END
+neon-convert-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/117684/llvm/trunk/test/MC/ARM/neon-convert-encoding.s
+END
+arm_instructions.s
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/117626/llvm/trunk/test/MC/ARM/arm_instructions.s
+END
+neon-shift-encoding.ll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/117530/llvm/trunk/test/MC/ARM/neon-shift-encoding.ll
+END
+neon-mul-accum-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/117690/llvm/trunk/test/MC/ARM/neon-mul-accum-encoding.s
+END
+neon-pairwise-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/117696/llvm/trunk/test/MC/ARM/neon-pairwise-encoding.s
+END
+neon-reciprocal-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/117699/llvm/trunk/test/MC/ARM/neon-reciprocal-encoding.s
+END
+neon-satshift-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/117708/llvm/trunk/test/MC/ARM/neon-satshift-encoding.s
+END
+neon-bitcount-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/117681/llvm/trunk/test/MC/ARM/neon-bitcount-encoding.s
+END
+arm_word_directive.s
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/115414/llvm/trunk/test/MC/ARM/arm_word_directive.s
+END
+neon-dup-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/117685/llvm/trunk/test/MC/ARM/neon-dup-encoding.s
+END
+neon-add-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/llvm-project/!svn/ver/117633/llvm/trunk/test/MC/ARM/neon-add-encoding.s
+END
+neon-minmax-encoding.s
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/117686/llvm/trunk/test/MC/ARM/neon-minmax-encoding.s
+END
+neon-shiftaccum-encoding.ll
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/117530/llvm/trunk/test/MC/ARM/neon-shiftaccum-encoding.ll
+END
+neon-table-encoding.ll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/117530/llvm/trunk/test/MC/ARM/neon-table-encoding.ll
+END

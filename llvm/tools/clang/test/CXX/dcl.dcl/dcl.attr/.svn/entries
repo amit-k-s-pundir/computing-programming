@@ -1,0 +1,46 @@
+10
+
+dir
+117907
+http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/dcl.dcl/dcl.attr
+http://llvm.org/svn/llvm-project
+
+
+
+2010-10-18T16:24:27.778035Z
+116709
+andersca
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+dcl.attr.grammar
+dir
+
+dcl.attr.final
+dir
+
+dcl.attr.noreturn
+dir
+
+dcl.attr.depend
+dir
+
+dcl.attr.override
+dir
+
+dcl.align
+dir
+

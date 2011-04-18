@@ -1,0 +1,2 @@
+s_last: s_last.cpp
+g++ -o s s.cpp -L/opt/boost/lib -I/opt/boost/include

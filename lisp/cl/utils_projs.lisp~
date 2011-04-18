@@ -1,0 +1,90 @@
+(in-package :cl-user)
+
+;; (setf asdf:*central-registry*
+;; 	  (list* '*default-pathname-defaults*
+;; 			 #p "/opt/lisp/cl/clbuild/systems/"
+;; 			 #p "/home/sonu/cl/systems/"
+;; 			 #p "/usr/share/common-lisp/systems/"
+;; 			 asdf:*central-registry*))
+
+;; (asdf:oos 'asdf:load-op :asdf-binary-locations)
+
+;; (defun asdf-load-packages (packages)
+;;   (loop for package in packages
+;; 	 do (asdf:oos 'asdf:load-op package) ))
+
+;; (asdf-load-packages '(:asdf-binary-locations :cl-who :cl-ppcre :parenscript :cl-fad))
+;(asdf-load-packages '(:asdf-binary-locations :cl-who :cl-ppcre :parenscript :cl-fad :mcclim ))
+
+(defpackage "tc-utils"
+;  (:use :cl :asdf :parenscript :cl-who :cl-ppcre :cl-fad :clim :clim-lisp)
+  (:use :cl :asdf :parenscript :cl-who :cl-ppcre :cl-fad :utils)
+  ;  (:export #:app-main)
+  )
+
+(in-package "tc-utils")
+
+
+(defclass project ()
+  ((name :initform nil :accessor project-name
+		 :initarg :name)
+   (base-dir :initform nil :accessor project-base-dir
+			 :initarg :base-dir)
+   (dir-tree :initform nil :initarg :dir-tree)))
+
+(defclass tc-project (project)
+  ((base-dir :initform #p "/home/sonu/workspace/projects/tc/"
+			 :initarg :base-dir :accessor project-base-dir)))
+
+(defclass tc-des-project (tc-project)
+  ((base-dir :initform #p "/home/sonu/workspace/projects/tc/design/"
+			 :initarg :base-dir :accessor project-base-dir))
+  )
+
+(defclass tc-assembly-project (tc-project)
+  ()
+  )
+
+(defclass tc-arch-project (tc-project)
+  ()
+  )
+
+(defclass tc-dev-project (tc-project)
+  ()
+  )
+
+(defclass tc-bugfixes-project (tc-project)
+  ()
+  )
+
+(defmethod setup-project ((project project) &optional dir-tree)
+  (make-directory-tree (project-base-dir project) (project-dir-tree project)))
+
+(defmethod setup-project ((project tc-project) &optional
+						  (download-dir #p "/opt/downloads/")
+										;(downloads (list-of path-specifier-p))
+						  (downloads `(,@(concatenate (tc-project-name project) ".jar"))))
+  (let((project-base-dir (project-base-dir project)))
+	
+	(call-next-method project download-dir downloads)
+	(loop for)
+	(cp (append downloads (if (listp project-base-dir) project-base-dir
+							   (list project-base-dir))))
+	(dolist (x downloads)
+	  (jar-to-zip x)
+	  (unzip x))
+	))
+  
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq x (make-instance 'tc-project )))
+(project-base-dir x)
+(setq y (make-instance 'project))
+(project-base-dir y)
+(slot-value x 'base-dir)
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

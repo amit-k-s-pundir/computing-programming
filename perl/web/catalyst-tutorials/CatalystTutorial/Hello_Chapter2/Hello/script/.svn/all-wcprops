@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/Hello_Chapter2/Hello/script
+END
+hello_cgi.pl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/Hello_Chapter2/Hello/script/hello_cgi.pl
+END
+hello_create.pl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/Hello_Chapter2/Hello/script/hello_create.pl
+END
+hello_server.pl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/Hello_Chapter2/Hello/script/hello_server.pl
+END
+hello_test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/Hello_Chapter2/Hello/script/hello_test.pl
+END
+hello_fastcgi.pl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/Hello_Chapter2/Hello/script/hello_fastcgi.pl
+END

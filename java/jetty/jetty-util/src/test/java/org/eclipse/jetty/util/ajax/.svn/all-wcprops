@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1101/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/ajax
+END
+JSONPojoConvertorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/ajax/JSONPojoConvertorTest.java
+END
+JSONTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1101/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/ajax/JSONTest.java
+END
+JSONPojoConvertorFactoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/ajax/JSONPojoConvertorFactoryTest.java
+END

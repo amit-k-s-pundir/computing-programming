@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/llvm-project/!svn/ver/117228/llvm/trunk/test/CodeGen/PTX
+END
+exit.ll
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/114788/llvm/trunk/test/CodeGen/PTX/exit.ll
+END
+ret.ll
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/114789/llvm/trunk/test/CodeGen/PTX/ret.ll
+END
+dg.exp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/114294/llvm/trunk/test/CodeGen/PTX/dg.exp
+END
+mov.ll
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/116806/llvm/trunk/test/CodeGen/PTX/mov.ll
+END

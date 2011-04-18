@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/log
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/rt/org.eclipse.jetty/!svn/ver/627/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/log/Logger.java
+END
+JavaUtilLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/627/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/log/JavaUtilLog.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/398/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/log/Log.java
+END
+LoggerLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/rt/org.eclipse.jetty/!svn/ver/627/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/log/LoggerLog.java
+END
+Slf4jLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/log/Slf4jLog.java
+END
+StdErrLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/rt/org.eclipse.jetty/!svn/ver/995/jetty/trunk/jetty-util/src/main/java/org/eclipse/jetty/util/log/StdErrLog.java
+END

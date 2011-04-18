@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/rt/org.eclipse.jetty/!svn/ver/742/jetty/trunk/jetty-policy/src/main/java/org/eclipse/jetty/policy/loader
+END
+PolicyFileScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/rt/org.eclipse.jetty/!svn/ver/451/jetty/trunk/jetty-policy/src/main/java/org/eclipse/jetty/policy/loader/PolicyFileScanner.java
+END
+DefaultPolicyLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/742/jetty/trunk/jetty-policy/src/main/java/org/eclipse/jetty/policy/loader/DefaultPolicyLoader.java
+END

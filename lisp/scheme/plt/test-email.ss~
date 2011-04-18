@@ -1,0 +1,14 @@
+(module testing-plt-for-email mzscheme
+  (require (lib "smtp.ss" "net")
+           (lib "head.ss" "net"))
+   
+  (let ([from "sonupundir@gmail.org"]
+        [to '("seekmit@hotmail.com")])
+    (smtp-send-message 
+     "smtp.googlemail.com:465"
+     from
+     to
+     (standard-message-header from to null null "Hello, this is email from plt")
+     (list
+      "Hi Myself,"
+      "I tried the example, and it worked!"))))

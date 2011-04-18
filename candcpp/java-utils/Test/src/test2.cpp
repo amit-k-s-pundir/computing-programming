@@ -1,0 +1,13 @@
+#include <iostream>
+#include <map>
+#include <string>
+#include <initializer_list>
+
+
+using namespace std;
+
+int main(int argc, char* argv[]){
+        const map<string,string> x{{"first","sonu"},{"second","pundir"}};
+        const double& y{2.5};
+        return 0;
+}

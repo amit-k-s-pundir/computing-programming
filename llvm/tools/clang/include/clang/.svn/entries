@@ -1,0 +1,138 @@
+10
+
+dir
+117907
+http://llvm.org/svn/llvm-project/cfe/trunk/include/clang
+http://llvm.org/svn/llvm-project
+
+
+
+2010-10-31T23:22:37.507241Z
+117881
+andersca
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+Frontend
+dir
+
+Rewrite
+dir
+
+Basic
+dir
+
+Analysis
+dir
+
+Sema
+dir
+
+AST
+dir
+
+Lex
+dir
+
+Driver
+dir
+
+CodeGen
+dir
+
+Checker
+dir
+
+Index
+dir
+
+Parse
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2010-11-01T06:51:16.277837Z
+4429161b5f724e20b912e8f8ff896119
+2010-10-20T02:31:43.831165Z
+116906
+andersca
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+125
+
+Serialization
+dir
+
+FrontendTool
+dir
+
+Makefile
+file
+
+
+
+
+2010-11-01T06:51:16.281838Z
+635f3af75daf2f6e8140d76cba784362
+2010-10-20T02:31:43.831165Z
+116906
+andersca
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1246
+

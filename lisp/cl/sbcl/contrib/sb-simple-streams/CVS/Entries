@@ -1,0 +1,22 @@
+/.cvsignore/1.2/Sun Apr 30 19:21:25 2006//
+/Makefile/1.1/Tue May 13 12:21:16 2003//
+/README/1.3/Sun Sep  7 14:10:26 2003//
+/TODO/1.5/Thu Sep 25 12:12:11 2003//
+/classes.lisp/1.9/Thu Jul 14 16:30:09 2005//
+/direct.lisp/1.2/Thu Jul 14 16:30:09 2005//
+/fndb.lisp/1.6/Wed Dec  7 15:57:22 2005//
+/internal.lisp/1.16/Mon May 18 20:38:44 2009//
+/iodefs.lisp/1.5/Thu Jul 30 11:02:22 2009//
+/null.lisp/1.2/Thu Jul 14 16:30:09 2005//
+/package.lisp/1.3/Tue Jun 29 08:50:57 2004//
+/sb-simple-streams.texinfo/1.1/Tue Aug 17 17:32:13 2004//
+/strategy.lisp/1.9/Thu Jul 14 16:30:09 2005//
+/string.lisp/1.2/Thu Jul 14 16:30:10 2005//
+/terminal.lisp/1.3/Mon Aug  6 11:50:47 2007//
+/file.lisp/1.8/Sat Oct 30 05:14:03 2010//
+/impl.lisp/1.15/Sat Oct 30 05:14:03 2010//
+/lp491087.txt/1.1/Mon Feb  8 17:42:26 2010//
+/sb-simple-streams.asd/1.7/Sat Oct 30 05:14:03 2010//
+/simple-stream-tests.lisp/1.17/Sat Oct 30 05:14:03 2010//
+/socket.lisp/1.4/Sat Oct 30 05:14:03 2010//
+D

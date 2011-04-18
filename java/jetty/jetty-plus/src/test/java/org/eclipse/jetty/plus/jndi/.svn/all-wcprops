@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/test/java/org/eclipse/jetty/plus/jndi
+END
+TestNamingEntries.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/test/java/org/eclipse/jetty/plus/jndi/TestNamingEntries.java
+END
+TestNamingEntryUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-plus/src/test/java/org/eclipse/jetty/plus/jndi/TestNamingEntryUtil.java
+END

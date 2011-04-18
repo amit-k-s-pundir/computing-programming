@@ -1,0 +1,521 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/llvm-project/!svn/ver/117254/cfe/trunk/test/Index
+END
+complete-property-flags.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/89281/cfe/trunk/test/Index/complete-property-flags.m
+END
+complete-ctor-inits.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-ctor-inits.cpp
+END
+overrides.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/115338/cfe/trunk/test/Index/overrides.cpp
+END
+complete-templates.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/114358/cfe/trunk/test/Index/complete-templates.cpp
+END
+complete-protocols.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/89196/cfe/trunk/test/Index/complete-protocols.m
+END
+complete-categories.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/96759/cfe/trunk/test/Index/complete-categories.m
+END
+properties-class-extensions.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/llvm-project/!svn/ver/115338/cfe/trunk/test/Index/properties-class-extensions.m
+END
+complete-exprs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/114441/cfe/trunk/test/Index/complete-exprs.cpp
+END
+crash-recovery-code-complete.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/113698/cfe/trunk/test/Index/crash-recovery-code-complete.c
+END
+annotate-tokens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/109706/cfe/trunk/test/Index/annotate-tokens.cpp
+END
+cindex-on-invalid-usrs.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/114989/cfe/trunk/test/Index/cindex-on-invalid-usrs.m
+END
+complete-recovery.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-recovery.m
+END
+preamble-reparse-chained.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/114774/cfe/trunk/test/Index/preamble-reparse-chained.c
+END
+code-completion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/code-completion.cpp
+END
+rdar-8288645-invalid-code.mm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/110740/cfe/trunk/test/Index/rdar-8288645-invalid-code.mm
+END
+invalid-code-rdar_7833619.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/llvm-project/!svn/ver/100589/cfe/trunk/test/Index/invalid-code-rdar_7833619.m
+END
+cindex-on-invalid.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/99595/cfe/trunk/test/Index/cindex-on-invalid.m
+END
+cindex-from-source.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/108756/cfe/trunk/test/Index/cindex-from-source.m
+END
+complete-member-access.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-member-access.m
+END
+preamble.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/114358/cfe/trunk/test/Index/preamble.c
+END
+complete-macros.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/114086/cfe/trunk/test/Index/complete-macros.c
+END
+local-symbols.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/115338/cfe/trunk/test/Index/local-symbols.m
+END
+annotate-tokens-include.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/117001/cfe/trunk/test/Index/annotate-tokens-include.c
+END
+TestClassForwardDecl.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/113805/cfe/trunk/test/Index/TestClassForwardDecl.m
+END
+usrs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/112730/cfe/trunk/test/Index/usrs.cpp
+END
+complete-type-factors.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-type-factors.m
+END
+annotate-tokens-include.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/103143/cfe/trunk/test/Index/annotate-tokens-include.h
+END
+index-templates.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/117147/cfe/trunk/test/Index/index-templates.cpp
+END
+cxx-operator-overload.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Index/cxx-operator-overload.cpp
+END
+complete-at-exprstmt.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-at-exprstmt.m
+END
+annotate-tokens.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/110681/cfe/trunk/test/Index/annotate-tokens.c
+END
+load-classes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/112837/cfe/trunk/test/Index/load-classes.cpp
+END
+c-index-api-loadTU-test.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/115618/cfe/trunk/test/Index/c-index-api-loadTU-test.m
+END
+overrides.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/llvm-project/!svn/ver/115338/cfe/trunk/test/Index/overrides.m
+END
+remap-cursor-at.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/116207/cfe/trunk/test/Index/remap-cursor-at.c
+END
+complete-declarators.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-declarators.m
+END
+annotate-tokens.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/117001/cfe/trunk/test/Index/annotate-tokens.m
+END
+preamble-reparse.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/111590/cfe/trunk/test/Index/preamble-reparse.c
+END
+load-stmts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/117254/cfe/trunk/test/Index/load-stmts.cpp
+END
+complete-method-decls.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-method-decls.m
+END
+complete-blocks.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-blocks.m
+END
+complete-enums.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/100470/cfe/trunk/test/Index/complete-enums.c
+END
+print-display-names.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/115428/cfe/trunk/test/Index/print-display-names.cpp
+END
+complete-interfaces.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/89207/cfe/trunk/test/Index/complete-interfaces.m
+END
+complete-super.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-super.cpp
+END
+invalid-rdar-8236270.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/109834/cfe/trunk/test/Index/invalid-rdar-8236270.cpp
+END
+complete-unterminated.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/110933/cfe/trunk/test/Index/complete-unterminated.c
+END
+usrs.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/llvm-project/!svn/ver/111991/cfe/trunk/test/Index/usrs.m
+END
+TestClassDecl.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/113805/cfe/trunk/test/Index/TestClassDecl.m
+END
+load-decls.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/112739/cfe/trunk/test/Index/load-decls.c
+END
+complete-declarators.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-declarators.cpp
+END
+linkage.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/97736/cfe/trunk/test/Index/linkage.c
+END
+remap-complete.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/116261/cfe/trunk/test/Index/remap-complete.c
+END
+complete-memfunc-cvquals.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-memfunc-cvquals.cpp
+END
+blocks.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/117167/cfe/trunk/test/Index/blocks.c
+END
+load-exprs.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/117167/cfe/trunk/test/Index/load-exprs.c
+END
+complete-objc-message.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-objc-message.m
+END
+c-index-getCursor-pp.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/117063/cfe/trunk/test/Index/c-index-getCursor-pp.c
+END
+recover-bad-code-rdar_7487294.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/llvm-project/!svn/ver/99972/cfe/trunk/test/Index/recover-bad-code-rdar_7487294.c
+END
+print-typekind.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/115425/cfe/trunk/test/Index/print-typekind.c
+END
+complete-at-directives.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/116241/cfe/trunk/test/Index/complete-at-directives.m
+END
+complete-natural.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/112059/cfe/trunk/test/Index/complete-natural.m
+END
+annotate-tokens-pp.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/117001/cfe/trunk/test/Index/annotate-tokens-pp.c
+END
+c-index-getCursor-test.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/99004/cfe/trunk/test/Index/c-index-getCursor-test.m
+END
+complete-pch.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/112456/cfe/trunk/test/Index/complete-pch.m
+END
+print-typekind.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/106473/cfe/trunk/test/Index/print-typekind.m
+END
+crash-recovery.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/111970/cfe/trunk/test/Index/crash-recovery.c
+END
+complete-property-getset.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/llvm-project/!svn/ver/91702/cfe/trunk/test/Index/complete-property-getset.m
+END
+complete-tabs.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/92882/cfe/trunk/test/Index/complete-tabs.c
+END
+c-index-pch.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/91446/cfe/trunk/test/Index/c-index-pch.c
+END
+complete-preprocessor.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-preprocessor.m
+END
+complete-exprs.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-exprs.c
+END
+include_test_2.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/94575/cfe/trunk/test/Index/include_test_2.h
+END
+complete-hiding.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-hiding.c
+END
+complete-objc-message-id.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-objc-message-id.m
+END
+cindex-test-inclusions.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/llvm-project/!svn/ver/94575/cfe/trunk/test/Index/cindex-test-inclusions.c
+END
+complete-driver-errors.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-driver-errors.c
+END
+complete-properties.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/llvm-project/!svn/ver/96759/cfe/trunk/test/Index/complete-properties.m
+END
+complete-super.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-super.m
+END
+complete-exprs.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/116774/cfe/trunk/test/Index/complete-exprs.m
+END
+remap-load.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/116207/cfe/trunk/test/Index/remap-load.c
+END
+print-usrs.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/llvm-project/!svn/ver/101542/cfe/trunk/test/Index/print-usrs.c
+END
+include_test.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/94575/cfe/trunk/test/Index/include_test.h
+END
+code-complete-errors.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/llvm-project/!svn/ver/106170/cfe/trunk/test/Index/code-complete-errors.c
+END
+crash-recovery-reparse.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/llvm-project/!svn/ver/113698/cfe/trunk/test/Index/crash-recovery-reparse.c
+END
+load-namespaces.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/llvm-project/!svn/ver/113805/cfe/trunk/test/Index/load-namespaces.cpp
+END

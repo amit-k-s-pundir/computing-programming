@@ -1,0 +1,4 @@
+<p>Hello, [% username %]!</p>
+<p>
+   This is a TT view template, called '[% template.name %]'.
+</p>

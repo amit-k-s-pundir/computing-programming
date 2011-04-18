@@ -1,0 +1,6 @@
+<project name="test1" default="default" basedir=".">
+	<description></description>
+	<property name="is.war.module" value="true"></property>
+	<import file="../../main.xml"></import>
+	<target name="-pre-compile" depends="init,build-common,copy-common-jars"></target>
+</project>

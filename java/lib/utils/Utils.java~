@@ -1,0 +1,5 @@
+package utils;
+
+public interface F<A,B>{
+	public B f(A a);
+}

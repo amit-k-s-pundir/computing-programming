@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1103/jetty/trunk/jetty-continuation/src/main/java/org/eclipse/jetty/continuation
+END
+ContinuationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1103/jetty/trunk/jetty-continuation/src/main/java/org/eclipse/jetty/continuation/ContinuationFilter.java
+END
+ContinuationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/rt/org.eclipse.jetty/!svn/ver/990/jetty/trunk/jetty-continuation/src/main/java/org/eclipse/jetty/continuation/ContinuationListener.java
+END
+Jetty6Continuation.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1103/jetty/trunk/jetty-continuation/src/main/java/org/eclipse/jetty/continuation/Jetty6Continuation.java
+END
+ContinuationThrowable.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/rt/org.eclipse.jetty/!svn/ver/336/jetty/trunk/jetty-continuation/src/main/java/org/eclipse/jetty/continuation/ContinuationThrowable.java
+END
+Servlet3Continuation.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/rt/org.eclipse.jetty/!svn/ver/395/jetty/trunk/jetty-continuation/src/main/java/org/eclipse/jetty/continuation/Servlet3Continuation.java
+END
+ContinuationSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-continuation/src/main/java/org/eclipse/jetty/continuation/ContinuationSupport.java
+END
+Continuation.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/rt/org.eclipse.jetty/!svn/ver/336/jetty/trunk/jetty-continuation/src/main/java/org/eclipse/jetty/continuation/Continuation.java
+END
+FauxContinuation.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-continuation/src/main/java/org/eclipse/jetty/continuation/FauxContinuation.java
+END

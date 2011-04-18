@@ -1,0 +1,36 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 203_fix_legacy_ap_rputs_segfaults.dpatch by Marc Deslauriers <marc.deslauriers@ubuntu.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: Description: Fix potential segfaults with the use of the legacy ap_rputs() etc
+## DP:              interfaces, in cases where an output filter fails. This happens
+## DP:              frequently after CVE-2009-1891 got fixed.
+## DP: Ubuntu: https://bugs.launchpad.net/ubuntu/+source/apache2/+bug/409987
+## DP: Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=537665
+## DP: Upstream: https://issues.apache.org/bugzilla/show_bug.cgi?id=36780
+## DP: Patch: http://svn.apache.org/viewvc?view=rev&revision=800333
+
+@DPATCH@
+diff -urNad apache2-2.2.12~/server/util_filter.c apache2-2.2.12/server/util_filter.c
+--- apache2-2.2.12~/server/util_filter.c	2006-07-11 23:38:44.000000000 -0400
++++ apache2-2.2.12/server/util_filter.c	2009-08-17 15:37:59.000000000 -0400
+@@ -578,8 +578,18 @@
+                                                 void *ctx)
+ {
+     ap_filter_t *f = ctx;
++    apr_status_t rv;
+ 
+-    return ap_pass_brigade(f, bb);
++    rv = ap_pass_brigade(f, bb);
++
++    /* Before invocation of the flush callback, apr_brigade_write et
++     * al may place transient buckets in the brigade, which will fall
++     * out of scope after returning.  Empty the brigade here, to avoid
++     * issues with leaving such buckets in the brigade if some filter
++     * fails and leaves a non-empty brigade. */
++    apr_brigade_cleanup(bb);
++
++    return rv;
+ }
+ 
+ AP_DECLARE(apr_status_t) ap_fflush(ap_filter_t *f, apr_bucket_brigade *bb)

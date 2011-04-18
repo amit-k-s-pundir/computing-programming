@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1098/jetty/trunk/tests/test-webapps/test-webapp-rfc2616
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1098/jetty/trunk/tests/test-webapps/test-webapp-rfc2616/pom.xml
+END

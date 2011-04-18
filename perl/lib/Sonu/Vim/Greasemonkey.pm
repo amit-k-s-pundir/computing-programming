@@ -1,0 +1,61 @@
+#!/usr/bin/perl 
+#===============================================================================
+#
+#         FILE:  greasemonkey.pl
+#
+#        USAGE:  ./greasemonkey.pl  
+#
+#  DESCRIPTION:  
+#
+#      OPTIONS:  ---
+# REQUIREMENTS:  ---
+#         BUGS:  ---
+#        NOTES:  ---
+#       AUTHOR:  YOUR NAME (), 
+#      COMPANY:  
+#      VERSION:  1.0
+#      CREATED:  Tuesday 25 January 2011 06:29:56  IST
+#     REVISION:  ---
+#===============================================================================
+
+package Sonu::Vim::Greasemonkey;
+
+use strict;
+use warnings;
+
+use feature ":5.10";
+use feature "switch";
+
+#use VIM::GreaseMonkey;
+#&main;
+
+BEGIN{
+    use Exporter ();
+    our ($VERSION, @ISA, @EXPORT, @EXPORT_OK, %EXPORT_TAGS);
+
+    @ISA = qw(Exporter);
+    @EXPORT = qw(&gen_banner);
+    %EXPORT_TAGS = ();
+}
+
+sub gen_banner{
+    my($name, $namespace, $description, $include) = @_;
+#    say <<"EOF";
+#    return qq(
+#    // ==UserScript==
+#    // \@name    $name
+#    // \@namespace  $namespace
+#    // \@description  $description
+#    // \@include  $include
+#    // ==/UserScript
+#    );
+#EOF
+    "heythere!";
+}
+
+#sub main{
+#    gen_banner "name", "ns", "desc", "include";
+#}
+
+END{}
+1;

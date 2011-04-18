@@ -1,0 +1,25 @@
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" 
+    layout="absolute" width="300" height="300" 
+    initialize="onLoad()" backgroundAlpha="0">	
+	<mx:Script>
+	<![CDATA[
+        public var widget:Object; //Widget
+        
+	    public function onLoad():void
+	    {
+	        //initialize widget container instance
+	    	widget = this["parent"]["parent"]["parent"]["parent"];	
+	    		    	
+	    	//set chrome dimensions and background color
+            widget.initWidget(300,300,0xffffff); 
+
+            myLabel.text = "Hello, World!";
+
+            //MUST HAVE THIS IN FLEX WIDGETS 
+            // - initialization of widget complete
+	    	widget.onLoadComplete(); 
+	    }
+	]]>
+	</mx:Script>
+	<mx:Label id="myLabel" x="50" y="100" fontWeight="bold" fontSize="24"/>
+</mx:Application>

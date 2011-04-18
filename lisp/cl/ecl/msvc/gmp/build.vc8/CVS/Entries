@@ -1,0 +1,36 @@
+/config-vc8.amd64/1.2/Wed Feb 14 16:25:16 2007//
+/config-vc8.gc/1.3/Wed Feb 14 16:25:16 2007//
+/config-vc8.p0/1.2/Wed Feb 14 16:25:16 2007//
+/config-vc8.p3/1.2/Wed Feb 14 16:25:16 2007//
+/config-vc8.p4/1.2/Wed Feb 14 16:25:16 2007//
+/file_copy.bat/1.2/Wed Feb 14 16:25:16 2007//
+/getopt.c/1.2/Wed Feb 14 16:25:16 2007//
+/getopt.h/1.2/Wed Feb 14 16:25:16 2007//
+/gmp.h/1.2/Wed Feb 14 16:25:16 2007//
+/gmp.ncb/1.2/Wed Feb 14 16:25:16 2007//
+/gmp.sln/1.2/Wed Feb 14 16:25:16 2007//
+/gmp.suo/1.1/Sun Jan 21 15:48:27 2007//
+/gmp_prebuild.bat/1.2/Wed Feb 14 16:25:16 2007//
+/popham.c/1.1/Sun Jan 21 15:48:27 2007//
+/readme-vc8.txt/1.2/Wed Feb 14 16:25:16 2007//
+/unistd.h/1.2/Wed Feb 14 16:25:16 2007//
+/yasm.rules/1.2/Wed Feb 14 16:25:16 2007//
+D/dll_gmp_amd64////
+D/dll_gmp_gc////
+D/dll_gmp_p0////
+D/dll_gmp_p3////
+D/dll_gmp_p4////
+D/dll_mpfr////
+D/gen-bases////
+D/gen-fac_ui////
+D/gen-fib////
+D/gen-psqr////
+D/lib_gmp////
+D/lib_gmp_amd64////
+D/lib_gmp_gc////
+D/lib_gmp_p0////
+D/lib_gmp_p3////
+D/lib_gmp_p4////
+D/lib_gmpxx////
+D/lib_mpfr////
+D/tests////

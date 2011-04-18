@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security
+END
+ConstraintMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/ConstraintMapping.java
+END
+ConstraintAware.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/ConstraintAware.java
+END
+SecurityHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/SecurityHandler.java
+END
+DefaultAuthenticatorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/rt/org.eclipse.jetty/!svn/ver/623/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/DefaultAuthenticatorFactory.java
+END
+ServerAuthException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/ServerAuthException.java
+END
+IdentityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/642/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/IdentityService.java
+END
+ConstraintSecurityHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/rt/org.eclipse.jetty/!svn/ver/623/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/ConstraintSecurityHandler.java
+END
+Authenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/623/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/Authenticator.java
+END
+RoleRunAsToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/RoleRunAsToken.java
+END
+JDBCLoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/623/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/JDBCLoginService.java
+END
+RoleInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/151/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/RoleInfo.java
+END
+UserDataConstraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/UserDataConstraint.java
+END
+UserAuthentication.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/rt/org.eclipse.jetty/!svn/ver/623/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/UserAuthentication.java
+END
+DefaultIdentityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/DefaultIdentityService.java
+END
+MappedLoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/rt/org.eclipse.jetty/!svn/ver/623/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/MappedLoginService.java
+END
+CrossContextPsuedoSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/CrossContextPsuedoSession.java
+END
+HashCrossContextPsuedoSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/HashCrossContextPsuedoSession.java
+END
+LoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/623/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/LoginService.java
+END
+RunAsToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/RunAsToken.java
+END
+HashLoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/623/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/HashLoginService.java
+END
+DefaultUserIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-security/src/main/java/org/eclipse/jetty/security/DefaultUserIdentity.java
+END

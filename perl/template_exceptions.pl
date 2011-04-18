@@ -1,0 +1,6 @@
+eval {                          # try
+    ...run the code here....
+    1;
+} or do {                       # catch
+    ...handle the error using $@...
+};

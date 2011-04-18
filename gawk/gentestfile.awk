@@ -1,0 +1,19 @@
+BEGIN {
+	counter = 0;
+}
+{
+#	print (gensub(/^test([[:digit:]]+).awk$/, "test" (1 + strtonum("\\1")) ".awk", "g" ))
+#	counter = 0;
+	if(match($0, /^test([[:digit:]]+)\.awk$/, arr))
+	# print "test" (1 + arr[1]) ".awk";
+	{
+		last = strtonum(arr[1]);
+		if(counter <= last)
+			counter = 1 + last;
+	       }
+	  #     print "test" counter ".awk";
+       }
+       END {
+	       print "test" counter ".awk";
+       }
+

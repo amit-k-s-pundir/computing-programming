@@ -1,0 +1,16 @@
+;; Object test_cedet
+;; EDE project file.
+(ede-proj-project "test_cedet"
+  :name "test_cedet"
+  :file "Project.ede"
+  :targets (list 
+   (ede-proj-target-makefile-program "test"
+    :name "test"
+    :path ""
+    )
+   (ede-proj-target-makefile-program ""test""
+    :name "\"test\""
+    :path ""
+    )
+   )
+  )

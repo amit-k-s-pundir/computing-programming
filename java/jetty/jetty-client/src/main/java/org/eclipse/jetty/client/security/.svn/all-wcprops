@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security
+END
+Authorization.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security/Authorization.java
+END
+DigestAuthorization.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security/DigestAuthorization.java
+END
+Realm.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security/Realm.java
+END
+BasicAuthorization.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security/BasicAuthorization.java
+END
+ProxyAuthorization.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security/ProxyAuthorization.java
+END
+RealmResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security/RealmResolver.java
+END
+HashRealmResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security/HashRealmResolver.java
+END
+SimpleRealmResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security/SimpleRealmResolver.java
+END
+SecurityListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-client/src/main/java/org/eclipse/jetty/client/security/SecurityListener.java
+END

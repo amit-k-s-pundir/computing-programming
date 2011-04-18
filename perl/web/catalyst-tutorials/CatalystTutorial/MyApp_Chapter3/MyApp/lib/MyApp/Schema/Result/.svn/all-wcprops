@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/lib/MyApp/Schema/Result
+END
+Book.pm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/lib/MyApp/Schema/Result/Book.pm
+END
+BookAuthor.pm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/lib/MyApp/Schema/Result/BookAuthor.pm
+END
+Author.pm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/lib/MyApp/Schema/Result/Author.pm
+END

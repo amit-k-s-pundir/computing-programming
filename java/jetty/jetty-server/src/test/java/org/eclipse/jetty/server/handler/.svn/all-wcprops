@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1022/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/handler
+END
+ContextHandlerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/handler/ContextHandlerTest.java
+END
+StatisticsHandlerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1022/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/handler/StatisticsHandlerTest.java
+END
+ScopedHandlerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/handler/ScopedHandlerTest.java
+END
+ContextHandlerCollectionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/handler/ContextHandlerCollectionTest.java
+END

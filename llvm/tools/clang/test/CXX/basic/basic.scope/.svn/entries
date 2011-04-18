@@ -1,0 +1,61 @@
+10
+
+dir
+117907
+http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/basic/basic.scope
+http://llvm.org/svn/llvm-project
+
+
+
+2010-10-23T16:06:17.756676Z
+117212
+dgregor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91177308-0d34-0410-b5e6-96231b3b80d8
+
+basic.scope.pdecl
+dir
+
+basic.scope.req
+dir
+
+basic.funscope
+dir
+
+basic.scope.local
+dir
+
+basic.scope.concept
+dir
+
+basic.scope.namespace
+dir
+
+basic.scope.hiding
+dir
+
+basic.scope.declarative
+dir
+
+basic.scope.proto
+dir
+
+basic.scope.enum
+dir
+
+basic.scope.class
+dir
+

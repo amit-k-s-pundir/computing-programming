@@ -1,0 +1,34 @@
+10
+
+dir
+1134
+http://dev.eclipse.org/svnroot/rt/org.eclipse.jetty/jetty/trunk/tests/test-integration/src/test/resources/docroots
+http://dev.eclipse.org/svnroot/rt/org.eclipse.jetty
+
+
+
+2009-07-11T00:31:23.961088Z
+550
+jerdfelt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7e9141cc-0065-0410-87d8-b60c137991c4
+
+default
+dir
+
+virtualhost
+dir
+

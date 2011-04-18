@@ -1,0 +1,6 @@
+(require-extension ssax)
+(require 'sxml)
+(ssax:document "http://modis.ispras.ru/Lizorkin/XML/poem.xml")
+(ssax:xml->sxml (open-input-file "/home/sonu/workspace/programming/lisp/scheme/poem.xml") '())
+(list-tail '(1 2 3 4) 2)
+(current-input-port )

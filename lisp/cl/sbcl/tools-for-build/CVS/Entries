@@ -1,0 +1,27 @@
+/Makefile/1.11/Mon Nov 13 16:03:32 2006//
+/canonicalize-whitespace/1.4/Fri Dec 15 03:28:36 2006//
+/canonicalize-whitespace-1/1.3/Thu Apr 13 22:52:57 2006//
+/check-canonical-whitespace/1.1/Tue Jul 12 12:58:02 2005//
+/determine-endianness.c/1.3/Wed Sep  7 22:51:49 2005//
+/grep-noncanonical-whitespace/1.1/Tue Jul 12 12:58:02 2005//
+/os-provides-blksize-t-test.c/1.1/Sun Apr  8 17:34:45 2007//
+/os-provides-dlopen-test.c/1.1/Thu Sep  9 12:10:16 2004//
+/os-provides-putwc-test.c/1.1/Sat Oct  1 17:23:30 2005//
+/os-provides-suseconds-t-test.c/1.1/Wed Sep 26 11:37:34 2007//
+/rtf.lisp/1.1/Thu Jun  1 09:14:25 2006//
+/sparc-funcdef.sh/1.4/Mon Jan  9 13:00:19 2006//
+/where-is-mcontext.c/1.4/Mon Oct  3 09:46:40 2005//
+/whitespacely-canonical-filenames/1.6/Mon Nov 24 15:56:11 2008//
+/wxs.lisp/1.6/Tue Jan 29 13:20:19 2008//
+/.cvsignore/1.5/Sat Oct 30 05:14:12 2010//
+/Jamo.txt/1.2/Sat Oct 30 05:14:12 2010//
+/UnicodeData.txt/1.4/Sat Oct 30 05:14:13 2010//
+/grovel-features.sh/1.12/Sat Oct 30 05:14:13 2010//
+/grovel-headers.c/1.47/Sat Oct 30 05:14:13 2010//
+/ldso-stubs.lisp/1.29/Sat Oct 30 05:14:13 2010//
+/openbsd-sigcontext.sh/1.1/Tue Aug 31 13:04:55 2010//
+/os-provides-dladdr-test.c/1.5/Sat Oct 30 05:14:13 2010//
+/os-provides-getprotoby-r-test.c/1.1/Wed Sep  1 14:14:55 2010//
+/os-provides-poll-test.c/1.1/Sun Sep 19 20:08:47 2010//
+/ucd.lisp/1.8/Sat Oct 30 05:14:13 2010//
+D

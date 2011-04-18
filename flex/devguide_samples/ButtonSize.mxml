@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- components\ButtonSize.mxml -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+    width="150"
+    height="150">
+    <mx:Script>
+        <![CDATA[
+             public function resizeButton():void {
+                 myButton.height = myButton.height + 15;
+                 myButton.width = myButton.width + 15;
+             }
+        ]]>
+    </mx:Script>
+    <mx:VBox
+        borderStyle="solid"
+        height="80"
+        width="100" >
+        <mx:Button id="myButton"
+             label="Resize"
+             click="resizeButton();"/>
+    </mx:VBox>
+</mx:Application>

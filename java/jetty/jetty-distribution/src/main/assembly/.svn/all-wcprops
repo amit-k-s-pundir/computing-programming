@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/rt/org.eclipse.jetty/!svn/ver/912/jetty/trunk/jetty-distribution/src/main/assembly
+END
+jetty-src.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/rt/org.eclipse.jetty/!svn/ver/669/jetty/trunk/jetty-distribution/src/main/assembly/jetty-src.xml
+END
+site-component.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/rt/org.eclipse.jetty/!svn/ver/669/jetty/trunk/jetty-distribution/src/main/assembly/site-component.xml
+END
+jetty-assembly.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/rt/org.eclipse.jetty/!svn/ver/912/jetty/trunk/jetty-distribution/src/main/assembly/jetty-assembly.xml
+END

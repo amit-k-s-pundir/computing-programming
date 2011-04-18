@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link href="screen.css" rel="stylesheet" type="text/css" media="screen" />
+	<!--  <script src="http://code.jquery.com/jquery-latest.js"></script> -->
+	
+	<script>
+	  <!--  $(document).ready(function(){
+		   $("div").html("<span class='red'>Hello <b>Again</b></span>");
+		   }); -->
+	</script>
+	<style>
+	  .red { color:red; }
+	  body {background: white}
+	</style>
+  </head>
+
+<body>
+
+  <div class="container">
+	<h1>A simple test page for ${app_name} application.</h1>
+	<hr />
+
+	<!--
+	<div id="header" class="alt"> <span>Hello!, I'm header!</span></div>
+	<hr />
+	<div id="right_frame"><span>Hello!</span><span>I'm right frame!</span></div>
+	<div class="bottom" id="footer">Hello!, I'm footer!</div>
+	<div id="left_frame">Hello! I'm left frame!</div>
+	-->
+
+	<div id="body">
+
+	  <div class="span-7 colborder">
+		<h2>A log-in form for you.</h2>
+		<form action="http://localhost/fcgi-bin/test.fcgi" method="post">
+		  <p>
+			Username: <input type="text" name="username" />
+			<br />
+			Password: <input type="password" name="password" />
+			<br />
+			<input type="submit" name="submit" value="Enter" />
+			<br />
+		  </p>
+		</form>
+	  </div>
+
+	  <div class="span-last">
+		<p>
+		  This is a simple login form to test the functionality of this application.
+		</p>
+	  </div>
+
+	</div>
+
+  </div>
+
+</body>
+
+</html>
+
+

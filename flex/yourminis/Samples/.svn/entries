@@ -1,0 +1,53 @@
+8
+
+dir
+159
+https://goowy.svn.beanstalkapp.com/platform/trunk/yourminis.com/YOURMINIS-FLASH-9/Samples
+https://goowy.svn.beanstalkapp.com/platform
+
+
+
+2008-07-21T23:39:37.490172Z
+53
+hart
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c12e9548-c626-42fd-a294-fff8c8edc3d1
+
+reportevents
+dir
+
+rss
+dir
+
+social
+dir
+
+helloworld
+dir
+
+component_example.zip
+file
+
+
+
+
+2008-07-02T14:40:11.343894Z
+3bcca98406476a5b8c0cf3d3691861f2
+2008-07-02T14:21:05.926369Z
+2
+jeremy
+has-props
+

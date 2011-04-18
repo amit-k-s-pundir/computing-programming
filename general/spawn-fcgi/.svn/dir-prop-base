@@ -1,0 +1,51 @@
+K 12
+bzr:file-ids
+V 0
+
+K 25
+bzr:revision-id:v3-trunk0
+V 1137
+2 stbuehler@web.de-20090206202018-76h73e7jvsnr28wg
+4 stbuehler@web.de-20090207161523-8mlit6l40v5ern3q
+5 stbuehler@web.de-20090207162204-9ttx4pj62hyt6duk
+6 stbuehler@web.de-20090207162217-y84kam49mk3ef9v7
+7 stbuehler@web.de-20090207171221-5w2id63fb698uuar
+8 stbuehler@web.de-20090207172010-bjbkzlrhyxyxhtb9
+9 stbuehler@web.de-20090207172342-sqnufvr0mjxn7t8p
+10 stbuehler@web.de-20090207172521-73jpjzbvg2tydw3a
+11 stbuehler@web.de-20090218112811-kxtrd25oeo9uss1o
+12 stbuehler@web.de-20090218114329-pjbn9lrh1dw0t66l
+13 stbuehler@web.de-20090218161356-5oj4k45x7xxgzkge
+14 stbuehler@web.de-20090218164654-n56s3oxce8n8kgx0
+15 stbuehler@web.de-20090218171701-j5tlrbgituxa7tlj
+16 stbuehler@web.de-20090218221447-271ce9rhr8on63fy
+17 stbuehler@web.de-20090218230938-qliu6z1zbwzbthhc
+18 stbuehler@web.de-20090218233325-61t2ugjywhg0zcew
+22 stbuehler@web.de-20090225191817-ls70kcbgw5z5oucf
+23 stbuehler@web.de-20090228143156-h09t61smys2zgcx0
+24 stbuehler@web.de-20090228144521-jp3reri3wmeimozt
+25 stbuehler@web.de-20090228162626-nv73vhp7q7l6s69w
+26 stbuehler@web.de-20090310090246-9xs3ezussderygwc
+27 stbuehler@web.de-20090310201944-cua4nsy2ih6sdysn
+
+K 17
+bzr:revision-info
+V 130
+timestamp: 2009-03-10 21:19:44.852999926 +0100
+committer: Stefan Bühler <stbuehler@web.de>
+properties: 
+	branch-nick: spawn-fcgi
+
+K 10
+svn:ignore
+V 87
+configure
+Makefile.in
+depcomp
+config.h.in
+autom4te.cache
+missing
+aclocal.m4
+install-sh
+
+END

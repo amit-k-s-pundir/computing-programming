@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/645/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test/rfcs
+END
+RFC2616NIOHttpTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/rt/org.eclipse.jetty/!svn/ver/496/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test/rfcs/RFC2616NIOHttpTest.java
+END
+RFC2616NIOHttpsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/rt/org.eclipse.jetty/!svn/ver/496/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test/rfcs/RFC2616NIOHttpsTest.java
+END
+RFC2616BIOHttpTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/rt/org.eclipse.jetty/!svn/ver/496/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test/rfcs/RFC2616BIOHttpTest.java
+END
+RFC2616BaseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/rt/org.eclipse.jetty/!svn/ver/645/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test/rfcs/RFC2616BaseTest.java
+END
+RFC2616BIOHttpsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/rt/org.eclipse.jetty/!svn/ver/496/jetty/trunk/tests/test-integration/src/test/java/org/eclipse/jetty/test/rfcs/RFC2616BIOHttpsTest.java
+END

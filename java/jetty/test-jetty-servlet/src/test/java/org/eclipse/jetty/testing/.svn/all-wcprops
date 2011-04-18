@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/test-jetty-servlet/src/test/java/org/eclipse/jetty/testing
+END
+ServletTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/test-jetty-servlet/src/test/java/org/eclipse/jetty/testing/ServletTest.java
+END
+HttpTesterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/rt/org.eclipse.jetty/!svn/ver/480/jetty/trunk/test-jetty-servlet/src/test/java/org/eclipse/jetty/testing/HttpTesterTest.java
+END

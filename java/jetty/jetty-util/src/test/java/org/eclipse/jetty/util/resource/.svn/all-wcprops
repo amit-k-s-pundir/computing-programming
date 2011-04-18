@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/resource
+END
+ResourceCollectionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/rt/org.eclipse.jetty/!svn/ver/652/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/resource/ResourceCollectionTest.java
+END
+ResourceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-util/src/test/java/org/eclipse/jetty/util/resource/ResourceTest.java
+END

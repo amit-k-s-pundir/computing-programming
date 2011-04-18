@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1072/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets
+END
+GzipFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1044/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/GzipFilter.java
+END
+WelcomeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/WelcomeFilter.java
+END
+CGI.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/rt/org.eclipse.jetty/!svn/ver/625/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/CGI.java
+END
+IncludableGzipFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/IncludableGzipFilter.java
+END
+UserAgentFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/UserAgentFilter.java
+END
+CloseableDoSFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/rt/org.eclipse.jetty/!svn/ver/291/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/CloseableDoSFilter.java
+END
+ProxyServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1007/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/ProxyServlet.java
+END
+CrossOriginFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1072/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/CrossOriginFilter.java
+END
+MultiPartFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/993/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/MultiPartFilter.java
+END
+QoSFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/QoSFilter.java
+END
+DoSFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1009/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/DoSFilter.java
+END
+ConcatServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/ConcatServlet.java
+END
+PutFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/PutFilter.java
+END

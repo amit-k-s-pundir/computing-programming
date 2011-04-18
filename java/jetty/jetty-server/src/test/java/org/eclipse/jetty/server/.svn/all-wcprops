@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1060/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server
+END
+HttpURITest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/HttpURITest.java
+END
+HttpConnectionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/HttpConnectionTest.java
+END
+SelectChannelServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/SelectChannelServerTest.java
+END
+HttpServerTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/411/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/HttpServerTestBase.java
+END
+InclusiveByteRangeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/rt/org.eclipse.jetty/!svn/ver/513/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/InclusiveByteRangeTest.java
+END
+BusySelectChannelServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/BusySelectChannelServerTest.java
+END
+DumpHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/411/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/DumpHandler.java
+END
+ServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/rt/org.eclipse.jetty/!svn/ver/56/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/ServerTest.java
+END
+CheckReverseProxyHeadersTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/rt/org.eclipse.jetty/!svn/ver/209/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/CheckReverseProxyHeadersTest.java
+END
+BlockingChannelServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/BlockingChannelServerTest.java
+END
+ResourceCacheTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/ResourceCacheTest.java
+END
+HttpWriterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1032/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/HttpWriterTest.java
+END
+SocketServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/SocketServerTest.java
+END
+EncodedHttpURITest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/8/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/EncodedHttpURITest.java
+END
+AsyncStressTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/AsyncStressTest.java
+END
+AsyncUploadTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/AsyncUploadTest.java
+END
+AsyncContextTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/AsyncContextTest.java
+END
+StressTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/StressTest.java
+END
+RequestTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1049/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/RequestTest.java
+END
+RFC2616Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/RFC2616Test.java
+END
+ResponseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/ResponseTest.java
+END
+UnreadInputTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/rt/org.eclipse.jetty/!svn/ver/1014/jetty/trunk/jetty-server/src/test/java/org/eclipse/jetty/server/UnreadInputTest.java
+END
