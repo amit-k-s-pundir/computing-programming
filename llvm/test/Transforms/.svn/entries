@@ -1,172 +1,0 @@
-10
-
-dir
-117849
-http://llvm.org/svn/llvm-project/llvm/trunk/test/Transforms
-http://llvm.org/svn/llvm-project
-
-
-
-2010-10-30T12:59:44.197174Z
-117783
-baldrick
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-91177308-0d34-0410-b5e6-96231b3b80d8
-
-BlockPlacement
-dir
-
-GlobalOpt
-dir
-
-LICM
-dir
-
-SRETPromotion
-dir
-
-LowerAtomic
-dir
-
-LoopSimplify
-dir
-
-ConstProp
-dir
-
-ScalarRepl
-dir
-
-ArgumentPromotion
-dir
-
-ADCE
-dir
-
-TailCallElim
-dir
-
-LoopDeletion
-dir
-
-LoopUnswitch
-dir
-
-IndVarSimplify
-dir
-
-LoopUnroll
-dir
-
-ConstantMerge
-dir
-
-LowerSwitch
-dir
-
-LowerSetJmp
-dir
-
-MemCpyOpt
-dir
-
-LoopStrengthReduce
-dir
-
-CodeGenPrepare
-dir
-
-IPConstantProp
-dir
-
-Internalize
-dir
-
-CorrelatedValuePropagation
-dir
-
-LoopRotate
-dir
-
-SCCP
-dir
-
-GVN
-dir
-
-DeadArgElim
-dir
-
-Mem2Reg
-dir
-
-BranchFolding
-dir
-
-JumpThreading
-dir
-
-Reassociate
-dir
-
-SimplifyLibCalls
-dir
-
-TailDup
-dir
-
-DeadStoreElimination
-dir
-
-FunctionAttrs
-dir
-
-LowerInvoke
-dir
-
-Sink
-dir
-
-LCSSA
-dir
-
-PartialSpecialize
-dir
-
-CodeExtractor
-dir
-
-PruneEH
-dir
-
-InstCombine
-dir
-
-StripSymbols
-dir
-
-MergeFunc
-dir
-
-GlobalDCE
-dir
-
-SimplifyCFG
-dir
-
-Inline
-dir
-

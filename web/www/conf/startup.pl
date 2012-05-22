@@ -31,7 +31,7 @@ BEGIN{
 # commonly used modules.
 #use Apache2::Registry ();
 #use Apache2::Constants ();
-use CGI qw(~compile, :all);
+use CGI qw(~compile :all);
 use CGI::Carp ();
 
 # Put any other common modules here.

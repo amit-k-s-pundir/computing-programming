@@ -13,7 +13,7 @@ A predefined search for recently added books
 sub created_after {
     my ($self, $datetime) = @_;
 
-    my $date_str = $self->_source_handle->schema->storage
+    my $date_str = $self->result_source->schema->storage
                           ->datetime_parser->format_datetime($datetime);
 
     return $self->search({
@@ -35,6 +35,7 @@ sub title_like {
         title => { 'like' => "%$title_str%" }
     });
 }
+
 
 1;
 

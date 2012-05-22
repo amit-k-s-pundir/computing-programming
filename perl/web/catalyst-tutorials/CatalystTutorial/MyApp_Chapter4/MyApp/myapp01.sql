@@ -1,6 +1,7 @@
 --
 -- Create a very simple database to hold book and author information
 --
+PRAGMA foreign_keys = ON;
 CREATE TABLE book (
         id          INTEGER PRIMARY KEY,
         title       TEXT ,
@@ -8,8 +9,8 @@ CREATE TABLE book (
 );
 -- 'book_author' is a many-to-many join table between books & authors
 CREATE TABLE book_author (
-        book_id     INTEGER,
-        author_id   INTEGER,
+        book_id     INTEGER REFERENCES book(id) ON DELETE CASCADE ON UPDATE CASCADE,
+        author_id   INTEGER REFERENCES author(id) ON DELETE CASCADE ON UPDATE CASCADE,
         PRIMARY KEY (book_id, author_id)
 );
 CREATE TABLE author (

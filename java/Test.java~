@@ -1,17 +1,4 @@
-//public class Test{
-//	Local1 test(){
-//		class Local1{
-//			int x = 5;
-//			void localtest(){
-//				System.out.println(x);
-//			}
-//		}
-//		return new Local1();
-//	}
-//
-//	public static void main (String[] args){
-//		(new Test()).test().localtest();
-//	}
-//}
-
-import java.applet
+public class Draw<Shape>{
+	public Draw<Shape>(){
+	}
+}

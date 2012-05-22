@@ -27,7 +27,9 @@ use feature "switch";
 use feature ":5.10";
 
 use File::Copy "cp", "mv";
-
+use LWP;
+use LWP::UserAgent;
+use XML::LibXML;
 use lib qw(/home/sonu/workspace/programming/perl/lib);
 
 #package TC::Utils;
@@ -37,7 +39,7 @@ BEGIN{
   use Exporter();
   our($VERSION, @ISA, @EXPORT, @EXPORT_OK, %EXPORT_TAGS);
   @ISA = qw(Exporter);
-  @EXPORT = qw(&setup_tc_proj);
+  @EXPORT = qw(&setup_tc_proj, &get_active_assembly_contests, &show_active_assembly_contests);
   %EXPORT_TAGS = ();
 }
 
@@ -91,7 +93,7 @@ sub fix_tc_build_file{
 
     while(<$fh>){
         if(/name="cobertura\.dir"/){
-            my $line = "<!-- " . $_ . " -->";
+             my $line = "<!-- " . $_ . " -->";
             say ${new_fh} $line;
             # Now write the modified $line;
             $_ =~ s/(value="\$\{ext_libdir\}.*>)/value="$cobertura_dir"\/>/;
@@ -104,6 +106,41 @@ sub fix_tc_build_file{
 
     # 2. Fix the topcoder_global.properties file.
 };
+
+my $ua = LWP::UserAgent->new;
+my $content_file;
+
+=head2 get_active_assembly_contests
+
+=cut
+
+sub get_active_assembly_contests_to_file{
+  my ($url, $file) = @_;
+  
+  get_url_to_file($url, $file);
+}
+
+sub get_url_to_file{
+  my ($url, $file) = @_;
+  my $req = HTTP::Request->new(GET => $url);
+  my $res = $ua->request($req, $file);
+}
+
+sub parse_assembly_contests{
+    # This is old style loading/parsing interface.
+    #    my $doc = XML::LibXML->new->parse_file($content_file);
+    my $doc = XML::LibXML->load_html(location => $content_file, recover => 2, suppress_errors => 1);
+    my $xc = XML::LibXML::XPathContext->new($doc);
+    my $root_xpath = "/html/body/table/tbody/tr/td[2]/table[3]";
+    my @nodes = $xc->findnodes($root_xpath);
+    my $length = scalar(@nodes);
+    say $length;
+    foreach my $node (@nodes ) {
+        say $node->to_literal();
+    }
+
+    return \@nodes;
+}
 
 
 #&main;

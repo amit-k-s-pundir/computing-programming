@@ -1,52 +1,0 @@
-10
-
-dir
-117907
-http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/lex/lex.literal
-http://llvm.org/svn/llvm-project
-
-
-
-2010-02-08T15:41:06.212803Z
-95544
-nlopes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-91177308-0d34-0410-b5e6-96231b3b80d8
-
-lex.icon
-dir
-
-lex.bool
-dir
-
-lex.ext
-dir
-
-lex.nullptr
-dir
-
-lex.ccon
-dir
-
-lex.literal.kinds
-dir
-
-lex.fcon
-dir
-
-lex.string
-dir
-

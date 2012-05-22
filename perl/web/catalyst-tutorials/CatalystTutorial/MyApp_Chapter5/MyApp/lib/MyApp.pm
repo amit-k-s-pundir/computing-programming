@@ -1,7 +1,6 @@
 package MyApp;
-
-use strict;
-use warnings;
+use Moose;
+use namespace::autoclean;
 
 use Catalyst::Runtime 5.80;
 
@@ -13,22 +12,25 @@ use Catalyst::Runtime 5.80;
 # Static::Simple: will serve static files from the application's root
 #                 directory
 
-use parent qw/Catalyst/;
 # Load plugins
 use Catalyst qw/
-                -Debug
-                ConfigLoader
-                Static::Simple
+    -Debug
+    ConfigLoader
+    Static::Simple
 
-                StackTrace
+    StackTrace
 
-                Authentication
+    Authentication
 
-                Session
-                Session::Store::FastMmap
-                Session::State::Cookie
-                /;
+    Session
+    Session::Store::FastMmap
+    Session::State::Cookie
+/;
+
+extends 'Catalyst';
+
 our $VERSION = '0.01';
+$VERSION = eval $VERSION;
 
 # Configure the application.
 #
@@ -41,9 +43,10 @@ our $VERSION = '0.01';
 
 __PACKAGE__->config(
         name    => 'MyApp',
-        session => {flash_to_stash => 1},
+        # Disable deprecated behavior needed by old applications
+        disable_component_resolution_regex_fallback => 1,
+        session => { flash_to_stash => 1 },
     );
-
 
 # Configure SimpleDB Authentication
 __PACKAGE__->config->{'Plugin::Authentication'} = {
@@ -53,6 +56,7 @@ __PACKAGE__->config->{'Plugin::Authentication'} = {
             password_type   => 'self_check',
         },
     };
+
 
 # Start the application
 __PACKAGE__->setup();

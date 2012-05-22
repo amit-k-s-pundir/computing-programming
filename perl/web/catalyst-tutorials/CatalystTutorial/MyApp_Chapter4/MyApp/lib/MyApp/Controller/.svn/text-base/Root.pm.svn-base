@@ -1,14 +1,14 @@
 package MyApp::Controller::Root;
+use Moose;
+use namespace::autoclean;
 
-use strict;
-use warnings;
-use parent 'Catalyst::Controller';
+BEGIN { extends 'Catalyst::Controller' }
 
 #
 # Sets the actions in this controller to be registered with no prefix
 # so they function identically to actions created in MyApp.pm
 #
-__PACKAGE__->config->{namespace} = '';
+__PACKAGE__->config(namespace => '');
 
 =head1 NAME
 
@@ -20,9 +20,9 @@ MyApp::Controller::Root - Root Controller for MyApp
 
 =head1 METHODS
 
-=cut
-
 =head2 index
+
+The root page (/)
 
 =cut
 
@@ -32,6 +32,12 @@ sub index :Path :Args(0) {
     # Hello World
     $c->response->body( $c->welcome_message );
 }
+
+=head2 default
+
+Standard 404 error page
+
+=cut
 
 sub default :Path {
     my ( $self, $c ) = @_;
@@ -57,5 +63,7 @@ This library is free software. You can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =cut
+
+__PACKAGE__->meta->make_immutable;
 
 1;

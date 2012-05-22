@@ -1,7 +1,6 @@
 package MyApp;
-
-use strict;
-use warnings;
+use Moose;
+use namespace::autoclean;
 
 use Catalyst::Runtime 5.80;
 
@@ -13,16 +12,19 @@ use Catalyst::Runtime 5.80;
 # Static::Simple: will serve static files from the application's root
 #                 directory
 
-use parent qw/Catalyst/;
 # Load plugins
 use Catalyst qw/
-                -Debug
-                ConfigLoader
-                Static::Simple
-            
-                StackTrace
-                /;
+    -Debug
+    ConfigLoader
+    Static::Simple
+
+    StackTrace
+/;
+
+extends 'Catalyst';
+
 our $VERSION = '0.01';
+$VERSION = eval $VERSION;
 
 # Configure the application.
 #
@@ -33,7 +35,11 @@ our $VERSION = '0.01';
 # with an external configuration file acting as an override for
 # local deployment.
 
-__PACKAGE__->config( name => 'MyApp' );
+__PACKAGE__->config(
+    name => 'MyApp',
+    # Disable deprecated behavior needed by old applications
+    disable_component_resolution_regex_fallback => 1,
+);
 
 # Start the application
 __PACKAGE__->setup();

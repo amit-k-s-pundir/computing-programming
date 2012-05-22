@@ -2,13 +2,7 @@
 
 use strict;
 use warnings;
-
-# Load testing framework and use 'no_plan' to dynamically pick up
-# all tests. Better to replace "'no_plan'" with "tests => 30" so it
-# knows exactly how many tests need to be run (and will tell you if
-# not), but 'no_plan' is nice for quick & dirty tests
-
-use Test::More 'no_plan';
+use Test::More;
 
 # Need to specify the name of your app as arg on next line
 # Can also do:
@@ -102,4 +96,6 @@ $ua1->content_contains("Book deleted", "Book was deleted");
 # User 'test02' should not be able to add a book
 $ua2->get_ok("http://localhost/books/url_create/TestTitle2/2/5", "'test02' add");
 $ua2->content_contains("Unauthorized!", "Check 'test02' cannot add");
+
+done_testing;
 

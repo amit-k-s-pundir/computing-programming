@@ -1,8 +1,8 @@
 package MyApp::Controller::Logout;
+use Moose;
+use namespace::autoclean;
 
-use strict;
-use warnings;
-use parent 'Catalyst::Controller';
+BEGIN {extends 'Catalyst::Controller'; }
 
 =head1 NAME
 
@@ -40,9 +40,10 @@ root
 
 =head1 LICENSE
 
-This library is free software, you can redistribute it and/or modify
+This library is free software. You can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =cut
 
-1;
+__PACKAGE__->meta->make_immutable;
+

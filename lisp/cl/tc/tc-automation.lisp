@@ -469,8 +469,8 @@ it should be a symbol (representing a plain file which is not a directory)."))) 
   (flet ((slot-name-illegal (reason)
 		   (error 'simple-program-error
 				  :format-control "~@<In DEFCLASS ~S, the slot name ~S is ~A. ~@:>"
-				  :format-arguments (list class-name slot-name reason))))x
-x	(cond ((not (symbolp name))
+				  :format-arguments (list class-name slot-name reason))))
+	(cond ((not (symbolp name))
 		   (slot-name-illegal "not a symbol"))
 		  ((keywordp name)
 		   (slot-name-illegal "a keyword"))

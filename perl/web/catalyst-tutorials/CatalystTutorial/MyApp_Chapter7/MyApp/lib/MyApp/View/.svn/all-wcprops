@@ -1,11 +1,11 @@
 K 25
 svn:wc:ra_dav:version-url
 V 90
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/lib/MyApp/View
+/repos/Catalyst/!svn/ver/13142/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/lib/MyApp/View
 END
-TT.pm
+HTML.pm
 K 25
 svn:wc:ra_dav:version-url
-V 96
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/lib/MyApp/View/TT.pm
+V 98
+/repos/Catalyst/!svn/ver/13142/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/lib/MyApp/View/HTML.pm
 END

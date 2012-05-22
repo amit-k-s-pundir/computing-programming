@@ -1,12 +1,76 @@
 package MyApp::Schema::Result::User;
 
+# Created by DBIx::Class::Schema::Loader
+# DO NOT MODIFY THE FIRST PART OF THIS FILE
+
 use strict;
 use warnings;
 
-use base 'DBIx::Class';
+use base 'DBIx::Class::Core';
 
-__PACKAGE__->load_components("InflateColumn::DateTime", "TimeStamp", "EncodedColumn", "Core");
+__PACKAGE__->load_components("InflateColumn::DateTime", "TimeStamp", "EncodedColumn");
+
+=head1 NAME
+
+MyApp::Schema::Result::User
+
+=cut
+
 __PACKAGE__->table("user");
+
+=head1 ACCESSORS
+
+=head2 id
+
+  data_type: INTEGER
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 username
+
+  data_type: TEXT
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 password
+
+  data_type: TEXT
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 email_address
+
+  data_type: TEXT
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 first_name
+
+  data_type: TEXT
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 last_name
+
+  data_type: TEXT
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 active
+
+  data_type: INTEGER
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=cut
+
 __PACKAGE__->add_columns(
   "id",
   {
@@ -60,23 +124,28 @@ __PACKAGE__->add_columns(
 );
 __PACKAGE__->set_primary_key("id");
 
+=head1 RELATIONS
 
-# Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-05-25 23:58:21
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:uNXlBoyXjmcKWg4pSeY/CQ
+=head2 user_roles
+
+Type: has_many
+
+Related object: L<MyApp::Schema::Result::UserRole>
+
+=cut
+
+__PACKAGE__->has_many(
+  "user_roles",
+  "MyApp::Schema::Result::UserRole",
+  { "foreign.user_id" => "self.id" },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.05002 @ 2010-02-17 16:27:48
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:174DVpqYH1U4h9EGCBq87Q
 
 
 # You can replace this text with custom content, and it will be preserved on regeneration
-
-#
-# Set relationships:
-#
-
-# has_many():
-#   args:
-#     1) Name of relationship, DBIC will create accessor with this name
-#     2) Name of the model class referenced by this relationship
-#     3) Column name in *foreign* table (aka, foreign key in peer table)
-__PACKAGE__->has_many(map_user_roles => 'MyApp::Schema::Result::UserRole', 'user_id');
 
 # many_to_many():
 #   args:
@@ -84,7 +153,7 @@ __PACKAGE__->has_many(map_user_roles => 'MyApp::Schema::Result::UserRole', 'user
 #     2) Name of has_many() relationship this many_to_many() is shortcut for
 #     3) Name of belongs_to() relationship in model class of has_many() above
 #   You must already have the has_many() defined to use a many_to_many().
-__PACKAGE__->many_to_many(roles => 'map_user_roles', 'role');
+__PACKAGE__->many_to_many(roles => 'user_roles', 'role');
 
 
 # Have the 'password' column use a SHA-1 hash and 10-character salt
@@ -101,7 +170,7 @@ __PACKAGE__->add_columns(
 );
 
 
-=head 2 has_role
+=head2 has_role
 
 Check if a user has the specified role
 

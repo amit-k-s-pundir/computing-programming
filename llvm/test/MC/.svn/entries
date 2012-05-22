@@ -1,49 +1,0 @@
-10
-
-dir
-117849
-http://llvm.org/svn/llvm-project/llvm/trunk/test/MC
-http://llvm.org/svn/llvm-project
-
-
-
-2010-10-30T18:13:10.071701Z
-117820
-lattner
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-91177308-0d34-0410-b5e6-96231b3b80d8
-
-ARM
-dir
-
-X86
-dir
-
-ELF
-dir
-
-MachO
-dir
-
-AsmParser
-dir
-
-COFF
-dir
-
-Disassembler
-dir
-

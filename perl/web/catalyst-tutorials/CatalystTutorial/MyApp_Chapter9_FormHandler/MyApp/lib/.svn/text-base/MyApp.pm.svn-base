@@ -1,9 +1,8 @@
 package MyApp;
+use Moose;
+use namespace::autoclean;
 
-use strict;
-use warnings;
-
-use Catalyst::Runtime '5.70';
+use Catalyst::Runtime 5.80;
 
 # Set flags and add plugins for the application
 #
@@ -13,25 +12,25 @@ use Catalyst::Runtime '5.70';
 # Static::Simple: will serve static files from the application's root
 #                 directory
 
-use parent qw/Catalyst/;
-
-# Load plugins
 use Catalyst qw/
-                -Debug
-                ConfigLoader
-                Static::Simple
-            
-                StackTrace
+    -Debug
+    ConfigLoader
+    Static::Simple
 
-                Authentication
-                Authorization::Roles
-    
-                Session
-                Session::Store::FastMmap
-                Session::State::Cookie
-                /;
+    StackTrace
+
+    Authentication
+    Authorization::Roles
+
+    Session
+    Session::Store::FastMmap
+    Session::State::Cookie
+/;
+
+extends 'Catalyst';
 
 our $VERSION = '0.01';
+$VERSION = eval $VERSION;
 
 # Configure the application.
 #
@@ -42,9 +41,12 @@ our $VERSION = '0.01';
 # with an external configuration file acting as an override for
 # local deployment.
 
-__PACKAGE__->config( name => 'MyApp',
-                     session => {flash_to_stash => 1}
-            );
+__PACKAGE__->config(
+    name => 'MyApp',
+    # Disable deprecated behavior needed by old applications
+    disable_component_resolution_regex_fallback => 1,
+    session => { flash_to_stash => 1 },
+);
 
 # Configure SimpleDB Authentication
 __PACKAGE__->config->{'Plugin::Authentication'} = {
@@ -54,7 +56,6 @@ __PACKAGE__->config->{'Plugin::Authentication'} = {
             password_type   => 'self_check',
         },
     };
-
 
 # Start the application
 __PACKAGE__->setup();
@@ -76,13 +77,9 @@ MyApp - Catalyst based application
 
 L<MyApp::Controller::Root>, L<Catalyst>
 
-=head1 AUTHOR
-
-root
-
 =head1 LICENSE
 
-This library is free software, you can redistribute it and/or modify
+This library is free software. You can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =cut

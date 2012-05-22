@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter7/MyApp
+/repos/Catalyst/!svn/ver/13248/trunk/examples/Tutorial/MyApp_Chapter7/MyApp
 END
 myapp01.sql
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/myapp01.sql
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/myapp01.sql
 END
 myapp02.sql
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/myapp02.sql
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/myapp02.sql
 END
 set_hashed_passwords.pl
 K 25
@@ -25,25 +25,31 @@ Makefile.PL
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/Makefile.PL
+/repos/Catalyst/!svn/ver/13248/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/Makefile.PL
+END
+myapp03.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Catalyst/!svn/ver/13246/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/myapp03.sql
 END
 Changes
 K 25
 svn:wc:ra_dav:version-url
 V 83
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/Changes
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/Changes
 END
 myapp.conf
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/myapp.conf
+/repos/Catalyst/!svn/ver/12824/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/myapp.conf
 END
 myapp.db
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/myapp.db
+/repos/Catalyst/!svn/ver/13247/trunk/examples/Tutorial/MyApp_Chapter7/MyApp/myapp.db
 END
 README
 K 25

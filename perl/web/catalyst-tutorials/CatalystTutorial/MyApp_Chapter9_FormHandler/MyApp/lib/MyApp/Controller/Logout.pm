@@ -1,8 +1,8 @@
 package MyApp::Controller::Logout;
+use Moose;
+use namespace::autoclean;
 
-use strict;
-use warnings;
-use parent 'Catalyst::Controller';
+BEGIN {extends 'Catalyst::Controller'; }
 
 =head1 NAME
 
@@ -15,7 +15,6 @@ Catalyst Controller.
 =head1 METHODS
 
 =cut
-
 
 =head2 index
 
@@ -33,16 +32,12 @@ sub index :Path :Args(0) {
     $c->response->redirect($c->uri_for('/'));
 }
 
-
-=head1 AUTHOR
-
-root
-
 =head1 LICENSE
 
-This library is free software, you can redistribute it and/or modify
+This library is free software. You can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =cut
 
-1;
+__PACKAGE__->meta->make_immutable;
+

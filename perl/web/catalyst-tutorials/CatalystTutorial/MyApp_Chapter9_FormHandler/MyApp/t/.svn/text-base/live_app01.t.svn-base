@@ -2,13 +2,7 @@
 
 use strict;
 use warnings;
-
-# Load testing framework and use 'no_plan' to dynamically pick up
-# all tests. Better to replace "'no_plan'" with "tests => 30" so it
-# knows exactly how many tests need to be run (and will tell you if
-# not), but 'no_plan' is nice for quick & dirty tests
-
-use Test::More 'no_plan';
+use Test::More;
 
 # Need to specify the name of your app as arg on next line
 # Can also do:
@@ -67,8 +61,10 @@ $_->content_contains("Book List", "Check for book list title") for $ua1, $ua2;
 # Make sure the appropriate logout buttons are displayed
 $_->content_contains("/logout\">User Logout</a>",
     "Both users should have a 'User Logout'") for $ua1, $ua2;
-$ua1->content_contains("/books/form_create\">Create</a>",
-    "Only 'test01' should have a create link");
+$ua1->content_contains("/books/form_create\">Admin Create</a>",
+    "'test01' should have a create link");
+$ua2->content_lacks("/books/form_create\">Admin Create</a>",
+    "'test02' should NOT have a create link");
 
 $ua1->get_ok("http://localhost/books/list", "View book list as 'test01'");
 
@@ -101,4 +97,4 @@ $ua1->content_contains("Book deleted", "Book was deleted");
 $ua2->get_ok("http://localhost/books/url_create/TestTitle2/2/5", "'test02' add");
 $ua2->content_contains("Unauthorized!", "Check 'test02' cannot add");
 
-
+done_testing;

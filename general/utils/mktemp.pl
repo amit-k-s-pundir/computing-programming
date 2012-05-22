@@ -21,6 +21,11 @@
 use strict;
 use warnings;
 
+my $s = `date +%H_%M_%S_%Z_%a_%d_%b_%Y`;
 
-`touch \$\(date +%a_%e_%b_%H_%M_%S_%Z_%Y\).txt`;
+if (!`touch \$\(date +%H_%M_%S_%Z_%a_%d_%b_%Y\).org`) {
+    print "Created the file named $s \n";
+    
+}
+
 1;

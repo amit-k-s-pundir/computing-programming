@@ -1,17 +1,49 @@
 package MyApp::Schema::Result::UserRole;
 
+# Created by DBIx::Class::Schema::Loader
+# DO NOT MODIFY THE FIRST PART OF THIS FILE
+
 use strict;
 use warnings;
 
-use base 'DBIx::Class';
+use base 'DBIx::Class::Core';
 
-__PACKAGE__->load_components("InflateColumn::DateTime", "TimeStamp", "EncodedColumn", "Core");
+__PACKAGE__->load_components("InflateColumn::DateTime", "TimeStamp", "EncodedColumn");
+
+=head1 NAME
+
+MyApp::Schema::Result::UserRole
+
+=cut
+
 __PACKAGE__->table("user_role");
+
+=head1 ACCESSORS
+
+=head2 user_id
+
+  data_type: INTEGER
+  default_value: undef
+  is_foreign_key: 1
+  is_nullable: 1
+  size: undef
+
+=head2 role_id
+
+  data_type: INTEGER
+  default_value: undef
+  is_foreign_key: 1
+  is_nullable: 1
+  size: undef
+
+=cut
+
 __PACKAGE__->add_columns(
   "user_id",
   {
     data_type => "INTEGER",
     default_value => undef,
+    is_foreign_key => 1,
     is_nullable => 1,
     size => undef,
   },
@@ -19,35 +51,49 @@ __PACKAGE__->add_columns(
   {
     data_type => "INTEGER",
     default_value => undef,
+    is_foreign_key => 1,
     is_nullable => 1,
     size => undef,
   },
 );
 __PACKAGE__->set_primary_key("user_id", "role_id");
 
+=head1 RELATIONS
 
-# Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-05-25 23:58:21
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:grzGbp+8KXE/BP8eOvxglw
+=head2 user
+
+Type: belongs_to
+
+Related object: L<MyApp::Schema::Result::User>
+
+=cut
+
+__PACKAGE__->belongs_to(
+  "user",
+  "MyApp::Schema::Result::User",
+  { id => "user_id" },
+  { join_type => "LEFT" },
+);
+
+=head2 role
+
+Type: belongs_to
+
+Related object: L<MyApp::Schema::Result::Role>
+
+=cut
+
+__PACKAGE__->belongs_to(
+  "role",
+  "MyApp::Schema::Result::Role",
+  { id => "role_id" },
+  { join_type => "LEFT" },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.05001 @ 2010-02-07 04:49:36
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:tsDMQcH8uEP2vYbVZm6WiA
 
 
 # You can replace this text with custom content, and it will be preserved on regeneration
-
-#
-# Set relationships:
-#
-
-# belongs_to():
-#   args:
-#     1) Name of relationship, DBIC will create accessor with this name
-#     2) Name of the model class referenced by this relationship
-#     3) Column name in *this* table
-__PACKAGE__->belongs_to(user => 'MyApp::Schema::Result::User', 'user_id');
-
-# belongs_to():
-#   args:
-#     1) Name of relationship, DBIC will create accessor with this name
-#     2) Name of the model class referenced by this relationship
-#     3) Column name in *this* table
-__PACKAGE__->belongs_to(role => 'MyApp::Schema::Result::Role', 'role_id');
-
 1;

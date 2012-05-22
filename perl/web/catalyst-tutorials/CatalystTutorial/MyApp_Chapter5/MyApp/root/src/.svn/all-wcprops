@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/root/src
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/root/src
 END
 login.tt2
 K 25
@@ -13,5 +13,5 @@ wrapper.tt2
 K 25
 svn:wc:ra_dav:version-url
 V 96
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/root/src/wrapper.tt2
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/root/src/wrapper.tt2
 END

@@ -1,5 +1,71 @@
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial
+/repos/Catalyst/!svn/ver/13898/trunk/examples/Tutorial
+END
+update_tarballs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/update_tarballs.sh
+END
+Hello_Chapter2.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/Hello_Chapter2.tar.gz
+END
+MyApp_Chapter3.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/MyApp_Chapter3.tar.gz
+END
+MyApp_Chapter4.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/MyApp_Chapter4.tar.gz
+END
+MyApp_Chapter5.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/MyApp_Chapter5.tar.gz
+END
+MyApp_Chapter9_flexigrid.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/Catalyst/!svn/ver/13752/trunk/examples/Tutorial/MyApp_Chapter9_flexigrid.tar.gz
+END
+MyApp_Chapter6.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/MyApp_Chapter6.tar.gz
+END
+MyApp_Chapter7.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/MyApp_Chapter7.tar.gz
+END
+MyApp_Chapter9_FormFu.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/MyApp_Chapter9_FormFu.tar.gz
+END
+MyApp_Chapter8.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/MyApp_Chapter8.tar.gz
+END
+MyApp_Chapter9_FormHandler.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Catalyst/!svn/ver/13581/trunk/examples/Tutorial/MyApp_Chapter9_FormHandler.tar.gz
 END

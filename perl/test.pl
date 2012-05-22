@@ -6,19 +6,44 @@ use warnings;
 use feature 'switch';
 use feature ":5.10";
 
+use POSIX;
+
 BEGIN{
 push @INC, ('/home/sonu/workspace/programming/perl/lib');
 #use lib "/home/sonu/workspace/programming/perl/Sonu/Utils/Java/JEE";
 #use lib "/home/sonu/workspace/programming/perl/lib/TC";
 }
 #use Utils;
-use Sonu::Vim::Greasemonkey;
 
-&main;
+say "Starting";
 
-sub main{
-    #Sonu::Vim::Greasemonkey::gen_banner("name", "ns", "desc", "include");
-    gen_banner("name", "ns", "desc", "include");
+my $pid = fork();
+if ($pid) {#parent
+  $SIG{ALRM} = sub{kill 15, $pid};
+#  sleep 25;
+  alarm 20;
+  # do {
+  #   $pid = waitpid(-1;
+  # } while ();
+ POSIX::pause;
+  wait;
+}else {# we are in a child
+  exec("/usr/bin/gvim");
+#  POSIX::pause;
+#  wait;
+}
+# eval {
+#     $SIG{ALRM} = sub{kill TERM $$};
+#     alarm 10;
+#     system("/usr/bin/vim");
+# };
+
+say "Exiting";
+
+1;
+
+#Sonu::Vim::Greasemonkey::gen_banner("name", "ns", "desc", "include");
+#    gen_banner("name", "ns", "desc", "include");
 
 #    Utils::fix_tc_build_file;
 #    create_dir_tree("/home/sonu/workspace/" {a =>
@@ -35,6 +60,4 @@ sub main{
 #    }
 #    closedir(DH);
 #`ls FH`;
-}
-
 

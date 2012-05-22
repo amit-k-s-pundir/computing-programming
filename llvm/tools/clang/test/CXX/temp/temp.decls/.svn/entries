@@ -1,52 +1,0 @@
-10
-
-dir
-117907
-http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/temp/temp.decls
-http://llvm.org/svn/llvm-project
-
-
-
-2010-10-20T05:44:58.015617Z
-116911
-rjmccall
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-91177308-0d34-0410-b5e6-96231b3b80d8
-
-temp.fct
-dir
-
-temp.class.spec
-dir
-
-temp.mem
-dir
-
-temp.variadic
-dir
-
-temp.class
-dir
-
-temp.concept.map
-dir
-
-temp.friend
-dir
-
-temp.alias
-dir
-

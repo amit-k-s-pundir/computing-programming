@@ -1,41 +1,41 @@
 K 25
 svn:wc:ra_dav:version-url
 V 99
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result
+/repos/Catalyst/!svn/ver/13245/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result
 END
 Book.pm
 K 25
 svn:wc:ra_dav:version-url
 V 107
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/Book.pm
+/repos/Catalyst/!svn/ver/13245/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/Book.pm
 END
 BookAuthor.pm
 K 25
 svn:wc:ra_dav:version-url
 V 113
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/BookAuthor.pm
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/BookAuthor.pm
 END
 User.pm
 K 25
 svn:wc:ra_dav:version-url
 V 107
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/User.pm
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/User.pm
 END
 UserRole.pm
 K 25
 svn:wc:ra_dav:version-url
 V 111
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/UserRole.pm
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/UserRole.pm
 END
 Role.pm
 K 25
 svn:wc:ra_dav:version-url
 V 107
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/Role.pm
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/Role.pm
 END
 Author.pm
 K 25
 svn:wc:ra_dav:version-url
 V 109
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/Author.pm
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter5/MyApp/lib/MyApp/Schema/Result/Author.pm
 END

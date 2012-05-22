@@ -1,12 +1,48 @@
 package MyApp::Schema::Result::Author;
 
+# Created by DBIx::Class::Schema::Loader
+# DO NOT MODIFY THE FIRST PART OF THIS FILE
+
 use strict;
 use warnings;
 
-use base 'DBIx::Class';
+use base 'DBIx::Class::Core';
 
-__PACKAGE__->load_components("InflateColumn::DateTime", "TimeStamp", "EncodedColumn", "Core");
+__PACKAGE__->load_components("InflateColumn::DateTime", "TimeStamp", "EncodedColumn");
+
+=head1 NAME
+
+MyApp::Schema::Result::Author
+
+=cut
+
 __PACKAGE__->table("author");
+
+=head1 ACCESSORS
+
+=head2 id
+
+  data_type: INTEGER
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 first_name
+
+  data_type: TEXT
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 last_name
+
+  data_type: TEXT
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=cut
+
 __PACKAGE__->add_columns(
   "id",
   {
@@ -32,23 +68,28 @@ __PACKAGE__->add_columns(
 );
 __PACKAGE__->set_primary_key("id");
 
+=head1 RELATIONS
 
-# Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-11-15 03:45:30
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:xmFhYr7BshbH+6PNHc5ABg
+=head2 book_authors
+
+Type: has_many
+
+Related object: L<MyApp::Schema::Result::BookAuthor>
+
+=cut
+
+__PACKAGE__->has_many(
+  "book_authors",
+  "MyApp::Schema::Result::BookAuthor",
+  { "foreign.author_id" => "self.id" },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.05002 @ 2010-02-17 16:27:48
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:zW5eyFeMspfXIYEwR03fmA
 
 
 # You can replace this text with custom content, and it will be preserved on regeneration
-
-#
-# Set relationships:
-#
-
-# has_many():
-#   args:
-#     1) Name of relationship, DBIC will create an accessor with this name
-#     2) Name of the model class referenced by this relationship
-#     3) Column name in *foreign* table (aka, foreign key in peer table)
-__PACKAGE__->has_many(book_authors => 'MyApp::Schema::Result::BookAuthor', 'author_id');
 
 # many_to_many():
 #   args:
@@ -60,12 +101,13 @@ __PACKAGE__->many_to_many(books => 'book_authors', 'book');
 
 
 #
-# Helper methods
+# Row-level helper methods
 #
 sub full_name {
     my ($self) = @_;
 
     return $self->first_name . ' ' . $self->last_name;
 }
+
 
 1;

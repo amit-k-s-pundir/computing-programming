@@ -1,37 +1,37 @@
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter3/MyApp
+/repos/Catalyst/!svn/ver/13238/trunk/examples/Tutorial/MyApp_Chapter3/MyApp
 END
 myapp01.sql
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/myapp01.sql
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/myapp01.sql
 END
 Makefile.PL
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/Makefile.PL
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/Makefile.PL
 END
 Changes
 K 25
 svn:wc:ra_dav:version-url
 V 83
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/Changes
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/Changes
 END
 myapp.conf
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/myapp.conf
+/repos/Catalyst/!svn/ver/12816/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/myapp.conf
 END
 myapp.db
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/myapp.db
+/repos/Catalyst/!svn/ver/12816/trunk/examples/Tutorial/MyApp_Chapter3/MyApp/myapp.db
 END
 README
 K 25

@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/MyApp_Chapter8/MyApp
+/repos/Catalyst/!svn/ver/13248/trunk/examples/Tutorial/MyApp_Chapter8/MyApp
 END
 myapp01.sql
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myapp01.sql
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myapp01.sql
 END
 myapp02.sql
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myapp02.sql
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myapp02.sql
 END
 set_hashed_passwords.pl
 K 25
@@ -25,31 +25,37 @@ Makefile.PL
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/Makefile.PL
+/repos/Catalyst/!svn/ver/13248/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/Makefile.PL
+END
+myapp03.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Catalyst/!svn/ver/13246/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myapp03.sql
 END
 Changes
 K 25
 svn:wc:ra_dav:version-url
 V 83
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/Changes
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/Changes
 END
 myapp.conf
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myapp.conf
+/repos/Catalyst/!svn/ver/12827/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myapp.conf
 END
 myapp.db
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myapp.db
+/repos/Catalyst/!svn/ver/13247/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myapp.db
 END
 myappTEST.db
 K 25
 svn:wc:ra_dav:version-url
 V 88
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myappTEST.db
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/myappTEST.db
 END
 README
 K 25

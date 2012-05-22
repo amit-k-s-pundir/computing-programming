@@ -1,12 +1,48 @@
 package MyApp::Schema::Result::Author;
 
+# Created by DBIx::Class::Schema::Loader
+# DO NOT MODIFY THE FIRST PART OF THIS FILE
+
 use strict;
 use warnings;
 
-use base 'DBIx::Class';
+use base 'DBIx::Class::Core';
 
-__PACKAGE__->load_components("InflateColumn::DateTime", "Core");
+__PACKAGE__->load_components("InflateColumn::DateTime");
+
+=head1 NAME
+
+MyApp::Schema::Result::Author
+
+=cut
+
 __PACKAGE__->table("author");
+
+=head1 ACCESSORS
+
+=head2 id
+
+  data_type: INTEGER
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 first_name
+
+  data_type: TEXT
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=head2 last_name
+
+  data_type: TEXT
+  default_value: undef
+  is_nullable: 1
+  size: undef
+
+=cut
+
 __PACKAGE__->add_columns(
   "id",
   {
@@ -32,23 +68,28 @@ __PACKAGE__->add_columns(
 );
 __PACKAGE__->set_primary_key("id");
 
+=head1 RELATIONS
 
-# Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-11-15 00:41:13
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:U51Ka4p43daZ2r+6haLJEg
+=head2 book_authors
+
+Type: has_many
+
+Related object: L<MyApp::Schema::Result::BookAuthor>
+
+=cut
+
+__PACKAGE__->has_many(
+  "book_authors",
+  "MyApp::Schema::Result::BookAuthor",
+  { "foreign.author_id" => "self.id" },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.05002 @ 2010-02-17 15:29:27
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:+Gkx86tK+2e5HUpa01M+2g
 
 
 # You can replace this text with custom content, and it will be preserved on regeneration
-
-#
-# Set relationships:
-#
-
-# has_many():
-#   args:
-#     1) Name of relationship, DBIC will create an accessor with this name
-#     2) Name of the model class referenced by this relationship
-#     3) Column name in *foreign* table (aka, foreign key in peer table)
-__PACKAGE__->has_many(book_authors => 'MyApp::Schema::Result::BookAuthor', 'author_id');
 
 # many_to_many():
 #   args:

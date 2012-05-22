@@ -1,14 +1,14 @@
 package MyApp::Controller::Root;
+use Moose;
+use namespace::autoclean;
 
-use strict;
-use warnings;
-use parent 'Catalyst::Controller';
+BEGIN { extends 'Catalyst::Controller' }
 
 #
 # Sets the actions in this controller to be registered with no prefix
 # so they function identically to actions created in MyApp.pm
 #
-__PACKAGE__->config->{namespace} = '';
+__PACKAGE__->config(namespace => '');
 
 =head1 NAME
 
@@ -20,9 +20,9 @@ MyApp::Controller::Root - Root Controller for MyApp
 
 =head1 METHODS
 
-=cut
-
 =head2 index
+
+The root page (/)
 
 =cut
 
@@ -32,6 +32,12 @@ sub index :Path :Args(0) {
     # Hello World
     $c->response->body( $c->welcome_message );
 }
+
+=head2 default
+
+Standard 404 error page
+
+=cut
 
 sub default :Path {
     my ( $self, $c ) = @_;
@@ -57,7 +63,7 @@ Check if there is a user and, if not, forward to login page
 # Note that 'auto' runs after 'begin' but before your actions and that
 # 'auto's "chain" (all from application path to most specific class are run)
 # See the 'Actions' section of 'Catalyst::Manual::Intro' for more info.
-sub auto : Private {
+sub auto :Private {
     my ($self, $c) = @_;
 
     # Allow unauthenticated users to reach the login page.  This
@@ -85,7 +91,6 @@ sub auto : Private {
 }
 
 
-
 =head2 error_noperms
 
 Permissions error screen
@@ -95,7 +100,7 @@ Permissions error screen
 sub error_noperms :Chained('/') :PathPart('error_noperms') :Args(0) {
     my ($self, $c) = @_;
 
-    $c->stash->{template} = 'error_noperms.tt2';
+    $c->stash(template => 'error_noperms.tt2');
 }
 
 
@@ -109,5 +114,7 @@ This library is free software. You can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =cut
+
+__PACKAGE__->meta->make_immutable;
 
 1;

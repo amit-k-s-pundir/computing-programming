@@ -1,40 +1,0 @@
-10
-
-dir
-117907
-http://llvm.org/svn/llvm-project/cfe/trunk/test/CXX/dcl.dcl/dcl.spec/dcl.type
-http://llvm.org/svn/llvm-project
-
-
-
-2010-04-07T17:57:12.942490Z
-100635
-dgregor
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-91177308-0d34-0410-b5e6-96231b3b80d8
-
-dcl.spec.auto
-dir
-
-dcl.type.elab
-dir
-
-dcl.type.cv
-dir
-
-dcl.type.simple
-dir
-

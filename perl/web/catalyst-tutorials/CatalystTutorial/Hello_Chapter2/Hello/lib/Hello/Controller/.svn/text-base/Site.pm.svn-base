@@ -1,8 +1,8 @@
 package Hello::Controller::Site;
+use Moose;
+use namespace::autoclean;
 
-use strict;
-use warnings;
-use parent 'Catalyst::Controller';
+BEGIN {extends 'Catalyst::Controller'; }
 
 =head1 NAME
 
@@ -28,12 +28,11 @@ sub index :Path :Args(0) {
 }
 
 
-
-sub test : Local {
+sub test :Local {
     my ( $self, $c ) = @_;
 
-    $c->stash->{username} = "John";
-    $c->stash->{template} = 'site/test.tt';
+    $c->stash(username => 'John',
+              template => 'site/test.tt');
 }
 
 
@@ -48,4 +47,5 @@ it under the same terms as Perl itself.
 
 =cut
 
-1;
+__PACKAGE__->meta->make_immutable;
+

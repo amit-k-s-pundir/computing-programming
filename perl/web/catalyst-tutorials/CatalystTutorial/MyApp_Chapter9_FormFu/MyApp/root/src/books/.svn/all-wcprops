@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 97
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter9_FormFu/MyApp/root/src/books
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter9_FormFu/MyApp/root/src/books
 END
 create_done.tt2
 K 25
@@ -19,7 +19,7 @@ formfu_create.tt2
 K 25
 svn:wc:ra_dav:version-url
 V 115
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/MyApp_Chapter9_FormFu/MyApp/root/src/books/formfu_create.tt2
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/MyApp_Chapter9_FormFu/MyApp/root/src/books/formfu_create.tt2
 END
 form_create.tt2
 K 25

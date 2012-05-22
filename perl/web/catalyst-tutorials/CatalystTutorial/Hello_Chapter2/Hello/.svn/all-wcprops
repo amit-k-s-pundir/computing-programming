@@ -1,25 +1,25 @@
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/repos/Catalyst/!svn/ver/12804/trunk/examples/Tutorial/Hello_Chapter2/Hello
+/repos/Catalyst/!svn/ver/13238/trunk/examples/Tutorial/Hello_Chapter2/Hello
 END
 Makefile.PL
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/Hello_Chapter2/Hello/Makefile.PL
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/Hello_Chapter2/Hello/Makefile.PL
 END
 hello.conf
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/Hello_Chapter2/Hello/hello.conf
+/repos/Catalyst/!svn/ver/12815/trunk/examples/Tutorial/Hello_Chapter2/Hello/hello.conf
 END
 Changes
 K 25
 svn:wc:ra_dav:version-url
 V 83
-/repos/Catalyst/!svn/ver/12802/trunk/examples/Tutorial/Hello_Chapter2/Hello/Changes
+/repos/Catalyst/!svn/ver/12933/trunk/examples/Tutorial/Hello_Chapter2/Hello/Changes
 END
 README
 K 25

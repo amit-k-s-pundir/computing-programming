@@ -1,15 +1,15 @@
 10
 
 dir
-12804
+14000
 http://dev.catalyst.perl.org/repos/Catalyst/trunk/examples/Tutorial/MyApp_Chapter8/MyApp/lib/MyApp/Model
 http://dev.catalyst.perl.org/repos/Catalyst
 
 
 
-2010-02-02T11:36:08.962522Z
-12802
-zarquon
+2010-02-17T20:09:20.214531Z
+12933
+hkclark
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2010-02-03T12:24:47.000000Z
-acf4b766f2bf35216775fc26d6012563
-2010-02-02T11:36:08.962522Z
-12802
-zarquon
+2011-04-20T06:02:37.402607Z
+4fae2ae9a2b3a520325e3569906187c0
+2010-02-17T20:09:20.214531Z
+12933
+hkclark
 
 
 
@@ -58,5 +58,5 @@ zarquon
 
 
 
-644
+750
 

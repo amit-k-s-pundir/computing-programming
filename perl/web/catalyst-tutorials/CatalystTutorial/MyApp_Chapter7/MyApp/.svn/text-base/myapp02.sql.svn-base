@@ -1,6 +1,7 @@
 --
 -- Add user and role tables, along with a many-to-many join table
 --
+PRAGMA foreign_keys = ON;
 CREATE TABLE user (
         id            INTEGER PRIMARY KEY,
         username      TEXT,
@@ -15,8 +16,8 @@ CREATE TABLE role (
         role TEXT
 );
 CREATE TABLE user_role (
-        user_id INTEGER,
-        role_id INTEGER,
+        user_id INTEGER REFERENCES user(id) ON DELETE CASCADE ON UPDATE CASCADE,
+        role_id INTEGER REFERENCES role(id) ON DELETE CASCADE ON UPDATE CASCADE,
         PRIMARY KEY (user_id, role_id)
 );
 --
