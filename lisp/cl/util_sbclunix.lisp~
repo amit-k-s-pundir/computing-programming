@@ -1,0 +1,184 @@
+(in-package :cl-user)
+
+(setf asdf:*central-registry*
+	  (list* '*default-pathname-defaults*
+			 #p "/opt/lisp/cl/clbuild/systems/"
+			 #p "/home/sonu/cl/systems/"
+			 #p "/usr/share/common-lisp/systems/"
+			 asdf:*central-registry*))
+
+(asdf:oos 'asdf:load-op :asdf-binary-locations)
+
+(defun asdf-load-packages (packages)
+  (loop for package in packages
+	 do (asdf:oos 'asdf:load-op package) ))
+
+(asdf-load-packages '(:asdf-binary-locations :cl-who :cl-ppcre :parenscript :cl-fad :mcclim ))
+
+(defpackage "util"
+;  (:use :cl :asdf :parenscript :cl-who :cl-ppcre :cl-fad :clim :clim-lisp)
+  (:use :asdf :parenscript :cl-who :cl-ppcre :cl-fad :clim :clim-lisp)
+  (:export #:app-main))
+
+(in-package "util")
+
+(define-application-frame superapp ()
+  ()
+  (:pointer-documentation t)
+  (:panes
+    (app :application :display-time t :height 300 :width 600)
+    (int :interactor :height 200 :width 600))
+  (:layouts
+    (default (vertically () app int))))
+(defun app-main ()
+  (run-frame-top-level (make-application-frame 'superapp)))
+(define-superapp-command (com-quit :name t) ()
+  (frame-exit *application-frame*))
+(define-presentation-type name-of-month ()
+  :inherit-from 'string)
+(define-presentation-type day-of-month ()
+  :inherit-from 'integer)
+(define-superapp-command (com-out :name t) ()
+  (with-output-as-presentation (t "The third month" 'name-of-month)
+    (format t "March~%"))
+  (with-output-as-presentation (t 15 'day-of-month)
+    (format t "fifteen~%")))
+(define-superapp-command (com-get-date :name t)
+    ((name 'name-of-month) (date 'day-of-month))
+  (format (frame-standard-input *application-frame*)
+  "the ~a of ~a~%" date name))
+
+(app-main )
+*package*
+
+(defmacro define-lisp-shell-util (util &rest keys)
+  `(defun ,util (args &rest keys)
+	 (sb-ext:run-program (string-downcase (symbol-name ',util)) args :search t :wait t :output *standard-output*)))
+
+(defun make-directory-tree (base-dir dir-tree)
+  (if (not (directory-p base-dir))
+		(error "~<The first argument ~S should be a valid pathname specifier for a ~
+directory:>" '( base-dir)))
+  (if (or (symbolp dir-tree)
+		  (stringp dir-tree))
+		(create-file (join-dir-file base-dir dir-tree))
+		(let ((base-dir (join-dir-dir base-dir (car dir-tree))))
+		  (ensure-directories-exist base-dir)
+		  (if (not (null (cdr dir-tree)))
+			  (mapcar (lambda (x)
+						(make-directory-tree base-dir x)) (cdr dir-tree))))))
+
+(defun create-file (namestring)
+  (with-open-file (s namestring :direction :output :if-exists :append :if-does-not-exist :create)))
+
+
+(defun directory-p (directory)
+  (and (pathname directory) 
+	   (not (string= (directory-namestring directory) ""))))
+
+(defun join-dir-file (dir file)
+  (pathname (concatenate 'string (namestring dir) (namestring file))))
+
+(defun join-dir-dir (base-dir rel-dir)
+  (pathname (concatenate 'string (namestring base-dir) (namestring rel-dir))))
+
+
+(defparameter *current-dir* *base-dir*)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;Work area;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(setq work-file (ensure-directories-exist (merge-pathnames (make-pathname :directory (concatenate 'list (pathname-directory *base-dir*)
+																								  '("test")) :name "test" :type "html")
+														   *base-dir*)))
+
+(setq *current-dir* (merge-pathnames (make-pathname :directory (concatenate 'list (pathname-directory *base-dir*)
+																			'("test")))
+									 *base-dir*))
+
+
+(with-open-file (s work-file :direction :output :element-type :default :if-exists :append
+				   :if-does-not-exist :create )
+  (cl-who:with-html-output (s)                                                                                            (loop for (link . title) in '(("http://zappa.com/" . "Frank Zappa")                                                      
+                                ("http://marcusmiller.com/" . "Marcus Miller")                                               
+                                ("http://www.milesdavis.com/" . "Miles Davis"))                                                            
+        do (cl-who:htm (:a :href link                                                                                                             
+                  (:b (cl-who:str title)))                                                                                                        
+                :br))))
+
+(with-open-file (s work-file :direction :output :element-type :default :if-exists :append
+				   :if-does-not-exist :create )
+  (with-html-output (s)
+	(:table :border 0 :cellpadding 4                                                                                                         
+			(loop for i below 25 by 5                                                    
+			   do (htm                                                                                                                           
+				   (:tr :align "right"                                                
+						(loop for j from i below (+ i 5)                                                                                             
+						   do (htm                                                     
+							   (:td :bgcolor (if (oddp j)                                                                                         
+												 "pink"                                  
+												 "green")                                                          
+									(fmt "~@R" (1+ j)))))))))))
+  
+                                 
+(parenscript:ps-html ((:a :href "foobar") "blorg"))
+*js-inline-string-delimiter*
+
+(make-directory-tree "/home/sonu/workspace/programming/" '("flex/" "ImageLoader.as" "Spinning3dOceon.as"))
+
+(define-lisp-shell-util /usr/bin/gvim )
+(define-lisp-shell-util ls )
+(define-lisp-shell-util wget )
+(define-lisp-shell-util aptitude)
+(define-lisp-shell-util touch)
+(wget '("www.google.com"))
+(ls nil)
+(/usr/bin/gvim '())
+
+(defmacro write-js (file &body js)
+  `(let ((javascript (progn ,@js)))
+	 (with-open-file (s ,file :direction :output :if-exists :append :if-does-not-exist :create )
+	   (format s " ~<~A~:@>" `(,,'javascript)))))
+
+(macroexpand-1  '(write-js #p "/home/sonu/workspace/test/test.js"
+				  (ps (array 2))))
+(write-js #p "/home/sonu/workspace/test/test.js"
+		   (ps (array 2)))
+
+(progn (ps (array 2)))
+
+;;; Take care of the :pty argument; it might gobble up all the output!
+(setq program (sb-ext:run-program "/bin/ls" '("/home/sonu/workspace/")  :error :stream :if-error-exists :error
+								  :status-hook nil :wait nil :input :stream
+								  :if-input-does-not-exist :error :output #p "/home/sonu/sbcltmp"
+								  :if-output-exists :append :search t))
+(sb-ext:process-kill program 9 :pid)
+
+(read-char-no-hang (sb-ext:process-output program))
+
+(with-open-file (s #p "/home/sonu/sbcltmp" :direction :input )
+    (loop
+	   with ls = (multiple-value-list (read-line s))
+	 while (null (second ls))
+	   collect	   (format nil (car ls))))
+
+(with-open-file (s #p "/home/sonu/sbcltmp" :direction :input )
+    (loop
+		 repeat 5
+		 do (format t "sonu")
+	   append (multiple-value-list (read-line s)) into x
+		 finally (return x)))
+
+;;;;;;;;;;;;;;;;;;;work;;;;;;;;;;;;;;;;;;
+(defun backup/email (files email-address)
+  (loop
+	   for file in files
+	   do (email file email-address)))
+
+(defun email (file backup-message email-address &opt email-fn &rest email-args)
+  (cl-smtp:send-email "smtp.gmail.com" "sonupundir@gmail.com" "sonupundir@gmail.com" backup-message nil
+					  :ssl tls :authentication '(:login "sonupundir" "a19m15i14t21")))
+;;;;;;;;;;;;;;;;;;endwork;;;;;;;;;;;;;;;
+
+

@@ -1,0 +1,4 @@
+;;;; Some utilities for setting up and then maintaing a new project.
+
+(defmethod setup (proj project)
+  (with-dir (project-dir project)))

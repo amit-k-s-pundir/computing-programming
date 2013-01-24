@@ -1,0 +1,1978 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd" >
+<html xmlns:fb="http://www.facebook.com/2008/fbml"
+      xmlns:og="http://ogp.me/ns#">
+  <head>
+    <title>The Times of India: Latest News India, World &amp; Business
+    News, Cricket &amp; Sports, Bollywood</title>
+    <meta http-equiv="Last-Modified" content="Monday, 16 July, 2012
+					      09:55:17AM">
+      
+	
+	
+	  
+	  
+	    
+	    
+	      
+	      
+		
+		
+		  
+		  
+		    
+		      
+			
+			  
+			    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			      
+				<META content="b1abb36a8d5c19c9" name="y_key">
+
+				  <meta name="msvalidate.01" content="9189BA2FF6A8216320B5290DE93363A5"/>
+
+				  <link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeedsdefault.cms" title="Top Stories" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeeds/-2128932452.cms" title="City" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms" title="India" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeeds/296589292.cms" title="World" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeeds/1898055.cms" title="Business" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeeds/5880659.cms" title="Tech" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeeds/4719148.cms" title="Sports" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeeds/4719161.cms" title="Cricket" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeeds/1081479906.cms" title="Entertainment" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeeds/2886704.cms" title="Life &amp; Style" rel="alternate"><link type="application/rss+xml" href="http://photogallery.indiatimes.com/rssfeedsdefault.cms" title="Photos" rel="alternate"><link type="application/rss+xml" href="http://timesofindia.indiatimes.com/rssfeedsvideo/3812890.cms" title="Videos" rel="alternate"><style>#adfloater {position: absolute; bottom: 0px;}
+				  div > div#adfloater { position: fixed; }</style><link type="text/css" href="/default_webticker_css.cms" rel="stylesheet"><link type="text/css" href="/default_b2_style_v11.cms" rel="stylesheet"><link type="text/css" href="/default_b2_glblnavcss_v4.cms" rel="stylesheet"><script language="javascript"> 
+				  var nsShowCook=0;
+				  var domainname=document.domain;					 
+				  if(domainname.indexOf('indiatimes.com') == -1){nsShowCook=0;}
+				  var nsIstial_expDays = 1;
+				  var nsIstial_exp = new Date();
+				  nsIstial_exp.setTime(nsIstial_exp.getTime() + (nsIstial_expDays*24*60*60*1000)-100000);
+				  var val1="";
+
+				  function setSessionCook()
+				  {
+				  Set_Ckie("iplclosenonp","1",0,"/",".indiatimes.com","");						
+				  }
+				  function Get_Ckie(name){
+				  var start=document.cookie.indexOf(name+"=")
+				  var len=start+name.length+1
+				  if((!start)&&(name !=document.cookie.substring(0,name.length))){
+				  return null
+				  }
+				  if(start==-1)return null;
+				  var end=document.cookie.indexOf(";",len)
+				  if(end==-1)end=document.cookie.length
+				  return unescape(document.cookie.substring(len,end))
+				  }	
+				  function Set_Ckie(name,value,expires,path,domain,secure){
+				  var today=new Date()
+				  today.setTime(today.getTime())
+				  if(expires){expires=expires*1000*60*60*24}
+				  var expires_date=new Date(today.getTime()+(expires))
+				  document.cookie=name+"="+escape(value)+((expires)? ";expires="+expires_date.toGMTString(): "")+((path)? ";path="+path : "")+((domain)? ";domain="+domain : "")+((secure)? ";secure" : "")
+				  }
+				  function nsIstial_getcookie(cookiename) 
+				  {
+				  var nsIstial_cookiestring=document.cookie;
+				  var i=0;
+				  var index1=nsIstial_cookiestring.indexOf(cookiename);
+				  if (index1==-1 || cookiename=="") 
+				  return "";
+				  var index2=nsIstial_cookiestring.indexOf(';',index1);
+				  if (index2==-1) 
+				  index2=nsIstial_cookiestring.length;
+				  return unescape(nsIstial_cookiestring.substring(index1+cookiename.length+1,index2));
+				  }
+				  function nsIstial_setcookie(name,value,duration)
+				  {
+				  nsIstial_cookiestring=name+"="+escape(value);//+";EXPIRES="+ exp.toGMTString();
+				  document.cookie=nsIstial_cookiestring;
+				  if(!nsIstial_getcookie(name))
+				  return false;
+				  else
+				  return true;
+				  }
+				  function nsIstial_checkcookie(name,value,duration)
+				  {						
+				  if(nsIstial_getcookie(name)<1)
+				  {
+				  if(nsIstial_setcookie(name,value,duration)==true)
+				  {
+				  window.location.replace("/defaultinterstitial.cms");
+				  return false;
+				  }							
+				  }
+				  }
+				  var nsIstial_count = nsIstial_getcookie('nsIstial_Cook')
+				  if((nsIstial_count == null) || (nsIstial_count == "")) 
+				  {
+				  nsIstial_count = 1;
+				  }
+				  else
+				  {
+				  nsIstial_count++;
+				  }
+				  if(nsShowCook==1)
+				  nsIstial_checkcookie('nsIstial_Cook',nsIstial_count,1);
+
+				  </script><link type="image/x-icon" href="http://timesofindia.indiatimes.com/icons/toifavicon.ico" rel="shortcut icon"><link rel="publisher" href="https://plus.google.com/117150671992820587865"><script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script><script language="javascript">var qstr='cms-sec0=4719157&cms-sec1=-2128958273';
+				  var qmsid='4719157';
+				  var cmsur_type='viewed';        
+				  function blockError(){return true;} 
+				  window.onerror = blockError; 
+				  var dtTT_startofpage = new Date();
+				  var rndtno = Math.random();
+				  document.write('<img border="0" width="0" height="0" style="display:none;visibility:hidden;" src="http://timeslog.indiatimes.com/timeslog.dll/topcnt?CHUR=timesofindia.indiatimes.com&randomno='+ rndtno +'" align="left"/>
+				  '); 
+				  var myImage = new Image;
+				  myImage.src = 'http://cmstrendslog.indiatimes.com/cmslog.dll?cms-msid='+qmsid+'&'+qstr+'&cmsurtype='+cmsur_type+'&randomno='+ rndtno;				
+
+				  </script><noscript><img width="0" height="0" border="0" style="display:none;visibility:hidden;" src="http://timeslog.indiatimes.com/timeslog.dll/topcnt?CHUR=timesofindia.indiatimes.com&nojs=1"/>
+				  <img width="0" height="0" border="0" src="http://cmstrendslog.indiatimes.com/cmslog.dll?cms-msid=4719157&cms-sec0=4719157&cms-sec1=-2128958273&cmsurtype=viewed"/>
+				  </noscript><script type="text/javascript">
+				  var _gaq = _gaq || [];
+				  _gaq.push(['_setAccount', 'UA-198011-4']);
+				  _gaq.push(['_setDomainName', 'none']);
+				  _gaq.push(['_setAllowLinker', true]);
+				  _gaq.push(['_trackPageview']);
+				  _gaq.push(['_trackPageLoadTime']);
+				  (function() {
+				  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+
+				  </script><script>
+				  var _comscore = _comscore || [];
+				  _comscore.push({ c1: "2", c2: "6036484" });
+				  (function() {
+				  var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+				  s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				  el.parentNode.insertBefore(s, el);
+				  })();
+
+				  </script><noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6036484&amp;cv=2.0&amp;cj=1"></noscript><script language="javascript">
+				  document.domain='indiatimes.com';
+
+				  </script><script>var cd = new Date("16 Jul 2012,09:55");</script><script>
+				  var hdomain='indiatimes.com';
+				  if (document.domain != hdomain) 2
+				  {if ((document.domain.indexOf(hdomain)) != -1)
+				  {document.domain = hdomain}}	
+
+  				  </script><script>var a=4719157;
+				  function df(sd,i){				
+				  var tmpsd =sd;
+				  if(sd=="" || sd == null)return;
+				  sd = new Date(sd);
+				  if(cd.getTime() < sd.getTime())return;
+				  var chk=0;
+				  var ss = document.getElementById('dtformt' + i);	
+				  var diff = Math.abs(cd.getTime() - sd.getTime());			
+				  diff = ((diff/1000)/60);
+				  chk= diff%60;	
+				  if(diff<=360){	
+				  if(diff < 60){	
+				  if(diff < 2){
+				  document.write("<span style=color:#B4B4B4;font-size:10px;> | </span>" + diff + " min ago");}
+				  else {
+				  document.write("<span style=color:#B4B4B4;font-size:10px;> | </span>" + diff + " min ago");}}
+				  else {
+				  if(diff < 120){								
+				  document.write("<span style=color:#B4B4B4;font-size:10px;> | </span>" + Math.floor(diff/60) + " hr ago");}
+				  else {							
+				  document.write("<span style=color:#B4B4B4;font-size:10px;> | </span>" + Math.floor(diff/60) + " hrs ago");}
+				  }		
+				  ss.style.color = "red"
+				  ss.style.fontSize = "11px";
+				  }}
+				  function closeAlertCoke(){														
+				  document.getElementById('fixeddiv').style.display='none';}
+				  </script><script src="/ns_companion_v8.cms" type="text/javascript"></script><script type="text/javascript">
+				  nsc_pw="330px";
+				  nsc_ph="271px";
+				  function displayNSCompanionBanners1(banners,nscparams) 
+				  {
+				  var nsc_banner=URLDecode(banners);
+				  NSCompanionAdNew(nsc_banner,nscparams);
+				  //NSCompanionAd(nsc_banner,1,1,1,crid,0);
+				  }
+				  function displayNSCompanionBanners(banners) 
+				  {					
+				  var nsc_banner=URLDecode(banners);	
+				  NSCompanionAd(nsc_banner);
+				  }
+
+				  </script><script type="text/javascript">
+				  (function() {
+				  var useSSL = 'https:' == document.location.protocol;
+				  var src = (useSSL ? 'https:' : 'http:') +
+				  '//www.googletagservices.com/tag/js/gpt.js';
+				  document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+				  '//www.googletagservices.com/tag/js/gpt.js';
+				  })();
+
+				  </script><script src="/double_google_ads/msid-4719157,subid-0.cms"></script><script src="/double_google_ads_call/msid-4719157,subid-0.cms"></script></head><style>.brknewslive1{float:left; width: 168px; height:28px; min-height:28px;background-image:url('/photo/13867889.cms'); background-repeat: repeat-x;text-align:center;</style><body><script>showDCAdsInter(0,0);</script><div align="center"><div style="width:1003px;" class="tpgrynw1"><div class="topbrnw1"><div class="globalnav"><div style="margin: 0px 0pt 0pt 5px; float: left;"><a pg="TbPos1" href="http://www.indiatimes.com/" target="_blank">Indiatimes</a><span>|</span><strong style="font-size:11px;margin:0 5px;">The Times of India</strong><span>|</span><a pg="TbPos2" href="http://economictimes.indiatimes.com" target="_blank">The Economic Times</a><span>|</span></div><div id="first" style=" float: left; "><div pg="TbPos3" style="padding: 1px 2px 0px 7px; width: 50px; color: rgb(2, 78, 151); position:relative; cursor: pointer;" id="srchsel2">More<span class="moreim1normimg" id="mnuarr">&nbsp;</span><div style=" position:absolute; top:-5px; left:0; z-index:10000;display:none;background-color:#ffffff; text-align:left; width:100px;height:40px;border-left:1px solid #ABABAB;border-right:1px solid #ABABAB;" id="srchcmb2"><div class="moreim1" id="secdiv">More<span class="moreim1img">&nbsp;</span></div><div style="z-index:200000;position:relative;background-color:#ffffff;"><div style="z-index:100000;width:740px;background-color:#ffffff;position:absolute;left:-282px;top:12px;" class="glblnav1"><div style="clear:both"></div><iframe title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="285" width="740" id="glbldata" name="glbldata"></iframe></div></div></div></div></div></div><div class="toprtnw1"><div style="float:right;padding-top:2px;width:16px;height:16px;"><a pg="TbPos8" style="margin:0px;padding:0px;background:url(/photo/9719649.cms) no-repeat scroll -5px -429px #FFFFFF;display:block;width:16px;height:16px;" target="_blank" href="http://timesofindia.indiatimes.com/rss.cms">&nbsp;</a></div><div style="float:right;padding-top:3px;"><a target="_blank" style="text-decoration: none;margin-left:1px;" href="https://plus.google.com/117150671992820587865?prsrc=3"><img style="border: 0;" height="16" width="16" src="https://ssl.gstatic.com/images/icons/gplus-16.png"></a></div><div style="float:right;padding:0 3px"><a data-show-count="false" data-width="60px" class="twitter-follow-button" href="http://twitter.com/timesofindia">Follow</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div><div style="float:right;padding-left:6px"><iframe id="fbk" allowTransparency="true" style="border:none; overflow:hidden; width:82px; height:20px;" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?app_id=117787264903013&amp;href=http%3A%2F%2Fwww.facebook.com%2FTimesofIndia&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=21"></iframe></div><span style="display:block;float:right;line-height:20px;" id="topbardiv"></span></div></div></div><div style="opacity: 0; display: none; position: absolute; top: 0px; left: 0px; z-index: 1000; background:#000" id="backgroundPopup"></div><div style="display: none;z-index:2147483647;margin-top:14px; width:100%" id="popupContact" class="blk"><center><div style="width:540px;background-color:#fff;border:4px solid #7A7A7A;border-radius:5px; -moz-border-radius:5px; " id="mainblkdiv"><table cellpadding="0" cellspacing="0" width="280" border="0"><tr><td colspan="2"><script>function getElementSso(aID){
+				  return (document.getElementById) ?
+				  document.getElementById(aID) : document.all[aID];
+
+
+				  }
+				  function getIFrameDocumentSso(aID){
+				  var rv = null;
+				  var frame=getElementSso(aID);
+				  if (frame.contentDocument)
+				  rv = frame.contentDocument;
+				  else // bad IE ;)
+				  rv = document.frames[aID].document;
+				  return rv;
+				  }
+				  function adjustMySsoHeight(elemId,ht){
+				  try
+				  {	
+
+				  var frame = getElementSso(elemId);
+				  var frameDoc = getIFrameDocumentSso(elemId);														
+				  if(ht=="X"){								
+				  frame.height =frameDoc.body.scrollHeight;
+				  }
+				  else {								
+				  ht=ht+134;								
+				  frame.height=ht;
+				  }								
+				  }
+				  catch(ex)
+				  {	
+
+				  }
+				  }
+
+				  function adjustMySsoHeightNew(elemId){
+				  try
+				  {
+
+				  var frame1 = getElementSso(elemId);
+				  var frameDoc1 = getIFrameDocumentSso(elemId);
+				  frame1.height = frameDoc1.body.scrollHeight;
+
+				  }
+				  catch(ex)
+				  {
+				  }
+				  }
+
+				  function adjustMySsoHeightNewX(elemId,hxT)
+				  {
+
+				  try
+				  {									
+				  hxT=hxT+20;																		
+				  window.frames['signupsso'].document.getElementById('shwclip').height=hxT;
+				  }
+				  catch(ex)
+				  {	
+
+				  }
+				  }
+
+
+				  function adjusthgt(hgt)
+				  {
+				  try
+				  {
+
+				  if(hgt=='3')
+				  {
+				  document.getElementById("signupsso").height=510;
+				  document.getElementById("signupsso").width=580;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  else if(hgt=='5')
+				  {
+				  document.getElementById("signupsso").height=510;
+				  document.getElementById("signupsso").width=528;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  else if(hgt=='1')
+				  {
+				  //document.getElementById("signupsso").height=528;
+				  document.getElementById("signupsso").height=364;
+				  document.getElementById("signupsso").width=540;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  else if(hgt=='6')
+				  {
+				  document.getElementById("signupsso").height=452;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  else if(hgt=='4')
+				  {
+				  document.getElementById("signupsso").height=255;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  else if(hgt=='7')
+				  {
+				  document.getElementById("signupsso").height=480;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  else if(hgt=='8')
+				  {
+
+				  document.getElementById("mainblkdiv").style.width="580px";
+				  document.getElementById("signupsso").width=540;
+				  document.getElementById("clsimg").style.display="inline";						
+
+				  }
+				  else if(hgt=='9')
+				  {
+				  //document.getElementById("signupsso").height=555;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  else if(hgt=='10')
+				  {
+				  document.getElementById("signupsso").height=460;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  else if(hgt=='12')
+				  {
+				  document.getElementById("signupsso").height=105;
+				  document.getElementById("signupsso").width=430;
+				  document.getElementById("mainblkdiv").style.width="430px";
+				  document.getElementById("clsimg").style.display="none";
+				  }
+				  else if(hgt=='13')
+				  {
+				  document.getElementById("signupsso").height=145;
+				  document.getElementById("clsimg").style.display="none";
+				  }
+				  else if(hgt=='14')
+				  {
+				  document.getElementById("signupsso").height=172;
+				  document.getElementById("clsimg").style.display="none";
+				  }
+				  else if(hgt=='15')
+				  {
+				  document.getElementById("signupsso").height=496;
+
+				  }
+				  else if(hgt=='16')
+				  {
+				  document.getElementById("signupsso").height=530;
+
+				  }
+				  else if(hgt=='20')
+				  {
+				  document.getElementById("signupsso").height=255;
+
+				  }
+				  else if(hgt=='21')
+				  {
+				  document.getElementById("signupsso").height=500;								
+				  }
+				  else if(hgt=='22')
+				  {
+				  document.getElementById("signupsso").height=150;								
+				  }
+
+				  else if(hgt=='23')
+				  {									
+				  document.getElementById("signupsso").height=560;
+				  document.getElementById("signupsso").width=540;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  else
+				  {
+				  document.getElementById("signupsso").height=200;
+				  document.getElementById("clsimg").style.display="inline";
+				  }
+				  }
+				  catch(ex){
+				  }
+				  }</script><iframe ALLOWTRANSPARENCY="true" title="signupsso" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" width="540" src="" id="signupsso" name="signupsso"></iframe></td></tr></table></div></center><div style="clear:both"></div></div><table class="cnt" width="1003" align="center"><tr><td><style></style><style>.knowmore {background: url("/photo/14024307.cms") no-repeat scroll center bottom transparent;height: 70px;line-height: 13px;padding-top: 4px;text-align: center;width: 300px;}
+				  ul.textnew_one li{font-size:10px}</style><script>
+				  function openSigninNewSocRd(paramChk){
+				  try {
+				  var fbtwtUrl="";
+				  Set_Ckie("frmbtm","1",1,"/",".indiatimes.com","");
+				  if(paramChk=="1"){
+				  Set_Ckie("autologinsocial","1",0,"/",".indiatimes.com","");
+				  Set_Ckie("loginbegin","1",0,"/",".indiatimes.com","");
+
+				  fbtwtUrl="http://socialappsintegrator.indiatimes.com/socialsite/OAuth?channel=toi";
+				  sigintwtfb = window.open (fbtwtUrl,"sigintwtfb","location=1,status=1,scrollbars=1,width=670,height=380");
+				  setTimeout(function() {
+				  sigintwtfb.moveTo(315,250);
+				  }, 4/*ms*/);
+				  }
+				  else {
+				  fbtwtUrl="http://socialappsintegrator.indiatimes.com/socialsite/twitterrequest";
+				  sigintwtfb = window.open (fbtwtUrl,"sigintwtfb","location=1,status=1,scrollbars=0,width=755,height=350");
+				  sigintwtfb.moveTo(275,200);
+				  }
+				  }
+				  catch(ex){}
+				  }
+
+				  </script><div style="border-top:1px solid #ABABAB" class="tpblknw"><div style="border-top:1px solid #ABABAB" class="tpblknw"><div style="display:table;width:100%;"><div style="clear:both;height:8px;"></div><div style="width:210px;height:70px;float:left;padding:0 0 0 8px"><div id="ad1202" name="ad1202" align="center"></div><iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="70" width="210" src="http://netspiderads3.indiatimes.com/ads.dll/getad?slotid=1202" id="fr1202" name="fr1202"><a target="_blank" href="http://netspiderads3.indiatimes.com/ads.dll/clickthrough?slotid=1202"><img alt="Advertisement" height="70" width="210" border="0" src="http://netspiderads3.indiatimes.com/ads.dll/photoserv?slotid=1202"></a></iframe></div><div style="width:567px;float:left;padding:0px; text-align:center;" class="fltpdgnw"><div style="float:none;" class="fltleft" id="pt10"><a href="/"><img title="The Times of India" alt="The Times of India" height="27" width="388" border="0" src="/photo/5580816.cms"></a><div style="color:#ffffff;font-size:12px;font-family:arial;padding-top:10px;text-align:center;">Mon, Jul 16, 2012 | Updated 09.55AM IST </div></div></div><div style="width:210px;height:70px;float:right;padding-right: 8px;"><div id="ad1203" name="ad1203" align="center"></div><iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="70" width="210" src="http://netspiderads3.indiatimes.com/ads.dll/getad?slotid=1203" id="fr1203" name="fr1203"><a target="_blank" href="http://netspiderads3.indiatimes.com/ads.dll/clickthrough?slotid=1203"><img alt="Advertisement" height="70" width="210" border="0" src="http://netspiderads3.indiatimes.com/ads.dll/photoserv?slotid=1203"></a></iframe></div><div style="clear:both;height:5px;"></div></div></div></div></td></tr><style>.whtbg{background-color:#ffffff;font-weight:bold;}</style><tr><td><div class="tabsbg1"><script>var sectionid="";sectionid="4719157";</script><ul class="tabs1"><li class="current"><a style="background:none;" pg="Pos1" href="/">Home</a></li><script>sectionid=4719157</script><li><a pg="Pos11" href="/city/cityarticlelist/-2128932452.cms">City</a></li><li><a pg="Pos12" href="/india/indiaarticlelist/-2128936835.cms">India</a></li><li><a pg="Pos13" href="/world/worldarticlelist/296589292.cms">World</a></li><li><a pg="Pos14" href="/business/bizarticlelist/1898055.cms">Business</a></li><li style="position:relative" onmouseover="showadcod('1');" onmouseout="showadcod('2');"><script>function showadcod(imh)
+				  {
+				  if(imh==1){document.getElementById("ralstste").style.display="block";}
+				  else{document.getElementById("ralstste").style.display="none";}
+				  }</script><a pg="Pos34" href="/tech/techhome/5880659.cms"><ssname>Tech</ssname></a></li><li><a pg="Pos2" href="/sports/sphome/4719148.cms">Sports</a></li><li><a pg="Pos3" href="/entertainment/articlelistls/1081479906.cms">Entertainment</a></li><li><a pg="Pos4" href="/life-style/articlelistls/2886704.cms">Life &amp; Style</a></li><li><a pg="Pos26" href="http://idiva.com/indextoi.html">Women</a></li><li><a pg="Pos5" href="http://timesofindia.hotklix.com">Hot on the Web</a></li><li><a pg="Pos42" href="http://timesofindia.speakingtree.in/">Spirituality</a></li><li><a pg="Pos40" href="/nrihome.cms">NRI</a></li><li><a pg="pos43" style="font-weight:bold;padding-left:4px;padding-right:4px;" href="http://timesofindia.indiatimes.com/london-olympics-2012/olympics.cms">Olympics
+				  </a></li><li><a style="font-weight:normal;padding-left:7px;padding-right:7px;" pg="Pos8" href="http://photogallery.indiatimes.com">Photos</a></li><li><a style="font-weight:normal;padding-left:6px;padding-right:6px;" pg="Pos37" target="_blank" href=" http://www.timesnow.tv">Times Now</a></li><li><a style="font-weight:normal;padding-left:8px;padding-right:7px;" pg="Pos9" href="/videos/videolist/3812890.cms">Videos</a></li><li><a style="font-weight:normal;padding-left:9px;padding-right:9px;" target="_blank" href="http://timesnow.live.indiatimes.com/" pg="Pos15">LIVE TV</a></li></ul></div><div style="position:relative" class="sectabsbg1"><ul id="sectabs" class="sectabs1"><li><a pg="Pos6" href="/home/opinion/articlelist/784865811.cms">Opinion</a></li><li><a pg="Pos7" href="http://blogs.timesofindia.indiatimes.com">Blogs</a></li><li><a pg="Pos27" href="http://zigwheels.com/index.php?host=TOI">Auto</a></li><li><a pg="Pos21" href="http://timespolls.itimes.com/polls">Polls</a></li><li><a pg="Pos22" href="/debatelist/2138952.cms">Speak Out</a></li><li><a pg="Pos16" href="/home/science/articlelist/-2128672765.cms">Science</a></li><li><a pg="Pos17" href="/home/environment/articlelist/2647163.cms">Environment</a></li><li><a pg="Pos18" href="/home/education/news/articlelist/913168846.cms ">Education</a></li><li><a pg="Pos23" href="/home/sunday-toi/articlelist/1945062111.cms">Sunday TOI</a></li><li><a pg="Pos24" href="/headlines/4772028.cms">Headlines</a></li><li><a pg="Pos19" href="/specials/4758720.cms">Specials</a></li><li><a pg="Pos44" href="/home/crest/articlelist/10265504.cms">Crest</a></li><li style="position:relative"><a target="_blank" pg="Pos35" href="http://content.magicbricks.com/?fromSite=toi&amp;utm_source=toi&amp;utm_medium=referral&amp;utm_campaign=toi-mb-navbar">Real Estate</a></li><li><a target="_blank" pg="Pos10" href="/classifieds/764057.cms">Classifieds</a></li><li><a pg="Pos30" target="_blank" href="http://epaper.timesofindia.com/">ePaper</a></li><li class=""><a pg="Pos29" style="font-weight:normal;" href="/archive.cms">Archive</a></li><li><a pg="Pos38" style="padding-left:5px;padding-right:5px" href="/speednews.cms">Speed News</a></li><li><a target="_blank" pg="Pos41" href="/toi2minutes.cms">2-Min TOI</a></li><li class="nobdr"><a pg="Pos33" href="/mobileapplist/7404562.cms">Mobile Apps
+				  </a></li><span id="ralstste" style="position:absolute;z-index:1000;left:219px; top:-2px;display:none;" onmouseover="showadcod('1');" onmouseout="showadcod('2');"><img height="22" width="65" style="cursor:pointer" border="0" onclick="window.open('http://www.rcom.co.in/Rcom/personal/internet/MyBestPlan.html')" src="/photo/14649051.cms"></span></ul></div></td></tr><tr><td class="bdcrumbnw"><div style="float:left;width:113px;font-size:11px;padding-top:5px;"><div><span style="float:left;font-size:11px;">You are here:Home
+				  </span></div></div><div style="float:right" class="tpsearch"><div class="topsrh"><div class="fltleft"><form class="frmdispnw" onsubmit="return beta_valid();" acton="/search.cms" method="post" name="frmsearch1" id="frmsearch1"><input style="border:1px solid #cccccc;width:133px;padding-left:20px" AUTOCOMPLETE="off" onkeyup="return KeyCheck(event,this,'tp');" onclick="make_blank1();" class="w113ftnw" name="query" type="text" value=""><INPUT name="type" value="" type="hidden"><input name="catkey" value="233446897" type="hidden"><INPUT name="search" value="3" type="hidden"><INPUT name="sitesearch" value="" type="hidden"><INPUT name="fields" value="1" type="hidden"><INPUT name="searchtype" value="2" type="hidden"><INPUT name="article" value="2" type="hidden"><INPUT name="search1" type="hidden" value="0"></form><br><div style="width:154px;text-align:left;font-size:11px;position:absolute;border:0px; margin:0;color:#4c4c4c;z-index:110000;float:right;" id="txtHint"></div></div><div class="fltleft"><div onmouseout="" align="left" onClick="openSelect('srchcmb1')" id="srchsel1"><div style="padding:5px 2px 0 4px" id="srchsel">The Times of India</div></div><div align="left" style="display:none;visibility:hidden" id="srchcmb1"><span onClick="openSelect('0')" id="0">The Times of India</span><br><span onClick="openSelect('1')" id="1">Indiatimes</span><br><span onClick="openSelect('2')" id="2">Web (by Google)</span><br><span onClick="openSelect('3')" id="3">Video</span><br><span onClick="openSelect('4')" id="4">Photos</span><br></div></div><div class="fltleft"><div pg="TbPos9" onclick="return beta_valid();" class="homesprite srch"></div></div><div class="fltleft"><div style="padding:0px 5px 0 5px;float:left;"><a pg="TbPos10" class="tptxtotr" href="/advancesearch.cms">Advanced Search&raquo;</a></div></div></div></div></td></tr><tr><td style="padding-top:7px;" align="center"><div id="adsdivLyr" width="1003" align="center"></div></td></tr></table><table id="netspidersosh" border="0" width="1003" class="cnt"><tr><td style="padding-bottom:10px" colspan="2"><div><div style="width:1003px;background-color:#e0e0e0;"><div style="display:none;" id="newsbrk"><div style="float:left" class="brknewslive1"></div><div style="float:left;width:782px;padding-top:6px;background-image:url('/photo/13867896.cms'); background-repeat: repeat-x;color:#353535;font-size:12px;height:22px;"><div id="breakingnewsidnew" style="width:782px;overflow:hidden;height:21px;"></div></div><div style="float:left;background-image:url('/photo/13867893.cms');width:52px;height:28px;"><img style="cursor:pointer" align="right" onClick="hide();" border="0" src="/photo/13820331.cms"></div></div></div><div style="clear:both"></div></div></td></tr><tr><td valign="top" width="695"><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-top:0px" class="maintable1"><div><div class="padbotm"><h1><a pg="Head#1" href="/india/Indias-aircraft-carrier-ambitions-take-a-dive/articleshow/14970941.cms">India&rsquo;s aircraft carrier ambitions take a dive</a><span style="display:inline;z-index:101;margin-top:6px;position:absolute;"></span></h1><p><span class="agcy"><span>Rajat Pandit</span><span id="dtformt1"><script>df('16 Jul 2012, 05:17',1);</script></span></span></p><p class="normtxt">Construction schedule of the 40,000-tonne indigenous aircraft carrier being built at Cochin Shipyard has &ldquo;slipped another three years&rsquo;&rsquo; even behind revised timelines.</p></div><div class="padbotm"><h2><a pg="Head#2" href="/india/Bigger-role-for-Rahul-Gandhi-soon-Digvijaya-Singh-hints/articleshow/14971308.cms">Bigger role for Rahul Gandhi soon, hints Digvijaya Singh</a></h2><p><span class="agcy">TNN<span id="dtformt2"><script>df('16 Jul 2012, 03:26',2);</script></span></span></p><p class="normtxt">Rahul&rsquo;s reluctance has dragged the leadership issue in the Congress party despite the fact that there is little doubt in any mind about who the heir-apparent is.</p><p></p></div><div class="padbotm"><h2><a pg="Head#3" href="/india/Jihadis-cheat-bosses-pocket-terror-funds/articleshow/14967902.cms">Jihadis cheat bosses, pocket terror funds for personal use</a></h2><p><span class="agcy"><span>Mateen Hafeez</span><span id="dtformt3"><script>df('16 Jul 2012, 01:27',3);</script></span></span></p><p class="normtxt">Among the more interesting stories about such self-serving mercenary terrorists is that of Indian Mujahideen&rsquo;s chief Yaseen Bhatkal.</p><p></p></div><div class="otp"><a pg="Head#4" href="/india/Jaswant-or-Sharad-for-VP-race-NDA-to-decide-today/articleshow/14971801.cms">Jaswant or Sharad for VP race? NDA to decide today</a> </div><div class="otp"><a pg="Head#5" href="/india/D-Company-uses-ships-to-smuggle-drugs-arms/articleshow/14972091.cms">D-Company uses ships to smuggle drugs, arms</a> </div><div class="otp"><a pg="Head#6" href="/india/US-business-community-worried-about-Indias-investment-climate-Barack-Obama/articleshow/14968436.cms">Worried about India&rsquo;s investment climate: Obama</a> </div><div class="otp"><a pg="Head#7" href="/city/bhopal/BJP-to-farmers-Elect-us-get-interest-free-loans/articleshow/14967059.cms">BJP to farmers: Elect us, get interest-free loans</a> </div><div class="otp"><a pg="Head#8" href="/business/india-business/Domestic-air-fares-soar-as-seats-dry-up/articleshow/14968392.cms">Domestic air fares soar as seats dry up</a> </div><div class="otp"><a pg="Head#9" href="/city/guwahati/Assam-police-announce-Rs-50000-reward-for-info-on-key-Guwahati-molester/articleshow/14972775.cms">Rs 50K reward for info on key Guwahati molester</a> </div><div class="otp"><a pg="Head#10" href="/business/india-business/Courts-push-foreign-workers-out-of-India/articleshow/14970271.cms">Courts push foreign workers out of India?</a> </div><div class="otp"><a pg="Head#11" href="/home/education/news/Skip-Class-X-Board-exams-to-switch-school-from-next-year/articleshow/14968886.cms">Skip Class X exams to switch school from next year </a> </div><div style="float:right;width:330px;text-align:right;padding:5px 0 3px 0"><a style="font-weight:bold" class="more" pg="Headmore" href="/headlines/4772028.cms">All Headlines <span>&raquo;</span></a></div></div></td><td valign="top" class="maintable2"><div style="background-color:#F3F3F3"><div style="position:relative;top:0px;left:0px;z-index:100000;"><div style="position:absolute;width:0px;top:0px;left:0px;height:0px;overflow:hidden;" id="ToiVideoSlider"><div style="width:330px;height:271px;background-color:#000000;text-align:center;" id="videoplayer"></div><div name="nsc_overlap" id="nsc_overlap"></div></div></div><table border="0" cellspacing="0" cellpadding="0" width="330"><tr><td width="238"><div class="foto_mg"><a style="cursor:pointer;"><img border="0" height="160" width="238" pg="Vid1" onclick="slideExample4(&quot;ToiVideoSlider&quot;,this,&quot;14964336&quot;,&quot;Woman editor shot at in Arunachal&quot;,'1','videos/news/Senior-Northeast-journalist-shot-at-by-unknown-assailants');" id="simg1" alt="" title="" ag="" src="/thumb/14964336.cms?width=238&amp;height=160"></a><div class="ampmid"><div class="inampmid" pg="V_Pos1" onclick="slideExample4(&quot;ToiVideoSlider&quot;,this,&quot;14964336&quot;,&quot;Woman editor shot at in Arunachal&quot;,'1','videos/news/Senior-Northeast-journalist-shot-at-by-unknown-assailants');"></div></div><div class="ampliar"><div>Woman editor shot at in Arunachal</div></div></div></td><td width="10"></td><td class="txtvid"><div style="position:relative;"><a pg="Vid#2" href="/videos/news/Pune-Now-12-yr-old-child-dies-in-pit/videoshow/14981699.cms"><div class="smallplay">&nbsp;</div><img border="0" height="50" width="77" pg="Vid#2" src="/thumb/14981699.cms?width=77&amp;height=50"></a><br><a pg="Vid#2" href="/videos/news/Pune-Now-12-yr-old-child-dies-in-pit/videoshow/14981699.cms">Pune: 12-yr-old boy dies in pit</a></div><div style="position:relative;"><a pg="Vid#3" href="/videos/news/Now-army-jawans-molest-teenage-girl-in-Assam/videoshow/14942868.cms"><div class="smallplay">&nbsp;</div><img border="0" height="50" width="77" pg="Vid#3" src="/thumb/14942868.cms?width=77&amp;height=50"></a><br><a pg="Vid#3" href="/videos/news/Now-army-jawans-molest-teenage-girl-in-Assam/videoshow/14942868.cms">Now, army men molest girl</a></div></td></tr><tr><td colspan="3"><div style="position:relative;background-color:#B2B2B2;padding:1px 0 1px 2px;margin-top:3px;text-align:left;float:right;width:75px;font-size:11px"><a pg="VidMore" href="http://timesofindia.indiatimes.com/videos/videolist/3812890.cms">More Videos &raquo;</a></div></td></tr><tr><td width="328px" colspan="3"><table width="100%" style="border-top:1px solid #B2B2B2;border-bottom:1px solid #B2B2B2;" cellspacing="0" cellpadding="0"><tr><td style="padding:5px 0px 0px 0px" class="txtvid" width="76"><div style="position:relative;"><a pg="Pic#1" href="/articleshowpics/14940895.cms"><img border="0" height="50" width="76" pg="Pic#1" src="/photo/14945092.cms"><br></a><a pg="Pic#1" href="/articleshowpics/14940895.cms">Sunita's 2nd space journey</a></div></td><td width="7"></td><td style="padding:5px 0px 0px 0px" class="txtvid" width="76"><div style="position:relative;"><a pg="Pic#2" href="http://photogallery.indiatimes.com/celebs/indian-stars/katrina-kaif/happy-birthday-katrina-kaif-/Happy-Birthday-Katrina-Kaif/articleshow/14982297.cms"><img border="0" height="50" width="76" pg="Pic#2" src="/photo/14983725.cms"><br></a><a pg="Pic#2" href="http://photogallery.indiatimes.com/celebs/indian-stars/katrina-kaif/happy-birthday-katrina-kaif-/Happy-Birthday-Katrina-Kaif/articleshow/14982297.cms">Happy b'day Katrina Kaif</a></div></td><td width="7"></td><td style="padding:5px 0px 0px 0px" class="txtvid" width="76"><div style="position:relative;"><a pg="Pic#3" href="http://photogallery.indiatimes.com/awards/awards-and-honours/5th-gold-awards/articleshow/14939534.cms"><img border="0" height="50" width="76" pg="Pic#3" src="/photo/14982839.cms"><br></a><a pg="Pic#3" href="http://photogallery.indiatimes.com/awards/awards-and-honours/5th-gold-awards/articleshow/14939534.cms">TV stars @ Gold Awards</a></div></td><td width="7px"></td><td style="font-size:11px;font-family:arial;padding:0 0px 0 0px"><td class="txtvid" style="padding:5px 0px 0px 0px;" width="76"><div style="position:relative;"><a href="http://photogallery.indiatimes.com/celebs/indian-stars/sherlyn-chopra/sherlyn-the-1st-indian-playmate/articleshow/14862623.cms"><img border="0" height="50" width="76" pg="Pic#4" src="/photo/14884880.cms"><br></a><a pg="PicL#4" href="http://photogallery.indiatimes.com/celebs/indian-stars/sherlyn-chopra/sherlyn-the-1st-indian-playmate/articleshow/14862623.cms">Sherlyn: Indian Playmate?</a></div><div style="position:relative;background-color:#B2B2B2;padding:1px 0 1px 2px;margin-top:3px;"><a pg="PicMore" href="http://photogallery.indiatimes.com">More Photos &raquo;</a></div></td></td><td width="1px"></td></tr></table></td></tr></table></div><div class="clrbth"></div><div class="header1"><div style="float:left"><h3><a onMouseOver="this.style.cssText='color:#024D99;font-size:15px;'" style="color:#000000;font-size:15px;" pg="OTSMain" href="/headlines/4772028.cms" onmouseout="this.style.cssText='color:#000000;font-size:15px;'">OTHER STORIES</a></h3></div></div><ul class="otherstoryul"><li><a pg="OTSPos#1" href="http://timesofindia.indiatimes.com/entertainment/bollywood/news-interviews/Karan-Johar-and-PM-get-Olympics-invitation/articleshow/14948006.cms">Karan Johar and PM get Olympics invitation</a> </li><li><a pg="OTSPos#2" href="http://timesofindia.indiatimes.com/entertainment/bollywood/news-interviews/No-date-set-for-Saif-Kareena-wedding-Soha/articleshow/14951161.cms">No date set for Saif-Kareena wedding: Soha</a> </li><li><a pg="OTSPos#3" href="http://timesofindia.indiatimes.com/entertainment/bollywood/news-interviews/Aamir-clears-rumours-about-Talaash-release-date/articleshow/14954794.cms">Aamir clears rumours about 'Talaash' release date</a> </li><li><a pg="OTSPos#4" href="http://timesofindia.indiatimes.com/entertainment/bollywood/news-interviews/Too-young-to-be-part-of-the-100-cr-club-Shahid-Kapoor/articleshow/14950533.cms">Too young to be part of the 'Rs 100 cr club': Shahid</a> </li><li><a pg="OTSPos#5" href="http://timesofindia.indiatimes.com/katrina-kaif/specialcoverage/4775920.cms">Happy Birthday Katrina Kaif: Special</a> </li><li><a pg="OTSPos#6" href="/business/india-business/MUVs-overtake-sedans-to-rule-the-Indian-roads/articleshow/14982587.cms">MUVs overtake sedans to rule the Indian roads</a> </li><li><a pg="OTSPos#7" href="/home/science/Sunita-Williams-to-vote-in-US-presidential-polls-watch-Olympics-from-space/articleshow/14969613.cms">Sunita Williams to vote, watch Olympics from space</a> </li><li><a pg="OTSPos#8" href=" http://timesofindia.indiatimes.com/tech/personal-tech/computing/How-to-curb-smartphone-addiction/articleshow/14902921.cms ">How to curb smartphone addiction</a> </li><li><a pg="OTSPos#9" href="http://economictimes.indiatimes.com/tech/ites/infosys-now-only-a-bellwether-of-staff-angst-8000-quit-in-june-quarter/articleshow/14966737.cms">ET: Infosys now only a bellwether of staff angst</a> </li><li><a pg="OTSPos#10" href="http://timesofindia.indiatimes.com/life-style/relationships/parenting/1-in-3-teens-engage-in-sexting/articleshow/14647465.cms">1 in 3 teens engage in 'sexting'</a> </li></ul><div class="frmbullets"><img style="float:left; margin:0px 8px 0px -2px;" src="/photo/4580293.cms"><div id="ad667" name="ad667" align="center"></div><iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="20" width="311" src="http://netspiderads3.indiatimes.com/ads.dll/getad?slotid=667" id="fr667" name="fr667"><a target="_blank" href="http://netspiderads3.indiatimes.com/ads.dll/clickthrough?slotid=667"><img alt="Advertisement" height="20" width="315" border="0" src="http://netspiderads3.indiatimes.com/ads.dll/photoserv?slotid=667"></a></iframe></div></td></tr></table></td><td style="padding-top:0px" class="maintable3"><div><table width="300px" border="0"><tr><td width="300px"><div class="tabsintbg"><ul class="tabsint"><li onClick="switchtabcomm1('latestblo#blogs#forums#commented',0)" class="current" id="latestblo"><a pg="Lnews_Tab" href="javascript:populatediv('/latestnewstab/1221656.cms','latestbloData');">LATEST<br>
+				  NEWS</a></li><li onClick="switchtabcomm1('blogs#forums#commented#latestblo',0)" id="blogs"><a pg="Mread_Tab" href="javascript:populatediv('/mostreadtab.cms','latestbloData');">MOST<br>
+				  READ</a></li><li onClick="switchtabcomm1('commented#forums#blogs#latestblo',0)" id="commented"><a pg="Mcomm_Tab" href="javascript:populatediv('/mostcommentedtab.cms','latestbloData');">MOST<br>
+				  COMMENTED</a></li><li onClick="switchtabcomm1('forums#blogs#commented#latestblo',0)" id="forums"><a pg="Mshare_Tab" href="javascript:populatediv('/mostsharedtab.cms','latestbloData');">MOST<br>
+				  SHARED</a></li></ul></div><div class="tabdatadiv"><div style="display:inline;" id="latestbloData"></div></div></td></tr></table></div><div class="clrbth"></div><script>showDCAdsRight1(0,0);</script><div style="padding-top:5px;" class="clrbth"></div><div><iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="96" width="300" src="/criminiflash.cms" id="iplfls" name="iplfls"></iframe></div></td></tr></table><table border="0" width="1003" class="cnt"><tr><td valign="top" class="maintable12"><div style="padding-left:5px;"><iframe name="adhomepage" id="adhomepage" ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="75" width="665" src="http://timesofindia.indiatimes.com/configspace/ads/googlehptop.html"></iframe></div><div class="clrbth1"></div><div class="width670"><div class="leftblk"><div class="header2"><div class="fltleftnew sports"><h3 class="spclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" onmouseout="this.style.cssText='color:none;dispaly:inline;'" target="" href="/sports/sphome/4719148.cms" pg="SpoMain">SPORTS</a></h3></div></div><div class="mn"><ul><li><a pg="SpoPos#1" href="/sports/golf/top-stories/Jeev-Milkha-Singh-storms-Castle-Stuart-to-win-Scottish-Open/articleshow/14964038.cms">Jeev Milkha Singh wins Scottish Open</a></li></ul></div><div class="contr1"><ul style="clear:both;"><li class="normtxt"><a pg="SpoPos#2" href="/sports/tennis/top-stories/Serena-Williams-wins-at-Stanford-in-final-Olympic-tuneup/articleshow/14972966.cms">Serena wins at Stanford in final Olympic tuneup</a></li><li class="normtxt"><a pg="SpoPos#3" href="/sports/london-olympics-2012/news/I-could-have-won-gold-says-Karnam-Malleswari/articleshow/14974919.cms">I could have won gold, says Karnam Malleswari</a></li><li class="normtxt"><a pg="SpoPos#4" href="/sports/cricket/top-stories/I-need-proper-shot-selection-Suresh-Raina/articleshow/14967445.cms">I need proper shot selection, says Suresh Raina</a></li></ul></div><div class="fltright"><a style="font-weight:bold" class="more" pg="SpoMore" target="" href="/sports/sphome/4719148.cms">More from <p style="text-transform:capitalize;display:inline;">sports</p><span style="padding-left:2px;">&raquo;</span></a></div></div><div class="rightblkcity"><h3 class="ctyclr"><a onMouseOver="this.style.cssText='color:#024D99'" style="cursor:pointer" href="/cityarticlelist/-2128932452.cms"><div style="padding:2px 0 0 19px;text-align:left;" class="fltleftnew city"><span onMouseOver="this.style.cssText='color:#024D99'" style="display:inline;" pg="CityMain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">CITY</span></div></a><span style="float:right"><select style="font-size:12px" onChange="citylist(this.value,'citylist');"><option value="30">Select your city</option><option value="21">Ahmedabad</option><option value="11">Allahabad</option><option value="18">Bangalore</option><option value="15">Bhubaneswar</option><option value="24">Chandigarh</option><option value="27">Chennai</option><option value="32">Coimbatore</option><option value="1">Delhi</option><option value="31">Gurgaon</option><option value="28">Goa</option><option value="14">Guwahati</option><option value="25">Hyderabad</option><option value="9">Hubli</option><option value="36">Indore</option><option value="29">Jaipur</option><option value="12">Kanpur</option><option value="19">Kolkata</option><option value="10">Ludhiana</option><option value="34">Kochi</option><option value="35">Kozhikode</option><option value="22">Lucknow</option><option value="33">Madurai</option><option value="7">Mangalore</option><option value="8">Mysore</option><option value="2">Mumbai</option><option value="26">Nagpur</option><option value="23">Patna</option><option value="20">Pune</option><option value="16">Ranchi</option><option value="5">Rajkot</option><option value="4">Surat</option><option value="3">Thane</option><option value="17">Thiruvananthapuram</option><option value="6">Vadodara</option><option value="13">Varanasi</option></select></span></h3><div name="citydiv" id="citydiv"><div class="mn"><ul><li><a pg="CityPos#1" href="/city/delhi/Spectacles-hit-marriage-prospects-Delhi-girls/articleshow/14967502.cms">Specs hit marriage prospects: Delhi girls</a></li></ul></div><span class="contr1"><ul style="clear:both"><li><a pg="CityPos#2" href="/city/delhi/Honchos-soft-targets-for-kidnap-in-Noida/articleshow/14968458.cms">Honchos soft targets for kidnap in Noida?</a></li><li><a pg="CityPos#3" href="/city/delhi/Reliance-Infrastructure-hits-back-claims-DMRC-put-commuters-at-risk/articleshow/14967205.cms">DMRC put commuters at risk: Reliance Infrastructure</a></li><li><a pg="CityPos#4" href="/city/ahmedabad/Surrogate-woman-wants-to-marry-her-rapist/articleshow/14972597.cms">Woman wants to marry her rapist</a></li></ul></span></div><div style="clear:both"></div><div style="float:right"><a class="more" pg="CityMore" href="/cityarticlelist/-2128932452.cms"><b>More from Cities</b> <span>&raquo;</span></a></div></div></div><div class="clrbth1"></div><div><div class="leftblk"><div class="header2"><div class="fltleftnew ind"><h3 class="indclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" onmouseout="this.style.cssText='color:none;dispaly:inline;'" target="" href="/india/indiaarticlelist/-2128936835.cms" pg="IndMain">INDIA</a></h3></div></div><div class="mn"><ul><li><a pg="IndPos#1" href="/india/Woman-editor-shot-at-in-Arunachal-Pradesh/articleshow/14969341.cms">Woman editor shot at in Arunachal</a></li></ul></div><div class="contr1"><ul style="clear:both;"><li class="normtxt"><a pg="IndPos#2" href="/india/Government-may-clear-all-weather-tunnel-to-Leh-today/articleshow/14971889.cms">Govt may clear all weather tunnel to Leh today</a></li><li class="normtxt"><a pg="IndPos#3" href="/india/Akhilesh-Yadav-avoids-direct-comment-on-khaps-decree/articleshow/14962339.cms">UP CM avoids comment on khap's decree</a></li><li class="normtxt"><a pg="IndPos#4" href="/india/Tytler-cant-go-to-Olympics-Akalis-tell-Maken/articleshow/14968964.cms">Tytler can't go to Olympics, Akalis tell Maken</a></li></ul></div><div class="fltright"><a style="font-weight:bold" class="more" pg="IndMore" target="" href="/india/indiaarticlelist/-2128936835.cms">More from <p style="text-transform:capitalize;display:inline;">india</p><span style="padding-left:2px;">&raquo;</span></a></div></div><div class="rightblk"><div class="header2"><div class="fltleftnew world"><h3 class="wrldclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" onmouseout="this.style.cssText='color:none;dispaly:inline;'" target="" href="/world/worldarticlelist/296589292.cms" pg="WorMain">WORLD</a></h3></div></div><div class="mn"><ul><li><a pg="WorPos#1" href="/world/middle-east/Red-Cross-says-Syrian-conflict-now-a-civil-war/articleshow/14977563.cms">'Syrian conflict now a civil war'</a></li></ul></div><div class="contr1"><ul style="clear:both;"><li class="normtxt"><a pg="WorPos#2" href="/world/china/Japan-summons-envoy-to-China-over-island-spat/articleshow/14971237.cms">Japan summons envoy to China over island spat</a></li><li class="normtxt"><a pg="WorPos#3" href="/world/us/Obama-mocks-at-Romney-with-advert-on-jobs-flight/articleshow/14971075.cms">Obama mocks at Romney with advert on jobs flight</a></li><li class="normtxt"><a pg="WorPos#4" href="/world/uk/Libya-gagged-Lockerbie-bomber-with-15-million-pound/articleshow/14970786.cms">'Libya gagged Lockerbie bomber with 15 million pound'</a></li></ul></div><div class="fltright"><a style="font-weight:bold" class="more" pg="WorMore" target="" href="/world/worldarticlelist/296589292.cms">More from <p style="text-transform:capitalize;display:inline;">world</p><span style="padding-left:2px;">&raquo;</span></a></div></div></div><div class="clrbth1"></div><div style="text-align:center;"><div style="float:left;width:180px;text-align:left;"><div id="ad36441" name="ad36441" align="center"></div><iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="60" width="150" src="http://netspiderads2.indiatimes.com/ads.dll/getad?slotid=36441" id="fr36441" name="fr36441"><a target="_blank" href="http://netspiderads2.indiatimes.com/ads.dll/clickthrough?slotid=36441"><img alt="Advertisement" height="60" width="150" border="0" src="http://netspiderads2.indiatimes.com/ads.dll/photoserv?slotid=36441"></a></iframe></div><div style="float:left"><div id="ad160" name="ad160" align="center"></div><iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="60" width="468" src="http://netspiderads3.indiatimes.com/ads.dll/getad?slotid=160" id="fr160" name="fr160"><a target="_blank" href="http://netspiderads3.indiatimes.com/ads.dll/clickthrough?slotid=160"><img alt="Advertisement" height="60" width="468" border="0" src="http://netspiderads3.indiatimes.com/ads.dll/photoserv?slotid=160"></a></iframe></div></div><div class="clrbth"></div><div class="secbgcolor"><table border="0" cellspacing="0" cellpadding="0"><tr><td valign="top" colspan="2"><div class="hmspl"><div style="padding:0px 0px 5px 0px;" class="fltleft"><h3><a style="cursor:pointer" href="http://blogs.timesofindia.indiatimes.com/"><span onmouseover="this.style.cssText='color:#024D99'" style="display:inline;" pg="BlogsMain" onmouseout="this.style.cssText='color:#000000;dispaly:inline;'">TIMES BLOGS</span></a></h3></div></div></td></tr><tr><td valign="top" style="width:330px;padding-left:5px"><div><ul style="clear:both;"><li><a pg="BlogsPos#1" href="http://blogs.timesofindia.indiatimes.com/Swaminomics/entry/china-beats-india-again-this-time-in-corruption"><b>SA Aiyar:</b> China beats India again, this time in corruption</a></li><li><a pg="BlogsPos#2" href="http://blogs.timesofindia.indiatimes.com/right-and-wrong/entry/more-than-just-a-star"><b>Swapan Dasgupta:</b> More than just a star </a></li></ul></div></td><td class="citylst" width="330"><ul style="border-left:1px solid #cccccc;padding-bottom:3px"><li><a pg="BlogsPos#3" href="http://blogs.timesofindia.indiatimes.com/Between-the-Lies/entry/his-smile-was-as-lee-thal-as-his-pace"><b>Bobilli Vijay Kumar:</b> His smile was as Lee-thal as his pace</a></li><li><a pg="BlogsPos#4" href="http://blogs.timesofindia.indiatimes.com/tiger-trail/entry/the-guwahati-case-a-national-shame"><b>Sharmila Ravinder:</b> The Guwahati case - A national shame</a></li></ul></td></tr><tr><td colspan="2"><div class="fltright"><a class="more" pg="BlogsMore" href="http://blogs.timesofindia.indiatimes.com/"><b>More from <p style="text-transform:capitalize;display:inline;">times blogs</p></b><font>&raquo;</font></a></div></td></tr><tr><td height="5" colspan="2"></td></tr></table></div><div class="clrbth1"></div><div><div class="leftblk"><div class="header2"><div class="fltleftnew buss"><h3 class="bussclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" onmouseout="this.style.cssText='color:none;dispaly:inline;'" target="" href="/business/bizarticlelist/1898055.cms" pg="BuzMain">BUSINESS</a></h3></div></div><div class="mn"><ul><li><a pg="BuzPos#1" href="/business/india-business/Its-a-make-or-break-situation-Kingfisher-Airlines/articleshow/14966775.cms">It&rsquo;s make-or-break situation: Kingfisher</a></li></ul></div><div class="contr1"><ul style="clear:both;"><li class="normtxt"><a pg="BuzPos#2" href="/business/india-business/Rupee-at-over-1-week-high-as-risk-rally-gains/articleshow/14983334.cms">Rupee at over 1-week high as risk rally gains</a></li><li class="normtxt"><a pg="BuzPos#3" href="/business/india-business/Barack-Obama-cant-dictate-what-to-do-India-Inc/articleshow/14966878.cms">Barack Obama can&rsquo;t dictate what to do: India Inc</a></li><li class="normtxt"><a pg="BuzPos#4" href="/business/india-business/Flipkart-needs-big-money-to-keep-delivering/articleshow/14966970.cms">Flipkart needs big money to keep delivering</a></li></ul></div><div class="fltright"><a style="font-weight:bold" class="more" pg="BuzMore" target="" href="/business/bizarticlelist/1898055.cms">More from <p style="text-transform:capitalize;display:inline;">business</p><span style="padding-left:2px;">&raquo;</span></a></div></div><div class="rightblk"><table width="330px" border="0" class="cnt"><tr><td width="330px"><div class="header2"><div class="fltleftnew buss"></div><div style="float:left;padding-left:9px;padding-top:2px;width:100px;"><h3 style="width:100px;padding:0px;margin:0px;" class="bussclr"><a onmouseover="this.style.cssText='color:#024D99'" target="_blank" href="http://economictimes.indiatimes.com/markets/markets/1977021501.cms" pg="toiMktMain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">MARKET
+				  </a></h3></div><div style="float:right;"><table border="0" width="165" class="cnt"><form target="pollwindow" style="margin:0;padding:0px" id="di" method="get" name="marketform"><tr><td width="120"><INPUT NAME="ticker" TYPE="hidden"><INPUT value="0" id="pagenumber" NAME="pagenumber" TYPE="hidden"><INPUT value="30" id="pagesize" NAME="pagesize" TYPE="hidden"><INPUT value="false" id="matchcompanyname" NAME="matchcompanyname" TYPE="hidden"><INPUT value="in_markets" NAME="ref" TYPE="hidden"><INPUT onkeydown="if(event.keyCode == 13)return changeForm()" onclick="Quote_blank();" maxlength="50" style="padding-top:0;width:120px;height:13px" value="Get quote" NAME="ticker1" TYPE="text"></td><td width="5"></td><td class="vagn" align="left"><div style="background-image:url('/photo/9719649.cms');background-position:-5px -670px;height:20px;" id="curretnquote" pg="toiMktQuote" onclick="return changeForm()" class="homesprite mktgo"></div></td></tr></form></table></div></div></td></tr><tr><td height="5px"></td></tr><tr><td><div class="fltleft" style="width:215px;border-right:1px solid #E1E1E1"><div class="newmktdata" style="padding-right:10px;"><ul style="padding-top:0px;"><li><a pg="mktlink#1" target="_blank" href="http://economictimes.indiatimes.com/features/investors-guide/check-out-the-small-companies-where-some-big-investors-are-betting-on/articleshow/14917327.cms">12 stocks for ordinary investor</a></li><li><a pg="mktlink#2" target="_blank" href="http://economictimes.indiatimes.com/features/investors-guide/bulls-eye-experts-views-on-outlook-for-select-stocks/articleshow/14741202.cms">Experts' views on stocks</a></li><li><a pg="mktlink#3" target="_blank" href="http://economictimes.indiatimes.com/opinion/interviews/indian-stock-markets-now-look-extremely-optimistic-kunal-ghosh-ems-portfolio-manager-allianz-global-investors-capital/articleshow/14971190.cms">'Mkts now look optimistic'</a></li></ul></div></div><div style="padding-right:5px;width:100px" class="normtxt fltright"><iframe align="left" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" HEIGHT="65" WIDTH="100" NAME="NIFTYSENSEX" SRC="/niftysensexhome1.cms" id="nfs"></iframe></div></td></tr><tr><td style="padding-top:0px;" align="center" class="fxvtr"><div><form target="_blank" action="http://economictimes.indiatimes.com/Markets/Forex/fxconverter/1150221130.cms" method="post" name="fxconverter"><table border="0" cellpadding="0" cellspacing="3"><tr><td class="vagn"><span class="normtxt"><b>Convert  Rs.</b></span></td><td class="vagn"><input style="padding-top:0;height: 18px; font-size:13px;width:50px;" value="100" size="12" id="amount" name="amount" type="text"></td><td class="vagn"><span class="normtxt"><b>to</b></span></td><td style="height: 18px;" class="vagn"><select style="padding-top:0;height: 18px;font-size:12px;width:110px;" id="tocur1" name="tocurr1"><OPTION selected="true" value="USD">US dollar</OPTION><OPTION value="CAD">Can dollar</OPTION><OPTION value="CNY">Chinese yuan</OPTION><OPTION value="EUR">Euro</OPTION><OPTION value="HKD">HK dollar</OPTION><OPTION value="IDR">Indonesian rupiah</OPTION><OPTION value="JPY">Japanese yen</OPTION><OPTION value="KRW">Korean won</OPTION><OPTION value="KWD">Kuwaiti dinar</OPTION><OPTION value="MYR">Malaysian ringgit</OPTION><OPTION value="RUB">Russian rouble</OPTION><OPTION value="SGD">Sing dollar</OPTION><OPTION value="CHF">Swiss franc</OPTION><OPTION value="AED">UAE dirham</OPTION><OPTION value="GBP">UK pound</OPTION></select><input id="tocur" name="tocur" type="hidden"><input id="fromconvert" name="fromconvert" type="hidden"><input value="INR" id="fromcur" name="fromcur" type="hidden"><input value="Indian Rupee" id="toconvert" name="toconvert" type="hidden"></td><td class="vagn"><div style="background-image:url('/photo/9719649.cms');background-position:-6px -644px;height:18px;" pg="toiMktConvert" onClick="javascript:return validatefx();" class="homesprite mktgo"></div></td></tr></table></form></div></td></tr><tr><td><div style="float:right;"><a class="more" pg="toiMktMore" target="_blank" href="http://economictimes.indiatimes.com/markets/markets/1977021501.cms"><b pg="toiMktMore">More from Market</b><span>&raquo;</span></a></div></td></tr></table></div></div><div style="clear:both;padding-top:8px;"></div><iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="82" width="670" src="http://timesofindia.indiatimes.com/configspace/ads/toigoogleads.html"></iframe><div class="clrbth"></div><div><span style="font:12px georgia; color:#000000;float:left;"><span style=" color:#ff0000;">Looking for great exchange rates to send money to India?</span>Visit <a style="font:12px georgia;" target="_blank" href="http://www.timesofmoney.com/remittance/jsp/home.jsp">www.remit2india.com</a></span></div><div class="clrbth"></div><div><div class="leftblk"><div class="header2"><div class="fltleftnew tech"><h3 class="techclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" onmouseout="this.style.cssText='color:none;dispaly:inline;'" target="_blank" href="/tech/techhome/5880659.cms" pg="TechMain">TECH</a></h3></div></div><div class="mn"><ul><li><a pg="TechPos#1" href="http://timesofindia.indiatimes.com/itslideshow/14902355.cms">10 tips to keep your passwords safe</a></li></ul></div><div class="contr1"><ul style="clear:both;"><li class="normtxt"><a pg="TechPos#2" href="/tech/personal-tech/computing/Review-Harry-Potter-website/articleshow/14903557.cms">Review: Harry Potter website</a></li><li class="normtxt"><a pg="TechPos#3" href="/tech/careers/job-trends/How-Facebook-Twitter-can-affect-your-job/articleshow/14904136.cms">How Facebook, Twitter can affect your job</a></li><li class="normtxt"><a pg="TechPos#4" href="/tech/careers/job-trends/Infosys-CEO-SD-Shibulals-letter-to-employees/articleshow/14887203.cms">Infosys CEO's letter to employees</a></li></ul></div><div class="fltright"><a style="font-weight:bold" class="more" pg="TechMore" target="_blank" href="/tech/techhome/5880659.cms">More from <p style="text-transform:capitalize;display:inline;">tech</p><span style="padding-left:2px;">&raquo;</span></a></div></div><div class="rightblk"><div class="header2"><div class="fltleftnew helth"><h3 class="hlthclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" onmouseout="this.style.cssText='color:none;dispaly:inline;'" target="" href="/Lifestyle/articlelistls/2886714.cms" pg="SciMain">HEALTH & FITNESS</a></h3></div></div><div class="mn"><ul><li><a pg="SciPos#1" href="/life-style/health-fitness/diet/Food-for-a-beautiful-you/articleshow/10105465.cms">Food for a beautiful you</a></li></ul></div><div class="contr1"><ul style="clear:both;"><li class="normtxt"><a pg="SciPos#2" href="/life-style/health-fitness/fitness/5-Smart-ways-to-gain-weight/articleshow/10301834.cms">5 Smart ways to gain weight</a></li><li class="normtxt"><a pg="SciPos#3" href="/life-style/health-fitness/diet/Foods-that-keep-you-hydrated/articleshow/12328638.cms">Foods that keep you hydrated</a></li><li class="normtxt"><a pg="SciPos#4" href="/life-style/health-fitness/health/Earphones-can-kill-you/articleshow/12558245.cms">Earphones can kill you</a></li></ul></div><div class="fltright"><a style="font-weight:bold" class="more" pg="SciMore" target="" href="/Lifestyle/articlelistls/2886714.cms">More from <p style="text-transform:capitalize;display:inline;">health & fitness</p><span style="padding-left:2px;">&raquo;</span></a></div></div></div><div class="clrbth1"></div><div><table class="secbgcolor" border="0" cellspacing="0" cellpadding="0"><tr><td><div class="leftblk1"><div class="hmspl"><div class="fltright" style="width:325px;"><div><div class="fltleft"><h3><a style="cursor:pointer" href="/specials/4758720.cms"><span onmouseover="this.style.cssText='color:#024D99'" style="display:inline;" pg="SpeMain" onmouseout="this.style.cssText='color:#000000;dispaly:inline;'">SPECIALS</span></a></h3></div></div><div style="width:320px;" class="fltright"><ul style="clear:both"><li><a pg="SpePos#1" href="/passport-pangs/eventcoverage/14278091.cms">Passport pangs</a></li><li><a pg="SpePos#2" href="http://timesofindia.indiatimes.com/presidential-election-2012/specialcoverage/12847657.cms"><a href="http://timesofindia.indiatimes.com/presidential-election-2012/specialcoverage/12847657.cms" target="_blank">Presidential polls 2012</a></a></li></ul></div><div class="fltright"><a class="more" pg="SpeMore" href="/specials/4758720.cms"><b>More from <p style="text-transform:capitalize;display:inline;">specials</p></b><font>&raquo;</font></a></div></div></div></div><div style="border-right:1px solid #cccccc;margin-top:25px;float:left;height:45px;width:6px"></div><div class="rightblk1"><div style="display:inline;" id="dv2"><div class="hmspl"><div class="fltright" style="width:325px;"><div><div class="fltleft"><h3><a style="cursor:pointer" href="/news/science/articlelist/-2128672765.cms"><span onmouseover="this.style.cssText='color:#024D99'" style="display:inline;" pg="EnvMain" onmouseout="this.style.cssText='color:#000000;dispaly:inline;'">SCIENCE</span></a></h3></div></div><div style="width:320px;" class="fltright"><ul style="clear:both"><li><a pg="EnvPos#1" href="/home/science/Facebook-page-can-reveal-all-about-your-personality-Study/articleshow/14969929.cms">Facebook page can reveal all about your personality: Study</a></li><li><a pg="EnvPos#2" href="/home/science/Daily-cup-of-tea-helps-beat-diarrhoea/articleshow/14969560.cms">Daily cup of tea helps beat diarrhoea</a></li></ul></div><div class="fltright"><a class="more" pg="EnvMore" href="/news/science/articlelist/-2128672765.cms"><b>More from <p style="text-transform:capitalize;display:inline;">science</p></b><font>&raquo;</font></a></div></div></div></div></div><div style="width:670px;float:left;"><div style="float:left;"><span><ul style="padding-top:0px"></ul></span></div></div></td></tr></table></div><div class="clrbth1"></div><div><div class="leftblk"><div class="header2"><div class="fltleftnew envrnmnt"><h3 class="envmtclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" target="" href="/home/environment/articlelist/2647163.cms" pg="EnvsM" onmouseout="this.style.cssText='color:none;dispaly:inline;'">ENVIRONMENT</a></h3></div></div><div class="contr1"><div><a pg="Envs#1" href="/home/environment/flora-fauna/Rare-Indian-snake-species-discovered-at-Katarniaghat-sanctuary/articleshow/14964205.cms">Rare Indian snake species discovered at Katarniaghat sanctuary</a></div><div style="float:left;width:320px;"><a href="/home/environment/flora-fauna/Rare-Indian-snake-species-discovered-at-Katarniaghat-sanctuary/articleshow/14964205.cms"><img style="margin-right:20px;" align="left" height="53" width="81" pg="EnvsP" alt="Rare Indian snake species discovered at Katarniaghat sanctuary" title="Rare Indian snake species discovered at Katarniaghat sanctuary" ag="" _src="/thumb/14964205.cms?width=81&amp;height=53"></a><span class="normtxt"><ul><li><a pg="Envs#2" href="/home/environment/flora-fauna/Amitabh-Bachchan-in-Sawai-Madhopur-for-Big-Cat-project/articleshow/14917402.cms">Amitabh Bachchan in Sawai Madhopur for Big Cat project</a></li><li><a pg="Envs#3" href="/home/environment/global-warming/BASIC-nations-call-for-rollback-of-EU-carbon-tax-on-aviation/articleshow/14919330.cms">BASIC nations call for rollback of EU carbon tax on aviation</a></li><li><a pg="Envs#4" href="/home/environment/developmental-issues/Apple-rejoins-green-tech-program-after-row/articleshow/14895020.cms">Apple rejoins green tech program after row</a></li></ul></span></div></div><div class="fltright"><a style="font-weight:bold" class="more" target="" href="/home/environment/articlelist/2647163.cms" pg="EnvsMore">More from <p style="text-transform:capitalize;display:inline;">environment</p><span style="padding-left:2px">&raquo;</span></a></div></div><div class="rightblk"><div class="header2"><div class="fltleftnew travl"><h3 class="travlclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" target="" href="/life-style/travel/articlelist/6106011.cms" pg="TravelM" onmouseout="this.style.cssText='color:none;dispaly:inline;'">TRAVEL</a></h3></div></div><div class="contr1"><div><a pg="Travel#1" href="/life-style/travel/Dhenkanal-Odishas-very-own-hill-station/articleshow/9579724.cms">Dhenkanal: Odisha's very own hill station</a></div><div style="float:left;width:320px;"><a href="/life-style/travel/Dhenkanal-Odishas-very-own-hill-station/articleshow/9579724.cms"><img style="margin-right:20px;" align="left" height="53" width="81" pg="TravelP" alt="Dhenkanal: Odisha's very own hill station" title="Dhenkanal: Odisha's very own hill station" ag="" _src="/thumb/9579724.cms?width=81&amp;height=53"></a><span class="normtxt"><ul><li><a pg="Travel#2" href="/life-style/travel/The-Greek-debt/articleshow/14743882.cms">The Greek debt</a></li><li><a pg="Travel#3" href="/life-style/travel/Travel-easy-with-diabetes/articleshow/14711012.cms">Travel easy with diabetes</a></li><li><a pg="Travel#4" href="/life-style/travel/Quick-getaways-from-Delhi/articleshow/7823752.cms">Quick getaways from Delhi</a></li></ul></span></div></div><div class="fltright"><a style="font-weight:bold" class="more" target="" href="/life-style/travel/articlelist/6106011.cms" pg="TravelMore">More from Travel<span style="padding-left:2px">&raquo;</span></a></div></div></div><div class="clrbth1"></div><div><div class="leftblk"><div class="header2"><div class="fltleftnew life"><h3 class="lifeclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" target="" href="/Lifestyle/articlelistls/2886704.cms" pg="LifeMain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">LIFE & STYLE</a></h3></div></div><div class="contr1"><div><a pg="LifePos#1" href="/life-style/relationships/man-woman/Make-a-lot-of-noise-for-great-sex/articleshow/9296070.cms">Make a lot of noise for great sex</a></div><div style="float:left;width:320px;"><a href="/life-style/relationships/man-woman/Make-a-lot-of-noise-for-great-sex/articleshow/9296070.cms"><img style="margin-right:20px;" align="left" height="53" width="81" pg="toilifepic" alt="Make a lot of noise for great sex" title="Make a lot of noise for great sex" ag="" _src="/thumb/9296070.cms?width=81&amp;height=53"></a><span class="normtxt"><ul><li><a pg="LifePos#2" href="/life-style/relationships/man-woman/5-Best-positions-to-get-pregnant-fast/articleshow/5317909.cms">5 Best positions to get pregnant fast</a></li><li><a pg="LifePos#3" href="/life-style/beauty/Home-remedies-to-treat-acne/articleshow/6158730.cms">Home remedies to treat acne</a></li><li><a pg="LifePos#4" href="/life-style/food/recipes/Recipe-Homemade-vanilla-ice-cream/articleshow/11948812.cms">Recipe: Homemade vanilla ice cream</a></li></ul></span></div></div><div class="fltright"><a style="font-weight:bold" class="more" target="" href="/Lifestyle/articlelistls/2886704.cms" pg="LifeMore">More from <p style="text-transform:capitalize;display:inline;">life & style</p><span style="padding-left:2px">&raquo;</span></a></div></div><div class="rightblk"><div class="header2"><div class="fltleftnew women"><h3 class="womenclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" target="_blank" href="http://idiva.com/" pg="WomenMain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">WOMEN</a></h3></div></div><div class="contr1"><div><a pg="WomenPos#1" target="_blank" href="http://idiva.com/photogallery-entertainment/10-quirky-celeb-twitter-handles-to-follow/13996 ">10 quirkiest celebrity Twitter handles</a></div><div style="float:left;width:320px;"><a href="http://idiva.com/photogallery-entertainment/10-quirky-celeb-twitter-handles-to-follow/13996 "><img style="margin-right:20px;" align="left" height="53" width="81" pg="toiwomenpic" alt="10 quirkiest celebrity Twitter handles" title="10 quirkiest celebrity Twitter handles" ag="" _src="/thumb/14866463.cms?width=81&amp;height=53"></a><span class="normtxt"><ul><li><a pg="WomenPos#2" target="_blank" href="http://idiva.com/photogallery-relationships/5-benefits-of-sexual-fantasies/9274">Why you should have sexual fantasies</a></li><li><a pg="WomenPos#3" target="_blank" href="http://luxpresso.com/photogallery-lifestyle/how-qatars-85bn-wealth-fund-is-funding-global-empire/13997">Qatari royal family is most powerful</a></li><li><a pg="WomenPos#4" target="_blank" href="http://idiva.com/photogallery-entertainment/mustsee-best-bollywood-award-show-hosts/13869">Hottest award show hosts</a></li></ul></span></div></div><div class="fltright"><a style="font-weight:bold" class="more" target="_blank" href="http://idiva.com/" pg="WomenMore">More from women<span style="padding-left:2px">&raquo;</span></a></div></div></div><div class="clrbth1"></div><div><div class="leftblk"><div class="header2"><div class="fltleftnew sprit"><h3 class="spritclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" target="" href="http://timesofindia.speakingtree.in" pg="spritM" onmouseout="this.style.cssText='color:none;dispaly:inline;'">SPIRITUALITY</a></h3></div></div><div class="contr1"><div><a pg="sprit#1" href="http://timesofindia.speakingtree.in/spiritual-blogs/seekers/wellness/yoga-for-every-age-surya-namaskar">Yoga for every age: Surya Namaskar</a></div><div style="float:left;width:320px;"><a href="http://timesofindia.speakingtree.in/spiritual-blogs/seekers/wellness/yoga-for-every-age-surya-namaskar"><img style="margin-right:20px;" align="left" height="53" width="81" pg="spritP" alt="Yoga for every age: Surya Namaskar" title="Yoga for every age: Surya Namaskar" ag="" _src="/thumb/14864840.cms?width=81&amp;height=53"></a><span class="normtxt"><ul><li><a pg="sprit#2" href="http://timesofindia.speakingtree.in/spiritual-blogs/seekers/wellness/7-ways-to-beat-your-worries">7 ways to beat your worries</a></li><li><a pg="sprit#3" href="http://timesofindia.speakingtree.in/spiritual-blogs/seekers/philosophy/friday-the-13th-why-fear-this-day">Friday the 13th: Why fear this day? </a></li><li><a pg="sprit#4" href="http://timesofindia.speakingtree.in/spiritual-blogs/seekers/meditation/the-praying-mantis-a-metaphor-for-prayer">The praying mantis: A metaphor for prayer</a></li></ul></span></div></div><div class="fltright"><a style="font-weight:bold" class="more" target="" href="http://timesofindia.speakingtree.in" pg="spritMore">More from <p style="text-transform:capitalize;display:inline;">spirituality</p><span style="padding-left:2px">&raquo;</span></a></div></div><div class="rightblk"><div class="header2"><div class="fltleftnew eductn"><h3 class="eductnclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" target="" href="/home/education/news/articlelist/913168846.cms " pg="eductnM" onmouseout="this.style.cssText='color:none;dispaly:inline;'">EDUCATION</a></h3></div></div><div class="contr1"><div><a pg="eductn#1" href="/home/education/news/7th-cutoff-today-new-quota-norm-for-OBC/articleshow/14968178.cms">7th cutoff today, new quota norm for OBC</a></div><div style="float:left;width:320px;"><a href="/home/education/news/7th-cutoff-today-new-quota-norm-for-OBC/articleshow/14968178.cms"><img style="margin-right:20px;" align="left" height="53" width="81" pg="eductnP" alt="7th cutoff today, new quota norm for OBC" title="7th cutoff today, new quota norm for OBC" ag="" _src="/thumb/14968178.cms?width=81&amp;height=53"></a><span class="normtxt"><ul><li><a pg="eductn#2" href="/home/education/news/IGNOU-to-start-course-on-power-distribution/articleshow/14983692.cms">IGNOU to start course on power distribution</a></li><li><a pg="eductn#3" href="/home/education/news/Students-made-to-wait-endlessly-for-scholarship/articleshow/14936363.cms">Students made to wait endlessly for scholarship</a></li><li><a pg="eductn#4" href="/home/education/news/National-School-of-Drama-to-launch-certificate-course-in-Tripura/articleshow/14974127.cms">National School of Drama to launch certificate course in Tripura</a></li></ul></span></div></div><div class="fltright"><a style="font-weight:bold" class="more" target="" href="/home/education/news/articlelist/913168846.cms " pg="eductnMore">More from Education<span style="padding-left:2px">&raquo;</span></a></div></div></div><div class="clrbth1"></div><div><div class="leftblk"><div class="header2"><div class="fltleftnew opinion"><h3 class="opninclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" onmouseout="this.style.cssText='color:none;dispaly:inline;'" target="" href="/articlelist/784865811.cms" pg="OpMain">OPINION</a></h3></div></div><div class="mn"><ul><li><a pg="OpPos#1" href="/home/opinion/edit-page/Stop-the-waffling/articleshow/14963008.cms">Stop the waffling</a></li></ul></div><div class="contr1"><ul style="clear:both;"><li class="normtxt"><a pg="OpPos#2" href="/home/opinion/edit-page/Libya-makes-history/articleshow/14962829.cms">Libya makes history</a></li><li class="normtxt"><a pg="OpPos#3" href="/home/opinion/edit-page/An-Indian-sense-of-being/articleshow/14962659.cms">An Indian sense of being</a></li><li class="normtxt"><a pg="OpPos#4" href="/home/opinion/edit-page/Lets-not-romanticise-Maoists--or-demonise-security-forces/articleshow/14962529.cms">'Let's not romanticise Maoists - or demonise security forces'</a></li></ul></div><div class="fltright"><a class="more" pg="OpMore" href="/articlelist/784865811.cms"><b>More from <p style="text-transform:capitalize;display:inline;">opinion</p></b><span style="padding-left:2px;">&raquo;</span></a></div></div><div class="rightblk"><div class="header2"><div class="fltleftnew suntoi"><h3 class="sutoiclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" onmouseout="this.style.cssText='color:none;dispaly:inline;'" target="" href="/articlelist/1945062111.cms" pg="SunMain">SUNDAY TOI</a></h3></div></div><div class="mn"><ul><li><a pg="SunPos#1" href="/home/sunday-toi/all-that-matters/With-allies-like-these--/articleshow/14915660.cms">With allies like these...</a></li></ul></div><div class="contr1"><ul style="clear:both;"><li class="normtxt"><a pg="SunPos#2" href="/home/sunday-toi/special-report/Now-save-the-purple-frog/articleshow/14925381.cms">Now save the purple frog</a></li><li class="normtxt"><a pg="SunPos#3" href="/home/sunday-toi/special-report/The-amazing-story-of-Barun-Biswas/articleshow/14925465.cms">The amazing story of Barun Biswas</a></li><li class="normtxt"><a pg="SunPos#4" href="/home/sunday-toi/special-report/Kid-soldiers-for-diabetes-war/articleshow/14923583.cms">Kid soldiers for diabetes war</a></li></ul></div><div class="fltright"><a class="more" pg="SunMore" href="/articlelist/1945062111.cms"><b>More from <p style="text-transform:capitalize;display:inline;">sunday toi</p></b><span style="padding-left:2px;">&raquo;</span></a></div></div></div><div class="clrbth1"></div><div><div class="leftblk"><div class="header2"><div class="fltleftnew opinion"><h3 class="opninclr"><a onMouseOver="this.style.cssText='color:#024D99'" pg="MTMVMain" style="cursor:pointer" target="_blank" href="/debatelist/2138952.cms" onmouseout="this.style.cssText='color:none;dispaly:inline;'">SPEAK OUT</a></h3></div></div><div class="mn"><ul><li><a pg="MTMVPos#1" href="http://timesofindia.indiatimes.com/home/speak-out/debateshow/14769965.cms">What should be done to rectify the negligible representation of women in parliament?</a></li></ul></div><div class="contr1"><ul style="clear:both;"><li class="normtxt"><a pg="MTMVPos#2" target="_blank" href="http://timesofindia.indiatimes.com/home/speak-out/debateshow/14769930.cms">Should civic agencies be blamed for waterlogging in Lucknow?</a></li></ul></div><div class="fltright"><a pg="MTMVMore" class="more" target="_blank" href="/debatelist/2138952.cms"><b>More from<p pg="MTMVMore" style="text-transform:capitalize;display:inline;"> Speak Out</p></b><span style="padding-left:2px;">&raquo;</span></a></div></div><div class="rightblk"><div style="width:330px;" class="header2"><div class="fltleftnew zigwheel"><h3 class="zigclr"><a onmouseover="this.style.cssText='color:#024D99'" target="_blank" href="http://zigwheels.com/index.php?host=TOI" pg="ZigMain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">AUTO</a></h3></div></div><div style="width:330px;" class="contr"><ul style="clear:both"><li style="font-family:georgia,Arial,Helvetica,sans-serif;font-size:15px;font-weight:bold;"><b><a pg="ZigPos#1" target="_blank" href="http://www.zigwheels.com/reviews-advice/reviews/hyundai-elantra-first-drive/13539/1">Hyundai Elantra: First Drive</a></b></li><li><a pg="ZigPos#2" target="_blank" href="http://www.zigwheels.com/news-features/recent-launches/2012-mitsubishi-cedia-select-launched/13563/1">2012 Mitsubishi Cedia Select launched</a></li><li><a pg="ZigPos#3" target="_blank" href="http://www.zigwheels.com/news-features/news/evs-out-to-disprove-nay-sayers/13565/1">EVs out to disprove nay sayers</a></li><li><a pg="ZigPos#4" target="_blank" href="http://www.zigwheels.com/news-features/news/daimler-india-to-roll-out-six-products-this-year/13567/1">Daimler India to roll out six products this year</a></li></ul></div><div style="float:right;"><a class="more" pg="ZigMore" target="_blank" href="http://zigwheels.com/index.php?host=TOI"><b>More from <p style="text-transform:capitalize;display:inline;">auto</p></b><span style="padding-left:2px">&raquo;</span></a></div></div></div><div class="clrbth1"></div><div><div class="leftblk"><div class="header2"><div class="fltleftnew tech"><h3 class="techclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" target="" href="/nrihome.cms" pg="toiNRImain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">NRI</a></h3></div></div><div class="contr1"><div><a pg="NRIPos#1" href="/nri/middle-east-news/NRI-facilitates-computer-lessons-for-Vidarbha-farmers/articleshow/14962789.cms">NRI facilitates computer lessons for Vidarbha farmers</a></div><div style="float:left;width:320px;"><a href="/nri/middle-east-news/NRI-facilitates-computer-lessons-for-Vidarbha-farmers/articleshow/14962789.cms"><img style="margin-right:20px;" align="left" height="53" width="81" pg="toiNRIpic" alt="NRI facilitates computer lessons for Vidarbha farmers" title="NRI facilitates computer lessons for Vidarbha farmers" ag="" _src="/thumb/14962789.cms?width=81&amp;height=53"></a><span class="normtxt"><ul><li><a pg="NRIPos#2" href="/nri/other-news/Illegal-immigration-makes-survey-on-Punjab-NRIs-futile/articleshow/14925728.cms">Illegal immigration makes survey on Punjab NRIs futile</a></li><li><a pg="NRIPos#3" href="/nri/other-news/Indian-origin-conman-turns-dumb-to-avoid-UK-jail/articleshow/14867210.cms">Indian-origin conman turns dumb to avoid UK jail</a></li><li><a pg="NRIPos#4" href="/nri/us-canada-news/Indian-businessman-in-New-York-pleads-guilty-to-illegal-ivory-sales/articleshow/14861716.cms">Indian businessman in NY pleads guilty to illegal ivory sales</a></li></ul></span></div></div><div class="fltright"><a style="font-weight:bold" class="more" target="" href="/nrihome.cms" pg="toiNRImore">More from NRI<span style="padding-left:2px">&raquo;</span></a></div></div><div class="rightblk"><div class="header2"><div class="fltleftnew city"><h3 class="ctyclr1"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" target="" href="http://www.timescrest.com" pg="toicrestMain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">TIMES CREST</a></h3></div></div><div class="contr1"><div><a pg="toicrestPos#1" href="http://www.timescrest.com/coverstory/lights-tights-action-8304">Lights, tights, action!</a></div><div style="float:left;width:320px;"><a href="http://www.timescrest.com/coverstory/lights-tights-action-8304"><img style="margin-right:20px;" align="left" height="53" width="81" pg="toicrestpic" alt="Lights, tights, action!" title="Lights, tights, action!" ag="" _src="/thumb/14729706.cms?width=81&amp;height=53"></a><span class="normtxt"><ul><li><a pg="toicrestPos#2" href="http://www.timescrest.com/coverstory/motorcycle-diary-8325">Motorcycle diary</a></li><li><a pg="toicrestPos#3" href="http://www.timescrest.com/culture/critics-trash-my-films-people-love-them-8327">Critics trash my films, people love them</a></li><li><a pg="toicrestPos#4" href="http://www.timescrest.com/society/gangetic-pain-8312">Gangetic pain</a></li></ul></span></div></div><div class="fltright"><a style="font-weight:bold" class="more" target="" href="http://www.timescrest.com" pg="toicrestMore">More from <p style="text-transform:capitalize;display:inline;">times crest</p><span style="padding-left:2px">&raquo;</span></a></div></div></div><div class="clrbth"></div><div><table style="background-color:#f1f1f1;"><tr><td height="3" colspan="2"></td></tr><tr><td valign="top" style="padding-right:3px;"><table style="padding-bottom:10px;" border="0" class="phototxt" width="328px"><tr><td style="padding-left:5px" colspan="3"><h3><a onmouseover="this.style.cssText='color:#024D99;font-size:15px;'" style="color:#000000;font-size:15px;" href="http://photogallery.indiatimes.com/" onmouseout="this.style.cssText='color:#000000;font-size:15px;'" pg="Photo">PHOTOS</a></h3></td></tr><tr><td style="padding:0 3px 0 3px" width="100"><a href="http://photogallery.indiatimes.com/celebs/celeb-themes/hottest-playboy-covers/Jenny-McCarthy/articleshow/14935289.cms"><img height="65" width="88" align="center" border="0" pg="toiphotoimg#1" _src="/thumb/14984317.cms?width=88&amp;height=65" alt="Juliana Palermo goes topless" title="Juliana Palermo goes topless" ag=""></a><br><span><a pg="P_Pos#1" href="http://photogallery.indiatimes.com/celebs/celeb-themes/hottest-playboy-covers/Jenny-McCarthy/articleshow/14935289.cms">Juliana Palermo goes topless</a></span></td><td style="padding:0 3px 0 3px" width="100"><a href="http://photogallery.indiatimes.com/movies/premiere/premiere-cocktail/articleshow/14904518.cms"><img height="65" width="88" align="center" border="0" pg="toiphotoimg#2" _src="/thumb/14984382.cms?width=88&amp;height=65" alt="Stars @ 'Cocktail' premiere" title="Stars @ 'Cocktail' premiere" ag=""></a><br><span><a pg="P_Pos#2" href="http://photogallery.indiatimes.com/movies/premiere/premiere-cocktail/articleshow/14904518.cms">Stars @ 'Cocktail' premiere</a></span></td><td style="padding:0 3px 0 3px" width="100"><a href="http://photogallery.indiatimes.com/celebs/celeb-themes/bold-acts-in-bwood/articleshow/14823028.cms"><img height="65" width="88" align="center" border="0" pg="toiphotoimg#3" _src="/thumb/14866894.cms?width=88&amp;height=65" alt="Bold acts in B'wood!" title="Bold acts in B'wood!" ag=""></a><br><span><a pg="P_Pos#3" href="http://photogallery.indiatimes.com/celebs/celeb-themes/bold-acts-in-bwood/articleshow/14823028.cms">Bold acts in B'wood!</a></span></td></tr><tr><td class="more" colspan="3"><a href="http://photogallery.indiatimes.com/"><b pg="P_More">More from Photos</b><span>&raquo;</span></a></td></tr></table></td><td style="border-left:solid 1px #cccccc;" width="1">&nbsp;</td><td valign="top"><table style="padding-bottom:10px;" border="0" class="phototxt" width="328px"><tr><td style="padding-left:5px" colspan="3"><h3><a onmouseover="this.style.cssText='color:#024D99;font-size:15px;'" style="color:#000000;font-size:15px;" href="/videolist/3812890.cms" onmouseout="this.style.cssText='color:#000000;font-size:15px;'" pg="Video">VIDEOS</a></h3></td></tr><tr><td style="padding:0 3px 0 3px" width="100"><a href="http://timesofindia.indiatimes.com/videos/celebs/Kat-a-belly-dancer-in-Ek-Tha-Tiger/videoshow/14903540.cms"><img height="65" width="88" align="center" border="0" pg="toivideoimg#1" _src="/thumb/14903540.cms?width=88&amp;height=65" alt="Kat a belly dancer!" title="Kat a belly dancer!" ag=""></a><br><span><a pg="V_Pos#1" href="http://timesofindia.indiatimes.com/videos/celebs/Kat-a-belly-dancer-in-Ek-Tha-Tiger/videoshow/14903540.cms">Kat a belly dancer!</a></span></td><td style="padding:0 3px 0 3px" width="100"><a href="http://timesofindia.indiatimes.com/videos/celebs/Mallika-Sherawat-to-host-gay-bash/videoshow/14908602.cms"><img height="65" width="88" align="center" border="0" pg="toivideoimg#2" _src="/thumb/14908602.cms?width=88&amp;height=65" alt="Mallika to host a gay bash" title="Mallika to host a gay bash" ag=""></a><br><span><a pg="V_Pos#2" href="http://timesofindia.indiatimes.com/videos/celebs/Mallika-Sherawat-to-host-gay-bash/videoshow/14908602.cms">Mallika to host a gay bash</a></span></td><td style="padding:0 3px 0 3px" width="100"><a href="http://timesofindia.indiatimes.com/videos/celebs/BigB-to-act-in-a-Tollywood-ad-with-South-stars/videoshow/14902512.cms"><img height="65" width="88" align="center" border="0" pg="toivideoimg#3" _src="/thumb/14902512.cms?width=88&amp;height=65" alt="BigB to act in a Tollywood ad" title="BigB to act in a Tollywood ad" ag=""></a><br><span><a pg="V_Pos#3" href="http://timesofindia.indiatimes.com/videos/celebs/BigB-to-act-in-a-Tollywood-ad-with-South-stars/videoshow/14902512.cms">BigB to act in a Tollywood ad</a></span></td></tr><tr><td class="more" colspan="3"><a href="/videolist/3812890.cms"><b pg="V_More">More from Videos</b><span>&raquo;</span></a></td></tr></table></td></tr><tr><td height="3" colspan="2"></td></tr></table></div><div class="clrbth"></div><div><div id="LargeWrapper"><div class="HeadBg"><div class="fl txt"><a style="color:#393939;font-size:18px;" onmouseover="this.style.cssText='color:#024D99;font-size:18px;'" onmouseout="this.style.cssText='color:#393939;font-size:18px;'" target="_blank" href="http://gaana.com/music-album/">ALBUMS</a></div><div class="fr"><a target="_blank" class="fl" href="http://gaana.com/redirect.php?section=home&amp;url=http://gaana.com"><img border="0" class="PoweredLogo" alt="" src="/photo/11350517.cms"></a></div><div class="cl"></div></div><div class="ThumbBg"><div class="Thumb"><div><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Ek_Main_Aur_Ekk_Tu_58355"><img border="0" width="95px;" alt="Ek Main Aur Ekk Tu" src="http://gaana.com/images/albums/55/58355/crop_110x110_58355.jpg"></a></div><div class="ThumbTxt"><div class="fl wid79"><span class="BlueTxtThumb"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Ek_Main_Aur_Ekk_Tu_58355">Ek Main Aur Ekk Tu</a></span><span class="GrayTxtThumb"><a style="cursor:default;text-decoration:none;">Various Artists</a></span></div><div class="fr"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Ek_Main_Aur_Ekk_Tu_58355"><img class="Plybtn" alt="Play" src="/photo/11350517.cms"></a></div><div class="cl"></div></div></div><div class="Thumb"><div><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Teri_Rehmatein_58699"><img border="0" width="95px;" alt="Ek Main Aur Ekk Tu" src="http://gaana.com/images/albums/99/58699/crop_110x110_58699.jpg"></a></div><div class="ThumbTxt"><div class="fl wid79"><span class="BlueTxtThumb"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Teri_Rehmatein_58699">Teri Rehmatein</a></span><span class="GrayTxtThumb"><a style="cursor:default;text-decoration:none;">Various Artists</a></span></div><div class="fr"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Teri_Rehmatein_58699"><img class="Plybtn" alt="Play" src="/photo/11350517.cms"></a></div><div class="cl"></div></div></div><div class="Thumb"><div><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Dhoni_58891"><img border="0" width="95px;" alt="Ek Main Aur Ekk Tu" src="http://gaana.com/images/albums/91/58891/crop_110x110_58891.jpg"></a></div><div class="ThumbTxt"><div class="fl wid79"><span class="BlueTxtThumb"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Dhoni_58891">Dhoni</a></span><span class="GrayTxtThumb"><a style="cursor:default;text-decoration:none;">Various Artists</a></span></div><div class="fr"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Dhoni_58891"><img class="Plybtn" alt="Play" src="/photo/11350517.cms"></a></div><div class="cl"></div></div></div><div class="Thumb"><div><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/London_Paris_Newyork_58863"><img border="0" width="95px;" alt="Ek Main Aur Ekk Tu" src="http://gaana.com/images/albums/63/58863/crop_110x110_58863.jpg"></a></div><div class="ThumbTxt"><div class="fl wid79"><span class="BlueTxtThumb"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/London_Paris_Newyork_58863">London Paris Newyork</a></span><span class="GrayTxtThumb"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/artist/ali-zafar-13333">Ali Zafar</a></span></div><div class="fr"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/London_Paris_Newyork_58863"><img class="Plybtn" alt="Play" src="/photo/11350517.cms"></a></div><div class="cl"></div></div></div><div class="Thumb"><div><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Darkness_58552"><img border="0" width="95px;" alt="Ek Main Aur Ekk Tu" src="http://gaana.com/images/albums/52/58552/crop_110x110_58552.jpg"></a></div><div class="ThumbTxt"><div class="fl wid79"><span class="BlueTxtThumb"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Darkness_58552">Darkness</a></span><span class="GrayTxtThumb"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/artist/leonard-cohen-13609">Leonard Cohen</a></span></div><div class="fr"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Darkness_58552"><img class="Plybtn" alt="Play" src="/photo/11350517.cms"></a></div><div class="cl"></div></div></div><div class="Thumb"><div><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Joor_-_The_Confluence%3A_Rahat_And_Kailash_58782"><img border="0" width="95px;" alt="Ek Main Aur Ekk Tu" src="http://gaana.com/images/albums/82/58782/crop_110x110_58782.jpg"></a></div><div class="ThumbTxt"><div class="fl wid79"><span class="BlueTxtThumb"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Joor_-_The_Confluence%3A_Rahat_And_Kailash_58782">Joor - The Confluence: Rahat And Kailash</a></span><span class="GrayTxtThumb"><a style="cursor:default;text-decoration:none;">Various Artists</a></span></div><div class="fr"><a target="_blank" href="http://gaana.com/redirect.php?section=home&amp;url=/streamalbums/Joor_-_The_Confluence%3A_Rahat_And_Kailash_58782"><img class="Plybtn" alt="Play" src="/photo/11350517.cms"></a></div><div class="cl"></div></div></div><div class="cl"></div></div></div></div><div class="clrbth"></div><div style="text-align:center;"><a href="/toi2minutes.cms"><img pg="DwnloadNow" title="TOI 2 min" alt="TOI 2 min" width="300" src="/photo/8394037.cms" border="0"></a></div></td><td class="maintable13"><div class="clrbth1"></div><div class="clrbth"></div><div id="ad36641" name="ad36641" align="center"></div><iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="80" width="300" src="http://netspiderads2.indiatimes.com/ads.dll/getad?slotid=36641" id="fr36641" name="fr36641"><a target="_blank" href="http://netspiderads2.indiatimes.com/ads.dll/clickthrough?slotid=36641"><img alt="Advertisement" height="80" width="300" border="0" src="http://netspiderads2.indiatimes.com/ads.dll/photoserv?slotid=36641"></a></iframe><div name="ad205" id="ad205"></div><div class="clrbth1"></div><div><div class="header2"><div class="fltleftnew entment"><h3 class="entclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" href="/articlelistls/1081479906.cms" pg="EntMain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">ENTERTAINMENT</a></h3></div></div><div class="contr1"><div><a pg="EntPos#1" href="/entertainment/music/news-and-interviews/Halkat-Jawani-wasnt-for-Aishwarya-Salim-Merchant/articleshow/14953153.cms">Halkat Jawani wasn't for Ash: Salim</a></div><div style="width:300px;"><a href="/entertainment/music/news-and-interviews/Halkat-Jawani-wasnt-for-Aishwarya-Salim-Merchant/articleshow/14953153.cms"><img style="margin-right:20px;" align="left" height="53" width="81" pg="toientpic" alt="Halkat Jawani wasn't for Ash: Salim" title="Halkat Jawani wasn't for Ash: Salim" ag="" src="/photo/14953153.cms"></a><span class="normtxt"><ul><li><a pg="EntPos#2" href="/entertainment/bollywood/news-interviews/Aamir-Khan-to-meet-PM-on-problems-of-manual-scavengers/articleshow/14954317.cms">Aamir Khan to meet PM</a></li><li><a pg="EntPos#3" href="/entertainment/bollywood/news-interviews/Rani-Mukerji-rescues-a-stray-dog/articleshow/14949991.cms">Rani rescues a stray dog</a></li><li><a pg="EntPos#4" href="/entertainment/bollywood/news-interviews/Celinas-sale-time-splurge/articleshow/14950140.cms">Celina&rsquo;s sale time splurge</a></li></ul></span></div></div></div><div style="clear:both"></div><div><div class="movierw"><span><b><a href="/entertainment/movie-reviews/articlelistls/135762.cms">Reviews</a>: </b></span><span><a pg="MRevpos#1" href="/entertainment/movie-reviews/hindi/Cocktail/movie-review/14820712.cms">Cocktail</a></span><span> | </span><span><a pg="MRevpos#2" href="/entertainment/movie-reviews/english/The-Intouchables/movie-review/14821471.cms ">The Intouchables</a></span><span> | </span><span><a pg="MRevpos#3" href="/entertainment/movie-reviews/english/Abraham-Lincoln-Vampire-Hunter/movie-review/14821527.cms ">Abraham Lincoln: Vampire Hunter</a></span><span></span></div><div style="padding-top:5px" class="movierw"><span><b><a href="/entertainment/movie-previews/articlelistls/6775969.cms">Previews</a>: </b></span><span><a pg="MovArt#1" href="/entertainment/previews/bollywood/Rush/articleshow/14774936.cms">Rush</a></span><span> | </span><span><a pg="MovArt#2" href="/entertainment/previews/first-look/Ek-Tha-Tiger/articleshow/13523190.cms">Ek Tha Tiger</a></span></div></div><div class="clrbth1"></div><div><div class="movierw"><span><b><a href="/entertainment/regional/articlelistls/4724966.cms">Regional</a>: </b></span><span><a pg="MRevpos#1" href="http://timesofindia.indiatimes.com/entertainment/regional/Bhojpuri/articlelistls/14638089.cms">Bhojpuri</a><span style="font-size:10px;font-family:10px;color:#ff0000;padding-left:2px;">New</span></span><span> | </span><span><a pg="MRevpos#2" href="http://timesofindia.indiatimes.com/entertainment/regional/malayalam/articlelistls/12934558.cms">Malayalam</a></span><span> | </span><span><a pg="MRevpos#3" href="http://timesofindia.indiatimes.com/entertainment/regional/marathi/articlelistls/13924325.cms">Marathi</a><span style="font-size:10px;font-family:10px;color:#ff0000;padding-left:2px;">New</span></span><span></span></div><div style="float:right"><a class="more" pg="EntMore" href="articlelistls/1081479906.cms"><b pg="EntMore">More from Entertainment</b> <span>&raquo;</span></a></div></div><div class="clrbth1"></div><div><iframe allowtransparency="true" title="Advertisement" vspace="0" hspace="0" marginheight="0" marginwidth="0" src="http://timesofindia.indiatimes.com/configspace/ads/TOIHP_Right.html" align="middle" scrolling="no" width="300" frameborder="0" height="85"></iframe></div><div class="clrbth1"></div><div><div class="header2"><div class="fltleftnew htw"><h3 class="htwclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" href="http://timesofindia.hotklix.com/" target="_blank" pg="HotMain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">HOT ON THE WEB</a></h3></div></div><div class="contr1"><div><a pg="HotPos#1" target="_blank" href="http://timesofindia.hotklix.com/content/Movies/Bollywood/Amy-Jackson-s-naked-photo-shoot">Bollywood starlet's naked photo shoot</a></div><div style="width:300px;"><a href="http://timesofindia.hotklix.com/content/Movies/Bollywood/Amy-Jackson-s-naked-photo-shoot"><img style="margin-right:20px;" align="left" height="53" width="81" pg="toihotwebpic" alt="Bollywood starlet's naked photo shoot" title="Bollywood starlet's naked photo shoot" ag="" src="/photo/14949987.cms"></a><span class="normtxt"><ul><li><a pg="HotPos#2" target="_blank" href="http://timesofindia.hotklix.com/content/Lifestyle/Sex-Relationship/Dirty-fantasies-in-bed">Dirty sexual fantasies in bed!</a></li><li><a pg="HotPos#3" target="_blank" href="http://timesofindia.hotklix.com/content/Bizarre/Another-sex-racket-busted">Another sex racket BUSTED</a></li><li><a pg="HotPos#4" target="_blank" href="http://timesofindia.hotklix.com/content/Movies/Hollywood/Playboy-playmate-slips-out-of-her-bikini">Playboy playmate slips out of her bikini</a></li></ul></span></div></div><div style="float:right;"><a class="more" pg="HotMore" target="_blank" href="http://timesofindia.hotklix.com/"><b>More from  Hot On The Web</b><span style="padding-left:2px;">&raquo;</span></a></div></div><div class="clrbth"></div><div><div class="header2"><div class="fltleftnew itime"><h3 class="itmsclr"><a onmouseover="this.style.cssText='color:#024D99'" style="cursor:pointer" href="http://www.itimes.com" target="_blank" onmouseout="this.style.cssText='color:#o24d99;dispaly:inline;'" pg="ItMain">ITIMES</a></h3></div></div><div class="contr1"><div><a pg="ItPos#1" target="_blank" href="http://www.itimes.com/public/groups/Celeb-goof-ups/album/Celeb-goof-ups_37951">Unseen pics: Celebs 'oops' moments</a></div><div style="float:left;width:300px;"><a href="http://www.itimes.com/public/groups/Celeb-goof-ups/album/Celeb-goof-ups_37951"><img style="margin-right:20px;" align="left" height="53" width="81" pg="toiitimespic" alt="Unseen pics: Celebs 'oops' moments" title="Unseen pics: Celebs 'oops' moments" ag="" src="/photo/14938061.cms"></a><span class="normtxt"><ul><li><a pg="ItPos#2" target="_blank" href="http://www.itimes.com/public/groups/Our-Relationship-Issues/topic/Found-wifes-sex-tape-with-ex">'Caught wife's sex tape with ex'</a></li><li><a pg="ItPos#3" target="_blank" href="http://www.itimes.com/public/groups/Worlds-most-weird-bizarre/album/Boob-cakes_71448">Pics: Cakes only for men</a></li><li><a pg="ItPos#4" target="_blank" href="http://www.itimes.com/public/groups/Bollywoods-Bold-and-the-Beautiful/album/Sherlyn-Chopra_67856">Photos: Playgirl Sherlyn Chopra goes nude</a></li></ul></span></div></div><div style="float:right;"><a class="more" pg="ItMore" href="http://www.itimes.com"><b>More from ITimes</b><span style="padding-left:2px">&raquo;</span></a></div></div><div class="clrbth"></div><div><div class="header2"><div class="fltleftnew zigwheel"><h3 class="zigclr"><a target="_blank" onmouseover="this.style.cssText='color:#024D99'" onmouseout="this.style.cssText='color:none;dispaly:inline;'" style="cursor:pointer" href="http://content.magicbricks.com/?fromSite=toi&amp;utm_source=toi&amp;utm_medium=referral&amp;utm_campaign=toi-mb-whitelabel">REAL ESTATE</a></h3></div></div><div style="float:left;" class="contr1"><div style="padding-top:3px"><a pg="" target="_blank" href="http://content.magicbricks.com/office-space-segment-strong-in-bangalore/?fromSite=toi&amp;utm_source=toi&amp;utm_medium=referral&amp;utm_campaign=toi-mb-whitelabel">Office space segment strong in Bangalore</a></div><div style="width:300px;"><span class="normtxt"><ul><li><a pg="" target="_blank" href="http://content.magicbricks.com/hyderabad-metropolitan-development-authority-hikes-development-charges/?fromSite=toi&amp;utm_source=toi&amp;utm_medium=referral&amp;utm_campaign=toi-mb-whitelabel">Hyderabad Metropolitan Development Authority hikes development charges </a></li><li><a pg="" target="_blank" href="http://content.magicbricks.com/use-pebbles-to-give-a-chic-and-contemporary-look-to-your-home/?fromSite=toi&amp;utm_source=toi&amp;utm_medium=referral&amp;utm_campaign=toi-mb-whitelabel">Use pebbles and give a chic and contemporary look to your house</a></li><li><a pg="" target="_blank" href="http://content.magicbricks.com/commercial-development-taking-place-in-segregated-hubs/?fromSite=toi&amp;utm_source=toi&amp;utm_medium=referral&amp;utm_campaign=toi-mb-whitelabel">Commercial development taking place in segregated hubs</a></li></ul></span></div></div><div style="float:right;"><a target="_blank" class="more" href="http://content.magicbricks.com/?fromSite=toi&amp;utm_source=toi&amp;utm_medium=referral&amp;utm_campaign=toi-mb-whitelabel">More from Real Estate
+				  <span style="padding-left:2px;">&raquo;</span></a></div></div><div class="clrbth"></div><div style="clear:both;" class="timespoint_block"><div class="top_head_bar"><div style="font-family:georgia;font-size:24px;color:#ffffff;text-align:center;padding-top:6px;">Times Rewards</div></div><div class="timespoint_center_block"><div class="timespoint_tab"><ul><li onClick="switchtabcomm1('timestab1#timestab2',0);timespoint('timestab1#timestab2',1);" class="current" id="timestab1"><a pg="asRead" href="javascript:void();">Top Members</a></li><li onClick="switchtabcomm1('timestab2#timestab1',0);timespoint('timestab2#timestab1',2);" id="timestab2"><a pg="asComm" href="javascript:void();">My Profile</a></li></ul></div><div class="clr"></div><div class="tabdatadiv2" id="timestab11"><iframe ALLOWTRANSPARENCY="true" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="334" width="300" src="/tpoint_fans1.cms?rndno=1" id="timestab1Data" name="timestab1Data"></iframe><div style="display:none;" id="timestab2Data" name="timestab2Data"><div id="logmsg"><div style="display:block; height:37px;clear:both;padding-bottom:10px;padding-top:10px;background-color:#1f5593;width:300px;"><div style="padding-left:25px;"><span class="login_linkone"><a class="login_link" href="javascript:loadPopup('4');scroll(0,0);">Sign in</a> to earn your Badges</span></div></div><div style="overflow:auto;" id="medal_div_one"><div style="height:145px;" id="usermedalnw"><div class="nl_badgein_five"><a id="tooltipdemo11" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img title="Moderator" alt="Moderator" src="http://static.rewards.indiatimes.com/images/ia/moderator.png" height="61" width="82"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">Moderator</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/moderator.png" style="cursor:auto" border="0" height="50" width="55"></div><div class="cont_right"><div class="badgesyn">Find and flag inappropriate comments on Timesofindia.com by marking them offensive. Earn the Moderator badge after your action is verified by the site editor</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">Moderator</div></div><div class="nl_badgein_five"><a id="tooltipdemo12" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img src="http://static.rewards.indiatimes.com/images/ia/wordsmith.png" alt="Wordsmith" title="Wordsmith" height="61" width="82"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">Wordsmith</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/wordsmith.png" style="cursor:auto" border="0" height="50" width="55"></div><div class="cont_right"><div class="badgesyn">Have an opinion? Express it and get the Wordsmith badge for posting relevant comments on articles and photos.</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">Wordsmith</div></div><div class="nl_badgein_five"><a id="tooltipdemo13" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img src="http://static.rewards.indiatimes.com/images/ia/ff.png" alt="Frequent Flyer" title="Frequent Flyer" height="61" width="82"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">Frequent Flyer</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/ff.png" style="cursor:auto" border="0" height="50" width="55"></div><div class="cont_right"><div class="badgesyn">Make Timesofindia.com your news hotspot. Visit the site regularly earn this badge.</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">Frequent Flyer</div></div><div class="nl_badgein_five"><a id="tooltipdemo14" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img src="http://static.rewards.indiatimes.com/images/ia/influencer.png" alt="Influencer" title="Influencer" height="61" width="82"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">Influencer</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/influencer.png" style="cursor:auto" border="0" height="50" width="55"></div><div class="cont_right"><div class="badgesyn">Your opinion matters! Get the influencer badge when other people Recommend or Agree with your comments on Timesofindia.com.</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">Influencer</div></div><div class="nl_badgein_five"><a id="tooltipdemo15" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img src="http://static.rewards.indiatimes.com/images/ia/newsking.png" alt="News King" title="News King" height="61" width="82"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">News King</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/newsking.png" style="cursor:auto" border="0" height="50" width="55"></div><div class="cont_right"><div class="badgesyn">Read articles, watch exclusive videos or browse through our photo gallery to become a News King on Timesofindia.com</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">News King</div></div><div class="nl_badgein_five"><a id="tooltipdemo16" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img src="http://static.rewards.indiatimes.com/images/ia/inboxer.png" alt="Inboxer" title="Inboxer" height="61" width="82"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">Inboxer</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/inboxer.png" style="cursor:auto" border="0" height="50" width="55"></div><div class="cont_right"><div class="badgesyn">Top Headlines in your inbox!  Subscribe to the TimesofIndia.com. newsletters and become an Inboxer.</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">Inboxer</div></div><div class="nl_badgein_five"><a id="tooltipdemo17" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img src="http://static.rewards.indiatimes.com/images/ia/member.png" alt="" title="" height="61" width="68"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">Member</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/member.png" style="cursor:auto" border="0" height="50" width="48"></div><div class="cont_right"><div class="badgesyn">Members are registered users on Timesofindia.com. Only they are qualified to earn badges and points for their activities. So register and get a badge right away!</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">Member</div></div><div class="nl_badgein_five"><a id="tooltipdemo18" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img src="http://static.rewards.indiatimes.com/images/ia/networker.png" alt="Networker" title="Networker" height="61" width="82"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">Networker</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/networker.png" style="cursor:auto" border="0" height="50" width="55"></div><div class="cont_right"><div class="badgesyn">Grow your network; get people to follow you to earn the Networker badge on Timesofindia.com.</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">Networker</div></div><div class="nl_badgein_five"><a id="tooltipdemo19" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img src="http://static.rewards.indiatimes.com/images/ia/sharekhaan.png" alt="Sharekhaan" title="Sharekhaan" height="61" width="82"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">Sharekhaan</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/sharekhaan.png" style="cursor:auto" border="0" height="50" width="55"></div><div class="cont_right"><div class="badgesyn">Share and recommend the articles, photos and videos you like on Timesofindia.com; earn the Sharekhaan badge!</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">Sharekhaan</div></div><div class="nl_badgein_five"><a id="tooltipdemo20" style="font-size:20px;"><div class="nl_badgeimg" align="center"><img src="http://static.rewards.indiatimes.com/images/ia/wc.png" alt="Well Connected" title="Well Connected" height="61" width="82"></div></a><div class="tooltip"><div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;"><div class="full_cont"><div class="leftone"><div class="textone_new">Well Connected</div></div><div class="rightone"><div class="texttwo"></div></div></div></div><div class="hoverblock_new_two"><div class="cont_pad"><div class="full_cont"><div class="cont_left"><img src="http://static.rewards.indiatimes.com/images/ia/wc.png" style="cursor:auto" border="0" height="50" width="55"></div><div class="cont_right"><div class="badgesyn">You can earn the Well Connected badge by linking your Facebook and Twitter accounts to your Times profile. Remember to add both your ids to get the badge!</div></div></div></div></div><div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;"></div></div><div class="nl_badgecaption">Well Connected</div></div></div></div></div><div style="position:absolute;display:none;left:10px;z-index:99999" id="tooltip"></div><div style="width:300px;float:left" id="loggedmsg"><div id="profile_blk"><div style="padding:0px !important;float:left"><div style="display:block; height:auto;clear:both;padding-bottom:4px;display:inline-block;background-color:#1f5593;width:300px;" id="toplev"><div style="padding-left:28px;"><div style="display:inline-block;" class="col1 user_image_left"><img src="/photo/11964050.cms" id="profileimg" alt="" title="" border="0" vspace="0" height="50" width="50"></div><div class="col2"><div style="padding-right:5px;text-transform:capitalize;word-wrap:break-word;" id="fname" class="pro_name"></div><div style="clear:both;"></div><div style="width:210px;height:30px;padding-top:5px;"><div style="float:left;" id="badgemember"></div></div></div></div><div class="clr"></div></div><div style="overflow:auto;" id="medal_div"><div style="height:145px;" id="usermedal"><img style="padding:100px 0px 0px 100px;" border="0" src="/photo.cms?msid=9649288" hspace="5"></div><div id="loadinglayer" style="display:none;left:45%;top:80px;text-align:center;font-size:12px;font-weight:bold;position:absolute;"><img border="0" src="/photo.cms?msid=9649288" hspace="5"></div></div></div></div></div></div></div><div class="clr"></div></div><div class="clr"></div><div><div class="knowmore"><ul style="list-style-image:none;margin-left:13px;margin-right:3px" class="textnew_one"><li>Points depicted in the Times Rewards Widget refer to points earned in a selected period i.e Today, Last Seven days etc.</li></ul><div><a target="_blank" href="http://timesofindia.indiatimes.com/abouttimesrewards.cms">Know more about Times Rewards</a></div><div class="clr"></div></div></div></div><div class="clrbth"></div><div class="header2"><div style="padding:2px 0 0 19px" class="fltleftnew poll"><h3 style="padding:0px;margin:0px" class="pollclr"><a onmouseover="this.style.cssText='color:024D99'" style="cursor:pointer" href="/pollslist/2238809.cms" pg="Main" onmouseout="this.style.cssText='color:none;dispaly:inline;'">POLL
+				  </a></h3></div></div><div style="clear:both"></div><div><script>function getElement(aID){
+				  return (document.getElementById) ?
+				  document.getElementById(aID) : document.all[aID];
+				  }
+				  function getIFrmDoc(aID){ 
+				  var rv = null; 
+				  var frame=getElement(aID);
+				  if (frame.contentDocument)
+				  rv = frame.contentDocument;
+				  else // bad IE  ;)
+				  rv = document.frames[aID].document;												
+				  return rv;
+				  }
+				  function adjustMyFrameHeight(){																	
+				  var frame = getElement("mailroifrm12");											
+				  var frameDoc = getIFrmDoc("mailroifrm12");											
+				  frame.height = frameDoc.body.scrollHeight;											
+				  }
+				  setTimeout("adjustMyFrameHeight();",2000)
+				</script>
+				<iframe id="mailroifrm12" valign="top" align="left" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" width="300" src="/poll.cms">
+				</iframe>
+			      </div>
+			      <div style="clear:both">
+			      </div>
+			      <div style="float:right">
+				<a class="more" pg="More" href="/pollslist/2238809.cms">
+				  <b>More from Poll
+				  </b> 
+				  <span>&raquo;
+				  </span>
+				</a>
+			      </div>
+			      <div class="clrbth1">
+			      </div>
+			      <div class="clrbth">
+			      </div>
+			      <div class="horoheader">
+				<div style="float:left;width:125px;">
+				  <div class="fltleftnew hscope">
+				  </div>
+				  <div style="float:right;padding-top:2px;">
+				    <h3 class="hscpclr">
+				      <a onmouseover="this.style.cssText='color:#024D99'" target="_blank" href="http://www.astrospeak.com" pg="HoroMain" onmouseout="this.style.cssText='color:none;dispaly:inline;'">HOROSCOPE
+
+				      </a>
+				    </h3>
+				  </div>
+				</div>
+				<div style="float:right;">
+				  <span style="padding-left:80px">
+				    <select style="font-size:12px" onChange="astrolist(this.value);">
+				      <option selected value="11">Aries
+				      </option>
+				      <option value="12">Taurus
+				      </option>
+				      <option value="13">Gemini
+				      </option>
+				      <option value="14">Cancer
+				      </option>
+				      <option value="15">Leo
+				      </option>
+				      <option value="16">Virgo
+				      </option>
+				      <option value="17">Libra
+				      </option>
+				      <option value="18">Scorpio
+				      </option>
+				      <option value="19">Sagittarius
+				      </option>
+				      <option value="20">Capricorn
+				      </option>
+				      <option value="21">Aquarius
+				      </option>
+				      <option value="22">Pisces
+				      </option>
+				    </select>
+				  </span>
+				</div>
+			      </div>
+			      <div style="clear:both">
+			      </div>
+			      <div name="hrdv" id="hrdv">
+			      </div>
+			      <div style="float:left;clear:both;font-size:13px;font-weight:normal;padding:5px 0px;">
+				<a target="_blank" href="http://www.astrospeak.com/astrology/premium-services/bejan-daruwalla/articleshow/4902010.cms">Seek advice from Bejan Daruwala
+				</a>
+				<br>
+				  <a target="_blank" href="http://www.astrospeak.com/astrology/premium-services/sanjay-b-jumaani/articleshow/9121814.cms">Consult World Renowned Numerologist Sanjay B Jumaani
+				  </a>
+				</div>
+				<div class="clrbth">
+				</div>
+				<div class="header2">
+				  <div class="fltleftnew epaper">
+				    <a style="cursor:pointer" target="_blank" href="http://epaper.timesofindia.com/">
+				      <h3 class="epaprclr" onmouseout="this.style.cssText='#8784A0'" onmouseover="this.style.cssText='color:#024D99'" pg="ePaperMain">EPAPER: Online replica of print
+				      </h3>
+				    </a>
+				  </div>
+				</div>
+				<div style="padding-top:10px">
+				  <a target="_blank" href="http://epaper.timesofindia.com">
+				    <img pg="ePaperpic" style="border:0px;margin-right:10px" align="left" height="61px" width="71px" border="0" ag="" src="/photo/4467783.cms">
+				    </a>
+				    <div>
+				      <span class="normtxt">Read online replica of your favourite edition of TOI anywhere.
+				      <br>
+				      </span>
+				    </div>
+				    <div>
+				      <select onChange="epaper(this.value);">
+					<option selected value="33">Select your edition
+					</option>
+					<option value="30">Ahmedabad
+					</option>
+					<option value="25">Bangalore
+					</option>
+					<option value="27">Chennai
+					</option>
+					<option value="24">Delhi
+					</option>
+					<option value="28">Hyderabad
+					</option>
+					<option value="32">Jaipur
+					</option>
+					<option value="26">Kolkata
+					</option>
+					<option value="31">Lucknow
+					</option>
+					<option value="23">Mumbai
+					</option>
+					<option value="29">Pune
+					</option>
+					<option value="34">The Crest Edition
+					</option>
+				      </select>
+				    </div>
+				  </div>
+				  <div class="clrbth">
+				  </div>
+				  <div style="background-color:#b5b5b5;border: 1px solid #E0E0E0;font-weight:bold;padding:5px;text-align:center;">
+				    <a pg="tributes" href="/calculator.cms" style="font-size:15px; text-transform:uppercase;">How Rich Are You?
+				    </a>
+				  </div>
+				  <div class="clrbth">
+				  </div>
+				  <div style="background-color:#b5b5b5;border: 1px solid #E0E0E0;font-weight:bold;padding:5px;text-align:center;">
+				    <a pg="tributes" href="/tributelist.cms" style="font-size:15px; text-transform:uppercase;">Obituaries / Tributes
+				    </a>
+				  </div>
+				  <div class="clrbth">
+				  </div>
+				  <table width="300px" border="0">
+				    <tr>
+				      <td width="300px">
+					<div class="tabsintbg1">
+					  <ul class="tabsint1">
+					    <li onClick="switchtabcomm('list1#list3#list4')" id="list1" class="current">
+					      <a pg="Shop">SHOP
+					      </a>
+					    </li>
+					    <li onClick="switchtabcomm('list3#list1#list4')" id="list3">
+					      <a pg="Mob">MOBILE 58888
+					      </a>
+					    </li>
+					    <li onClick="switchtabcomm('list4#list3#list1')" id="list4">
+					      <a pg="NRIEC" href="javascript:populatediv('/tmoney.cms?msid=-2128958273','list4Data')">NRI SOLUTIONS
+					      </a>
+					    </li>
+					  </ul>
+					</div>
+					<div class="tabdatadiv1">
+					  <div id="list1Data">
+					    <div id="ad679" name="ad679" align="center">
+					    </div>
+					    <iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="135" width="300" src="http://netspiderads3.indiatimes.com/ads.dll/getad?slotid=679" id="fr679" name="fr679">
+					      <a target="_blank" href="http://netspiderads3.indiatimes.com/ads.dll/clickthrough?slotid=679">
+						<img alt="Advertisement" height="135" width="300" border="0" src="http://netspiderads3.indiatimes.com/ads.dll/photoserv?slotid=679">
+						</a>
+					      </iframe>
+					    </div>
+					    <div style="display:none;" id="list3Data">
+					      <div class="contr">
+						<div style="padding-top:5px">
+						  <span>
+						    <a target="_blank" href="http://in.mobile.indiatimes.com/mobile/liveastro/index.html">
+						      <img hspace="3" align="left" height="53" width="81" pg="MobilePic" alt="Live Astrology" title="Live Astrology" ag="" _src="/photo/4761631.cms">
+						      </a>
+						    </span>
+						    <a pg="MobPos#1" target="_blank" href="http://in.mobile.indiatimes.com/mobile/liveastro/index.html">Live Astrology
+						    </a>
+						  </div>
+						  <span>Need an answer? Ask any of our renowned astrologers anytime, anywhere.
+						  </span>
+						</div>
+						<div style="clear:both">
+						</div>
+						<div>
+						  <table class="trvlshop" width="100%" border="0">
+						    <tr>
+						      <td class="brdrbtm">
+							<a pg="MobPos#2" target="_blank" href="http://www.mocolife.com/user/index.aspx">FREE SMS from PC to any mobile
+							</a>
+						      </td>
+						    </tr>
+						    <tr>
+						      <td class="brdrbtm">
+							<a pg="MobPos#3" target="_blank" href="http://mobile.indiatimes.com/cathome.html?ctype=8&amp;type=1">Best selling videos for your mobile
+							</a>
+						      </td>
+						    </tr>
+						    <tr>
+						      <td class="brdrbtm">
+							<a pg="MobPos#4" target="_blank" href="http://mobile.indiatimes.com/catdata.html?ctype=1&amp;cat=3&amp;type=0">Latest NEWS on your mobile
+							</a>
+						      </td>
+						    </tr>
+						  </table>
+						</div>
+						<div class="more">
+						  <a href="http://mobile.indiatimes.com/" pg="Mob_More">More 
+						  <span>&raquo;
+						  </span>
+						  </a>
+						</div>
+					      </div>
+					      <script>
+						function populatediv_def(urlval,divval){
+
+						populate_def(urlval,divval,'');
+						}
+						function populate_def(urlval,divval,loading){
+						try{
+						var xmlhttp=false;
+						var status=0;
+						if(loading != 'no'){			
+						var str_temp = '
+						<div style="padding-left:100px;font-size:12px;font-weight:bold;">
+						  <br/>
+
+						  <br/>
+
+						  <br/>
+						  Loading
+						  <span style="height:17px;width:16px;background:url(/photo/9719649.cms) -5px -1068px no-repeat;display:inline-block">
+						  </span>
+						  <br/>
+
+						  <br/>
+
+						  </div>';
+						  str_temp = str_temp + '';
+						  document.getElementById(divval).innerHTML = str_temp;}
+						  xmlhttp = window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP");
+						  if (xmlhttp){	
+						  xmlhttp.onreadystatechange=function(){
+						  if (xmlhttp.readyState==4){
+						  if (xmlhttp.status==200){	
+						  document.getElementById(divval).innerHTML=xmlhttp.responseText;
+
+						  }
+						  else if (xmlhttp.status==404) status=0
+						  else status=0}}
+						  xmlhttp.open("GET",urlval,true);
+						  xmlhttp.send(null);
+						  }}catch (e){xmlhttp = false; }}
+
+
+					      </script>
+					      <div style="display:none;width:295px;" id="list4Data">
+						<script>populatediv_def('/tmoney.cms?msid=-2128958273','list4Data');
+						</script>
+					      </div>
+					    </div>
+					  </td>
+					</tr>
+				      </table>
+				      <div class="clrbth">
+				      </div>
+				      <table cellspacing="0" cellpadding="0" width="300">
+					<tr>
+					  <td colspan="3" style="padding-bottom:5px">
+					    <div class="header2">
+					      <div class="fltleftnew leisure">
+						<h3 class="lsreclr">
+						  <span style="display:inline;">LEISURE
+						  </span>
+						</h3>
+					      </div>
+					    </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td class="contr" align="center">
+					    <a href="http://timesofindia.indiatimes.com/cartoonpics/14940802.cms">
+					      <img border="0" height="50px" width="80px" pg="toileispic#1" _src="/photo/14941107.cms" alt="Cartoons" title="Cartoons" ag="">
+					      </a>
+					      <br>
+						<span>
+						  <a pg="LeisPos#1" href="http://timesofindia.indiatimes.com/cartoonpics/14940802.cms">Cartoons
+						  </a>
+						</span>
+					      </td>
+					      <td class="contr" align="center">
+						<a href="/crosswords.cms">
+						  <img border="0" height="50px" width="80px" pg="toileispic#2" _src="/photo/4764250.cms" alt="Crossword" title="Crossword" ag="">
+						  </a>
+						  <br>
+						    <span>
+						      <a pg="LeisPos#2" href="/crosswords.cms">Crossword
+						      </a>
+						    </span>
+						  </td>
+						  <td class="contr" align="center">
+						    <a href="http://photogallery.indiatimes.com">
+						      <img border="0" height="50px" width="80px" pg="toileispic#3" _src="/photo/14729145.cms" alt="Photogallery" title="Photogallery" ag="">
+						      </a>
+						      <br>
+							<span>
+							  <a pg="LeisPos#3" href="http://photogallery.indiatimes.com">Photogallery
+							  </a>
+							</span>
+						      </td>
+						    </tr>
+						  </table>
+						  <div class="clrbth">
+						  </div>
+						  <script>showDCAdsRight2(0,0);
+						  </script>
+						  <div class="clrbth">
+						  </div>
+						  <div>
+						    <div class="header2">
+						      <div class="fltleftnew sponsrd">
+							<h3 class="sponsdclr">
+							  <span>LINKS
+							  </span>
+							</h3>
+						      </div>
+						    </div>
+						    <div>
+						      <span class="normtxt">
+							<ul>
+							  <li>
+							    <a pg="LinkPos#1" target="_blank" href="http://www.zigwheels.com/newcars/Renault/Duster">Renault Duster Price
+							    </a>
+							  </li>
+							  <li>
+							    <a pg="LinkPos#2" target="_blank" href="http://gaana.com/music-album/jism-2-62067">Jism 2 Songs
+							    </a>
+							  </li>
+							  <li>
+							    <a pg="LinkPos#3" target="_blank" href="http://gaana.com/newrelease/hindi">Listen Hindi Songs 
+							    </a>
+							  </li>
+							  <li>
+							    <a pg="LinkPos#4" target="_blank" href="http://shopping.indiatimes.com/rakhi-gifts">Rakhi Gifts
+							    </a>
+							  </li>
+							  <li>
+							    <a pg="LinkPos#5" target="_blank" href="http://timescity.com/mumbai/barsnclubs">Bars in Mumbai 
+							    </a>
+							  </li>
+							  <li>
+							    <a pg="LinkPos#6" target="_blank" href="http://www.zigwheels.com/used-car/Maruti-Suzuki">Used Maruti Cars
+							    </a>
+							  </li>
+							  <li>
+							    <a pg="LinkPos#7" target="_blank" href="http://gaana.com/genre/bollywood">Bollywood Songs
+							    </a>
+							  </li>
+							  <li>
+							    <a pg="LinkPos#8" href="http://www.zigwheels.com/used-car/delhi-230">Used Cars in Delhi
+							    </a>
+							  </li>
+							  <li>
+							    <a pg="LinkPos#9" target="_blank" href="http://www.zigwheels.com/used-car/mumbai-145">Used Cars in Mumbai
+							    </a>
+							  </li>
+							  <li>
+							    <a pg="LinkPos#10" target="_blank" href="http://timescity.com/mumbai/events">Events in Mumbai
+							    </a>
+							  </li>
+							</ul>
+						      </span>
+						    </div>
+						  </div>
+						  <div class="clrbth">
+						  </div>
+						  <div id="ad37500" name="ad37500" align="center">
+						  </div>
+						</td>
+					      </tr>
+					      <tr>
+						<td style="padding-bottom:10px;padding-top:5px;" colspan="2" align="center" class="padtop">
+						  <script>showDCAdsBottom(0,0);
+						  </script>
+						</td>
+					      </tr>
+					    </table>
+					    <div class="redbdr">
+					      <div style="float:left;font-size:20px;font-weight:normal;font-family:georgia;padding:10px;">THE TIMES OF INDIA
+					      <br>
+						<span style="font-size:11px;text-align:left;font-family:arial;">Powered by
+						<i>INDIATIMES
+						</i>
+						</span>
+					      </div>
+					      <div class="abts">
+						<div class="aboutusnew">
+						  <a pg="BotNavPos1" target="_blank" href="http://www.indiatimes.com/aboutus">About us
+						  </a>
+						  <a pg="BotNavPos2" target="_blank" href="http://advertise.indiatimes.com/">Advertise with us
+						  </a>
+						  <a pg="BotNavPos3" target="_blank" href="http://www.indiatimes.com/termsandcondition">Terms of use
+						  </a>
+						  <a pg="BotNavPos4" target="_blank" href="http://www.indiatimes.com/privacypolicy">Privacy policy
+						  </a>
+						  <a pg="BotNavPos5" href="http://timesofindia.indiatimes.com/feedback.cms">Feedback
+						  </a>
+						</div>
+						<div style="text-align:left;padding-top:5px;" class="aboutusnew">
+						  <a pg="BotNavPos6" href="http://timesofindia.indiatimes.com/rss.cms">RSS
+						  </a>
+						  <a pg="BotNavPos7" href="http://timesofindia.indiatimes.com/subscription.cms">Newsletter
+						  </a>
+						  <a pg="BotNavPos8" target="_blank" href="http://m.timesofindia.com/">TOI Mobile
+						  </a>
+						  <a pg="BotNavPos9" target="_blank" href="http://epaper.timesofindia.com/">ePaper
+						  </a>
+						  <a pg="BotNavPos11" href="/sitemap.cms">Sitemap
+						  </a>
+						  <a pg="BotNavPos10" href="/archive.cms">Archives
+						  </a>
+						</div>
+					      </div>
+					    </div>
+					    <div class="clrb">
+					    </div>
+					    <div class="otgns">
+					      <div style="padding-left:20px;">Other Times Group news sites
+					      <br>
+						<a pg="OTGSPos9" target="_blank" href="http://www.timescrest.com">Times Crest
+						</a>
+						<span> | 
+						</span>
+						<a pg="OTGSPos1" target="_blank" href="http://economictimes.indiatimes.com/">The Economic Times
+						</a>
+						<br>
+						  <a pg="OTGSPos2" target="_blank" href="http://hindi.economictimes.indiatimes.com/">&#x907;&#x915;&#x928;&#x949;&#x92e;&#x93f;&#x915; &#x91f;&#x93e;&#x907;&#x92e;&#x94d;&#x938;
+						  </a>
+						  <span> | 
+						  </span>
+						  <a pg="OTGSPos3" target="_blank" href="http://gujarati.economictimes.indiatimes.com/">&#xa88;&#xa95;&#xacb;&#xaa8;&#xacb;&#xaae;&#xabf;&#xa95; &#xa9f;&#xabe;&#xa88;&#xaae;&#xacd;&#xab8;
+						  </a>
+						  <br>
+						    <a target="_blank" href="http://www.punemirror.in/">Pune Mirror
+						    </a>
+						    <span> | 
+						    </span>
+						    <a target="_blank" href="http://www.bangaloremirror.com/">Bangalore Mirror
+						    </a>
+						    <br>
+						      <a target="_blank" href="http://www.ahmedabadmirror.com/">Ahmedabad Mirror
+						      </a>
+						      <span> | 
+						      </span>
+						      <a target="_blank" href="http://www.itsmyascent.com/">ItsMyAscent
+						      </a>
+						      <br>
+							<a target="_blank" href="http://www.myeducationtimes.com/educationTimes/index.jsp">Education Times
+							</a>
+							<span> | 
+							</span>
+							<a pg="OTGSPos11" target="_blank" href="http://brandcapital.co.in">Brand Capital
+							</a>
+							<br>
+							  <a pg="OTGSPos4" target="_blank" href="http://www.mumbaimirror.com/">Mumbai Mirror
+							  </a>
+							  <span> | 
+							  </span>
+							  <a pg="OTGSPos5" target="_blank" href="http://www.timesnow.tv/">Times Now
+							  </a>
+							  <br>
+							    <a pg="OTGSPos6" target="_blank" href="http://www.indiatimes.com/">Indiatimes
+							    </a>
+							    <span> | 
+							    </span>
+							    <a pg="OTGSPos7" target="_blank" href="http://navbharattimes.indiatimes.com/">&#x928;&#x935;&#x92d;&#x93e;&#x930;&#x924; &#x91f;&#x93e;&#x907;&#x92e;&#x94d;&#x938;
+							    </a>
+							    <br>
+							      <a pg="OTGSPos8" target="_blank" href="http://maharashtratimes.indiatimes.com/">&#x92e;&#x939;&#x93e;&#x930;&#x93e;&#x937;&#x94d;&#x91f;&#x94d;&#x930; &#x91f;&#x93e;&#x907;&#x92e;&#x94d;&#x938;
+							      </a>
+							      <span> | 
+							      </span>
+							      <a pg="OTGSPos12" target="_blank" href="http://vijaykarnataka.indiatimes.com/">&#xcb5;&#xcbf;&#xc9c;&#xcaf; &#xc95;&#xcb0;&#xccd;&#xca8;&#xcbe;&#xc9f;&#xc95;
+							      </a>
+							      <br>
+								<a pg="OTGSPos10" target="_blank" href="http://gogreenindia.co.in">Go Green
+								</a>
+							      </div>
+							      <div style="padding-left:20px;">Living and entertainment
+							      <br>
+								<a target="_blank" pg="LEPos4" href="http://www.timescity.com">Timescity
+								</a>
+								<span> | 
+								</span>
+								<a target="_blank" pg="LEPos1" href="http://idiva.com/index.php?host=TOI">iDiva
+								</a>
+								<span> | 
+								</span>
+								<a target="_blank" pg="LEPos2" href="http://entertainment.timesofindia.com">Bollywood
+								</a>
+								<span> | 
+								</span>
+								<a target="_blank" pg="LEPos3" href="http://www.zoomtv.in/">Zoom
+								</a>
+								<br>
+								  <a target="_blank" href="http://healthmeup.com">Healthmeup
+								  </a>
+								  <span> | 
+								  </span>
+								  <a target="_blank" href="http://luxpresso.com">Luxpresso
+								  </a>
+								  <span> | 
+								  </span>
+								  <a target="_blank" href="http://technoholik.com">Technoholik
+								  </a>
+								  <br>
+								    <a target="_blank" href="http://guylife.com/">Guylife
+								    </a>
+								    <span> | 
+								    </span>
+								    <a target="_blank" href="http://gaana.com/newrelease">Online Songs
+								    </a>
+								    <br>
+								      <br>
+									<p style="padding:0px;margin:0px;">Networking
+									</p>
+									<a pg="CommPos1" target="_blank" href="http://www.itimes.com">itimes
+									</a>
+									<span> | 
+									</span>
+									<a pg="CommPos2" target="_blank" href="http://www.itimes.com/public/groups/Liv2Luv">Dating &amp; Chat
+									</a>
+									<span> | 
+									</span>
+									<a pg="CommPos3" target="_blank" href="http://email.indiatimes.com">Email
+									</a>
+								      </div>
+								      <div style="padding-left:10px;padding-right:6px;">Hot on the Web
+								      <br>
+									<a target="_blank" pg="HoWPos1" href="http://www.hotklix.com">Hotklix
+									</a>
+									<span> | 
+									</span>
+									<a pg="HoWPos2" target="_blank" href="http://timesofindia.indiatimes.com/topic/home/world">World
+									</a>
+									<span> | 
+									</span>
+									<a pg="HoWPos3" target="_blank" href="http://timesofindia.indiatimes.com/topic/home/politics">Politics
+									</a>
+									<br>
+									  <a pg="HoWPos4" target="_blank" href="http://timesofindia.indiatimes.com/topic/home/business">Business
+									  </a>
+									  <span> | 
+									  </span>
+									  <a pg="HoWPos5" target="_blank" href="http://timesofindia.indiatimes.com/topic/home/sports">Sports
+									  </a>
+									  <br>
+									    <a pg="HoWPos6" target="_blank" href="http://timesofindia.indiatimes.com/topic/home/entertainment">Entertainment
+									    </a>
+									    <br>
+									      <a pg="HoWPos7" target="_blank" href="http://timesofindia.indiatimes.com/topic/home/scitech">Science &amp; Tech
+									      </a>
+									      <br>
+										<a pg="HoWPos8" target="_blank" href="http://timesofindia.indiatimes.com/zigwheels.cms">New Cars
+										</a>
+									      </div>
+									      <div style="padding-left:15px;padding-right:0px;width:405px;">Services
+									      <br>
+										<a pg="ServPos1" target="_blank" href="http://www.ads2book.com/">Book print ads
+										</a>
+										<span> | 
+										</span>
+										<a pg="ServPos2" target="_blank" href="http://shopping.indiatimes.com/">Online shopping
+										</a>
+										<span> | 
+										</span>
+										<a pg="ServPos7" target="_blank" href="http://mocolife.com/">Free SMS
+										</a>
+										<span> | 
+										</span>
+										<a pg="ServPos9" target="_blank" href="http://www.webuild.indiatimes.com/">Website design
+										</a>
+										<span> | 
+										</span>
+										<a pg="ServPos10" target="_blank" href="http://www.salescrm.indiatimes.com/">CRM
+										</a>
+										<span> | 
+										</span>
+										<a pg="ServPos11" target="_blank" href="http://tenders.indiatimes.com/">Tenders
+										</a>
+										<br>
+										  <a pg="ServPos14" target="_blank" href="http://www.simplymarry.com/">Matrimonial
+										  </a>
+										  <span> | 
+										  </span>
+										  <a pg="ServPos15" target="_blank" href="http://mobile.indiatimes.com/pmswapdev_in/pmsdata.html?target=tilweb/til/ringtoneindex.html&amp;top=1&amp;SM_PAGENUM=1&amp;s=0&amp;cn=&amp;sec=ring&amp;cat=browseall">Ringtones
+										  </a>
+										  <span> | 
+										  </span>
+										  <a pg="ServPos16" target="_blank" href="http://www.astrospeak.com">Astrology
+										  </a>
+										  <span> | 
+										  </span>
+										  <a pg="ServPos17" target="_blank" href="http://www.timesjobs.com/">Jobs
+										  </a>
+										  <span> | 
+										  </span>
+										  <a target="_blank" href="http://www.techgig.com">Tech Community
+										  </a>
+										  <span> | 
+										  </span>
+										  <a pg="ServPos18" target="_blank" href="http://www.magicbricks.com/">Property
+										  </a>
+										  <span> | 
+										  </span>
+										  <a pg="ServPos19" target="_blank" href="http://www.zigwheels.com/">Buy car
+										  </a>
+										  <br>
+										    <a pg="ServPos20" href="http://www.zigwheels.com/bikes" target="_blank">Bikes in India
+										    </a>
+										    <span> | 
+										    </span>
+										    <a target="_blank" href="http://timesdeal.com">Deals
+										    </a>
+										    <span> | 
+										    </span>
+										    <a target="_blank" href="http://www.yolist.com">Free Classifieds
+										    </a>
+										    <span> | 
+										    </span>
+										    <a target="_blank" href="http://timesofindia.indiatimes.com/business/india-business/Send-Money-to-India-the-safe-convenient-inexpensive-way/articleshow/11079712.cms">Send money to India
+										    </a>
+										    <span> | 
+										    </span>
+										    <a target="_blank" href="http://www.zigwheels.com/used-car">Used Cars
+										    </a>
+										    <br>
+										      <a target="_blank" href="http://timescity.com/delhi/restaurants">Restaurants in Delhi
+										      </a>
+										      <span> | 
+										      </span>
+										      <a target="_blank" href="http://timescity.com/mumbai/movies">Movie Show Timings in Mumbai
+										      </a>
+										      <span> | 
+										      </span>
+										      <a target="_blank" href="http://www.timesofmoney.com/remittance/jsp/home.jsp">Remit to India
+										      </a>
+										      <span> | 
+										      </span>
+										      <a target="_blank" href="http://shopping.indiatimes.com/mobiles/">Buy Mobiles
+										      </a>
+										      <br>
+											<a target="_blank" href="http://gaana.com">Listen Songs
+											</a>
+											<br>
+											  <br>
+											    <p style="padding:0px;margin:0px;">Trending Topics
+											    </p>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Gmail">Gmail
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Yahoo-Mail">Yahoo Mail
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Google ">Google
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Yahoo ">Yahoo
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Irctc ">Irctc
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/london-olympics-2012/olympics.cms">Olympics 2012
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Indian-Railways ">Indian Railways
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Way2SMS ">Way2SMS
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Aadhar-Card ">Aadhar Card
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Facebook">Facebook
+											    </a>
+											    <span> | 
+											    </span>
+											    <a target="_blank" href="http://timesofindia.indiatimes.com/topic/Railway-pnr-status-enquiry">Railway Pnr Status Enquiry
+											    </a>
+											  </div>
+											</div>
+											<div class="clrbth">
+											</div>
+											<div style="width:1003px;border-top:1px solid #cccccc;padding-top:10px;margin-top:5px;text-align:left;">
+											  <style type="text/css">
+											    div#genricfotter ul li a {color:#024D99;font-family:arial;font-size:11px;}
+
+
+											  </style>
+											  <div style="color:#6B616B;font-family:georgia;font-size:16px;font-weight:bold;padding-right:10px;padding-top:21px;width:70px;text-align:right;float:left;">Top Stories
+											  </div>
+											  <div id="genricfotter" style="width:910px;float:left;">
+											    <div style="width:280px;padding:0px 10px;border-left:1px solid #999999;float:left">
+											      <ul class="newtabcontent_tabs_new">
+												<li>
+												  <a pg="toiTopS#1" href="http://timesofindia.indiatimes.com/city/ahmedabad/Sunita-Williams-240-experiments/articleshow/14972700.cms">Sunita Williams 240 experiments
+												  </a>
+												</li>
+												<li>
+												  <a pg="toiTopS#2" href="http://timesofindia.indiatimes.com/entertainment/regional/tamil/news-interviews/Billa-2-rocks-say-fans/articleshow/14863266.cms">Billa 2 rocks, say fans
+												  </a>
+												</li>
+												<li>
+												  <a pg="toiTopS#3" href="http://timesofindia.indiatimes.com/tech/news/internet/Gustav-Klimts-150th-birth-anniversary-Google-pays-tribute-with-a-doodle/articleshow/14886649.cms">Gustav Klimt's 150th birth anniversary: Google pays tribute with a doodle
+												  </a>
+												</li>
+											      </ul>
+											    </div>
+											    <div style="width:280px;padding:0px 10px;border-left:1px solid #999999;float:left">
+											      <ul class="newtabcontent_tabs_new">
+												<li>
+												  <a pg="toiTopS#4" href="http://timesofindia.indiatimes.com/entertainment/movie-reviews/hindi/Cocktail/movie-review/14820712.cms">Cocktail: Movie Review
+												  </a>
+												</li>
+												<li>
+												  <a pg="toiTopS#5" href="http://timesofindia.indiatimes.com/sports/cricket/top-stories/Brett-Lee-was-a-fierce-competitor-Shoaib-Akhtar/articleshow/14895054.cms">Brett Lee was a fierce competitor: Shoaib Akhtar
+												  </a>
+												</li>
+												<li>
+												  <a pg="ETTopS#1" target="_blank" href="http://economictimes.indiatimes.com/personal-finance/tax-savers/tax-news/filing-your-income-tax-return-look-at-cbdt-circular-first/articleshow/14863923.cms">Filing your income tax return, look at CBDT circular first
+												  </a>
+												</li>
+											      </ul>
+											    </div>
+											    <div style="width:280px;padding:0px 10px;border-left:1px solid #999999;float:left">
+											      <ul class="newtabcontent_tabs_new">
+												<li>
+												  <a pg="ETTopS#2" target="_blank" href="http://economictimes.indiatimes.com/news/news-by-industry/media/entertainment-/entertainment/Cocktail:-Movie-review/articleshow/14891173.cms">Cocktail: Movie review
+												  </a>
+												</li>
+												<li>
+												  <a pg="ETTopS#3" target="_blank" href="http://economictimes.indiatimes.com/news/news-by-industry/et-cetera/Dara-Singh-The-last-of-the-gentle-giants/articleshow/14857472.cms">Dara Singh: The last of the gentle giants
+												  </a>
+												</li>
+												<li>
+												  <a pg="ETTopS#4" target="_blank" href="http://economictimes.indiatimes.com/opinion/interviews/infosys-no-longer-bellwether-for-it-tcs-remains-top-pick-devang-mehta-anand-rathi-securities/articleshow/14820591.cms">Infosys no longer bellwether for IT, TCS remains top pick: Anand Rathi
+												  </a>
+												</li>
+											      </ul>
+											    </div>
+											  </div>
+											</div>
+											<div class="clrbth">
+											</div>
+											<div class="bcclftr">
+											  <div style="font-size:11px;">Copyright&#169;2012 Bennett, Coleman &amp; Co. Ltd. All rights reserved. For reprint rights:
+											  <a target="_blank" href="http://timescontent.com/">Times Syndication Service
+											  </a>
+											  </div>
+											</div>
+											<div style="clear:both;height:16px">
+											</div>
+										      </div>
+										      <script type="text/javascript" src="/default_b18_js.cms?version=7" language="javascript">
+										      </script>
+										      <script type="text/javascript" src="/glblnavjs_v17.cms" language="javascript">
+										      </script>
+										      <script type="text/javascript" src="/trackjs_v31.cms?version=1" language="javascript">
+										      </script>
+										      <script>fo=new FadeObj('backgroundPopup');
+										      </script>
+										      <script>
+											var verqs=window.location.search;
+											if (verqs.indexOf('signin=1') != -1){
+											loadPopup('3');}
+
+										      </script>
+										      <script src="https://apis.google.com/js/plusone.js" type="text/javascript">
+										      </script>
+										      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript">
+										      </script>
+										      <script src="/jquery_tooltipjs.cms">
+										      </script>
+										      <script type="text/javascript" src="/default_webticker_jsone.cms" language="javascript">
+										      </script>
+										      <script>var apifstnameonly="";
+										      var apifstnameonlyfl="";
+										      var srcptah2="";	
+										      var loggedattributeval="";
+										      var isLoggedSso = Get_Ckie('MSCSAuth');
+										      tpbar1();loggedmyprofile1();loadPoints();
+										      try{
+										      if(isLoggedSso!=null && isLoggedSso!=undefined)getMyScript('http://myt.indiatimes.com/mytimes/notification/count?callback=processNotifyCountJSON',myt_timers.notification,1);
+										      }catch(e){}
+
+										      </script>
+										      <script language="javascript"> 
+											$(function(){
+											//alert("1");
+											$("#webticker").webTicker();	
+											});
+
+
+										      </script>
+										      <script>				
+											//bnews(12000);
+											bnews();
+
+
+										      </script>
+										      <script>checkvisibleTab1();
+										      </script>
+										      <script>populatediv('/horoscopeshow.cms?msid=121233212&contenttype=1&popup=1&arc=1&sunsign=1&timetype=1&astroid=1&B1=Go','hrdv');
+										      </script>
+										      <script>	
+											function heightadj(objid,height)
+											{				
+											objidv=document.getElementById(objid);				
+											if(height>='25')
+											{objidv.style.height=height+"px";}
+											else{	objidv.style.height=height+"px";										
+											height=parseInt(height)+1;
+											setTimeout("heightadj('" + objid + "'," + height + ")", 10);				
+											}
+											}	
+
+
+
+										      </script>
+										      <script>populatediv('/latestnewstab/1221656.cms','latestbloData');
+										      </script>
+										      <script>populatediv('/othernews.cms','othernews');
+										      </script>
+										      <script src="/pinmywebsitejs.cms" type="text/javascript">
+										      </script>
+										      <div>
+											<iframe ALLOWTRANSPARENCY="true" title="fbusepost" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="1" width="1" id="fbusepost" name="fbusepost" style="display:none">
+											</iframe>
+											<script>
+											  function postUseAct(){
+											  try{
+
+											  if(usersessionkey!=""){
+											  var frmpostSrc="http://timesofindia.indiatimes.com/fbpostuse.cms?website=http://timesofindia.indiatimes.com&access_token="+usersessionkey ;												
+											  document.getElementById('fbusepost').src=frmpostSrc;
+											  }
+											  }
+											  catch(ex){											
+											  }
+											  }									
+
+
+											</script>
+										      </div>
+										      <link type="text/css" href="/timestrendstopcommoncss.cms" rel="stylesheet">
+											<script>
+											  function blockError(){return true;} 
+											  window.onerror = blockError; 
+											  var timeslog_channel_url = 'timesofindia.indiatimes.com';
+
+											  var ttrendlogmsid='4719157';
+											</script>
+											<script src="http://timestrends.indiatimes.com/timestrend_v13.js">
+											</script>
+											<noscript>
+											  <img width="1" height="1" src="http://timeslog.indiatimes.com/timeslog.dll/pgnoscr?CHUR=timesofindia.indiatimes.com&logmviewed=1&msid=4719157">
+											  </img>
+											</noscript>
+											<script src="http://static.rewards.indiatimes.com/js/lb.js" type="text/javascript">
+											</script>
+											<script type="text/javascript">var secname="";
+											var agename="";
+											</script>
+											<script type="text/javascript">secname='Home Page';
+											agename='';
+											var _sf_async_config={uid:10538,domain:"timesofindia.indiatimes.com"};
+											_sf_async_config.sections = secname;
+											_sf_async_config.authors = agename;
+											(function(){
+											function loadChartbeat() {
+											window._sf_endpt=(new Date()).getTime();
+											var e = document.createElement('script');
+											e.setAttribute('language', 'javascript');
+											e.setAttribute('type', 'text/javascript');
+											e.setAttribute('src',
+											(("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+											"static.chartbeat.com/js/chartbeat.js");
+											document.body.appendChild(e);
+											}
+											var oldonload = window.onload;
+											window.onload = (typeof window.onload != 'function') ?
+											loadChartbeat : function() { oldonload(); loadChartbeat(); };
+											})();
+
+											</script>
+											<script type="text/javascript" src="/tpoint_js_v11.cms" language="javascript">
+											</script>
+											<div id="fb-root">
+											</div>
+											<script src="http://connect.facebook.net/en_US/all.js">
+											</script>
+											<script>	
+											  function invokeLogin(){
+											  try{						
+											  isLoggedSso = Get_Ckie('MSCSAuth');
+											  if(Get_Ckie('autologin')!=null){
+											  if(Get_Ckie('autologin')=='2'){
+											  Delete_Ckie("autologin","/",".indiatimes.com");
+											  }
+											  }
+											  _tp_uid=Get_Ckie('MSCSAuthDetails').split('=')[1];
+											  if(_tp_uid.indexOf('@')==-1)
+											  {
+											  _tp_uid=_tp_uid+"@indiatimes.com";
+											  }									
+											  tpbar1();	
+											  setTimeout("loggedmyprofile1();",2000);
+											  setTimeout("loadPoints();",4000);	
+											  }
+											  catch(ex)
+											  {			
+											  }					
+											  }
+											  function invokeSocialReaderLog()
+											  {							
+											  try{											
+											  isLoggedSso = Get_Ckie('MSCSAuth');
+											  if(Get_Ckie('autologinsocial')!=null){
+											  if(Get_Ckie('autologinsocial')=='2'){
+											  Delete_Ckie("autologinsocial","/",".indiatimes.com");
+											  }
+											  }
+											  _tp_uid=Get_Ckie('MSCSAuthDetails').split('=')[1];
+											  if(_tp_uid.indexOf('@')==-1)
+											  {
+											  _tp_uid=_tp_uid+"@indiatimes.com";
+											  }	
+											  tpbar1();	
+											  setTimeout("loggedmyprofile1();",2000);
+											  setTimeout("loadPoints();",4000);									
+
+											  }
+											  catch(ex){
+
+											  }		
+											  }
+											  function invokeSocialReader()
+											  {
+											  invokeToiReader();				
+											  invokeSocialReaderLog();				
+											  }
+
+
+
+											</script>
+											<script>			  
+											  var usersessionkey="";
+											  var loginFbSts="";			  
+											  FB.init({appId: '117787264903013',oauth:true, status: true, cookie: true, xfbml: true});
+
+
+											  if(Get_Ckie('autologin')!=null){
+											  if(Get_Ckie('autologin')=='2'){
+											  Delete_Ckie("autologin","/",".indiatimes.com");
+											  }
+											  }
+
+
+											  function getFbActiveSession()
+											  {
+											  try
+											  {					
+											  if(usersessionkey!='' && Get_Ckie('autologin')==null && Get_Ckie('MSCSAuth')==null){	
+
+											  if(Get_Ckie('loginbegin')==null)
+											  {
+											  Set_Ckie("autologin","1",0,"/",".indiatimes.com","");	
+											  document.getElementById("signupsso").src="/autologin.cms";
+											  }
+											  else
+											  {
+											  //alert("auto login aborted");
+											  }
+											  }
+											  else
+											  {
+											  if(loginFbSts=="not_authorized")
+											  {
+											  //Received the FB Active Session but app not authenticated
+											  if(Get_Ckie('disableautolg')==null)
+											  {							
+											  Set_Ckie("autologin","1",0,"/",".indiatimes.com","");
+											  loadPopup('13');
+											  }
+											  }
+											  if(loginFbSts=="unknown")
+											  {
+											  // FB not connected 
+											  }							
+											  }
+											  }
+											  catch(ex){
+											  }
+											  }
+
+
+											  function getSessionFB(){			  
+											  FB.getLoginStatus(function(response) {				  
+											  loginFbSts=response.status;				 			  				  
+											  if (response.authResponse) 
+											  { 					  
+											  usersessionkey=response.authResponse.accessToken;					  
+											  }
+											  else {				  
+											  }
+											  getFbActiveSession();
+											  });
+											  }
+											  try {
+											  setTimeout("getSessionFB()",2000);				 
+											  }
+											  catch(ex){			  	  
+											  }	
+
+
+
+											</script>
+											<div>
+											  <img height="1" width="1" id="imgLogout">
+											  </div>
+											  <div style="width:392px;" id="slidebadgearea">
+											  </div>
+											  <div style="display:none;" id="shortenurlresponse">
+											  </div>
+											  <script>badgedinit();
+											  </script>
+											  <script>	
+											    var _tp_async_data;
+											    try{
+											    var istrack1 = Get_Ckie('MSCSAuth');									
+											    if(istrack1!=null) 
+											    {
+											    //var locurl=document.location.href;
+											    //locurl=locurl.replace('jcmsstg','timesofindia');						
+											    //lbsubmit(locurl,"toi","b39b9b02b0ef4bc6a0f38eef3e4618fe","","visit",rewardemail);
+											    //alert("UID:"+_tp_uid);alert("Email:"+_tp_email);alert(_tp_url);
+											    _tp_async_data = {
+											    host: "TOI",
+											    channel : 'News',
+											    URL: _tp_url,
+											    userId : _tp_uid,
+											    oid:"",
+											    email:_tp_email
+											    };
+											    log('visit','');					
+											    }
+											    }
+											    catch(ex){}
+
+
+
+											  </script>
+											  <div>
+											    <div name="twitterbv" id="twitterbv">
+											    </div>
+											    <div name="facebookbv" id="facebookbv">
+											    </div>
+											    <div style="display:none;" id="iframevisbv">
+											      <iframe width="1" height="1" frameborder="0" id="myprefoptionbv">
+											      </iframe>
+											    </div>
+											    <div style="display:none;" id="iframevisbv1">
+											      <iframe width="1" height="1" frameborder="0" id="myprefoptionbv1">
+											      </iframe>
+											    </div>
+											    <div style="display:none;" id="bvsignup">
+											      <iframe width="1" height="1" frameborder="0" id="bvsignupiframe">
+											      </iframe>
+											      <div style="display:none;" id="bvsignupdetail">
+											      </div>
+											    </div>
+											  </div>
+											  <script>getbvdetails();
+											  </script>
+											  <script type="text/javascript">var _vrq = _vrq || [];
+											  _vrq.push(['id', 77]);
+											  _vrq.push(['track', function(){}]);
+											  (function(d, a) {
+											  var s = d.createElement(a),
+											  x = d.getElementsByTagName(a)[0];
+											  s.async = true;
+											  s.src = 'http://a.visualrevenue.com/vrs.js';
+											  x.parentNode.insertBefore(s, x);
+											  })(document, 'script');
+											  </script>
+											  <script>
+											    var isLoggedSso=Get_Ckie('MSCSAuth');	
+
+
+											  </script>
+											  <div style="overflow:auto;position:relative;display:none;" id="medal_div_one1">
+											    <div class="nl_badgein_five">
+											      <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+												<img title="Moderator" alt="Moderator" src="http://static.rewards.indiatimes.com/images/ia/moderator.png" height="61" width="82">
+												</div>
+												<div class="new_badgetooltip">
+												  <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+												    <div class="full_cont">
+												      <div class="leftone">
+													<div class="textone_new">Moderator
+													</div>
+												      </div>
+												      <div class="rightone">
+													<div class="texttwo">
+													</div>
+												      </div>
+												    </div>
+												  </div>
+												  <div class="hoverblock_new_two">
+												    <div class="cont_pad">
+												      <div class="full_cont">
+													<div class="cont_left">
+													  <img src="http://static.rewards.indiatimes.com/images/ia/moderator.png" style="cursor:auto" border="0" height="50" width="55">
+													  </div>
+													  <div class="cont_right">
+													    <div class="badgesyn">Find and flag inappropriate comments on Timesofindia.com by marking them offensive. Earn the Moderator badge after your action is verified by the site editor
+													    </div>
+													  </div>
+													</div>
+												      </div>
+												    </div>
+												    <div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+												    </div>
+												  </div>
+												  <div class="nl_badgecaption">Moderator
+												  </div>
+												</div>
+												<div class="nl_badgein_five">
+												  <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+												    <img src="http://static.rewards.indiatimes.com/images/ia/wordsmith.png" alt="Wordsmith" title="Wordsmith" height="61" width="82">
+												    </div>
+												    <div class="new_badgetooltip">
+												      <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+													<div class="full_cont">
+													  <div class="leftone">
+													    <div class="textone_new">Wordsmith
+													    </div>
+													  </div>
+													  <div class="rightone">
+													    <div class="texttwo">
+													    </div>
+													  </div>
+													</div>
+												      </div>
+												      <div class="hoverblock_new_two">
+													<div class="cont_pad">
+													  <div class="full_cont">
+													    <div class="cont_left">
+													      <img src="http://static.rewards.indiatimes.com/images/ia/wordsmith.png" style="cursor:auto" border="0" height="50" width="55">
+													      </div>
+													      <div class="cont_right">
+														<div class="badgesyn">Have an opinion? Express it and get the Wordsmith badge for posting relevant comments on articles and photos.
+														</div>
+													      </div>
+													    </div>
+													  </div>
+													</div>
+													<div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+													</div>
+												      </div>
+												      <div class="nl_badgecaption">Wordsmith
+												      </div>
+												    </div>
+												    <div class="nl_badgein_five">
+												      <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+													<img src="http://static.rewards.indiatimes.com/images/ia/ff.png" alt="Frequent Flyer" title="Frequent Flyer" height="61" width="82">
+													</div>
+													<div class="new_badgetooltip">
+													  <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+													    <div class="full_cont">
+													      <div class="leftone">
+														<div class="textone_new">Frequent Flyer
+														</div>
+													      </div>
+													      <div class="rightone">
+														<div class="texttwo">
+														</div>
+													      </div>
+													    </div>
+													  </div>
+													  <div class="hoverblock_new_two">
+													    <div class="cont_pad">
+													      <div class="full_cont">
+														<div class="cont_left">
+														  <img src="http://static.rewards.indiatimes.com/images/ia/ff.png" style="cursor:auto" border="0" height="50" width="55">
+														  </div>
+														  <div class="cont_right">
+														    <div class="badgesyn">Make Timesofindia.com your news hotspot. Visit the site regularly earn this badge.
+														    </div>
+														  </div>
+														</div>
+													      </div>
+													    </div>
+													    <div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+													    </div>
+													  </div>
+													  <div class="nl_badgecaption">Frequent Flyer
+													  </div>
+													</div>
+													<div class="nl_badgein_five">
+													  <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+													    <img src="http://static.rewards.indiatimes.com/images/ia/influencer.png" alt="Influencer" title="Influencer" height="61" width="82">
+													    </div>
+													    <div class="new_badgetooltip">
+													      <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+														<div class="full_cont">
+														  <div class="leftone">
+														    <div class="textone_new">Influencer
+														    </div>
+														  </div>
+														  <div class="rightone">
+														    <div class="texttwo">
+														    </div>
+														  </div>
+														</div>
+													      </div>
+													      <div class="hoverblock_new_two">
+														<div class="cont_pad">
+														  <div class="full_cont">
+														    <div class="cont_left">
+														      <img src="http://static.rewards.indiatimes.com/images/ia/influencer.png" style="cursor:auto" border="0" height="50" width="55">
+														      </div>
+														      <div class="cont_right">
+															<div class="badgesyn">Your opinion matters! Get the influencer badge when other people Recommend or Agree with your comments on Timesofindia.com.
+															</div>
+														      </div>
+														    </div>
+														  </div>
+														</div>
+														<div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+														</div>
+													      </div>
+													      <div class="nl_badgecaption">Influencer
+													      </div>
+													    </div>
+													    <div class="nl_badgein_five">
+													      <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+														<img src="http://static.rewards.indiatimes.com/images/ia/newsking.png" alt="News King" title="News King" height="61" width="82">
+														</div>
+														<div class="new_badgetooltip">
+														  <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+														    <div class="full_cont">
+														      <div class="leftone">
+															<div class="textone_new">News King
+															</div>
+														      </div>
+														      <div class="rightone">
+															<div class="texttwo">
+															</div>
+														      </div>
+														    </div>
+														  </div>
+														  <div class="hoverblock_new_two">
+														    <div class="cont_pad">
+														      <div class="full_cont">
+															<div class="cont_left">
+															  <img src="http://static.rewards.indiatimes.com/images/ia/newsking.png" style="cursor:auto" border="0" height="50" width="55">
+															  </div>
+															  <div class="cont_right">
+															    <div class="badgesyn">Read articles, watch exclusive videos or browse through our photo gallery to become a News King on Timesofindia.com
+															    </div>
+															  </div>
+															</div>
+														      </div>
+														    </div>
+														    <div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+														    </div>
+														  </div>
+														  <div class="nl_badgecaption">News King
+														  </div>
+														</div>
+														<div class="nl_badgein_five">
+														  <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+														    <img src="http://static.rewards.indiatimes.com/images/ia/inboxer.png" alt="Inboxer" title="Inboxer" height="61" width="82">
+														    </div>
+														    <div class="new_badgetooltip">
+														      <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+															<div class="full_cont">
+															  <div class="leftone">
+															    <div class="textone_new">Inboxer
+															    </div>
+															  </div>
+															  <div class="rightone">
+															    <div class="texttwo">
+															    </div>
+															  </div>
+															</div>
+														      </div>
+														      <div class="hoverblock_new_two">
+															<div class="cont_pad">
+															  <div class="full_cont">
+															    <div class="cont_left">
+															      <img src="http://static.rewards.indiatimes.com/images/ia/inboxer.png" style="cursor:auto" border="0" height="50" width="55">
+															      </div>
+															      <div class="cont_right">
+																<div class="badgesyn">Top Headlines in your inbox!  Subscribe to the TimesofIndia.com. newsletters and become an Inboxer.
+																</div>
+															      </div>
+															    </div>
+															  </div>
+															</div>
+															<div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+															</div>
+														      </div>
+														      <div class="nl_badgecaption">Inboxer
+														      </div>
+														    </div>
+														    <div class="nl_badgein_five">
+														      <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+															<img src="http://static.rewards.indiatimes.com/images/ia/member.png" alt="" title="" height="61" width="68">
+															</div>
+															<div class="new_badgetooltip">
+															  <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+															    <div class="full_cont">
+															      <div class="leftone">
+																<div class="textone_new">Member
+																</div>
+															      </div>
+															      <div class="rightone">
+																<div class="texttwo">
+																</div>
+															      </div>
+															    </div>
+															  </div>
+															  <div class="hoverblock_new_two">
+															    <div class="cont_pad">
+															      <div class="full_cont">
+																<div class="cont_left">
+																  <img src="http://static.rewards.indiatimes.com/images/ia/member.png" style="cursor:auto" border="0" height="50" width="48">
+																  </div>
+																  <div class="cont_right">
+																    <div class="badgesyn">Members are registered users on Timesofindia.com. Only they are qualified to earn badges and points for their activities. So register and get a badge right away!
+																    </div>
+																  </div>
+																</div>
+															      </div>
+															    </div>
+															    <div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+															    </div>
+															  </div>
+															  <div class="nl_badgecaption">Member
+															  </div>
+															</div>
+															<div class="nl_badgein_five">
+															  <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+															    <img src="http://static.rewards.indiatimes.com/images/ia/networker.png" alt="Networker" title="Networker" height="61" width="82">
+															    </div>
+															    <div class="new_badgetooltip">
+															      <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+																<div class="full_cont">
+																  <div class="leftone">
+																    <div class="textone_new">Networker
+																    </div>
+																  </div>
+																  <div class="rightone">
+																    <div class="texttwo">
+																    </div>
+																  </div>
+																</div>
+															      </div>
+															      <div class="hoverblock_new_two">
+																<div class="cont_pad">
+																  <div class="full_cont">
+																    <div class="cont_left">
+																      <img src="http://static.rewards.indiatimes.com/images/ia/networker.png" style="cursor:auto" border="0" height="50" width="55">
+																      </div>
+																      <div class="cont_right">
+																	<div class="badgesyn">Grow your network; get people to follow you to earn the Networker badge on Timesofindia.com.
+																	</div>
+																      </div>
+																    </div>
+																  </div>
+																</div>
+																<div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+																</div>
+															      </div>
+															      <div class="nl_badgecaption">Networker
+															      </div>
+															    </div>
+															    <div class="nl_badgein_five">
+															      <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+																<img src="http://static.rewards.indiatimes.com/images/ia/sharekhaan.png" alt="Sharekhaan" title="Sharekhaan" height="61" width="82">
+																</div>
+																<div class="new_badgetooltip">
+																  <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+																    <div class="full_cont">
+																      <div class="leftone">
+																	<div class="textone_new">Sharekhaan
+																	</div>
+																      </div>
+																      <div class="rightone">
+																	<div class="texttwo">
+																	</div>
+																      </div>
+																    </div>
+																  </div>
+																  <div class="hoverblock_new_two">
+																    <div class="cont_pad">
+																      <div class="full_cont">
+																	<div class="cont_left">
+																	  <img src="http://static.rewards.indiatimes.com/images/ia/sharekhaan.png" style="cursor:auto" border="0" height="50" width="55">
+																	  </div>
+																	  <div class="cont_right">
+																	    <div class="badgesyn">Share and recommend the articles, photos and videos you like on Timesofindia.com; earn the Sharekhaan badge!
+																	    </div>
+																	  </div>
+																	</div>
+																      </div>
+																    </div>
+																    <div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+																    </div>
+																  </div>
+																  <div class="nl_badgecaption">Sharekhaan
+																  </div>
+																</div>
+																<div class="nl_badgein_five">
+																  <div onmouseout="timespointmseout1(this);" onmouseover="timespointmseovr1(this);" class="nl_badgeimg" align="center">
+																    <img src="http://static.rewards.indiatimes.com/images/ia/wc.png" alt="Well Connected" title="Well Connected" height="61" width="82">
+																    </div>
+																    <div class="new_badgetooltip">
+																      <div style="background:url(/photo/12290568.cms) top center no-repeat; width:280px; height:38px;">
+																	<div class="full_cont">
+																	  <div class="leftone">
+																	    <div class="textone_new">Well Connected
+																	    </div>
+																	  </div>
+																	  <div class="rightone">
+																	    <div class="texttwo">
+																	    </div>
+																	  </div>
+																	</div>
+																      </div>
+																      <div class="hoverblock_new_two">
+																	<div class="cont_pad">
+																	  <div class="full_cont">
+																	    <div class="cont_left">
+																	      <img src="http://static.rewards.indiatimes.com/images/ia/wc.png" style="cursor:auto" border="0" height="50" width="55">
+																	      </div>
+																	      <div class="cont_right">
+																		<div class="badgesyn">You can earn the Well Connected badge by linking your Facebook and Twitter accounts to your Times profile. Remember to add both your ids to get the badge!
+																		</div>
+																	      </div>
+																	    </div>
+																	  </div>
+																	</div>
+																	<div style="background:url(/photo/12290325.cms) no-repeat; width:280px; height:17px;">
+																	</div>
+																      </div>
+																      <div class="nl_badgecaption">Well Connected
+																      </div>
+																    </div>
+																  </div>
+																  <script>setTimeout("postUseAct()",4000);
+																  </script>
+																  <div id="ad35823" name="ad35823" align="center">
+																  </div>
+																  <script src="http://ads.indiatimes.com/ads.dll/genptypead?slotid=3736" language="javascript">
+																  </script>
+																  <script language="JavaScript">
+																    var shoshRnd=Date.parse(Date());
+																    document.write('
+																    <s'+'cript  language="javascript" src="http://netspiderads2.indiatimes.com/ads.dll/genptypead?slotid=35823&amp;srands=' + shoshRnd + '&amp;shtype=3">'+'
+																    </'+'s'+'cript>')
+
+
+																  </script>
+																  <div id="ad36300" name="ad36300" align="center">
+																  </div>
+																  <iframe ALLOWTRANSPARENCY="true" title="Advertisement" align="center" SCROLLING="no" FRAMEBORDER="0" VSPACE="0" HSPACE="0" MARGINHEIGHT="0" MARGINWIDTH="0" height="10" width="10" src="http://netspiderads2.indiatimes.com/ads.dll/getad?slotid=36300" id="fr36300" name="fr36300">
+																    <a target="_blank" href="http://netspiderads2.indiatimes.com/ads.dll/clickthrough?slotid=36300">
+																      <img alt="Advertisement" height="10" width="10" border="0" src="http://netspiderads2.indiatimes.com/ads.dll/photoserv?slotid=36300">
+																      </a>
+																    </iframe>
+																    <script type="text/javascript">
+																      var nsjxSetups=[4];
+
+																    </script>
+																    <script src="http://netspideradswc.indiatimes.com/ads.dll/getjsonad?slotid=205">
+																    </script>
+																    <script src="http://adscontent2.indiatimes.com/nsjsonrequest_v1.js" type="text/javascript">
+																    </script>
+																    <script language="JavaScript">	
+																      var zVarrr=Date.parse(Date());
+																      document.write('
+																      <s'+'cript language="javascript" src="http://netspiderads2.indiatimes.com/ads.dll/genjstypead?slotid=37500&amp;zrandz=' + zVarrr + '&amp;subtype=1">'+'
+																      </'+'s'+'cript>')
+
+
+																    </script>
+																    <div style="display: none" id="parsely-root">
+																      <a rel="nofollow" href="http://parsely.com" data-parsely-site="timesofindia.indiatimes.com" id="parsely-cfg">Powered by the Parse.ly Publisher Platform (P3).
+																      </a>
+																    </div>
+																    <script>
+																      (function(s, p, d) {
+																      var h=d.location.protocol, i=p+"-"+s,
+																      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+																      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+																      :"static."+p+".com";
+																      if (e) return;
+																      e = d.createElement(s); e.id = i; e.async = true;
+																      e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+																      })("script", "parsely", document);
+
+
+																    </script>
+																    <div>
+																      <script language="javascript">var nsf_feCrShow=0;
+																      </script>
+																      <script src="http://netspiderads2.indiatimes.com/ads.dll/genptypead?slotid=35824" language="javascript">
+																      </script>
+																    </div>
+																    <script>showDCAdsInnov1(0,0);
+																    </script>
+																    <script>showDCAdsInnov2(0,0);
+																    </script>
+																    <script>showDCAdsPop(0,0);
+																    </script>
+																    <script>showDCAdsShosh(0,0);
+																    </script>
+																    <!--Geo location-->
+																  </body>
+																</html>

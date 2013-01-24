@@ -1,0 +1,4 @@
+(defmethod setup (project qt-project)
+  )
+
+(defclass qt-project (project))

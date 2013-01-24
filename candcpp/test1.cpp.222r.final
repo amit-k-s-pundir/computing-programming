@@ -1,0 +1,12 @@
+
+;; Function int main(int, char**) (main)
+
+deleting insn with uid = 35.
+
+;; Function void __static_initialization_and_destruction_0(int, int) (_Z41__static_initialization_and_destruction_0ii)
+
+deleting insn with uid = 31.
+
+;; Function (static initializers for ./test1.cpp) (_GLOBAL__sub_I__ZN3NS11xE)
+
+deleting insn with uid = 19.

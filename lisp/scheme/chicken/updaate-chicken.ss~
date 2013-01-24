@@ -1,0 +1,11 @@
+(module update-chicken
+  (*)
+  (import posix)
+  (define chicken-install-dir "/opt/lisp/scheme/chicken")
+  (define chicken-dev-install-dir "/opt/lisp/scheme/chicken_dev")
+  (define chicken-stable-install-dir "/opt/lisp/scheme/chicken_stable")
+  (define (update-chicken (url install-dir)
+    
+  (define update-chicken-stable (#!optional url)
+    (unless (directory? chicken-stab
+  

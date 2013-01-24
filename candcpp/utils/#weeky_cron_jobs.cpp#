@@ -1,0 +1,46 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <iostream>
+#include <initializer_list>
+#include <algorithm>
+#include <tuple>
+#include <initializer_list>
+
+using namespace std;
+
+template<class A> struct Build{
+  static  void make(typename A::BuildOptions buildOptions){
+    string clean_cmd, config_cmd, build_cmd, install_cmd, cmd;
+    bool autogen_p;
+    // for(auto it = buildOptions.config_options.begin(); it != options.config_options.end(); it++){
+    // }
+    for(tuple<string,string> & t : buildOptions.config_options){
+      string option, value;
+      option = get<0>(t);
+      value = get<1>(t);
+      config_cmd = "./configure " + string("--") + option + "=" + value;
+    }
+    cout << config_cmd << endl;
+  }
+};
+
+struct Emacs{
+     typedef struct{
+      vector<tuple<string,string> > config_options;
+      vector<string> build_targets, install_targets;
+    } BuildOptions;
+  };
+  
+int main()
+{
+  Emacs::BuildOptions buildOptions;
+  buildOptions.config_options = {tuple<string,string>("prefix", "/opt/emacs_dev")};
+  buildOptions.build_targets = {"bootstrap", ""};
+  buildOptions.install_targets = {"install"};
+  
+  Build<Emacs>::make(buildOptions);
+
+  return 0;
+}
+

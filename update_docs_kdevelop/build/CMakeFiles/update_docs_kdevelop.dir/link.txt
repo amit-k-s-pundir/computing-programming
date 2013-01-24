@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/update_docs_kdevelop.dir/main.cpp.o  -o update_docs_kdevelop -rdynamic 

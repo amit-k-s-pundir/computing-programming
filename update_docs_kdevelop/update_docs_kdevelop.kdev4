@@ -1,0 +1,4 @@
+[Project]
+Name=update_docs_kdevelop
+Manager=KDevCMakeManager
+VersionControl=

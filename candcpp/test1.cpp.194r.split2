@@ -1,0 +1,283 @@
+
+;; Function int main(int, char**) (main)
+
+
+
+int main(int, char**)
+
+Dataflow summary:
+;;  invalidated by call 	 0 [ax] 1 [dx] 2 [cx] 8 [st] 9 [st(1)] 10 [st(2)] 11 [st(3)] 12 [st(4)] 13 [st(5)] 14 [st(6)] 15 [st(7)] 17 [flags] 18 [fpsr] 19 [fpcr] 21 [] 22 [] 23 [] 24 [] 25 [] 26 [] 27 [] 28 [] 29 [] 30 [] 31 [] 32 [] 33 [] 34 [] 35 [] 36 [] 37 [] 38 [] 39 [] 40 [] 41 [] 42 [] 43 [] 44 [] 45 [] 46 [] 47 [] 48 [] 49 [] 50 [] 51 [] 52 []
+;;  hardware regs used 	
+;;  regular block artificial uses 	 6 [bp] 7 [sp]
+;;  eh block artificial uses 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;;  entry block defs 	 0 [ax] 1 [dx] 2 [cx] 6 [bp] 7 [sp] 20 [frame]
+;;  exit block uses 	 0 [ax] 6 [bp] 7 [sp] 20 [frame]
+;;  regs ever live 	 0[ax] 6[bp] 7[sp]
+;;  ref usage 	r0={5d,4u} r1={3d} r2={3d} r6={1d,2u} r7={1d,8u} r8={2d} r9={2d} r10={2d} r11={2d} r12={2d} r13={2d} r14={2d} r15={2d} r17={2d} r18={2d} r19={2d} r20={1d,1u} r21={2d} r22={2d} r23={2d} r24={2d} r25={2d} r26={2d} r27={2d} r28={2d} r29={2d} r30={2d} r31={2d} r32={2d} r33={2d} r34={2d} r35={2d} r36={2d} r37={2d} r38={2d} r39={2d} r40={2d} r41={2d} r42={2d} r43={2d} r44={2d} r45={2d} r46={2d} r47={2d} r48={2d} r49={2d} r50={2d} r51={2d} r52={2d} 
+;;    total ref usage 115{100d,15u,0e} in 9{7 regular + 2 call} insns.
+(note 1 0 3 NOTE_INSN_DELETED)
+
+;; Start of basic block ( 0) -> 2
+;; bb 2 artificial_defs: { }
+;; bb 2 artificial_uses: { u-1(6){ }u-1(7){ }}
+;; lr  in  	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  use 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  def 	 0 [ax] 1 [dx] 2 [cx] 8 [st] 9 [st(1)] 10 [st(2)] 11 [st(3)] 12 [st(4)] 13 [st(5)] 14 [st(6)] 15 [st(7)] 17 [flags] 18 [fpsr] 19 [fpcr] 21 [] 22 [] 23 [] 24 [] 25 [] 26 [] 27 [] 28 [] 29 [] 30 [] 31 [] 32 [] 33 [] 34 [] 35 [] 36 [] 37 [] 38 [] 39 [] 40 [] 41 [] 42 [] 43 [] 44 [] 45 [] 46 [] 47 [] 48 [] 49 [] 50 [] 51 [] 52 [] 59 60 61 62 63
+
+;; Pred edge  ENTRY (fallthru)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+
+(insn 5 2 6 2 (set (reg:SI 0 ax [orig:59 x.1 ] [59])
+        (mem/c/i:SI (symbol_ref:SI ("_ZN3NS11xE") [flags 0x2]  <var_decl 0xb658ae40 x>) [0 x+0 S4 A32])) ./test1.cpp:11 64 {*movsi_internal}
+     (nil))
+
+(insn 6 5 7 2 (set (mem:SI (plus:SI (reg/f:SI 7 sp)
+                (const_int 4 [0x4])) [0 S4 A32])
+        (reg:SI 0 ax [orig:59 x.1 ] [59])) ./test1.cpp:11 64 {*movsi_internal}
+     (nil))
+
+(insn 7 6 8 2 (set (mem:SI (reg/f:SI 7 sp) [0 S4 A32])
+        (symbol_ref:SI ("_ZSt4cout") [flags 0x40]  <var_decl 0xb658a7e0 cout>)) ./test1.cpp:11 64 {*movsi_internal}
+     (nil))
+
+(call_insn 8 7 11 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("_ZNSolsEi") [flags 0x41]  <function_decl 0xb66a8980 operator<<>) [0 S1 A8])
+            (const_int 8 [0x8]))) ./test1.cpp:11 927 {*call_value_0}
+     (nil)
+    (nil))
+
+(insn 11 8 12 2 (set (mem:SI (plus:SI (reg/f:SI 7 sp)
+                (const_int 4 [0x4])) [0 S4 A32])
+        (symbol_ref:SI ("_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_") [flags 0x41]  <function_decl 0xb66cbf00 endl>)) ./test1.cpp:11 64 {*movsi_internal}
+     (nil))
+
+(insn 12 11 13 2 (set (mem:SI (reg/f:SI 7 sp) [0 S4 A32])
+        (reg/f:SI 0 ax [orig:61 D.29499 ] [61])) ./test1.cpp:11 64 {*movsi_internal}
+     (nil))
+
+(call_insn 13 12 14 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("_ZNSolsEPFRSoS_E") [flags 0x41]  <function_decl 0xb66a8f00 operator<<>) [0 S1 A8])
+            (const_int 8 [0x8]))) ./test1.cpp:11 927 {*call_value_0}
+     (nil)
+    (nil))
+
+(insn 14 13 22 2 (set (reg:SI 0 ax [orig:62 D.29500 ] [62])
+        (const_int 0 [0])) ./test1.cpp:0 64 {*movsi_internal}
+     (nil))
+
+(insn 22 14 25 2 (use (reg/i:SI 0 ax)) ./test1.cpp:12 -1
+     (nil))
+;; End of basic block 2 -> ( 1)
+;; lr  out 	 0 [ax] 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+
+
+;; Succ edge  EXIT [100.0%]  (fallthru)
+
+(note 25 22 0 NOTE_INSN_DELETED)
+
+
+;; Function void __static_initialization_and_destruction_0(int, int) (_Z41__static_initialization_and_destruction_0ii)
+
+
+
+void __static_initialization_and_destruction_0(int, int)
+
+Dataflow summary:
+;;  invalidated by call 	 0 [ax] 1 [dx] 2 [cx] 8 [st] 9 [st(1)] 10 [st(2)] 11 [st(3)] 12 [st(4)] 13 [st(5)] 14 [st(6)] 15 [st(7)] 17 [flags] 18 [fpsr] 19 [fpcr] 21 [] 22 [] 23 [] 24 [] 25 [] 26 [] 27 [] 28 [] 29 [] 30 [] 31 [] 32 [] 33 [] 34 [] 35 [] 36 [] 37 [] 38 [] 39 [] 40 [] 41 [] 42 [] 43 [] 44 [] 45 [] 46 [] 47 [] 48 [] 49 [] 50 [] 51 [] 52 []
+;;  hardware regs used 	
+;;  regular block artificial uses 	 6 [bp] 7 [sp]
+;;  eh block artificial uses 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;;  entry block defs 	 0 [ax] 1 [dx] 2 [cx] 6 [bp] 7 [sp] 20 [frame]
+;;  exit block uses 	 6 [bp] 7 [sp] 20 [frame]
+;;  regs ever live 	 0[ax] 6[bp] 7[sp] 17[flags]
+;;  ref usage 	r0={4d,1u} r1={3d} r2={3d} r6={1d,7u} r7={1d,11u} r8={2d} r9={2d} r10={2d} r11={2d} r12={2d} r13={2d} r14={2d} r15={2d} r17={4d,2u} r18={2d} r19={2d} r20={1d,1u} r21={2d} r22={2d} r23={2d} r24={2d} r25={2d} r26={2d} r27={2d} r28={2d} r29={2d} r30={2d} r31={2d} r32={2d} r33={2d} r34={2d} r35={2d} r36={2d} r37={2d} r38={2d} r39={2d} r40={2d} r41={2d} r42={2d} r43={2d} r44={2d} r45={2d} r46={2d} r47={2d} r48={2d} r49={2d} r50={2d} r51={2d} r52={2d} 
+;;    total ref usage 123{101d,22u,0e} in 11{9 regular + 2 call} insns.
+(note 1 0 3 NOTE_INSN_DELETED)
+
+;; Start of basic block ( 0) -> 2
+;; bb 2 artificial_defs: { }
+;; bb 2 artificial_uses: { u-1(6){ }u-1(7){ }}
+;; lr  in  	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  use 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  def 	 17 [flags]
+
+;; Pred edge  ENTRY (fallthru)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+
+(insn 5 2 6 2 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c/i:SI (plus:SI (reg/f:SI 6 bp)
+                    (const_int 8 [0x8])) [0 __initialize_p+0 S4 A32])
+            (const_int 1 [0x1]))) ./test1.cpp:12 6 {*cmpsi_1}
+     (nil))
+
+(jump_insn 6 5 7 2 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref:SI 20)
+            (pc))) ./test1.cpp:12 591 {*jcc_1}
+     (nil)
+ -> 20)
+;; End of basic block 2 -> ( 3 5)
+;; lr  out 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+
+
+;; Succ edge  3 (fallthru)
+;; Succ edge  5
+
+;; Start of basic block ( 2) -> 3
+;; bb 3 artificial_defs: { }
+;; bb 3 artificial_uses: { u-1(6){ }u-1(7){ }}
+;; lr  in  	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  use 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  def 	 17 [flags]
+
+;; Pred edge  2 (fallthru)
+(note 7 6 8 3 [bb 3] NOTE_INSN_BASIC_BLOCK)
+
+(insn 8 7 9 3 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c/i:SI (plus:SI (reg/f:SI 6 bp)
+                    (const_int 12 [0xc])) [0 __priority+0 S4 A32])
+            (const_int 65535 [0xffff]))) ./test1.cpp:12 6 {*cmpsi_1}
+     (nil))
+
+(jump_insn 9 8 10 3 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref:SI 20)
+            (pc))) ./test1.cpp:12 591 {*jcc_1}
+     (nil)
+ -> 20)
+;; End of basic block 3 -> ( 4 5)
+;; lr  out 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+
+
+;; Succ edge  4 (fallthru)
+;; Succ edge  5
+
+;; Start of basic block ( 3) -> 4
+;; bb 4 artificial_defs: { }
+;; bb 4 artificial_uses: { u-1(6){ }u-1(7){ }}
+;; lr  in  	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  use 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  def 	 0 [ax] 1 [dx] 2 [cx] 8 [st] 9 [st(1)] 10 [st(2)] 11 [st(3)] 12 [st(4)] 13 [st(5)] 14 [st(6)] 15 [st(7)] 17 [flags] 18 [fpsr] 19 [fpcr] 21 [] 22 [] 23 [] 24 [] 25 [] 26 [] 27 [] 28 [] 29 [] 30 [] 31 [] 32 [] 33 [] 34 [] 35 [] 36 [] 37 [] 38 [] 39 [] 40 [] 41 [] 42 [] 43 [] 44 [] 45 [] 46 [] 47 [] 48 [] 49 [] 50 [] 51 [] 52 [] 59
+
+;; Pred edge  3 (fallthru)
+(note 10 9 11 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+
+(insn 11 10 12 4 (set (mem:SI (reg/f:SI 7 sp) [0 S4 A32])
+        (symbol_ref:SI ("_ZStL8__ioinit") [flags 0x2]  <var_decl 0xb658aa80 __ioinit>)) /usr/include/c++/4.6/iostream:75 64 {*movsi_internal}
+     (nil))
+
+(call_insn 12 11 13 4 (call (mem:QI (symbol_ref:SI ("_ZNSt8ios_base4InitC1Ev") [flags 0x41]  <function_decl 0xb68b4c00 __comp_ctor >) [0 S1 A8])
+        (const_int 4 [0x4])) /usr/include/c++/4.6/iostream:75 618 {*call_0}
+     (nil)
+    (nil))
+
+(insn 13 12 14 4 (set (reg/f:SI 0 ax [orig:59 __comp_dtor .0 ] [59])
+        (symbol_ref:SI ("_ZNSt8ios_base4InitD1Ev") [flags 0x41]  <function_decl 0xb68b4d00 __comp_dtor >)) /usr/include/c++/4.6/iostream:75 64 {*movsi_internal}
+     (nil))
+
+(insn 14 13 15 4 (set (mem:SI (plus:SI (reg/f:SI 7 sp)
+                (const_int 8 [0x8])) [0 S4 A32])
+        (symbol_ref:SI ("__dso_handle") [flags 0x40]  <var_decl 0xb664a360 __dso_handle>)) /usr/include/c++/4.6/iostream:75 64 {*movsi_internal}
+     (nil))
+
+(insn 15 14 16 4 (set (mem:SI (plus:SI (reg/f:SI 7 sp)
+                (const_int 4 [0x4])) [0 S4 A32])
+        (symbol_ref:SI ("_ZStL8__ioinit") [flags 0x2]  <var_decl 0xb658aa80 __ioinit>)) /usr/include/c++/4.6/iostream:75 64 {*movsi_internal}
+     (nil))
+
+(insn 16 15 17 4 (set (mem:SI (reg/f:SI 7 sp) [0 S4 A32])
+        (reg/f:SI 0 ax [orig:59 __comp_dtor .0 ] [59])) /usr/include/c++/4.6/iostream:75 64 {*movsi_internal}
+     (nil))
+
+(call_insn 17 16 20 4 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("__cxa_atexit") [flags 0x41]  <function_decl 0xb6647a00 __cxa_atexit>) [0 S1 A8])
+            (const_int 12 [0xc]))) /usr/include/c++/4.6/iostream:75 927 {*call_value_0}
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (nil))
+;; End of basic block 4 -> ( 5)
+;; lr  out 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+
+
+;; Succ edge  5 (fallthru)
+
+;; Start of basic block ( 4 2 3) -> 5
+;; bb 5 artificial_defs: { }
+;; bb 5 artificial_uses: { u-1(6){ }u-1(7){ }}
+;; lr  in  	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  use 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  def 	
+
+;; Pred edge  4 (fallthru)
+;; Pred edge  2
+;; Pred edge  3
+(code_label 20 17 21 5 2 "" [2 uses])
+
+(note 21 20 22 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
+;; End of basic block 5 -> ( 1)
+;; lr  out 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+
+
+;; Succ edge  EXIT [100.0%]  (fallthru)
+
+(note 22 21 0 NOTE_INSN_DELETED)
+
+
+;; Function (static initializers for ./test1.cpp) (_GLOBAL__sub_I__ZN3NS11xE)
+
+
+
+(static initializers for ./test1.cpp)
+
+Dataflow summary:
+;;  invalidated by call 	 0 [ax] 1 [dx] 2 [cx] 8 [st] 9 [st(1)] 10 [st(2)] 11 [st(3)] 12 [st(4)] 13 [st(5)] 14 [st(6)] 15 [st(7)] 17 [flags] 18 [fpsr] 19 [fpcr] 21 [] 22 [] 23 [] 24 [] 25 [] 26 [] 27 [] 28 [] 29 [] 30 [] 31 [] 32 [] 33 [] 34 [] 35 [] 36 [] 37 [] 38 [] 39 [] 40 [] 41 [] 42 [] 43 [] 44 [] 45 [] 46 [] 47 [] 48 [] 49 [] 50 [] 51 [] 52 []
+;;  hardware regs used 	
+;;  regular block artificial uses 	 6 [bp] 7 [sp]
+;;  eh block artificial uses 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;;  entry block defs 	 0 [ax] 1 [dx] 2 [cx] 6 [bp] 7 [sp] 20 [frame]
+;;  exit block uses 	 6 [bp] 7 [sp] 20 [frame]
+;;  regs ever live 	 6[bp] 7[sp]
+;;  ref usage 	r0={2d} r1={2d} r2={2d} r6={1d,2u} r7={1d,5u} r8={1d} r9={1d} r10={1d} r11={1d} r12={1d} r13={1d} r14={1d} r15={1d} r17={1d} r18={1d} r19={1d} r20={1d,1u} r21={1d} r22={1d} r23={1d} r24={1d} r25={1d} r26={1d} r27={1d} r28={1d} r29={1d} r30={1d} r31={1d} r32={1d} r33={1d} r34={1d} r35={1d} r36={1d} r37={1d} r38={1d} r39={1d} r40={1d} r41={1d} r42={1d} r43={1d} r44={1d} r45={1d} r46={1d} r47={1d} r48={1d} r49={1d} r50={1d} r51={1d} r52={1d} 
+;;    total ref usage 60{52d,8u,0e} in 3{2 regular + 1 call} insns.
+(note 1 0 3 NOTE_INSN_DELETED)
+
+;; Start of basic block ( 0) -> 2
+;; bb 2 artificial_defs: { }
+;; bb 2 artificial_uses: { u-1(6){ }u-1(7){ }}
+;; lr  in  	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  use 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+;; lr  def 	 0 [ax] 1 [dx] 2 [cx] 8 [st] 9 [st(1)] 10 [st(2)] 11 [st(3)] 12 [st(4)] 13 [st(5)] 14 [st(6)] 15 [st(7)] 17 [flags] 18 [fpsr] 19 [fpcr] 21 [] 22 [] 23 [] 24 [] 25 [] 26 [] 27 [] 28 [] 29 [] 30 [] 31 [] 32 [] 33 [] 34 [] 35 [] 36 [] 37 [] 38 [] 39 [] 40 [] 41 [] 42 [] 43 [] 44 [] 45 [] 46 [] 47 [] 48 [] 49 [] 50 [] 51 [] 52 []
+
+;; Pred edge  ENTRY (fallthru)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+
+(insn 5 2 6 2 (set (mem:SI (plus:SI (reg/f:SI 7 sp)
+                (const_int 4 [0x4])) [0 S4 A32])
+        (const_int 65535 [0xffff])) ./test1.cpp:12 64 {*movsi_internal}
+     (nil))
+
+(insn 6 5 7 2 (set (mem:SI (reg/f:SI 7 sp) [0 S4 A32])
+        (const_int 1 [0x1])) ./test1.cpp:12 64 {*movsi_internal}
+     (nil))
+
+(call_insn 7 6 10 2 (call (mem:QI (symbol_ref:SI ("_Z41__static_initialization_and_destruction_0ii") [flags 0x3]  <function_decl 0xb6647980 __static_initialization_and_destruction_0>) [0 S1 A8])
+        (const_int 8 [0x8])) ./test1.cpp:12 618 {*call_0}
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (nil))
+;; End of basic block 2 -> ( 1)
+;; lr  out 	 6 [bp] 7 [sp] 16 [argp] 20 [frame]
+
+
+;; Succ edge  EXIT [100.0%]  (fallthru)
+
+(note 10 7 0 NOTE_INSN_DELETED)
+

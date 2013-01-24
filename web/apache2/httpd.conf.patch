@@ -1,0 +1,491 @@
+0a1
+> #
+3c4
+< # See <URL:http://httpd.apache.org/docs/2.2> for detailed information.
+---
+> # See <URL:http://httpd.apache.org/docs/trunk/> for detailed information.
+5c6
+< # <URL:http://httpd.apache.org/docs/2.2/mod/directives.html>
+---
+> # <URL:http://httpd.apache.org/docs/trunk/mod/directives.html>
+15,17c16,19
+< # with "/", the value of ServerRoot is prepended -- so "logs/foo_log"
+< # with ServerRoot set to "/opt/apache2" will be interpreted by the
+< # server as "/opt/apache2/logs/foo_log".
+---
+> # with "/", the value of ServerRoot is prepended -- so "logs/access_log"
+> # with ServerRoot set to "/usr/local/apache2" will be interpreted by the
+> # server as "/usr/local/apache2/logs/access_log", whereas "/logs/access_log" 
+> # will be interpreted as '/logs/access_log'.
+24,26c26,29
+< # ServerRoot at a non-local disk, be sure to point the LockFile directive
+< # at a local disk.  If you wish to share the same ServerRoot for multiple
+< # httpd daemons, you will need to change at least LockFile and PidFile.
+---
+> # ServerRoot at a non-local disk, be sure to specify a local disk on the
+> # Mutex directive, if file-based mutexes are used.  If you wish to share the
+> # same ServerRoot for multiple httpd daemons, you will need to change at
+> # least PidFile.
+30a34,43
+> # Mutex: Allows you to set the mutex mechanism and mutex file directory
+> # for individual mutexes, or change the global defaults
+> #
+> # Uncomment and change the directory if mutexes are file-based and the default
+> # mutex file directory is not on a local disk or is not appropriate for some
+> # other reason.
+> #
+> # Mutex default:logs
+> 
+> #
+54c67
+< LoadModule authn_dbm_module modules/mod_authn_dbm.so
+---
+> #LoadModule authn_dbm_module modules/mod_authn_dbm.so
+57c70
+< #LoadModule authn_socache_module modules/mod_authn_socache.s
+---
+> #LoadModule authn_socache_module modules/mod_authn_socache.so
+59,60d71
+< # LoadModule authn_default_module modules/mod_authn_default.so
+< #LoadModule authn_alias_module modules/mod_authn_alias.so
+64,67c75,79
+< LoadModule authz_dbm_module modules/mod_authz_dbm.so
+< LoadModule authz_owner_module modules/mod_authz_owner.so
+< #LoadModule authnz_ldap_module modules/mod_authnz_ldap.so
+< #LoadModule authz_default_module modules/mod_authz_default.so
+---
+> #LoadModule authz_dbm_module modules/mod_authz_dbm.so
+> #LoadModule authz_owner_module modules/mod_authz_owner.so
+> #LoadModule authz_dbd_module modules/mod_authz_dbd.so
+> LoadModule authz_core_module modules/mod_authz_core.so
+> LoadModule access_compat_module modules/mod_access_compat.so
+69,80c81,95
+< LoadModule auth_digest_module modules/mod_auth_digest.so
+< LoadModule file_cache_module modules/mod_file_cache.so
+< LoadModule cache_module modules/mod_cache.so
+< #LoadModule disk_cache_module modules/mod_disk_cache.so
+< #LoadModule mem_cache_module modules/mod_mem_cache.so
+< LoadModule dbd_module modules/mod_dbd.so
+< #LoadModule bucketeer_module modules/mod_bucketeer.so
+< LoadModule dumpio_module modules/mod_dumpio.so
+< LoadModule echo_module modules/mod_echo.so
+< #LoadModule example_module modules/mod_example.so
+< #LoadModule case_filter_module modules/mod_case_filter.so
+< #LoadModule case_filter_in_module modules/mod_case_filter_in.so
+---
+> #LoadModule auth_form_module modules/mod_auth_form.so
+> #LoadModule auth_digest_module modules/mod_auth_digest.so
+> #LoadModule allowmethods_module modules/mod_allowmethods.so
+> #LoadModule apreq_module modules/mod_apreq.so
+> #LoadModule file_cache_module modules/mod_file_cache.so
+> #LoadModule cache_module modules/mod_cache.so
+> #LoadModule cache_disk_module modules/mod_cache_disk.so
+> #LoadModule socache_shmcb_module modules/mod_socache_shmcb.so
+> #LoadModule socache_dbm_module modules/mod_socache_dbm.so
+> #LoadModule socache_memcache_module modules/mod_socache_memcache.so
+> #LoadModule dbd_module modules/mod_dbd.so
+> #LoadModule dumpio_module modules/mod_dumpio.so
+> #LoadModule firehose_module modules/mod_firehose.so
+> #LoadModule buffer_module modules/mod_buffer.so
+> #LoadModule ratelimit_module modules/mod_ratelimit.so
+82,83c97,99
+< LoadModule ext_filter_module modules/mod_ext_filter.so
+< LoadModule include_module modules/mod_include.so
+---
+> #LoadModule ext_filter_module modules/mod_ext_filter.so
+> #LoadModule request_module modules/mod_request.so
+> #LoadModule include_module modules/mod_include.so
+85,88c101,104
+< LoadModule substitute_module modules/mod_substitute.so
+< LoadModule charset_lite_module modules/mod_charset_lite.so
+< LoadModule deflate_module modules/mod_deflate.so
+< #LoadModule ldap_module modules/mod_ldap.so
+---
+> #LoadModule substitute_module modules/mod_substitute.so
+> #LoadModule sed_module modules/mod_sed.so
+> #LoadModule deflate_module modules/mod_deflate.so
+> LoadModule mime_module modules/mod_mime.so
+90,91c106,107
+< LoadModule log_forensic_module modules/mod_log_forensic.so
+< LoadModule logio_module modules/mod_logio.so
+---
+> #LoadModule log_debug_module modules/mod_log_debug.so
+> #LoadModule logio_module modules/mod_logio.so
+93,95c109
+< LoadModule mime_magic_module modules/mod_mime_magic.so
+< #LoadModule cern_meta_module modules/mod_cern_meta.so
+< LoadModule expires_module modules/mod_expires.so
+---
+> #LoadModule expires_module modules/mod_expires.so
+97,99c111
+< #LoadModule ident_module modules/mod_ident.so
+< LoadModule usertrack_module modules/mod_usertrack.so
+< LoadModule unique_id_module modules/mod_unique_id.so
+---
+> #LoadModule unique_id_module modules/mod_unique_id.so
+102,115c114,134
+< LoadModule proxy_module modules/mod_proxy.so
+< LoadModule proxy_connect_module modules/mod_proxy_connect.so
+< LoadModule proxy_ftp_module modules/mod_proxy_ftp.so
+< LoadModule proxy_http_module modules/mod_proxy_http.so
+< LoadModule proxy_scgi_module modules/mod_proxy_scgi.so
+< LoadModule proxy_ajp_module modules/mod_proxy_ajp.so
+< LoadModule proxy_balancer_module modules/mod_proxy_balancer.so
+< LoadModule ssl_module modules/mod_ssl.so
+< #LoadModule optional_hook_export_module modules/mod_optional_hook_export.so
+< #LoadModule optional_hook_import_module modules/mod_optional_hook_import.so
+< #LoadModule optional_fn_import_module modules/mod_optional_fn_import.so
+< #LoadModule optional_fn_export_module modules/mod_optional_fn_export.so
+< LoadModule mime_module modules/mod_mime.so
+< LoadModule dav_module modules/mod_dav.so
+---
+> #LoadModule remoteip_module modules/mod_remoteip.so
+> #LoadModule proxy_module modules/mod_proxy.so
+> #LoadModule proxy_connect_module modules/mod_proxy_connect.so
+> #LoadModule proxy_ftp_module modules/mod_proxy_ftp.so
+> #LoadModule proxy_http_module modules/mod_proxy_http.so
+> #LoadModule proxy_fcgi_module modules/mod_proxy_fcgi.so
+> #LoadModule proxy_scgi_module modules/mod_proxy_scgi.so
+> #LoadModule proxy_ajp_module modules/mod_proxy_ajp.so
+> #LoadModule proxy_balancer_module modules/mod_proxy_balancer.so
+> #LoadModule proxy_express_module modules/mod_proxy_express.so
+> #LoadModule session_module modules/mod_session.so
+> #LoadModule session_cookie_module modules/mod_session_cookie.so
+> #LoadModule session_dbd_module modules/mod_session_dbd.so
+> #LoadModule slotmem_shm_module modules/mod_slotmem_shm.so
+> #LoadModule ssl_module modules/mod_ssl.so
+> #LoadModule lbmethod_byrequests_module modules/mod_lbmethod_byrequests.so
+> #LoadModule lbmethod_bytraffic_module modules/mod_lbmethod_bytraffic.so
+> #LoadModule lbmethod_bybusyness_module modules/mod_lbmethod_bybusyness.so
+> #LoadModule lbmethod_heartbeat_module modules/mod_lbmethod_heartbeat.so
+> LoadModule unixd_module modules/mod_unixd.so
+> #LoadModule dav_module modules/mod_dav.so
+118,126c137,141
+< LoadModule asis_module modules/mod_asis.so
+< LoadModule info_module modules/mod_info.so
+< #LoadModule suexec_module modules/mod_suexec.so
+< #LoadModule cgi_module modules/mod_cgi.so
+< LoadModule cgid_module modules/mod_cgid.so
+< LoadModule dav_fs_module modules/mod_dav_fs.so
+< LoadModule dav_lock_module modules/mod_dav_lock.so
+< LoadModule vhost_alias_module modules/mod_vhost_alias.so
+< LoadModule negotiation_module modules/mod_negotiation.so
+---
+> #LoadModule info_module modules/mod_info.so
+> #LoadModule cgid_module modules/mod_cgid.so
+> #LoadModule dav_fs_module modules/mod_dav_fs.so
+> #LoadModule vhost_alias_module modules/mod_vhost_alias.so
+> #LoadModule negotiation_module modules/mod_negotiation.so
+128,131c143,145
+< #LoadModule imagemap_module modules/mod_imagemap.so
+< LoadModule actions_module modules/mod_actions.so
+< LoadModule speling_module modules/mod_speling.so
+< LoadModule userdir_module modules/mod_userdir.so
+---
+> #LoadModule actions_module modules/mod_actions.so
+> #LoadModule speling_module modules/mod_speling.so
+> #LoadModule userdir_module modules/mod_userdir.so
+133c147
+< LoadModule rewrite_module modules/mod_rewrite.so
+---
+> #LoadModule rewrite_module modules/mod_rewrite.so
+135,136c149
+< <IfModule !mpm_netware_module>
+< <IfModule !mpm_winnt_module>
+---
+> <IfModule unixd_module>
+145,146c158,159
+< User www-data
+< Group www-data
+---
+> User daemon
+> Group daemon
+149d161
+< </IfModule>
+180,192c192,194
+< # DocumentRoot: The directory out of which you will serve your
+< # documents. By default, all requests are taken from this directory, but
+< # symbolic links and aliases may be used to point to other locations.
+< #
+< DocumentRoot "/opt/apache2/htdocs"
+< 
+< #
+< # Each directory to which Apache has access can be configured with respect
+< # to which services and features are allowed and/or disabled in that
+< # directory (and its subdirectories). 
+< #
+< # First, we configure the "default" to be a very restrictive set of 
+< # features.  
+---
+> # Deny access to the entirety of your server's filesystem. You must
+> # explicitly permit access to web content directories in other 
+> # <Directory> blocks below.
+195,198c197,198
+<     Options FollowSymLinks
+<     AllowOverride None
+<     Order deny,allow
+<     Deny from all
+---
+>     AllowOverride none
+>     Require all denied
+209c209,211
+< # This should be changed to whatever you set DocumentRoot to.
+---
+> # DocumentRoot: The directory out of which you will serve your
+> # documents. By default, all requests are taken from this directory, but
+> # symbolic links and aliases may be used to point to other locations.
+210a213
+> DocumentRoot "/opt/apache2/htdocs"
+221c224
+<     # http://httpd.apache.org/docs/2.2/mod/core.html#options
+---
+>     # http://httpd.apache.org/docs/trunk/mod/core.html#options
+236,238c239
+<     Order allow,deny
+<     Allow from all
+< 
+---
+>     Require all granted
+253,257c254,256
+< <FilesMatch "^\.ht">
+<     Order allow,deny
+<     Deny from all
+<     Satisfy All
+< </FilesMatch>
+---
+> <Files ".ht*">
+>     Require all denied
+> </Files>
+273,274c272
+< #LogLevel warn
+< LogLevel debug
+---
+> LogLevel warn
+341c339
+<     #Scriptsock logs/cgisock
+---
+>     #Scriptsock cgisock
+351,352c349
+<     Order allow,deny
+<     Allow from all
+---
+>     Require all granted
+355,365d351
+< #
+< # DefaultType: the default MIME type the server will use for a document
+< # if it cannot otherwise determine one, such as from filename extensions.
+< # If your server contains mostly text or HTML documents, "text/plain" is
+< # a good value.  If most of your content is binary, such as applications
+< # or images, you may want to use "application/octet-stream" instead to
+< # keep browsers from trying to display binary files as though they are
+< # text.
+< #
+< DefaultType text/plain
+< 
+382,383c368,369
+<     AddEncoding x-compress .Z
+<     AddEncoding x-gzip .gz .tgz
+---
+>     #AddEncoding x-compress .Z
+>     #AddEncoding x-gzip .gz .tgz
+434,436c420,423
+< # returning the entire resource, or 0 for unlimited
+< # Default setting is to accept 200 Ranges
+< #MaxRanges 0
+---
+> # returning the entire resource, or one of the special
+> # values 'default', 'none' or 'unlimited'.
+> # Default setting is to accept 200 Ranges.
+> #MaxRanges unlimited
+440c427
+< # memory-mapping or the sendfile syscall is used to deliver
+---
+> # memory-mapping or the sendfile syscall may be used to deliver
+444a432
+> # Defaults: EnableMMAP On, EnableSendfile Off
+447c435
+< #EnableSendfile off
+---
+> #EnableSendfile on
+485a474,481
+> # Policy enforcement
+> #Include conf/extra/httpd-policy.conf
+> 
+> # Configure mod_proxy_html to understand HTML4/XHTML1
+> <IfModule proxy_html_module>
+> Include conf/extra/proxy-html.conf
+> </IfModule>
+> 
+498,547c494,497
+< # -- Sonu--
+< #LoadModule perl_module modules/mod_perl.so
+< 
+< # <IfModule mod_perl.c>
+< # include /home/sonu/workspace/programming/web/www/conf/perl.conf
+< # </IfModule>
+< 
+< # --Sonu--
+< #PerlModule Apache::FilterObfuscate
+< # Forward Proxy
+< ProxyRequests On
+< ProxyVia Off
+< #<Proxy *>
+< <Proxy http://www.t.com/*>
+< #<Proxy http://www.network54.com/Forum/211833/*>
+< SetHandler modperl
+<  #PerlOutputFilterHandler Apache::FilterObfuscate
+< #PerlSendHeader On
+< #PerlOptions +ParseHeaders
+< #Options +ExecCGI
+< #Order allow,deny
+< #Allow from all
+< Order deny,allow
+< Deny from all
+< Allow from 127.0.0.1
+< </Proxy>
+< #ProxyBadHeader StartBody
+< # //Sonu//
+< 
+< 
+< #LoadModule cache_module modules/mod_cache.so
+< 
+< <IfModule mod_cache.c>
+< #LoadModule disk_cache_module modules/mod_disk_cache.so
+< # If you want to use mod_disk_cache instead of mod_mem_cache,
+< # uncomment the line above and comment out the LoadModule line below.
+< <IfModule mod_disk_cache.c>
+< CacheRoot /opt/apache2/cache
+< CacheEnable disk /
+< CacheDirLevels 5
+< CacheDirLength 3
+< </IfModule>
+< 
+< #LoadModule mem_cache_module modules/mod_mem_cache.so
+< <IfModule mod_mem_cache.c>
+< CacheEnable mem /
+< MCacheSize 4096
+< MCacheMaxObjectCount 100
+< MCacheMinObjectSize 1
+< MCacheMaxObjectSize 2048
+---
+> # Deal with user agents that deliberately violate open standards
+> #
+> <IfModule setenvif_module>
+> BrowserMatch "MSIE 10.0;" bad_DNT
+549,611c499,500
+< 
+< # When acting as a proxy, don't cache the list of security updates
+< CacheDisable http://security.update.server/update-list/
+< </IfModule> 
+< # --Sonu--
+< # Cache Settings
+< #LoadModule cache_module modules/mod_cache.so
+< #CacheRoot "/opt/apache2/cache/"
+< #CacheSize 500
+< #CacheGcInterval 168
+< #CacheMaxExpire 86400
+< #CacheLastModifiedFactor 0.1
+< #CacheDefaultExpire 1
+< 
+< 
+< # //Sonu//
+< #ProxyPass / ft.com/ http://reddit.com/
+< #ProxyPassReverse /ft.com/ http://reddit.com/
+< 
+< #PerlModule Apache::ConnectionFilterObfuscate
+< #SetHandler modperl
+< #PerlOutputFilterHandler Apache::ConnectionFilterObfuscate::output
+< #PerlSendHeader On
+< #PerlOptions +ParseHeaders
+< 
+< 
+< # <Location  /ww>
+< # SetHandler modperl
+< #  PerlOutputFilterHandler Apache::ConnectionFilterObfuscate::output
+< # PerlSendHeader On
+< # PerlOptions +ParseHeaders
+< # Options +ExecCGI
+< # Order allow,deny
+< # Allow from all
+< # </Location>
+< 
+< <Files ~ "\.html">
+< #       PerlOutputFilterHandler Apache::FilterObfuscate
+< </Files>                
+< 
+<   # PerlModule Apache::Dump
+<   # <Location /dump>
+<   #     SetHandler modperl
+<   #     PerlResponseHandler Apache::Dump
+<   #     PerlSendHeader On
+<   #     PerlOptions +ParseHeaders
+<   #     Options +ExecCGI
+<   #     Order allow,deny
+<   #     Allow from all
+<   # </Location>
+< 
+< # LoadModule perl_module modules/mod_perl.so
+< 
+< # <IfModule mod_perl.c>
+< # include /home/sonu/workspace/programming/web/www/conf/perl.conf
+< # </IfModule>
+< 
+< ProxyRequests On
+< ProxyVia On
+< 
+< <IfModule ext_filter_module>
+< ExtFilterDefine test_ext_filter mode=output \
+< cmd="/home/sonu/sonuscripts/test_ext_filter.pl"
+---
+> <IfModule headers_module>
+> RequestHeader unset DNT env=bad_DNT
+614,661d502
+< #<Location *>
+< #SetOutputFilter test_ext_filter
+< #</Location>
+< 
+< # <Proxy *>
+< # Order deny,allow
+< # Deny from all
+< # Allow from 127.0.0.1
+< # SetOutputFilter test_ext_filter
+< 
+< # </Proxy>
+< 
+< #SetEnv proxy-sendchunked 1
+< #SetEnv force-proxy-request-1.0 1
+< #SetEnv proxy-sendcl 1
+< #SetEnv no-gzip 1
+< 
+< # <Proxy http://news.ycombinator.com/*>
+< #<Proxy http://www.telegraph.co.uk1/*>
+< <Proxy http://timesofindia.indiatimes.com/*>
+<  Order deny,allow
+<  Deny from all
+<  Allow from 127.0.0.1
+< # #FilterDeclare
+< # #FilterProvider
+< # #FilterChain 
+< # #SetOutputFilter INFLATE
+< # #AddOutputFilter INFLATE
+<  SetOutputFilter INFLATE;test_ext_filter
+< # #SetOutputFilter DEFLATE
+<  #ProxySet keepalive=On
+< # #Header append Vary User-Agent env=!dont-vary
+< # Header set Vary *
+< # #BrowserMatch ^Firefox no-gzip
+< # #BrowserMatch ^Mozilla no-gzip
+< #Header unset Content-Length
+< # #SetEnv no-gzip 1
+< # #Header unset ETag
+< #Header unset Content-Encoding
+< # #Header unset Content-Type
+<  </Proxy>
+< 
+< #Header unset Content-Length
+< #Header unset ETag
+< #Header unset Content-Encoding
+< <IfModule log_config_module>
+< CustomLog "logs/error_log" combinedio
+< </IfModule>
+\ No newline at end of file

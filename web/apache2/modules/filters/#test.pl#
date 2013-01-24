@@ -1,0 +1,9 @@
+use feature ":5.10";
+
+my $s = qq{<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#
+		website: http://ogp.me/ns/website#">>};
+  
+$s =~ s/<head prefix=.*?>/done/gs;
+say $s;
+
+1;

@@ -1,0 +1,20 @@
+(module update-chicken
+  (*)
+  (import posix files)
+  (define chicken-install-dir "/opt/lisp/scheme/chicken")
+  (define chicken-dev-install-dir "/opt/lisp/scheme/chicken_dev")
+  (define chicken-stable-install-dir "/opt/lisp/scheme/chicken_stable")
+  (define source-download-dir "/opt/lisp/scheme/sources")
+  (define (update-chicken (url install-dir)
+    
+  (define update-chicken-stable (#!optional url)
+    (unless (directory? chicken-stable-install-dir)
+      (create-directory chicken-stable-install-dir))
+    (change-directory source-download-dir)
+    (let ((temp-dir (create-temporary-directory)))
+      (change-directory temp-dir)
+      (if (irregex-search "^https?.*$" url)
+          (download url source-download-dir)
+          (rsync url source-download-dir))
+      (rsync url (current-directory))
+  

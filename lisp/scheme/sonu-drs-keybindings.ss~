@@ -1,0 +1,7 @@
+#lang scheme
+(module schemekeys-keymap
+  (lib "keybinding-lang.ss" "framework")
+  (require (lib "tool-lib.ss" "drscheme"))
+
+  (define (sendsnip e s)
+    (let ([snip (make-object string-snip% s)])

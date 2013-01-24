@@ -1,0 +1,4 @@
+package com.sonup.test;
+
+public interface IPolygon{
+}

@@ -1,0 +1,49 @@
+(defun repos-update (&key svn git)
+  (dolist (repo svn)
+    (with-dir repo
+      (utils::run-shell-cmd "svn updatee")))
+
+  (dolist (repo git)
+    (with-dir repo
+      (utils::run-shell-cmd "git pull"))))
+
+
+
+(defun update-repo (repo-dir)
+  (let* ((children
+          (mapcar
+           #'directory-namestring
+           (cl-fad::list-directory
+            repo-dir))))
+    (dolist (child children)
+      (multiple-value-bind (match registers) (cl-ppcre:scan-to-strings
+                                              "(\\.svn)|(\\.git)"
+                                              child)
+        (cond ((string= match ".git")
+               (with-dir repo-dir
+                 (utils::run-shell-cmd
+                  "git pull")))
+              ((string= match ".svn")
+               (with-dir repo-dir
+                 (utils::run-shell-cmd
+                  "svn update"))))))))
+
+(defun update-repos (repos)
+  (dolist (repo repos)
+    (update-repo repo)))
+
+
+(defparameter *repos* (mapcar (lambda (dir)
+                                (concatenate 'string "/opt/sources/"
+                                             dir))
+                              '("apache/httpd_trunk/" "boost-trunk."
+                                "cedet/" "curl/"
+                                "emacs_dev_git_full/" "gcc/"
+                                "lisp/cl/sbcl/" "lisp/cl/ecls/ecl/"
+                                "lisp/cl/ecls/ecl-doc"
+                                "scheme/chicken-core/"
+                                "scheme/guile/" "scheme/kawa/" "plt"
+                                "swig/trunk")))
+
+
+(update-repos *repos*)

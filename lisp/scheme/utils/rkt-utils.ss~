@@ -1,0 +1,17 @@
+(module rkt-utils racket
+  (provide (all-defined-out))
+
+  (define creat-dir-tree
+    (lambda (dir-tree)
+      (for-each )))
+  (define setup-generic-proj
+    (lambda (name base-dir dir-tree)
+      (unless (directory-exists? base-dir)
+        (make-directory base-dir))
+      (current-directory base-dir)
+      (let ((proj-dir (build-path 'same name)))
+        (if (directory-exists? proj-dir)
+            (error 'setup-generic-proj "Directory ~a already exists!" proj-dir)
+            (make-directory proj-dir))
+        (and (current-directory proj-dir)
+             (create dir-tree)))      )))

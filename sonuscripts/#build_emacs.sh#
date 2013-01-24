@@ -1,0 +1,2 @@
+#!/bin/bash
+./autogen.sh && ./configure --prefix=/opt/emacs_dev && make bootstrap && make && make install

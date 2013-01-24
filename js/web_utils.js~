@@ -1,0 +1,6 @@
+function genTable(rows cols){
+    var root = document.createElement("div");
+    for(var i = 0; i <= rows; ++i){
+        node.appendChild("div");
+        for(var j = 0; j <= columns; ++j){
+            

@@ -1,0 +1,19 @@
+#include <initializer_list>
+#include <utility> //std::function
+#include <functional>
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+class F;
+vector<F*> functionList;
+class F{
+  template<class R, class... Args>
+//typedef f 
+
+int main(int argc, char* argv[]){
+  cout << "Hello" << endl;
+return 0;
+}

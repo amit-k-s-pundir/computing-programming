@@ -1,0 +1,3 @@
+adobe-flash-plug-in
+cl-aima
+xaw3dg

@@ -1,0 +1,6 @@
+#include <QtGui>
+#include <vector>
+
+QTimer* timer;
+std::vecto
+timer.

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+remove Lock = Caps_Lock
+remove Control = Control_L

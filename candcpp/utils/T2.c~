@@ -1,0 +1,6 @@
+#include <stdlib.h>
+#include <stdarg.h>
+
+typedef void* (*fn)(void* arg1, ...);
+void* testFn(void* arg1, ...){
+  

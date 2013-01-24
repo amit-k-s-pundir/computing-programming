@@ -1,0 +1,7 @@
+(defpackage :utils-cpp
+  (:use :cl :cl-ppcre))
+
+(in-package :)
+
+(defun parse-template (str)
+  )

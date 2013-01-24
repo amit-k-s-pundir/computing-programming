@@ -1,0 +1,4 @@
+log4perl.logger=INFO, File
+
+log4perl.appender.File=Log::Dispatch::File
+log4perl.appender.Screen.layout=Log::Log4perl::Layout::SimpleLayout

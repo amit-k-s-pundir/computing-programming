@@ -17,9 +17,16 @@
 #include "dirent.h"
 #include <stdio.h>
 #include <sys/types.h>
+#include <iostream>
+#include <vector>
+#include <string>
 
 int main(int argc, char** argv){
+  using namespace std;
 
+  vector<string> v();
+  v.push_back(
+  
   DIR* dir = opendir("/usr_gentoo/");
   struct dirent* entry;
   struct dirent** result;

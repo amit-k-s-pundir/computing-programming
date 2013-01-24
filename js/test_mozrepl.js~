@@ -1,0 +1,10 @@
+var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"]
+    .getService(Components.interfaces.nsIWindowMediator);
+var browserEnumerator = wm.getEnumerator("navigator:browser");
+var found = false;
+var no_of_wins = 0;
+while(!found &&  browserEnumerator.getNext()){
+    no_of_wins++;
+}
+repl.print(no_of_wins);
+

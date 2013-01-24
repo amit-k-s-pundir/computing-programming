@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+                    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  
+  <script>
+  $(document).ready(function(){
+    
+    var arr = [ "one", "two", "three", "four", "five" ];
+    var obj = { one:1, two:2, three:3, four:4, five:5 };
+
+    jQuery.each(arr, function() {
+      $("#" + this).text("My id is " + this + ".");
+      return (this != "four"); // will stop running to skip "five"
+    });
+
+    jQuery.each(obj, function(i, val) {
+      $("#" + i).append(document.createTextNode(" - " + val));
+    });
+
+  });
+  </script>
+  <style>
+  div { color:blue; }
+  div#five { color:red; }
+  </style>
+</head>
+<body>
+  <div id="one"></div>
+  <div id="two"></div>
+  <div id="three"></div>
+  <div id="four"></div>
+  <div id="five"></div>
+</body>
+</html>
+

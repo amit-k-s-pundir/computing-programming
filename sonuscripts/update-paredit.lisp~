@@ -1,0 +1,18 @@
+(in-package :utils)
+
+(ql:quickload "drakma")
+
+(setq *header-stream* *standard-output*)
+
+(defvar *paredit-stable-url*
+  "http://mumble.net/~campbell/emacs/paredit.el")
+
+(defvar *paredit-dev-url* "http://mumble.net/~campbell/emacs/paredit-beta.el")
+
+(defmethod install (eql 'paredit-stable)
+  (let ((download-cmd (format nil "wget -N -c ~A"
+  *paredit-stable-url*)))
+    (utils::with-dir download-dir
+      (utils::run-shell-cmd download-cmd)
+      (utils::rsync '("./paredit.el" (format nil "~A" *install-dir*)))
+  (http-request 

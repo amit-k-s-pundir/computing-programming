@@ -1,0 +1,37 @@
+// identity
+function id(x:*):* {return x;}
+
+// curry
+function curry(f:Function):Function{
+  return function(x):Function{
+    return function(y) {
+      return f(x,y);
+    }
+  }
+}
+
+// uncurry
+function uncurry(f:Function):Function {
+  return function(x,y){return f(x)(y);}
+}
+
+// constant function
+function const(x){ return function(y){return x;} };
+
+// procedural style foldl - uncurried
+function foldl(f:Function, e:*, xs:Array):*{
+  for each(var x in xs)
+    e = f(e,x);
+  return e;
+}
+
+// functional composition - uncurried
+function o(f1:Function,f2:Function):Function {
+  return function(a:*):*{
+    return f1(f2(a));
+  }
+}
+
+// summation - uncurried
+function sum(x:Number,y:Number):Number { return x+y; }
+

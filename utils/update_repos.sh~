@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+dir=${1:="/home/sonu/workspace/programming/sources"};
+
+pushd $dir;
+
+find ${dir} -maxdepth 1 -iregex '^\.svn$' -or -iregex '^\.git'
+
+popd;

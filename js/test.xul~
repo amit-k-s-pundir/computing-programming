@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/"?>
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <!-- Contents go here. -->
+<label value="Horizontal layout"/>
+<hbox>
+  <button label="horizontal1"/>
+  <button label="horizontal2"/>
+</hbox>
+<label value="Vertical layout"/>
+<vbox>
+  <button label="vertical1"/>
+  <button label="vertical2"/>
+</vbox>
+<label value="mixed"/>
+<hbox>
+  <button label="mixed1"/>
+  <vbox>
+    <button label="mixed2"/>
+    <button label="mixed3"/>
+  </vbox>
+  <button label="mixed4"/>
+</hbox>
+<hbox>
+  <label value="label1" flex="1" style="border: 1px solid;"/>
+  <label value="label2" flex="2" style="border: 1px solid;"/>
+</hbox>
+<menubar>
+  <menu label="Menu 1">
+    <menupopup>
+      <menuitem label="Item 1"/>
+      <menuitem label="Item 2"/>
+      <menuseparator/>
+      <menuitem label="Item 3"/>
+      <menu label="Submenu">
+        <menupopup>
+          <menuitem label="Item 4"/>
+          <menuitem label="Item 5"/>
+        </menupopup>
+      </menu>
+    </menupopup>
+  </menu>
+</menubar>
+<script type="application/x-javascript"><![CDATA[
+  var nodes = gBrowser.mTabContainer.childNodes;
+  for (var i = 0; i < nodes.length; i++)
+  alert(nodes[i].label);
+]]></script>
+</window>
+

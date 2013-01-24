@@ -1,0 +1,12 @@
+
+
+using namespace std;
+
+struct F{
+  template<class R, class... Args> F{
+    };
+}
+
+int main(int argc, char* argv[]){
+  return 0;
+  }

@@ -1,0 +1,270 @@
+
+;; Function int main(int, char**) (main)
+
+(note 1 0 3 NOTE_INSN_DELETED)
+
+;; Start of basic block ( 0) -> 2
+;; Pred edge  ENTRY (fallthru)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+
+(note 2 3 4 2 NOTE_INSN_FUNCTION_BEG)
+;; End of basic block 2 -> ( 3)
+
+;; Succ edge  3 [100.0%]  (fallthru)
+
+;; Start of basic block ( 2) -> 3
+;; Pred edge  2 [100.0%]  (fallthru)
+(note 4 2 5 3 [bb 3] NOTE_INSN_BASIC_BLOCK)
+
+(insn 5 4 6 3 (set (reg:SI 59 [ x.1 ])
+        (mem/c/i:SI (symbol_ref:SI ("_ZN3NS11xE") [flags 0x2]  <var_decl 0xb658ae40 x>) [0 x+0 S4 A32])) ./test1.cpp:11 -1
+     (nil))
+
+(insn 6 5 7 3 (set (mem:SI (plus:SI (reg/f:SI 56 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0 S4 A32])
+        (reg:SI 59 [ x.1 ])) ./test1.cpp:11 -1
+     (nil))
+
+(insn 7 6 8 3 (set (mem:SI (reg/f:SI 56 virtual-outgoing-args) [0 S4 A32])
+        (symbol_ref:SI ("_ZSt4cout") [flags 0x40]  <var_decl 0xb658a7e0 cout>)) ./test1.cpp:11 -1
+     (nil))
+
+(call_insn 8 7 9 3 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("_ZNSolsEi") [flags 0x41]  <function_decl 0xb66a8980 operator<<>) [0 S1 A8])
+            (const_int 8 [0x8]))) ./test1.cpp:11 -1
+     (nil)
+    (nil))
+
+(insn 9 8 10 3 (set (reg/f:SI 60 [ D.29502 ])
+        (reg:SI 0 ax)) ./test1.cpp:11 -1
+     (nil))
+
+(insn 10 9 11 3 (set (reg/f:SI 61 [ D.29499 ])
+        (reg/f:SI 60 [ D.29502 ])) ./test1.cpp:11 -1
+     (nil))
+
+(insn 11 10 12 3 (set (mem:SI (plus:SI (reg/f:SI 56 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0 S4 A32])
+        (symbol_ref:SI ("_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_") [flags 0x41]  <function_decl 0xb66cbf00 endl>)) ./test1.cpp:11 -1
+     (nil))
+
+(insn 12 11 13 3 (set (mem:SI (reg/f:SI 56 virtual-outgoing-args) [0 S4 A32])
+        (reg/f:SI 61 [ D.29499 ])) ./test1.cpp:11 -1
+     (nil))
+
+(call_insn 13 12 14 3 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("_ZNSolsEPFRSoS_E") [flags 0x41]  <function_decl 0xb66a8f00 operator<<>) [0 S1 A8])
+            (const_int 8 [0x8]))) ./test1.cpp:11 -1
+     (nil)
+    (nil))
+
+(insn 14 13 15 3 (set (reg:SI 62 [ D.29500 ])
+        (const_int 0 [0])) ./test1.cpp:0 -1
+     (nil))
+
+(insn 15 14 16 3 (set (reg:SI 63 [ <retval> ])
+        (reg:SI 62 [ D.29500 ])) ./test1.cpp:0 -1
+     (nil))
+
+(jump_insn 16 15 17 3 (set (pc)
+        (label_ref 18)) ./test1.cpp:0 -1
+     (nil)
+ -> 18)
+;; End of basic block 3 -> ( 5)
+
+;; Succ edge  5
+
+(barrier 17 16 23)
+
+;; Start of basic block () -> 4
+(note 23 17 20 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+
+(insn 20 23 21 4 (clobber (reg/i:SI 0 ax)) ./test1.cpp:12 -1
+     (nil))
+
+(insn 21 20 18 4 (clobber (reg:SI 63 [ <retval> ])) ./test1.cpp:12 -1
+     (nil))
+;; End of basic block 4 -> ( 5)
+
+;; Succ edge  5 (fallthru)
+
+;; Start of basic block ( 3 4) -> 5
+;; Pred edge  3
+;; Pred edge  4 (fallthru)
+(code_label 18 21 24 5 1 "" [1 uses])
+
+(note 24 18 19 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
+
+(insn 19 24 22 5 (set (reg/i:SI 0 ax)
+        (reg:SI 63 [ <retval> ])) ./test1.cpp:12 -1
+     (nil))
+
+(insn 22 19 0 5 (use (reg/i:SI 0 ax)) ./test1.cpp:12 -1
+     (nil))
+;; End of basic block 5 -> ( 1)
+
+;; Succ edge  EXIT [100.0%]  (fallthru)
+
+
+;; Function void __static_initialization_and_destruction_0(int, int) (_Z41__static_initialization_and_destruction_0ii)
+
+(note 1 0 3 NOTE_INSN_DELETED)
+
+;; Start of basic block ( 0) -> 2
+;; Pred edge  ENTRY (fallthru)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+
+(note 2 3 4 2 NOTE_INSN_FUNCTION_BEG)
+;; End of basic block 2 -> ( 3)
+
+;; Succ edge  3 [100.0%]  (fallthru)
+
+;; Start of basic block ( 2) -> 3
+;; Pred edge  2 [100.0%]  (fallthru)
+(note 4 2 5 3 [bb 3] NOTE_INSN_BASIC_BLOCK)
+
+(insn 5 4 6 3 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c/i:SI (reg/f:SI 53 virtual-incoming-args) [0 __initialize_p+0 S4 A32])
+            (const_int 1 [0x1]))) ./test1.cpp:12 -1
+     (nil))
+
+(jump_insn 6 5 7 3 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 18)
+            (pc))) ./test1.cpp:12 -1
+     (nil)
+ -> 18)
+;; End of basic block 3 -> ( 4 6)
+
+;; Succ edge  4 (fallthru)
+;; Succ edge  6
+
+;; Start of basic block ( 3) -> 4
+;; Pred edge  3 (fallthru)
+(note 7 6 8 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+
+(insn 8 7 9 4 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c/i:SI (plus:SI (reg/f:SI 53 virtual-incoming-args)
+                    (const_int 4 [0x4])) [0 __priority+0 S4 A32])
+            (const_int 65535 [0xffff]))) ./test1.cpp:12 -1
+     (nil))
+
+(jump_insn 9 8 10 4 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 18)
+            (pc))) ./test1.cpp:12 -1
+     (nil)
+ -> 18)
+;; End of basic block 4 -> ( 5 6)
+
+;; Succ edge  5 (fallthru)
+;; Succ edge  6
+
+;; Start of basic block ( 4) -> 5
+;; Pred edge  4 (fallthru)
+(note 10 9 11 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
+
+(insn 11 10 12 5 (set (mem:SI (reg/f:SI 56 virtual-outgoing-args) [0 S4 A32])
+        (symbol_ref:SI ("_ZStL8__ioinit") [flags 0x2]  <var_decl 0xb658aa80 __ioinit>)) /usr/include/c++/4.6/iostream:75 -1
+     (nil))
+
+(call_insn 12 11 13 5 (call (mem:QI (symbol_ref:SI ("_ZNSt8ios_base4InitC1Ev") [flags 0x41]  <function_decl 0xb68b4c00 __comp_ctor >) [0 S1 A8])
+        (const_int 4 [0x4])) /usr/include/c++/4.6/iostream:75 -1
+     (nil)
+    (nil))
+
+(insn 13 12 14 5 (set (reg/f:SI 59 [ __comp_dtor .0 ])
+        (symbol_ref:SI ("_ZNSt8ios_base4InitD1Ev") [flags 0x41]  <function_decl 0xb68b4d00 __comp_dtor >)) /usr/include/c++/4.6/iostream:75 -1
+     (nil))
+
+(insn 14 13 15 5 (set (mem:SI (plus:SI (reg/f:SI 56 virtual-outgoing-args)
+                (const_int 8 [0x8])) [0 S4 A32])
+        (symbol_ref:SI ("__dso_handle") [flags 0x40]  <var_decl 0xb664a360 __dso_handle>)) /usr/include/c++/4.6/iostream:75 -1
+     (nil))
+
+(insn 15 14 16 5 (set (mem:SI (plus:SI (reg/f:SI 56 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0 S4 A32])
+        (symbol_ref:SI ("_ZStL8__ioinit") [flags 0x2]  <var_decl 0xb658aa80 __ioinit>)) /usr/include/c++/4.6/iostream:75 -1
+     (nil))
+
+(insn 16 15 17 5 (set (mem:SI (reg/f:SI 56 virtual-outgoing-args) [0 S4 A32])
+        (reg/f:SI 59 [ __comp_dtor .0 ])) /usr/include/c++/4.6/iostream:75 -1
+     (nil))
+
+(call_insn 17 16 18 5 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("__cxa_atexit") [flags 0x41]  <function_decl 0xb6647a00 __cxa_atexit>) [0 S1 A8])
+            (const_int 12 [0xc]))) /usr/include/c++/4.6/iostream:75 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (nil))
+;; End of basic block 5 -> ( 6)
+
+;; Succ edge  6 (fallthru)
+
+;; Start of basic block ( 3 5 4) -> 6
+;; Pred edge  3
+;; Pred edge  5 (fallthru)
+;; Pred edge  4
+(code_label 18 17 19 6 3 "" [2 uses])
+
+(note 19 18 20 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
+;; End of basic block 6 -> ( 7)
+
+;; Succ edge  7 (fallthru)
+
+;; Start of basic block ( 6) -> 7
+;; Pred edge  6 (fallthru)
+(code_label 20 19 21 7 2 "" [0 uses])
+
+(note 21 20 0 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
+;; End of basic block 7 -> ( 1)
+
+;; Succ edge  EXIT [100.0%]  (fallthru)
+
+
+;; Function (static initializers for ./test1.cpp) (_GLOBAL__sub_I__ZN3NS11xE)
+
+(note 1 0 3 NOTE_INSN_DELETED)
+
+;; Start of basic block ( 0) -> 2
+;; Pred edge  ENTRY (fallthru)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+
+(note 2 3 4 2 NOTE_INSN_FUNCTION_BEG)
+;; End of basic block 2 -> ( 3)
+
+;; Succ edge  3 [100.0%]  (fallthru)
+
+;; Start of basic block ( 2) -> 3
+;; Pred edge  2 [100.0%]  (fallthru)
+(note 4 2 5 3 [bb 3] NOTE_INSN_BASIC_BLOCK)
+
+(insn 5 4 6 3 (set (mem:SI (plus:SI (reg/f:SI 56 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0 S4 A32])
+        (const_int 65535 [0xffff])) ./test1.cpp:12 -1
+     (nil))
+
+(insn 6 5 7 3 (set (mem:SI (reg/f:SI 56 virtual-outgoing-args) [0 S4 A32])
+        (const_int 1 [0x1])) ./test1.cpp:12 -1
+     (nil))
+
+(call_insn 7 6 8 3 (call (mem:QI (symbol_ref:SI ("_Z41__static_initialization_and_destruction_0ii") [flags 0x3]  <function_decl 0xb6647980 __static_initialization_and_destruction_0>) [0 S1 A8])
+        (const_int 8 [0x8])) ./test1.cpp:12 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (nil))
+;; End of basic block 3 -> ( 4)
+
+;; Succ edge  4 (fallthru)
+
+;; Start of basic block ( 3) -> 4
+;; Pred edge  3 (fallthru)
+(code_label 8 7 9 4 4 "" [0 uses])
+
+(note 9 8 0 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+;; End of basic block 4 -> ( 1)
+
+;; Succ edge  EXIT [100.0%]  (fallthru)
+

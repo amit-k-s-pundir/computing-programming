@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 61
+MANIFEST
+Makefile
+blib
+pm_to_blib
+MANIFEST.bak
+Makefile.old
+
+
+END

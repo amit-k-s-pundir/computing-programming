@@ -1,0 +1,16 @@
+#include <iostream>
+
+#include <ngx_config.h>
+#include <ngx_core.h>
+#include <ngx_http.h>
+#include <ngx_crypt.h>
+
+// Local contect for this module.
+typedef struct{
+} ngx_ft_automation_ctx_t;
+
+// Local config for this module.
+typedef struct{
+} ngx_ft_automation_loc_conf_t;
+
+static ngx_int_t ngx_ft_automation_handler(ngx_http_req_t* r);

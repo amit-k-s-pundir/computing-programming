@@ -1,0 +1,21 @@
+;#lang racket
+(module build-apache
+  *
+  (import scheme chicken posix files shell)
+  (import sonu-utils)
+;  (require "sonu-utils.ss")
+;  (provide build-apache budild-apache-debug-single-thread)
+
+  (define (build-apache #!optional (base-dir
+                                    "/home/sonu/workspace/programming/sources/apache/httpd-trunk"))
+    (or 
+     (and (cd base-dir)
+          (configure) (make) (make "install"))
+     (error "Unable to build apache!")))
+
+  (define (build-apache-debug-single-threaded src-dir config-options)
+    (if (null? config-options)
+        (setq 
+    (and (cd src-dir) (configure config-options) (make) (make "install")))
+  )
+

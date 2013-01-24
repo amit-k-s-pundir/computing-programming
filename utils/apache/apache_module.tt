@@ -1,0 +1,3 @@
+[% INCLUDE header %]
+[% INCLUDE body %]
+[% INCLUDE footer %]

@@ -1,0 +1,7 @@
+1. See the configuration options in ~/sonuscripts/installclisp.sh.
+
+2. Make sure to install all the header files for the required modules.
+
+3. In particular, check that the libreadline is being detected properly.
+
+4. Remember to linke the INSTALLDIRECTORY/share/* files to the relevant /usr/share/ links.

@@ -1,0 +1,10 @@
+(in-package :utils)
+
+(defun s+ (&rest args)
+  (apply #'concatenate 'string args))
+
+(defun l->s (l)
+  "Transforms a list of symbols into a string with those symbols as
+its word constituents.  The default is to lower-case the symbols, when
+  converted to words"
+  )

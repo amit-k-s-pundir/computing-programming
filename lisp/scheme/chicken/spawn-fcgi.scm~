@@ -1,0 +1,6 @@
+(define (bind-socket addr port unixsocket uid gid mode)
+    (let ((fcgi-addr-in (socket af/inet sock/stream))
+          (fcgi-addr-un (socket)))
+      (if (unixsocket)
+          
+

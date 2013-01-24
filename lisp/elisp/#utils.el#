@@ -1,0 +1,151 @@
+(require 'cl)
+
+(defun create-a-web-proj (proj-name &optional base-dir dir-tree)
+  (interactive "*sProject Name:\nDBase Directory:")
+  (message (format "Project name is: %s\n" proj-name))
+  (if (and base-dir
+           (not (file-directory-p base-dir)))
+      (error 
+      (and (message (format "Creating base directory: %s\n" base-dir))
+6           (make-directory (expand-file-name base-dir)))
+        )
+  (insert "#include <vector>
+
+using namespace std;
+
+int main(int argc, char** argv){
+}
+
+"))
+
+(defun create-dir-tree (dir-tree &optional base-dir)
+  "Creates a directory tree in the base-dir.  If base-dir is not supplied then
+the default-dir is used as the base-dir."
+  (let ((dir default-directory))
+    (unwind-protect
+        (progn (if base-dir (cd base-dir))
+               (make-directory (expand-file-name (car dir-tree)))
+               (cd (car dir-tree))
+               (dolist (e (cdr dir-tree))
+
+                 (cond ((stringp e) (touch e))
+                       ((consp e) (create-dir-tree e)))))
+      (cd dir))))
+
+(defun touch (filename)
+  (let ((cmd (concat  "touch "
+                     filename)))
+    (insert cmd)
+    (shell-command-to-string cmd)))
+
+(defun slime-start-to-regex-eval-region (&optional regex)
+  (let ((start (point-min))
+		(end (progn (re-search-forward regex)
+                    (forward-line -1)
+                    (end-of-line)
+                    (point))))
+                                        ;	(princ start)
+                                        ;	(princ end)
+	(slime-eval-region start end)))
+
+(defun* find-daily-org-file (&optional (name (concat (chomp
+                                                      (shell-command-to-string
+                                                       "date \\
++%H_%M_%S_%Z_%a_%d_%b_%Y")) ".org")) (dir (expand-file-name "~/org/")))
+  (interactive)
+  (find-temp-file name dir))
+
+(defmacro* with-dir (dir &body forms)
+  `(let ((orig-dir default-directory))
+     (cd ,dir)
+     (unwind-protect
+         ,@forms
+       (cd orig-dir))))
+  
+(defun* find-temp-file (&optional (name (concat (chomp (shell-command-to-string "date\\
+ +%H_%M_%S_%Z_%a_%d_%b_%Y")) ".org")) (dir default-directory))
+  (with-dir dir
+            (let ((s (concat "touch " name)))
+              (if (shell-command-to-string s)
+                  (insert (format "%s" (concat "Created a file named " name "\n")))))))
+
+(defun duplicate-current-line ()
+  (interactive)
+  (beginning-of-line nil)
+  (let ((b (point)))
+    (end-of-line nil)
+    (copy-region-as-kill b (point)))
+  (beginning-of-line 2)
+  (open-line 1)
+  (yank)
+  (back-to-indentation))
+
+(defun regex-replace (regex string)
+  (goto-char (point-min))
+  (while (re-search-forward regex nil t)
+    (replace-match string)))
+
+(defun string-repeat (str n)
+  (let ((retval ""))
+    (dotimes (i n)
+      (setq retval (concat retval str)))
+    retval))
+
+;; String munging functions
+;; Extract the first group in a regex
+(defun extract-string(regex string)
+  "Extract a string in a regex (the bit in ()'s)"
+  (interactive)
+  (let ((s string))
+    (if (string-match regex s) (match-string 1 s) s)))
+;; And building on that
+(defun extract-value-from-pair(key string)
+  "Extract the value from AAAA=value pairs"
+  (let ((regex (concat key "=\\(.*\\)$")))
+    (extract-string regex string)))
+
+;; examples:
+;;  (extract-string "name is \\(\.*\\) " "my name is Alex ok") = Alex
+;;  (extract-value-from-pair "AAA" "AAA=xxx") = xxx
+
+;; chomp
+(defun chomp(string)
+  "Perform a perl-like chomp"
+  (let ((s string)) (if (string-match "\\(.*\\)\n" s) (match-string 1 s) s)))
+
+;; which-lookup
+;; Like the shell command of the same name except it trims to 'nil if
+;; it can't find anything
+
+(defun which-lookup(name)
+  "Perform a `which` like file look-up"
+  (let
+      ((file (chomp
+              (shell-command-to-string
+               (concat "which " name)))))
+    (if (and (file-exists-p file) (> (length file) 0))
+        (concat file)
+      ())))
+
+;; From http://ruslanspivak.com/2007/08/18/htmlize-your-erlang-code-buffer/
+(defun my-htmlize-region (beg end)
+  "Htmlize region and put into <pre> tag style that is left in <body> tag
+plus add font-size: 8pt"
+  (interactive "r")
+  (let* ((buffer-faces (htmlize-faces-in-buffer))
+         (face-map (htmlize-make-face-map (adjoin 'default buffer-faces)))
+         (pre-tag (format
+                   "<pre style=\"%s font-size: 8pt\">"
+                   (mapconcat #'identity (htmlize-css-specs
+                                          (gethash 'default face-map)) " ")))
+         (htmlized-reg (htmlize-region-for-paste beg end)))
+    (switch-to-buffer-other-window "*htmlized output*")
+                                        ; clear buffer
+    (kill-region (point-min) (point-max))
+                                        ; set mode to have syntax highlighting
+    (nxml-mode)
+    (save-excursion
+      (insert htmlized-reg))
+    (while (re-search-forward "<pre>" nil t)
+      (replace-match pre-tag nil nil))
+    (goto-char (point-min))))

@@ -1,0 +1,47 @@
+#include <functional>
+#include <boost/lambda/lambda.hpp>
+
+using namespace std;
+using namespace boost::lambda;
+
+struct Doc{
+string name, url, download_dir, install_dir;
+};
+
+// template<class T> struct WithDir : T{
+// }    
+
+vector<path> dirStack;
+path pushd(string newDir){
+dirStack.push_back(newdir);
+};
+path popd();
+template<class R, class... Args> auto withDir(const string& newDir, function<R(Args... args)> f, Args... args){
+path originalDir = cwd();
+pushd newDir;
+auto r = f(args...);
+popd;
+}
+
+
+
+ 
+
+template<class T> int update(const T& doc){
+  doc.update();
+};
+
+int update(const Doc& doc){
+ 
+
+
+int main(int argc, char* argv[]){
+  for(auto it = docs.begin(); it != docs.end(); it++){
+    update(*it);
+  }
+  withDir::apply<f>::type v;
+v.
+  return 0;
+}
+
+

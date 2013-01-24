@@ -1,0 +1,1 @@
+wget -N -c http://opensource.become.com/apache/struts/binaries/struts-2.1.6-all.zip

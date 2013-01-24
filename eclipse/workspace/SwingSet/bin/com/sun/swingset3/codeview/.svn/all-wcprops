@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/swingset3~svn/!svn/ver/208/trunk/SwingSet3/src/com/sun/swingset3/codeview
+END
+SnippetParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/swingset3~svn/!svn/ver/188/trunk/SwingSet3/src/com/sun/swingset3/codeview/SnippetParser.java
+END
+SnippetMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/swingset3~svn/!svn/ver/188/trunk/SwingSet3/src/com/sun/swingset3/codeview/SnippetMap.java
+END
+SnippetHighlighter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/swingset3~svn/!svn/ver/188/trunk/SwingSet3/src/com/sun/swingset3/codeview/SnippetHighlighter.java
+END
+Snippet.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/swingset3~svn/!svn/ver/184/trunk/SwingSet3/src/com/sun/swingset3/codeview/Snippet.java
+END
+CodeViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/swingset3~svn/!svn/ver/208/trunk/SwingSet3/src/com/sun/swingset3/codeview/CodeViewer.java
+END
+CodeStyler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/swingset3~svn/!svn/ver/188/trunk/SwingSet3/src/com/sun/swingset3/codeview/CodeStyler.java
+END
+SnippetNavigator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/swingset3~svn/!svn/ver/206/trunk/SwingSet3/src/com/sun/swingset3/codeview/SnippetNavigator.java
+END

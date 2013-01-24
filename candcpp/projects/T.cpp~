@@ -1,0 +1,9 @@
+
+
+template<class R, class A> R testFn(A& a){
+  cout << a << endl;
+};
+int main(int argc, char* argv[]){
+
+  return 0;
+}

@@ -1,0 +1,14 @@
+#include <stdlib.h>
+#include <unistd.h>
+
+void testFn(void* data1, ...){
+  va_list ap;
+  
+  va_start();
+  
+  va_end();
+  printf
+
+int main(int argc, char* argv[]){
+  return 0;
+}

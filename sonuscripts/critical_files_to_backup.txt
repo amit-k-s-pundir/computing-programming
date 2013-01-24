@@ -1,0 +1,8 @@
+# This are the most critical configuration files that are to be backed up.
+# 1) The dot files in the home directory. In particular
+	a) Various .emacs's and .vim's.
+# 2) For Gentoo; the critical portage files. In particular
+	a) The 'world' file.
+	b) /etc/make.conf, /etc/portage/package.use
+	c) Important commands and instructions; e.g. laying out the overlays, update commands, rsync and
+	regen et.

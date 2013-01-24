@@ -1,7 +1,10 @@
+#include <boost/filesystem/fstream.hpp>
 #include <vector>
 #include <string>
 #include <iostream>
 #include <fstream>
+
+namespace fs = boost::filesystem;
 
 using namespace std;
 

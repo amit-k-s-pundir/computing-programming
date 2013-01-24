@@ -1,0 +1,87 @@
+ ;;; Chicken Invaders bm2005-sep-03
+ ;;; Catch the eggs in your basket
+ ;;; usage: csi invader.scm
+ ;;; 
+ ;;; I am trying to understand continuations.. but still not sure!
+ ;;; Author: bobmc@bobmc.net            License: GPL
+
+ (use ncurses )
+
+ (define STARTX 5)
+ (define STARTY 3)
+ (define ENDX 25)
+ (define ENDY 14)
+ (define ROW-BASKET 15)
+ (define *ypos* (+ STARTY 2))
+ (define *xpos* STARTX)
+ (define CHICK1 15)
+ (define *done* 0)
+ (define *last-key* 0)
+
+
+ ;;; main loop of the game:- 
+ ;;;   cc-play -> cc-drop-eggs -> cc-basket-steps -> cc-play
+ ;;; called from main once, otherwise called from cc-basket-steps
+ (define (cc-play do-other-stuff)
+   (refresh)
+   (update-key)
+   (call/cc cc-drop-eggs))
+
+
+ (define (cc-drop-eggs do-other-stuff)
+   (mvaddstr  (- *ypos* 1)   CHICK1 "   ")
+   (mvaddstr     *ypos*      CHICK1 " 0 ")
+   (mvaddstr  (+ *ypos* 1)   CHICK1 "   ")
+   (set! *ypos* (move-egg *ypos*))
+   (call/cc cc-basket-steps))
+
+ ;;; update the egg-catching basket
+ ;;; the loop here apparently gets aborted and restarted after call/cc
+ (define (cc-basket-steps do-other-stuff)
+   (let loop () 
+     (when ( = *last-key* KEY_RIGHT)
+	   ( set! *last-key* 0)
+	   ( set! *xpos* ( + *xpos* 1))
+	   ( set! *xpos* ( min *xpos* ENDX))
+	   )
+     (when ( = *last-key* KEY_LEFT)
+	   ( set! *last-key* 0)
+	   ( set! *xpos* ( - *xpos* 1))
+	   ( set! *xpos* ( max *xpos* STARTX))
+	   )
+     (mvaddstr  ROW-BASKET *xpos* " \\__/ ")
+     (call/cc cc-play )
+     (loop)))
+
+ ;;;; look for F1, left-arrow, right-arrow
+ (define ( update-key )
+
+   (set! *last-key* ( char->integer (getch)))
+   (when (= *last-key* (KEY_F 1) )
+	 (endwin)			; press F1 to exit
+	 (exit)))
+
+ ;;; update egg dropping, keep in bounds
+ (define (move-egg y)
+   (if ( > y ENDY )
+       STARTY
+       (+ y 1 )))
+
+ ;;; initialize ncurses, start running ;;;  
+ (define (main)
+   (initscr)
+   (cbreak)
+   (raw)
+   (noecho)
+   (keypad (stdscr) #t)
+   (halfdelay 1)
+   (curs_set 0)
+   (set! *last-key* KEY_RIGHT)
+   (mvaddstr  ROW-BASKET *xpos* " \\__/ ")
+   (mvaddstr  1  15 "(_)>  (_)>")
+   (refresh)
+   (cc-play 0)
+   (endwin) )
+
+ (main)
+ (exit)

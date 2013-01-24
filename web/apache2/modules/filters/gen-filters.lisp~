@@ -1,0 +1,5 @@
+(defun gen-apache-filter-template/ext-filter/web-sanitizer (&optional
+							      additional-tags-to-sanitize
+							      filename)
+  (let ((fs (gen-default-perl-file filename))))
+  (format fs "~<" ~:>))

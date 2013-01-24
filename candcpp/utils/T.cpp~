@@ -1,0 +1,13 @@
+#include "boost/date_time.hpp"
+#include "boost/asio.hpp"
+
+#include <iostream>
+
+#include <unistd.h>
+
+using namespace std;
+using namespace boost;
+
+int main(int argc, char** argv){
+  cout << "Time right now is: " << posix_time::second_clock::local_time() << endl;
+}

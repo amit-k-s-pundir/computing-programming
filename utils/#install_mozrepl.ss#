@@ -1,0 +1,2 @@
+(module install-mozrepl racket
+(pr

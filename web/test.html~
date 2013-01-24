@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+                    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  
+  <script>
+  $(document).ready(function(){
+    
+    $("p").click(function () {
+      var htmlStr = $(this).html();
+      $(this).text(htmlStr);
+    });
+
+  });
+  </script>
+  <style>
+  p { margin:8px; font-size:20px; color:blue; 
+      cursor:pointer; }
+  b { text-decoration:underline; }
+  button { cursor:pointer; }
+  </style>
+</head>
+<body>
+  <p>
+    <b>Click</b> to change the <span id="tag">html</span>
+  </p>
+  <p>
+    to a <span id="text">text</span> node.
+  </p>
+  <p>
+    This <button name="nada">button</button> does nothing.
+  </p>
+</body>
+</html>
+

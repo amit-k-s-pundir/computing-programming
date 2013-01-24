@@ -1,0 +1,12 @@
+(ql:quickload "cffi")
+
+(defpackage :terminal-ui
+  (:use :common-lisp :cffi))
+
+(in-package :terminal-ui)
+
+(define-foreign-library libncurses
+  (:unix (:or "libncurses.so.5" "libncurses.so"))
+  (t (:default "libncurses")))
+
+(use)

@@ -1,0 +1,5 @@
+(change-directory (chicken-home))
+(define cmd1 "wget -N -c http://3e8.org/pub/chicken-doc/chicken-doc-repo.tgz")
+(define cmd2 "tar zxvf chicken-doc-repo.tgz")
+(define cmd (string-join `(,cmd1 ,cmd2) ";"))
+(system cmd)

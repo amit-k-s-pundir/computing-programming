@@ -1,0 +1,3 @@
+(defun update-programming-doc )
+(defmethod update-doc (url repo-dir)
+  (let* ((cmd (format nil "wget -N -c -p ~A" url )))))

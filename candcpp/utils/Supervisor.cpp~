@@ -1,0 +1,24 @@
+#include <unistd.h>
+
+#include <iostream>
+#include <string>
+
+#include "boost/asio.hpp"
+#include "boost/chrono.hpp"
+
+using namespace std;
+using namespace boost;
+
+class Supervisor{
+public:
+  Supervisor();
+  void run_process(Process process, Duration duration, int freq);
+};
+
+void Supervisor::run_process(Process process, Duration duration, int freq){
+  pid_t pid = fork();
+  (if 0 == pid){// we are in child
+  }else{// we are in the parent
+  }
+}
+    

@@ -6,7 +6,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-}
+    std::vector<int> v;
+    v.a
 
 MainWindow::~MainWindow()
 {

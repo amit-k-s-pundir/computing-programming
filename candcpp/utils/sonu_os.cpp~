@@ -1,0 +1,15 @@
+#include <iostream>
+#include <boost/chrono/chrono_io.hpp>
+
+int main(int argc, char** argv)
+{
+  using namespace std;
+  using namespace boost;
+  
+  supervise_processes(processes, duration);
+  return 0;
+}
+
+int supervise_processes(vector[pid_t], Duration duration)
+{
+  

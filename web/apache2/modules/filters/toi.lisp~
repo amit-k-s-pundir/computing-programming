@@ -1,0 +1,8 @@
+(defpackage #:utils-apache
+  (:use :cl))
+
+(defgeneric sanitize (tag tag)
+  (:documentation "Sanitizes the given tag."))
+
+(defmethod sanitize (html html-tag)
+  )
