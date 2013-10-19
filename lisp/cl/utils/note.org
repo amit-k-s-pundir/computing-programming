@@ -1,5 +1,0 @@
-This directory contains various general/generic utilities libraries for CL. In
-case those libraries are acturally scattered elsewhere in the file system, this
-directory contains the symlink to them. Remember that the
-~/workspace/programming/utils/ dir in turn contains the most generally useful
-libraries/apps which are actually located elsewhere (e.g. in this dir).

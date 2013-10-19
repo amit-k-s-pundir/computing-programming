@@ -21,9 +21,9 @@
 	 (config-cmd (config-cmd x))
 	 (build-cmd (build-cmd x))
 	 (install-cmd (install-cmd x))
-	 (cmd (format nil "~A ~A ~A ~A" archive-update-cmd config-cmd
+	 (cmd (format nil "~A ~ A ~A ~A" archive-update-cmd config-cmd
 		      build-cmd install-cmd)))
-    (break)
+    (break "The value of cmd is: ~A" cmd)
     (with-dir work-dir
       ;(utils::run-shell-cmd cmd)
       (format t "The command generated is the following: ~A" cmd)

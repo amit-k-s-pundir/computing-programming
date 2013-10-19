@@ -25,7 +25,7 @@ int main(int argc, char** argv){
   using namespace std;
 
   vector<string> v();
-  v.push_back(
+  v.push_
   
   DIR* dir = opendir("/usr_gentoo/");
   struct dirent* entry;

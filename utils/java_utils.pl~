@@ -1,5 +1,0 @@
-package JavaUtils;
-
-use Moose;
-
-my $meta = _PACKAGE_->meta;

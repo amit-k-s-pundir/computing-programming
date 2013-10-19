@@ -24,17 +24,19 @@
 
 ;(in-package :utils-project)
 
-(defclass
-      project ()
+(defclass project ()
   ((name :initform nil :accessor project-name
 		 :initarg :name)
    (base-dir :initform nil :accessor project-base-dir
 			 :initarg :base-dir)
-   (dir-tree :initform nil :initarg :dir-tree :accessor project-dir-tree)))
-
-
-(defmethod setup ((project project) &optional dir-tree)
-  (make-directory-tree (project-base-dir project) (project-dir-tree project)))
+   (dir-tree :initform nil :initarg
+      :dir-tree :accessor project-dir-tree)))
+ 
+(defmethod setup ((project project))
+  (make-dir-tree  (or (project-dir-tree project)
+                            `(,(project-name project) "notes.org" "README"("src") ("doc")
+                                ("examples")
+                                ("test") ("conf"))) (project-base-dir project)))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

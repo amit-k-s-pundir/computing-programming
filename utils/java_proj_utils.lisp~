@@ -1,4 +1,0 @@
-(defpackage java-proj-utils
-  (:use :common-lisp :cl-ppcre :parenscript :cl-who :cl-fad))
-
-(defmethod setup-javaee-project (proj javaee-proj))

@@ -1,5 +1,11 @@
-#include <QtGui>
 #include <vector>
+#include <string>
+#include <cstdlib>
 
-QTimer* timer;
-timer.
+using namespace std;
+
+int main(){
+  system(string("gvim").c_str());
+  return 0;
+}
+

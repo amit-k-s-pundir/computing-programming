@@ -1,12 +1,56 @@
+(require 'cl-lib)
+
 (defun slime-start-to-regex-eval-region (&optional regex)
   (let ((start (point-min))
-		(end (progn (re-search-forward regex)
-				  (forward-line -1)
-				  (end-of-line)
-				  (point))))
-;	(princ start)
-;	(princ end)
-	(slime-eval-region start end)
-	)
+	(end (progn (re-search-forward regex)
+		    (forward-line -1)
+		    (end-of-line)
+		    (point))))
+					;	(princ start)
+					;	(princ end)
+    (slime-eval-region start end)
+    )
   )
-  
+
+(defun gen-daily-org-file ()
+  "Generates a unique .org file for daily use.
+The file name is derived from the date/time at the time of file
+  generation. This file is where all my daily notes and stuff will go
+  by default. When emacs first start, the buffer containing the
+  daily-org-file will be presented by default. If the file doesn't
+  already exists, it will be created."
+  (interactive)
+  (let ((file-name (concat (format-time-string
+  current-date-time-format) ".org")))
+    (find-file file-name)))
+
+(defun setup-daily-org-environ ()
+  )
+
+(defun vi-open-line-above ()
+  "Insert a newline above the current line and put point at
+beginning."
+  (interactive)
+  (unless (bolp)
+    (beginning-of-line))
+  (newline)
+  (forward-line -1)
+  (indent-according-to-mode))
+
+(defun vi-open-line-below ()
+  "Insert a newline below the current line and put point at the
+beginning."
+  (interactive)
+   (unless (eolp)
+     (end-of-line)
+   (newline-and-indent)))
+
+(defun vi-open-line (&optional abovep)
+  "Insert a newline below the current line and put point at beginning.
+With a prefix argument, insert a newline above the current line."
+  (interactive "P")
+  (if abovep
+      (vi-open-line-above)
+    (vi-open-line-below)))
+
+(define-key global-map "\C-o" 'vi-open-line)

@@ -13,6 +13,7 @@ my $str = "sub ${cmd} { `${cmd_str}`};";
 eval(${str});
 };
 
+
 def_shell_cmd("gvim", "gvim");
 gvim();
 1;
