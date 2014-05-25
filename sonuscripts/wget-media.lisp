@@ -1,4 +1,7 @@
- (in-package #:cl-user)
+#!/opt/sbcl/bin/sbcl --script
+
+(in-package #:cl-user)
+(load "/home/sonu/.sbclrc")
 
 ;; (defpackage #:sonu-utils
 ;;   (:use :cl :cl-ppcre :cl-fad :optima :sonu.utils))
@@ -29,9 +32,8 @@
 								'string
 							       directory-prefix
 							       "/" "finished")))
-	 (user-agent (or user-agent "Mozilla/5.0 (X11; Linux i686; rv:26.0) Gecko/20100101\
-Firefox/26.0"))
-	 (cmd (format nil "wget -c -N -o ~a -U ~a -P ~a~
+	 (user-agent (or user-agent "Mozilla/5.0 (X11; Linux i686; rv:26.0) Gecko/20100101Firefox/26.0"))
+	 (cmd (format nil "wget -c -N -o ~a -U ~s -P ~a ~
 --header=\"Accept: */*\" --header=\"Connection: Keep-Alive\" ~a && mv ~a ~a"
 							       logfile
 							       user-agent
@@ -40,9 +42,15 @@ Firefox/26.0"))
 							       download
 							       finished-downloads-dir
 							       )))
-    (format nil "~a" cmd)
-					;    (sonu-utils::! cmd)
+    (format t "~a" cmd)
+    (sonu-utils::! cmd)
 					;    (when (download-finished-p)
 					;      (sonu-utils::! (format nil "mv ~a ~a" download
 					;							       finished-downloads-dir)))
     ))
+
+(defun main (&optional (posix-argv sb-ext:*posix-argv*))
+  (let ((url (cadr posix-argv)))
+    (download :wget :media url)))
+
+(main sb-ext:*posix-argv*)
