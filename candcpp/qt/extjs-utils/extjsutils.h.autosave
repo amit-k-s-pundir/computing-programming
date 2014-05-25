@@ -1,0 +1,14 @@
+#ifndef EXTJSUTILS_H
+#define EXTJSUTILS_H
+
+#include "extjs-utils_global.h"
+
+class EXTJSUTILSSHARED_EXPORT ExtJsUtils
+{
+public:
+    ExtJsUtils();
+    void setup_project(){
+    }
+};
+
+#endif // EXTJSUTILS_H

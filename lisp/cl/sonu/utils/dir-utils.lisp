@@ -1,0 +1,36 @@
+;; (defpackage :utils-dir
+;;   (:use :cl))
+
+(in-package :sonu/utils)
+
+(defun make-directory-tree (base-dir dir-tree)
+  (if (not (directory-p base-dir))
+      (error "~<The first argument ~S should be a valid pathname specifier for a ~
+directory:>" '( base-dir)))
+  (if (or (symbolp dir-tree)
+          (stringp dir-tree))
+      (create-file (join-dir-file base-dir dir-tree))
+      (let ((base-dir (join-dir-dir base-dir (car dir-tree))))
+        (ensure-directories-exist base-dir)
+        (if (not (null (cdr dir-tree)))
+            (mapcar (lambda (x)
+                      (make-directory-tree base-dir x)) (cdr dir-tree))))))
+
+(defun directory-p (directory)
+  (and (pathname directory) 
+	   (not (string= (directory-namestring directory) ""))))
+
+(defun join-dir-file (dir file)
+  (pathname (concatenate 'string (namestring dir) (namestring file))))
+
+(defun join-dir-dir (base-dir rel-dir)
+  (pathname (concatenate 'string (namestring base-dir) (namestring rel-dir))))
+
+;; Goes in the dir, executes the shell cmd and then returns to the original dir.
+(defmacro with-dir-shell-cmd (dir cmd)
+  (let ((od (sb-posix:getcwd)))
+    (unwind-protect
+         (progn
+           (sb-posix:chdir dir)
+           (run-shell-cmd cmd))
+      (sb-posix:chdir od))))

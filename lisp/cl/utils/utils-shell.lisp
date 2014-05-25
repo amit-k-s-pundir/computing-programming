@@ -1,7 +1,11 @@
-(defpackage :shell
+(defpackage #:sonu.utils.shell
+  (:nicknames "utils-shell")
   (:use :cl))
-(in-package :shell)
+
+(in-package "utils-shell")
+
 (defgeneric gen-file (file-type))
+
 (defgeneric update (update-type doc))
 
 (defclass document ()
@@ -25,6 +29,7 @@ supplied."))
 installed - if different from the base-dir")))
 
 (use-package :cl-ppcre :utils)
+
 (defmethod update ((x (eql :document)) (doc document))
   (with-dir (base-dir doc)
     (let* ((tmp-dir (make-unique-tmp-dir)))
@@ -45,6 +50,7 @@ installed - if different from the base-dir")))
   (if (cl-ppcre:scan "\.(tgz|gzip)" url)
       t
       nil))
+
 (defun make-unique-tmp-dir (&optional (dir-name (symbol-name
   (gensym))))
   (and (mkdir dir-name)

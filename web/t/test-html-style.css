@@ -1,0 +1,10 @@
+.ViewPanel {
+    width: 250px;
+    height: 250px;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ddd;
+    background-color: aqua;
+    float: left;
+}

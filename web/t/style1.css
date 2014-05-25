@@ -1,0 +1,50 @@
+div.main-panel {
+    display: inline-block;
+    width: 650px;
+    height: 650px;
+    }
+
+div.first-div {font-family: arial;
+	   font-size: 15px;
+	   border-spacing: 0;
+	   margin: 0;
+	   padding: 0;
+	   border: 1px solid #eee;
+	   background-color: silver;
+//	   content: counter(test-counter) ":";
+//	   counter-increment: test-counter;
+	   width: 250px;
+	   display: inline-block;
+	   height: 250px;
+//	   float: left;
+	  }
+
+div.second-div {font-family: Times;
+	    font-size: 15px;
+	    border-spacing: 0;
+	    margin: 0;
+	    padding: 0;
+	    border: 2px solid #bbb;
+	    background: linear-gradient(to bottom, blue, white);
+	    width: 40%;
+	    display: inline-block;
+	    height: 50%;
+//	    position: relative;
+	   }
+
+div.table-test1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    width: 250px;
+    background-color: greenyellow;
+}
+
+table.test-table{
+    height: 100%;
+    width: 100%;
+}
+
+div.table-test2{
+}

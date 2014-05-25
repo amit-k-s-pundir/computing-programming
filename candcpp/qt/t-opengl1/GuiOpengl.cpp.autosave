@@ -1,0 +1,7 @@
+#include "GuiOpengl.h"
+
+void OpenGLPanel::display(){
+        GLfloat vertices[3][3] = {{0.0, 0.0, 0.0}, {25.0, 50.0, 0.0},
+                                 {50.0, 0.0, 0.0}};
+        glBegin(GL_PO);
+}

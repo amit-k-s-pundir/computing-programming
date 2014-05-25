@@ -1,0 +1,2 @@
+probe kernel.function("*@net/socket.c"){printf("function called.\n")}
+probe kernel.function("*@net/socket.c").return{printf("function returns.\n")}

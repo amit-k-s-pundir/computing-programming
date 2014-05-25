@@ -1,0 +1,42 @@
+div#loginPanel {
+    width: 100%;
+    height: 600px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+//    float: right;
+    }
+
+div#loginViewPanel {
+    width: 50%;
+    height: 80%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #BCD4C7;
+    display: inline-block;
+    float: left;
+    }
+
+div#loginControlPanel {
+    width: 50%;
+    height: 80%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    display: inline-block;
+    float: right;
+    }
+
+form#loginForm {
+    position: relative; left: auto; top: 20%;
+ //   width: 50%;
+    height: 50%;
+}
+
+fieldset#login input {
+  //  position: relative;
+//    float: right;
+}

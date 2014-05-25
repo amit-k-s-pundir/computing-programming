@@ -13,7 +13,7 @@ cd build
 ../gcc-$version/configure -C --enable-languages=c,c++ --disable-bootstrap --disable-multilib --prefix=$basedir/inst
 make -j2
 make install
-
+  
 export PATH=$basedir/inst/bin:$PATH
 if [ -n "$LD_LIBRARY_PATH" ]; then
     export LD_LIBRARY_PATH=$basedir/inst/lib64:$LD_LIBRARY_PATH

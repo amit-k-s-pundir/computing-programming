@@ -1,0 +1,12 @@
+#ifndef EXTJSUTILS_GLOBAL_H
+#define EXTJSUTILS_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(EXTJSUTILS_LIBRARY)
+#  define EXTJSUTILSSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define EXTJSUTILSSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // EXTJSUTILS_GLOBAL_H
