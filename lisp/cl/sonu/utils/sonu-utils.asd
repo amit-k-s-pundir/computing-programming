@@ -15,9 +15,11 @@
 	       :cxml
 	       :drakma
 	       :hunchentoot
+	       :iolib
 	       :optima
 	       :osicat
-	       :parenscript)
+	       :parenscript
+	       :postmodern)
   :components ((:file "packages")
 	       (:file "file-utils")
 	       (:file "os-utils")

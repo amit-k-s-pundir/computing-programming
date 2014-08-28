@@ -1,7 +1,10 @@
 #!/opt/sbcl/bin/sbcl --script
 
 (in-package #:cl-user)
+;(use-package :asdf)
 (load "/home/sonu/.sbclrc")
+
+(asdf:load-system :sonu-utils)
 
 ;; (defpackage #:sonu-utils
 ;;   (:use :cl :cl-ppcre :cl-fad :optima :sonu.utils))
@@ -19,7 +22,7 @@
 	 (download-name (or download-name (car (last (cl-ppcre:split
 						      "\\/"
 						      url)))))
-	 (logfile-dir (or logfile-dir "/opt/downloads/wget-log"))
+	 (logfile-dir (or logfile-dir "/mnt/nfs/opt/downloads/wget-log"))
 	 (logfile-name (or logfile-name (concatenate 'string
 						     "wget-log-" download-name ".log")))
 	 (logfile (concatenate 'string logfile-dir "/" logfile-name))

@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 
 <html>
-  <body>
+  <head>
+    <title>Test Page</title>
+    <style>
+      body {background: navy; color: yellow;}
+</style>
+</head>
+
+<body>
     <form name="main">
+      <input>Password</input>
       Result: <output name="result"></output>
       <script>
 	document.forms.main.elements.result.value = 'Hello World';

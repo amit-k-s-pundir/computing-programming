@@ -1,60 +1,175 @@
+(in-package :cl-user)
+
+(defpackage #:shopping-list
+  (:use :cl :sonu-utils :cl-ppcre :cl-fad :cl-who :hunchentoot :optima
+  :parenscript :postmodern)
+  (:export #:add
+	   #:get
+	   #:remove
+	   #:update))
+
 (in-package #:shopping-list)
 
-(defvar *db*)
+(defvar *db* "shopping-list-test-db")
+(defvar *user* "sonu")
+(defvar *password* "sonu")
+(defvar *database*)
 
-(defun setup-db-connection (&optional (db *db*) (user *user*) (password *password*) (host *host*))
-  (unless *db*
-    (setf *db* (postmodern:connect db user password host :pooled-p t))))
-
+(defun setup-db-connection (&optional (db *db*) (user *user*) (password *password*) (host "127.0.0.1"))
+  (unless *database*
+    (setf *database* (postmodern:connect db user password host
+					      :pooled-p t :port 5433))))
 
 (defun init ()
   (setup-db-connection))
 
 ;; Identifies a *shopping-item*
 (defclass shopping-item ()
-  ((brand :initarg :brand :initform null)
+  ((brand :initarg :brand :initform null :accessor shopping-item-brand)
 ;   (id :initarg :id :initform null)
-   (name :initform null :initarg :name)))
+   (name :initform null :initarg :name :accessor shopping-item-name))
+  (:metaclass postmodern:dao-class ))
 
-;; Details about a *shopping-item*; probably used for anlalytics and analysis later
+;p; Details about a *shopping-item*; probably used for anlalytics and analysis later
 (defclass shopping-item-details ()
   (;(actual-shop :col-type string :initarg :actual-shop :accessor :actual-shop)
-   (by-when :col-type date :initarg :by-when :accessor :by-when)
-   (expected-price :col-type int :initarg :expected-price :accessor :expected-price)
+   (by-when :col-type date :initarg :by-when :accessor shopping-item-details-by-when)
+   (expected-price :col-type money :initarg :expected-price :accessor shopping-item-details-expected-price)
 					;   (from-where :col-type string :initarg :from-where :accessor :from-where)e
-   (note :col-type string :initarg :note :accessor :note)
-   (purchased :col-type bool :initarg :purchased :accessor :purchased)
-   (quantity :col-type integer :initarg :quantity :accessor :quantity)
+   (note :col-type string :initarg :note :accessor shopping-item-details-note)
+;   (purchased :col-type bool :initarg :purchased :accessor :purchased)
+   (quantity :col-type integer :initarg :quantity :accessor shopping-item-details-quantity)
   ; (real-price :col-type int :initarg :real-price :accessor :real-price)
-   (suggested-shop :col-type string :initarg :suggested-shop :accessor :suggested-shop)
-   (when-purchased :col-type date :initarg :when-purchased :accessor :when-purchased)
-   (shopping-item-id :col-type key :accessor :shopping-item-id)))
+   (suggested-shop :col-type string :initarg :suggested-shop :accessor shopping-item-details-suggested-shop)
+ ;  (when-purchased :col-type date :initarg :when-purchased :accessor
+ ;  :when-purchased))
+   )
+  (:metaclass postmodern:dao-class))
 
 ;; A *shopping-list* is a collection of all *shopping-request*s of a *user*
 (defclass shopping-request ()
-  ((shopping-item :initarg :shopping-item :accessor :shopping-item)
-   (shopping-item-details :initarg :shopping-request :accessor :shopping-request))
-  (:metaclass dao-class)
-  (:keys shopping-item))
+  ((shopping-item :initarg :shopping-item :accessor shopping-request-shopping-item)
+   (shopping-item-details :initarg :shopping-item-details :accessor shopping-request-shopping-item-details))
+  (:metaclass postmodern:dao-class)
+;  (:keys shopping-item)
+)
 
 ;; The main UI for registering a request for shopping something
-(defmethod add-shopping-request ((shopping-request shopping-request))
-  (with-slots (shopping-item by-when expected-price note purchased
-			     quantity suggested-shop) shopping-request
-    (
+(defmethod add ((shopping-request shopping-request))
+  (with-slots (shopping-item shopping-item-details) shopping-request
+    (add shopping-item)
+    (add shopping-item-details)
+    (let ((shopping-item-id (caar (postmodern:query (:select 'id :from
+							     'shopping-item
+							     :where
+							     (:and 
+							      (:=
+							       'brand
+							       (shopping-item-brand
+								shopping-item))
+							      (:= 'name
+								 (shopping-item-name
+								  shopping-item)))))))
+	  (shopping-item-details-id (caar (postmodern:query (:select
+							     'id :from
+							     'shopping-item-details
+							     :where
+							     (:and (:=
+								    'by-when
+								    (shopping-item-details-by-when 
+								     shopping-item-details))
+								   (:=
+								    'expected-price
+								    (shopping-item-details-expected-price
+								     shopping-item-details))
+								   (:=
+								    'note
+								    (shopping-item-details-note
+								     shopping-item-details))
+								   (:=
+								    'quantity
+								    (shopping-item-details-quantity
+								     shopping-item-details))
+								   (:=
+								    'suggested-shop
+								    (shopping-item-details-suggested-shop
+								     shopping-item-details))))))))
+      (format t "shopping-item-id:~a~% shopping-item-details-id:~a~%"
+	      shopping-item-id shopping-item-details-id)
+      (postmodern:query (:insert-into 'shopping-list
+				      :set 'shopping-item-id
+				      shopping-item-id
+				      'shopping-item-details-id
+				      shopping-item-details-id)))))
+	  
+
+;; Register a *shopping-item* in the database of *shopping-item*s. This is useful for later analytics
+(defmethod add ((shopping-item shopping-item))
+  (with-slots (brand name) shopping-item
+    (let ((query (format nil "insert into shopping_item (brand, name) ~
+values ('~a', '~a');" brand name)))
+      (postmodern:query query))))
+
+(defmethod add ((shopping-item-details shopping-item-details))
+  (with-slots (by-when expected-price note 
+		       quantity suggested-shop)
+      shopping-item-details
+    (let ((query (format nil "insert into shopping_item_details ~
+  (by_when, expected_price, note, quantity, suggested_shop) ~
+  values  ('~a', '~a', '~a', '~a', '~a')" by-when expected-price note
+  quantity suggested-shop)))
+      (postmodern:query query))))
+
+;; A utility function
+(defun add-shopping-request (shopping-item-instance-arglist
+			     shopping-item-details-instance-arglist)
+  (let* ((shopping-item-instance (apply #'make-instance 'shopping-item
+					shopping-item-instance-arglist))
+	 (shopping-item-details-instance (apply #'make-instance
+						'shopping-item-details
+						shopping-item-details-instance-arglist))
+	 (shopping-request-instance (make-instance 'shopping-request
+						   :shopping-item
+						   shopping-item-instance
+						   :shopping-item-details
+						   shopping-item-details-instance)))
+    (add shopping-request-instance)
+					;    (add shopping-item-instance)
+					;    (add shopping-item-details-instance)
+    ))
 
 ;; Remove an earlier registered *shopping-request*
-(defun remove-shopping-request ())
+(defmethod sl.remove ((shopping-request shopping-request))
+  (let* ((shopping-item-id (shopping-item-id (shopping-item
+					      shopping-request)))
+	 (shopping-item-details-id (shopping-item-details-id
+				    (shopping-item-details
+				     shopping-request)))
+	 (query (format nil "delete from ~s where shopping-item-id = ~s ~
+and shopping-item-details-id = ~s" table shopping-item-id
+shopping-item-details-id)))
+    (postmodern:query query)))
 
-(defun get-shopping-list (&optional (user-id *userId*))
+(defmethod sl.get ((x (eql 'shopping-list)) &optional (user-id *userId*))
   "Returns the shopping list of the user with *userId*"
   (let ((query (sql (:select '* :from  '*shopping-list*))))
     (postmodern:query query)))
 
-;; Register a *shopping-item* in the database of *shopping-item*s. This is useful for later analytics
-(defun register-shopping-item (shopping-item))
 
-(defun remove-registered-shopping-item (shopping-item))
+(defmethod sl.remove ((shopping-item shopping-item))
+  )
+
+(defmethod update ((shopping-request shopping-request))
+  )
+
+(defmethod update ((shopping-request shopping-request))
+  )
+
+(defmethod update ((shopping-item shopping-item))
+  )
+
+(defmethod update ((shopping-item-details shopping-item-details))
+  )
 
 ;; (defun add-shopping-item (use fer shopping-item shopping-list)
 ;;   "*user* add a *shopping-item* to her *shopping-list*")
