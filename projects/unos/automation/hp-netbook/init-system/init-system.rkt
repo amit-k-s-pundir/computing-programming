@@ -8,13 +8,10 @@
 		 source dest #:separator " ")))
     (process cmd)))
   
-(define (initialize-system)
-  (map set-up '(mounts networking)))
-
 (define (! cmd options . args)
-  (let ((real-cmd (~a cmd options (apply ~a args #:separator " ")
+  (let ((real-cmd (~a cmd (apply ~a options) (apply ~a args #:separator " ")
 		      #:separator " ")))
-;    real-cmd
+;(displayln  real-cmd)
     (process real-cmd)
 ))
 
@@ -24,21 +21,19 @@
 								#:separator
 								" ")
 		      #:separator " ")))
-;    real-cmd
+;    (displayln real-cmd)
     (process real-cmd)
 ))
 
 (define (set-up x)
   (case x
     ((mounts)
-     (mount /dev/sda5 /mnt/debian)
-     (mount 192.168.1.10:/nfs/opt /mnt/nfs/opt)
-     (mount /opt /export/opt bind)
-     (mount /mnt/debian /export/mnt/debian bind)
+     (mount '/dev/sda5 '/mnt/debian)
+     (mount '192.168.1.10:/nfs/opt '/mnt/nfs/opt)
+     (mount '/opt '/export/opt '(bind))
+     (mount '/mnt/debian '/export/mnt/debian '(bind)))
+    ((networking)
+     (!/sudo '~/start-wireless))))
 
-     (let ((cmd (string-append ))
-	   (mount-spec '((/dev/sda5 /mnt/debian) (/opt /export/opt
-						       --bind) (
-		
-  
-)
+(define (initialize-system)
+  (map set-up '(mounts networking))))

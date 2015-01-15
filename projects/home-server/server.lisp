@@ -37,6 +37,9 @@
 
 ;;(list 'documents 'programming-books 'rating :filter
 ;;(do-not-belong-to 'java))
-(defun list (what? subtype sort-by &allow-other-keys)
+(defun list (what? subtype sort-by &allow-other-keys))
+
+;;(add 'document '(programming books lisp cl)
+(defun add (what? classification-tree tags &allow-other-keys))
 
 (defgeneric add-documents (&key
