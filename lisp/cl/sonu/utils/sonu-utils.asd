@@ -13,11 +13,11 @@
 	       :cl-ppcre
 	       :cl-who
 	       :cxml
-	       :drakma
+;	       :drakma
 	       :hunchentoot
-	       :iolib
-	       :optima
-	       :osicat
+;	       :iolib
+;	       :optima
+;	       :osicat
 	       :parenscript
 	       :postmodern)
   :components ((:file "packages")

@@ -1,9 +1,15 @@
 (in-package #:shopping-list)
 
-(defmethod display ((target (eql :web)) shopping-list)
+(defun display-shopping-list/web (shopping-list)
   (with-html-output (*http-stream*)
-    (loop for shopping-request in shopping-list
-       for shopping-item = (shopping-request-shopping-item
-			    shopping-request)
-       for shopping-item-details =
-	 (shopping-request-shopping-item-details shopping-request)
+    (:table
+         (:colgroup (:col) (:col))
+         (:colgroup (:col) (:col) (:col) (:col) (:col))
+         (dolist (request shopping-list)
+           (htm (:tr (str (display-request/web request))))))))
+
+(defun display-request/web (request)
+  (with-html-output (*http-stream*)
+    
+    )
+  )

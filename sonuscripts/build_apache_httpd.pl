@@ -15,15 +15,16 @@ my($ap_dev_work_dir, $ap_stable_work_dir) = (shift, shift);
 
 my @config_options = qw(--with-included-apr --prefix=/opt/apache2 
 --enable-maintainer-mode --enable-modules=all
---enable-mods-shared=all --enable-load-all-modules
+--enable-mods-shared=all --enable-load-all-modules --enable-debugger-mode 
 --enable-authn-anon --enable-authn-dbd --enable-authn-socache
 --enable-authz-owner --enable-authz-dbd --enable-auth-form
 --enable-auth-digest  --enable-apreq --enable-file-cache
---enable-cache --enable-cache-disk --enable-watchdog
+--enable-cache --enable-cache-disk --enable-cache-socache --enable-socache-shmcb --enable-socache-dbm
+--enable-socache-memcache --enable-socache-dc --enable-watchdog --enable-macro 
 --enable-dbd --enable-bucketeer --enable-dumpio --enable-echo
---enable-example --enable-case-filter --enable-case-filter-in
---enable-example-ipc --enable-buffer --enable-data --enable-ratelimit
---enable-ext-filter --enable-request --enable-include
+--enable-example --enable-example-hooks --enable-case-filter --enable-case-filter-in
+--enable-example-ipc --enable-buffer --enable-data --enable-ratelimit --enable-reqtimeout 
+--enable-ext-filter --enable-request --enable-include --enable-reflector 
 --enable-substitute --enable-charset-lite --enable-deflate
 --enable-xml2enc --enable-proxy-html --enable-http --enable-log-debug
 --enable-log-forensic --enable-logio --enable-mime-magic
@@ -34,10 +35,12 @@ my @config_options = qw(--with-included-apr --prefix=/opt/apache2
 --enable-proxy-balancer --enable-session --enable-session-cookie
 --enable-session-dbd --enable-ssl
 --enable-optional-hook-export --enable-optional-hook-import
---enable-optional-fn-export --enable-optional-fn-import --enable-dav
---enable-info --enable-suexec --enable-cgi --enable-cgid --enable-dav-fs
---enable-dav-lock --enable-vhost-alias --enable-imagemap
---enable-actions --enable-speling --enable-userdir --enable-rewrite
+--enable-optional-fn-export --enable-optional-fn-import --eanble-unixd 
+--enable-privileges --enable-systemd --enable-heartmonitor --enable-systemd 
+--enable-dav --enable-status enable-asis --enable-info --enable-suexec 
+--enable-cgi --enable-cgid --enable-dav-fs --enable-dav-lock --enable-vhost-alias 
+--enable-imagemap --enable-actions --enable-speling --enable-userdir --enable-alisas 
+--enable-rewrite --enable-suexec-capabilities --enable-v4-mapped
 --enable-so);
 
 my $config_options_str = join(" ", @config_options);

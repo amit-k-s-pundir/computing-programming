@@ -122,7 +122,14 @@
 (loop for shopping-item-instance-arglist in *shopping-item-test-data*
    for shopping-item-details-instance-arglist in
      *shopping-item-details-test-data*
-   do (add-shopping-request shopping-item-instance-arglist shopping-item-details-instance-arglist))
+   do (add-shopping-request shopping-item-instance-arglist
+                            shopping-item-details-instance-arglist))
+
+(query (:select '* :from 'shopping-list) :alists)
+(query "select * from shopping_item_details join (select * from
+shopping_item join shopping_list on shopping_item.id =
+shopping_list.shopping_item_id) as t on shopping_item_details.id = t.shopping_item_id;" :alists)
+
 ;;(add-shopping-request (car *shopping-item-test-data*) (car *shopping-item-details-test-data*))
 
 (postmodern:clear-connection-pool)

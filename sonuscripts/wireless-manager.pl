@@ -24,6 +24,6 @@ unless(wireless_working_p($ARGV[0])){
     #say "Wireless is working properly.";
     #say "Wireless is not working!";
  #   say "Restarting wireless";
-    `echo "sonu" | sudo -S ~/start_wireless`;
+    `echo "sonu" | sudo -S ~/start_wireless_lm.sh`;
 }
 
